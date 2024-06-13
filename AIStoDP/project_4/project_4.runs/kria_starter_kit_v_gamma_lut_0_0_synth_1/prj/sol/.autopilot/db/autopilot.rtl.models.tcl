@@ -1,0 +1,32 @@
+set SynModuleInfo {
+  {SRCNAME {reg<unsigned short>} MODELNAME reg_unsigned_short_s RTLNAME kria_starter_kit_v_gamma_lut_0_0_reg_unsigned_short_s}
+  {SRCNAME AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start MODELNAME AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start RTLNAME kria_starter_kit_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start
+    SUBMODULES {
+      {MODELNAME kria_starter_kit_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init RTLNAME kria_starter_kit_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init BINDTYPE interface TYPE internal_upc_flow_control INSTNAME kria_starter_kit_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_U}
+    }
+  }
+  {SRCNAME AXIvideo2MultiPixStream_Pipeline_loop_width MODELNAME AXIvideo2MultiPixStream_Pipeline_loop_width RTLNAME kria_starter_kit_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width}
+  {SRCNAME AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol MODELNAME AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol RTLNAME kria_starter_kit_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol}
+  {SRCNAME AXIvideo2MultiPixStream MODELNAME AXIvideo2MultiPixStream RTLNAME kria_starter_kit_v_gamma_lut_0_0_AXIvideo2MultiPixStream
+    SUBMODULES {
+      {MODELNAME kria_starter_kit_v_gamma_lut_0_0_regslice_both RTLNAME kria_starter_kit_v_gamma_lut_0_0_regslice_both BINDTYPE interface TYPE adapter IMPL reg_slice}
+    }
+  }
+  {SRCNAME Gamma_Pipeline_VITIS_LOOP_315_1 MODELNAME Gamma_Pipeline_VITIS_LOOP_315_1 RTLNAME kria_starter_kit_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1}
+  {SRCNAME Gamma_Pipeline_VITIS_LOOP_327_4 MODELNAME Gamma_Pipeline_VITIS_LOOP_327_4 RTLNAME kria_starter_kit_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4}
+  {SRCNAME Gamma MODELNAME Gamma RTLNAME kria_starter_kit_v_gamma_lut_0_0_Gamma
+    SUBMODULES {
+      {MODELNAME kria_starter_kit_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W RTLNAME kria_starter_kit_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
+    }
+  }
+  {SRCNAME MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2 MODELNAME MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2 RTLNAME kria_starter_kit_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2}
+  {SRCNAME MultiPixStream2AXIvideo MODELNAME MultiPixStream2AXIvideo RTLNAME kria_starter_kit_v_gamma_lut_0_0_MultiPixStream2AXIvideo}
+  {SRCNAME v_gamma_lut MODELNAME v_gamma_lut RTLNAME kria_starter_kit_v_gamma_lut_0_0_v_gamma_lut IS_TOP 1
+    SUBMODULES {
+      {MODELNAME kria_starter_kit_v_gamma_lut_0_0_fifo_w24_d16_S RTLNAME kria_starter_kit_v_gamma_lut_0_0_fifo_w24_d16_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME imgRgb_U}
+      {MODELNAME kria_starter_kit_v_gamma_lut_0_0_fifo_w24_d16_S RTLNAME kria_starter_kit_v_gamma_lut_0_0_fifo_w24_d16_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME imgGamma_U}
+      {MODELNAME kria_starter_kit_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0 RTLNAME kria_starter_kit_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_MultiPixStream2AXIvideo_U0_U}
+      {MODELNAME kria_starter_kit_v_gamma_lut_0_0_CTRL_s_axi RTLNAME kria_starter_kit_v_gamma_lut_0_0_CTRL_s_axi BINDTYPE interface TYPE interface_s_axilite}
+    }
+  }
+}

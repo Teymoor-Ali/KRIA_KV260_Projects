@@ -1,0 +1,3293 @@
+---
+MainSourceFile:  'E:/KRIA/project_2/project_2.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.pp.0.cpp'
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1223_1:  '
+    FileOffset:      1223
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_base.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          99268
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1223_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          326997
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          327461
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_int_ref.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          327926
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\ap_fixed_base.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          611696
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      91
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      92
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      93
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      94
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      95
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      125
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      126
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      127
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      128
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      129
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      130
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      131
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      132
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      133
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      134
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      184
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      185
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      186
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      213
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      214
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      215
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      216
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      217
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      218
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      254
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Invalid Directive: for current device, ROM_1P + LUTRAM is invalid combination for BIND_STORAGE''s option ''type + impl'''
+    FileOffset:      255
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hotbm_apfixed.h'
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_61_1:  '
+    FileOffset:      61
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1235953
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_61_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_1:  '
+    FileOffset:      117
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1236780
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_289_1:  '
+    FileOffset:      289
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1239440
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_289_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_449_1:  '
+    FileOffset:      449
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1242176
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_449_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_629_1:  '
+    FileOffset:      629
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1245337
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_629_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_633_2:  '
+    FileOffset:      633
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1245418
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_633_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_743_1:  '
+    FileOffset:      743
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1247727
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_743_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_840_1:  '
+    FileOffset:      840
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1249234
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_840_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_859_2:  '
+    FileOffset:      859
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1249464
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_859_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1173_1:  '
+    FileOffset:      1173
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1255672
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1173_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1256_1:  '
+    FileOffset:      1256
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cordic_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1257275
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_68_1:  '
+    FileOffset:      68
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1265162
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_68_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_2:  '
+    FileOffset:      74
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1265312
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1265409
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_145_4:  '
+    FileOffset:      145
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1267282
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_145_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_5:  '
+    FileOffset:      151
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1267432
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_155_6:  '
+    FileOffset:      155
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1267529
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_155_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_7:  '
+    FileOffset:      170
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1267910
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_178_8:  '
+    FileOffset:      178
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1268141
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_178_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_243_9:  '
+    FileOffset:      243
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1271588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_243_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_249_10:  '
+    FileOffset:      249
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1271740
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_249_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_11:  '
+    FileOffset:      253
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1271840
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_12:  '
+    FileOffset:      268
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1272222
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_13:  '
+    FileOffset:      276
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1272460
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_505_14:  '
+    FileOffset:      505
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1288015
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_505_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_511_15:  '
+    FileOffset:      511
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1288167
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_511_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_515_16:  '
+    FileOffset:      515
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1288266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_515_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_525_17:  '
+    FileOffset:      525
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1288443
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_525_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_529_18:  '
+    FileOffset:      529
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1288541
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_529_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_539_19:  '
+    FileOffset:      539
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1288826
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_539_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_547_20:  '
+    FileOffset:      547
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1289081
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_547_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_908_21:  '
+    FileOffset:      908
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1321320
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_908_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_914_22:  '
+    FileOffset:      914
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1321472
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_914_22: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_918_23:  '
+    FileOffset:      918
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1321572
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_918_23: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1034_1:  '
+    FileOffset:      1034
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1324248
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1040_2:  '
+    FileOffset:      1040
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1324398
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1040_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1044_3:  '
+    FileOffset:      1044
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1324496
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1044_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1131_4:  '
+    FileOffset:      1131
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1327966
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1131_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1137_5:  '
+    FileOffset:      1137
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1328117
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1137_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1141_6:  '
+    FileOffset:      1141
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1328216
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1141_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1160_7:  '
+    FileOffset:      1160
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1328696
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1160_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1167_8:  '
+    FileOffset:      1167
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1328938
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1167_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1283_9:  '
+    FileOffset:      1283
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1334510
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1283_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1289_10:  '
+    FileOffset:      1289
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1334662
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1289_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1293_11:  '
+    FileOffset:      1293
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1334761
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1293_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1313_12:  '
+    FileOffset:      1313
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1335270
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1313_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1320_13:  '
+    FileOffset:      1320
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1335519
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1320_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1582_14:  '
+    FileOffset:      1582
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1352876
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1582_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1588_15:  '
+    FileOffset:      1588
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1353028
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1588_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1592_16:  '
+    FileOffset:      1592
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1353128
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1592_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1616_17:  '
+    FileOffset:      1616
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1353602
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1616_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1623_18:  '
+    FileOffset:      1623
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1353869
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1623_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2053_19:  '
+    FileOffset:      2053
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1392440
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2053_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2059_20:  '
+    FileOffset:      2059
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1392592
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2059_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2063_21:  '
+    FileOffset:      2063
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1392692
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2063_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2193_1:  '
+    FileOffset:      2193
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1395312
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2193_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2200_2:  '
+    FileOffset:      2200
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1395475
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2200_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2204_3:  '
+    FileOffset:      2204
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1395567
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2204_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2251_4:  '
+    FileOffset:      2251
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1397176
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2251_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2258_5:  '
+    FileOffset:      2258
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1397338
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2262_6:  '
+    FileOffset:      2262
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1397430
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2262_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2280_7:  '
+    FileOffset:      2280
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1397803
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2280_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2335_8:  '
+    FileOffset:      2335
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1400269
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2335_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2342_9:  '
+    FileOffset:      2342
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1400436
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2342_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2346_10:  '
+    FileOffset:      2346
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1400529
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2346_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2364_11:  '
+    FileOffset:      2364
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1400910
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2364_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2453_12:  '
+    FileOffset:      2453
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1406351
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2453_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2460_13:  '
+    FileOffset:      2460
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1406519
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2460_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2464_14:  '
+    FileOffset:      2464
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1406613
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2464_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2474_15:  '
+    FileOffset:      2474
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1406784
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2474_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2478_16:  '
+    FileOffset:      2478
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1406875
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2478_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2489_17:  '
+    FileOffset:      2489
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1407157
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2489_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2497_18:  '
+    FileOffset:      2497
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1407344
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2497_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2822_19:  '
+    FileOffset:      2822
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1441814
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2822_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2829_20:  '
+    FileOffset:      2829
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1441982
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2829_20: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2833_21:  '
+    FileOffset:      2833
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1442076
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2833_21: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2921_1:  '
+    FileOffset:      2921
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1443878
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2928_2:  '
+    FileOffset:      2928
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1443986
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2928_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2932_3:  '
+    FileOffset:      2932
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1444057
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2932_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2947_4:  '
+    FileOffset:      2947
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1444345
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2947_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2979_5:  '
+    FileOffset:      2979
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1445559
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2979_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2986_6:  '
+    FileOffset:      2986
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1445670
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2986_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2990_7:  '
+    FileOffset:      2990
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1445743
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2990_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3005_8:  '
+    FileOffset:      3005
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1446038
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3005_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_9:  '
+    FileOffset:      3055
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1449371
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3062_10:  '
+    FileOffset:      3062
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1449482
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3062_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3066_11:  '
+    FileOffset:      3066
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1449555
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3066_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3081_12:  '
+    FileOffset:      3081
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1449851
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3081_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3218_13:  '
+    FileOffset:      3218
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1469163
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3218_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3225_14:  '
+    FileOffset:      3225
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1469277
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3225_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3229_15:  '
+    FileOffset:      3229
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1469352
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3229_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3244_16:  '
+    FileOffset:      3244
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1469639
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3244_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3404_17:  '
+    FileOffset:      3404
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1495249
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3404_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3411_18:  '
+    FileOffset:      3411
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1495363
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3411_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3415_19:  '
+    FileOffset:      3415
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_exp_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1495440
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3415_19: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_703_1:  '
+    FileOffset:      703
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1529560
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_703_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_921_1:  '
+    FileOffset:      921
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1537949
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_921_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1345_1:  '
+    FileOffset:      1345
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_log_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1556935
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1345_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_240_1:  '
+    FileOffset:      240
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1571856
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_240_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_2:  '
+    FileOffset:      268
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_sqrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1572377
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_48_1:  '
+    FileOffset:      48
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1588408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_48_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1589571
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_3:  '
+    FileOffset:      123
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1589880
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_153_4:  '
+    FileOffset:      153
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1590390
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_153_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_281_1:  '
+    FileOffset:      281
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1592330
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_281_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1592695
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_315_3:  '
+    FileOffset:      315
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1593003
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_315_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_433_1:  '
+    FileOffset:      433
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1594844
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_433_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_447_2:  '
+    FileOffset:      447
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_pow_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1595169
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_447_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_33_1:  '
+    FileOffset:      33
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1597887
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_33_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_183_1:  '
+    FileOffset:      183
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1600818
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_183_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_1:  '
+    FileOffset:      248
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_diff_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1602118
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_16_1:  '
+    FileOffset:      16
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1613238
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_16_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1613413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_38_1:  '
+    FileOffset:      38
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1613574
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_38_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1613736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_60_1:  '
+    FileOffset:      60
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1613910
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_60_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1614085
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_82_1:  '
+    FileOffset:      82
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1614246
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_82_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_93_1:  '
+    FileOffset:      93
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_all_any_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1614408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_93_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_26_1:  '
+    FileOffset:      26
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_mad_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1686483
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_26_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_1:  '
+    FileOffset:      40
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_cbrt_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1688266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_49_1:  '
+    FileOffset:      49
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1692877
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_49_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_81_2:  '
+    FileOffset:      81
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1693621
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_81_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_169_3:  '
+    FileOffset:      169
+    FilePath:        'F:\Tools\Xilinx-2024.1\Vitis_HLS\2024.1\common\technology\autopilot\etc\hls_hypot_apfixed.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1695319
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_169_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_1:  '
+    FileOffset:      137
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1760499
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_2:  '
+    FileOffset:      139
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1760547
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_175_1:  '
+    FileOffset:      175
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1760899
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_175_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_177_2:  '
+    FileOffset:      177
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1760947
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_177_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_1:  '
+    FileOffset:      213
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1761296
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_215_2:  '
+    FileOffset:      215
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1761346
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_215_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_251_1:  '
+    FileOffset:      251
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1761695
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_251_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_253_2:  '
+    FileOffset:      253
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1761745
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_253_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_320_1:  '
+    FileOffset:      320
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1762497
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_320_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_417_1:  '
+    FileOffset:      417
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1763394
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_417_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_702_1:  '
+    FileOffset:      702
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1767098
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_702_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_742_1:  '
+    FileOffset:      742
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1767534
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_742_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_838_1:  '
+    FileOffset:      838
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1768701
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_838_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_990_1:  '
+    FileOffset:      990
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1770973
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_990_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1030_1:  '
+    FileOffset:      1030
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1771413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1030_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1126_1:  '
+    FileOffset:      1126
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_mem.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1772592
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1126_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_231_1:  '
+    FileOffset:      231
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1778589
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_252_1:  '
+    FileOffset:      252
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1779131
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_252_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_262_1:  '
+    FileOffset:      262
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1779326
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_262_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_1:  '
+    FileOffset:      273
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1779557
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_284_1:  '
+    FileOffset:      284
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1779784
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_284_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_1:  '
+    FileOffset:      295
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1780015
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1780243
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_318_1:  '
+    FileOffset:      318
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1780474
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_318_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_1:  '
+    FileOffset:      330
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1780702
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_341_1:  '
+    FileOffset:      341
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1780933
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_341_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_618_1:  '
+    FileOffset:      618
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1787156
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_618_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_695_1:  '
+    FileOffset:      695
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1789445
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_695_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_719_1:  '
+    FileOffset:      719
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1790081
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_719_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_742_1:  '
+    FileOffset:      742
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_core.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1790746
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_742_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgbase.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1794942
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_1:  '
+    FileOffset:      189
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_io.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1800192
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_255_1:  '
+    FileOffset:      255
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_io.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1802680
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_255_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1025_1:  '
+    FileOffset:      1025
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1832805
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1025_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1105_1:  '
+    FileOffset:      1105
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1835093
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1105_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1121_1:  '
+    FileOffset:      1121
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1835676
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1121_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1137_1:  '
+    FileOffset:      1137
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1836254
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1137_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1155_1:  '
+    FileOffset:      1155
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1836916
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1155_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1193_1:  '
+    FileOffset:      1193
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1838104
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1193_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1213_1:  '
+    FileOffset:      1213
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1838906
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1213_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1508_1:  '
+    FileOffset:      1508
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_arithm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1849222
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1508_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_471_1:  '
+    FileOffset:      471
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1869463
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_471_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_484_2:  '
+    FileOffset:      484
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1870109
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_484_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_493_3:  '
+    FileOffset:      493
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1870530
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_493_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_494_4:  '
+    FileOffset:      494
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1870612
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_494_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_502_5:  '
+    FileOffset:      502
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1871061
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_502_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_516_6:  '
+    FileOffset:      516
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1871581
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_516_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_652_1:  '
+    FileOffset:      652
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1876870
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_652_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_656_2:  '
+    FileOffset:      656
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1877074
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_656_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_663_3:  '
+    FileOffset:      663
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1877333
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_663_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_680_4:  '
+    FileOffset:      680
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1878068
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_680_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_681_5:  '
+    FileOffset:      681
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1878149
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_681_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_783_1:  '
+    FileOffset:      783
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1881830
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_783_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_793_2:  '
+    FileOffset:      793
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1882207
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_793_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_800_3:  '
+    FileOffset:      800
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1882570
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_800_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_810_4:  '
+    FileOffset:      810
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1882939
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_810_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_936_1:  '
+    FileOffset:      936
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1886726
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_936_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_958_2:  '
+    FileOffset:      958
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1887498
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_958_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_964_3:  '
+    FileOffset:      964
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1887745
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_964_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1084_1:  '
+    FileOffset:      1084
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1892274
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1084_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1089_2:  '
+    FileOffset:      1089
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1892513
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1089_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1117_3:  '
+    FileOffset:      1117
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1893467
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1117_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1525_1:  '
+    FileOffset:      1525
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1908842
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1525_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1534_1:  '
+    FileOffset:      1534
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1909040
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1534_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2095_1:  '
+    FileOffset:      2095
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1927026
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2095_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2102_2:  '
+    FileOffset:      2102
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1927258
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2102_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2103_3:  '
+    FileOffset:      2103
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1927298
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2103_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2246_1:  '
+    FileOffset:      2246
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1933844
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2253_2:  '
+    FileOffset:      2253
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1934098
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2253_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2259_3:  '
+    FileOffset:      2259
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1934327
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2259_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2273_4:  '
+    FileOffset:      2273
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1934858
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2273_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2284_5:  '
+    FileOffset:      2284
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1935223
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2284_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2329_1:  '
+    FileOffset:      2329
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1937181
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2329_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2330_2:  '
+    FileOffset:      2330
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1937218
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2410_3:  '
+    FileOffset:      2410
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1939296
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2410_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2434_4:  '
+    FileOffset:      2434
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1940092
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2434_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2444_5:  '
+    FileOffset:      2444
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1940330
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2444_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2562_1:  '
+    FileOffset:      2562
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1943765
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2562_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2579_2:  '
+    FileOffset:      2579
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1944201
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2579_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2582_3:  '
+    FileOffset:      2582
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1944271
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2582_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2585_4:  '
+    FileOffset:      2585
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1944369
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2585_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2593_5:  '
+    FileOffset:      2593
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1944589
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2593_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2596_6:  '
+    FileOffset:      2596
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1944686
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2596_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2605_7:  '
+    FileOffset:      2605
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1944914
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2605_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2613_8:  '
+    FileOffset:      2613
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1945062
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2613_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2614_9:  '
+    FileOffset:      2614
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1945098
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2614_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2664_1:  '
+    FileOffset:      2664
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1946266
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2664_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2665_2:  '
+    FileOffset:      2665
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1946309
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2665_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2673_3:  '
+    FileOffset:      2673
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1946637
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2673_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2674_4:  '
+    FileOffset:      2674
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1946677
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2674_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2716_1:  '
+    FileOffset:      2716
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1947752
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2716_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2720_2:  '
+    FileOffset:      2720
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1947825
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2720_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2774_1:  '
+    FileOffset:      2774
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1949366
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2774_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2775_2:  '
+    FileOffset:      2775
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1949397
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2775_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2834_1:  '
+    FileOffset:      2834
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1951794
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2834_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2835_2:  '
+    FileOffset:      2835
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1951857
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2835_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2838_3:  '
+    FileOffset:      2838
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1952010
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2838_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2850_4:  '
+    FileOffset:      2850
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1952625
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2850_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2861_5:  '
+    FileOffset:      2861
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1953292
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2861_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2877_6:  '
+    FileOffset:      2877
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1954269
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2877_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2883_7:  '
+    FileOffset:      2883
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1954598
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2883_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2889_8:  '
+    FileOffset:      2889
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1954954
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2889_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2901_9:  '
+    FileOffset:      2901
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1955504
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2901_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2915_10:  '
+    FileOffset:      2915
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1956146
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2915_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2929_11:  '
+    FileOffset:      2929
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1956777
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2929_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2930_12:  '
+    FileOffset:      2930
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1956843
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2930_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2935_13:  '
+    FileOffset:      2935
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1957122
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2935_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2936_14:  '
+    FileOffset:      2936
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1957188
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2936_14: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2943_15:  '
+    FileOffset:      2943
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1957531
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2943_15: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2944_16:  '
+    FileOffset:      2944
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1957599
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2944_16: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2950_17:  '
+    FileOffset:      2950
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1957881
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2950_17: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_2951_18:  '
+    FileOffset:      2951
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1957949
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_2951_18: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3034_1:  '
+    FileOffset:      3034
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1960910
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3034_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3035_2:  '
+    FileOffset:      3035
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1960969
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3035_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3038_3:  '
+    FileOffset:      3038
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1961114
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3038_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3055_4:  '
+    FileOffset:      3055
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1961948
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3055_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3071_5:  '
+    FileOffset:      3071
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1962856
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3071_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3078_6:  '
+    FileOffset:      3078
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1963185
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3078_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3090_7:  '
+    FileOffset:      3090
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1963728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3090_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3109_8:  '
+    FileOffset:      3109
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1964681
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3109_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_3110_9:  '
+    FileOffset:      3110
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_imgproc.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1964743
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_3110_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_77_1:  '
+    FileOffset:      77
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1966438
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_77_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_83_2:  '
+    FileOffset:      83
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1966543
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_83_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_104_3:  '
+    FileOffset:      104
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1967274
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_104_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_4:  '
+    FileOffset:      116
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1967610
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_5:  '
+    FileOffset:      156
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_histogram.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1968915
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_69_1:  '
+    FileOffset:      69
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1970476
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_69_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_1:  '
+    FileOffset:      118
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1971970
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_122_2:  '
+    FileOffset:      122
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1972159
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_122_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_3:  '
+    FileOffset:      127
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1972369
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_138_4:  '
+    FileOffset:      138
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1972625
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_138_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_143_5:  '
+    FileOffset:      143
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1972797
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_143_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_6:  '
+    FileOffset:      151
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1973067
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_7:  '
+    FileOffset:      156
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1973239
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_182_1:  '
+    FileOffset:      182
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1974179
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_182_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_209_1:  '
+    FileOffset:      209
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1974758
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_209_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_215_2:  '
+    FileOffset:      215
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1974933
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_215_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_264_1:  '
+    FileOffset:      264
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1976954
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_264_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_2:  '
+    FileOffset:      265
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977008
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_270_3:  '
+    FileOffset:      270
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977213
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_270_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_280_4:  '
+    FileOffset:      280
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977599
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_280_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_282_5:  '
+    FileOffset:      282
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977651
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_282_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_288_6:  '
+    FileOffset:      288
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1977850
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_288_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_380_1:  '
+    FileOffset:      380
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1980981
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_380_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_381_2:  '
+    FileOffset:      381
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1981035
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_381_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_386_3:  '
+    FileOffset:      386
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1981240
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_386_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_396_4:  '
+    FileOffset:      396
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1981626
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_396_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_398_5:  '
+    FileOffset:      398
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1981678
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_398_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_404_6:  '
+    FileOffset:      404
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_fast.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1981877
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_404_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_104_1:  '
+    FileOffset:      104
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1985501
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_104_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_2:  '
+    FileOffset:      108
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1985562
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1985621
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_4:  '
+    FileOffset:      116
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1985791
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_5:  '
+    FileOffset:      117
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1985829
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_119_6:  '
+    FileOffset:      119
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1985900
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_119_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_7:  '
+    FileOffset:      123
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1986020
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_125_8:  '
+    FileOffset:      125
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1986091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_125_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_9:  '
+    FileOffset:      134
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1986391
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_146_10:  '
+    FileOffset:      146
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1986736
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_146_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_154_1:  '
+    FileOffset:      154
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1986918
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_154_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_163_2:  '
+    FileOffset:      163
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1987119
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_163_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_168_3:  '
+    FileOffset:      168
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1987242
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_168_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_170_4:  '
+    FileOffset:      170
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1987307
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_170_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_181_1:  '
+    FileOffset:      181
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1987506
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_181_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_186_2:  '
+    FileOffset:      186
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1987598
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_186_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_187_3:  '
+    FileOffset:      187
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1987636
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_187_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_4:  '
+    FileOffset:      190
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1987728
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_266_1:  '
+    FileOffset:      266
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1990071
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_266_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_398_1:  '
+    FileOffset:      398
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_undistort.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          1994415
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_398_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_215_1:  '
+    FileOffset:      215
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_hough.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2008078
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_215_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_217_2:  '
+    FileOffset:      217
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_hough.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2008136
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_217_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_104_1:  '
+    FileOffset:      104
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2012787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_104_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_105_2:  '
+    FileOffset:      105
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2012819
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_105_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_1:  '
+    FileOffset:      127
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2013693
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_130_2:  '
+    FileOffset:      130
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2013775
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_130_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_3:  '
+    FileOffset:      137
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2013981
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_139_4:  '
+    FileOffset:      139
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2014034
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_139_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_147_5:  '
+    FileOffset:      147
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2014270
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_147_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_160_6:  '
+    FileOffset:      160
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2014674
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_160_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_196_1:  '
+    FileOffset:      196
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2015851
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_196_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_2:  '
+    FileOffset:      199
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_harris.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2015925
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_148_1:  '
+    FileOffset:      148
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2023731
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_148_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_156_2:  '
+    FileOffset:      156
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2023919
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_156_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_3:  '
+    FileOffset:      159
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2023979
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_4:  '
+    FileOffset:      167
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2024501
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2025640
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_193_2:  '
+    FileOffset:      193
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2025698
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_193_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_210_1:  '
+    FileOffset:      210
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2026106
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_210_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_217_2:  '
+    FileOffset:      217
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2026391
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_217_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_1:  '
+    FileOffset:      246
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2027338
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_294_1:  '
+    FileOffset:      294
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2028767
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_294_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_296_2:  '
+    FileOffset:      296
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2028805
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_296_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_3:  '
+    FileOffset:      309
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2029210
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_430_1:  '
+    FileOffset:      430
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2032842
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_430_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_432_2:  '
+    FileOffset:      432
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2032889
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_432_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_440_3:  '
+    FileOffset:      440
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2033187
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_440_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_469_1:  '
+    FileOffset:      469
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2034013
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_469_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_474_2:  '
+    FileOffset:      474
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_haar.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2034105
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_474_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_189_1:  '
+    FileOffset:      189
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2039697
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_189_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_195_2:  '
+    FileOffset:      195
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2039840
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_195_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_199_3:  '
+    FileOffset:      199
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2039981
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_199_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_230_1:  '
+    FileOffset:      230
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2041271
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_230_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_231_2:  '
+    FileOffset:      231
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2041319
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_231_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_234_3:  '
+    FileOffset:      234
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2041408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_234_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_270_1:  '
+    FileOffset:      270
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2042256
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_270_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_288_1:  '
+    FileOffset:      288
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2042762
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_288_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_296_2:  '
+    FileOffset:      296
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2042932
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_296_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_314_1:  '
+    FileOffset:      314
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2043335
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_314_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_317_2:  '
+    FileOffset:      317
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2043413
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_317_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_421_1:  '
+    FileOffset:      421
+    FilePath:        'e:\KRIA\project_2\project_2.gen\sources_1\bd\design_1\ip\design_1_v_gamma_lut_0_0\src\hls\hls_video_stereobm.h'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2046738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_421_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_205_1:  '
+    FileOffset:      205
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2061916
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_205_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_207_2:  '
+    FileOffset:      207
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2061974
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_207_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_256_1:  '
+    FileOffset:      256
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2063219
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_256_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_2:  '
+    FileOffset:      258
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2063271
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_276_3:  '
+    FileOffset:      276
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2063708
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_276_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_278_4:  '
+    FileOffset:      278
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2063766
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_278_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_315_1:  '
+    FileOffset:      315
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2064676
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_315_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_317_2:  '
+    FileOffset:      317
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2064738
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_317_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_3:  '
+    FileOffset:      325
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2064923
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_327_4:  '
+    FileOffset:      327
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2064968
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_327_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_335_5:  '
+    FileOffset:      335
+    FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.cpp'
+    Replacements:    
+      - FilePath:        'E:\KRIA\project_2\project_2.runs\design_1_v_gamma_lut_0_0_synth_1\prj\sol\.autopilot\db\v_gamma_lut.pp.0.cpp'
+        Offset:          2065093
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_335_5: '
+...

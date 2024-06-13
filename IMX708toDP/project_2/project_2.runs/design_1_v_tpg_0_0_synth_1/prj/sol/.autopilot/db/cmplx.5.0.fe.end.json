@@ -1,0 +1,210 @@
+{
+    "1": {
+        "name": "reg<int>",
+        "file": "x_hls_utils.h",
+        "fileloc": "222",
+        "instructions": "4",
+        "total_instructions": "4",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "AXIvideo2MultiPixStream",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "825",
+        "instructions": "59",
+        "total_instructions": "176",
+        "calls": "7 7 6 12 8",
+        "basicblocks": "6",
+        "loads": {
+            "L": "6"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "tpgBackground_Pipeline_VITIS_LOOP_565_2",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "549",
+        "instructions": "788",
+        "total_instructions": "796",
+        "calls": "1 5",
+        "basicblocks": "121",
+        "loads": {
+            "G": "64",
+            "L": "33"
+        },
+        "stores": {
+            "G": "55",
+            "L": "46"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "4": {
+        "name": "MultiPixStream2AXIvideo",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "399",
+        "instructions": "41",
+        "total_instructions": "107",
+        "calls": "9",
+        "basicblocks": "4",
+        "loads": {
+            "G": "2",
+            "L": "2"
+        },
+        "stores": {
+            "G": "1",
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "5": {
+        "name": "reg<ap_uint<10> >",
+        "file": "F:\/Tools\/Xilinx-2024.1\/Vitis_HLS\/2024.1\/common\/technology\/autopilot\\utils\/x_hls_utils.h",
+        "fileloc": "224",
+        "instructions": "4",
+        "total_instructions": "4",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "6": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "825",
+        "instructions": "27",
+        "total_instructions": "27",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "7": {
+        "name": "reg<unsigned short>",
+        "file": "x_hls_utils.h",
+        "fileloc": "222",
+        "instructions": "4",
+        "total_instructions": "4",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "8": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "825",
+        "instructions": "27",
+        "total_instructions": "27",
+        "calls": "",
+        "basicblocks": "4",
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "9": {
+        "name": "MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "399",
+        "instructions": "66",
+        "total_instructions": "66",
+        "calls": "",
+        "basicblocks": "12",
+        "loads": {
+            "L": "3"
+        },
+        "stores": {
+            "G": "1",
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "10": {
+        "name": "tpgBackground",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "549",
+        "instructions": "180",
+        "total_instructions": "976",
+        "calls": "3",
+        "basicblocks": "10",
+        "loads": {
+            "G": "14",
+            "L": "10"
+        },
+        "stores": {
+            "G": "4",
+            "L": "14"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "11": {
+        "name": "entry_proc",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "0",
+        "instructions": "43",
+        "total_instructions": "43",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "0": {
+        "name": "v_tpg",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "409",
+        "instructions": "167",
+        "total_instructions": "1570",
+        "calls": "7 13",
+        "basicblocks": "5",
+        "loads": {
+            "G": "2"
+        },
+        "stores": {
+            "G": "2"
+        }
+    },
+    "12": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_width",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "825",
+        "instructions": "55",
+        "total_instructions": "55",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "13": {
+        "name": "v_tpgHlsDataFlow",
+        "file": "E:\/KRIA\/project_2\/project_2.runs\/design_1_v_tpg_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_tpg.cpp",
+        "fileloc": "342",
+        "instructions": "97",
+        "total_instructions": "1399",
+        "calls": "11 2 10 4",
+        "basicblocks": "1"
+    }
+}

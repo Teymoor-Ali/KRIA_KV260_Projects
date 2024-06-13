@@ -1,0 +1,77 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.6245",
+   "Default View_TopLeft":"139,428",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port som240_1_connector_mipi_csi_ias -pg 1 -lvl 0 -x 0 -y 520 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 9 -x 3180 -y 750 -defaultsOSRD
+preplace inst mipi_csi2_rx_subsyst_0 -pg 1 -lvl 3 -x 760 -y 600 -defaultsOSRD
+preplace inst axis_subset_converter_0 -pg 1 -lvl 4 -x 1070 -y 590 -defaultsOSRD
+preplace inst v_demosaic_0 -pg 1 -lvl 5 -x 1420 -y 600 -defaultsOSRD
+preplace inst v_gamma_lut_0 -pg 1 -lvl 6 -x 1780 -y 610 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 7 -x 2180 -y 890 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 10 -x 3750 -y 260 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 11 -x 4120 -y 740 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 11 -x 4120 -y 1050 -defaultsOSRD
+preplace inst axis_subset_converter_1 -pg 1 -lvl 8 -x 2610 -y 610 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 12 -x 4460 -y 760 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 8 -x 2610 -y 950 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 500 -y 940 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 1 -x 200 -y 1110 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 8 -x 2610 -y 770 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 10 -x 3750 -y 1070 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 10 -x 3750 -y 610 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 7 -x 2180 -y 640 -defaultsOSRD
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 1 11 380J 860 590 740 910 670 1250 700 1610 700 1990 1020 2430 1050 NJ 1050 3550 930 3920 1140 4300J
+preplace netloc v_axi4s_vid_out_0_vid_active_video 1 8 5 2850 980 3570J 960 3970J 950 NJ 950 4650
+preplace netloc v_axi4s_vid_out_0_vid_data 1 8 5 2840 990 3600J 980 3980J 960 NJ 960 4620
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 8 5 2830 1160 NJ 1160 NJ 1160 NJ 1160 4630
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 8 5 2820 1180 NJ 1180 NJ 1180 NJ 1180 4640
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 10 3 3990 1150 NJ 1150 4610
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 10 30 1010 370J 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 NJ 1050 2350J 1120 NJ 1120 3520
+preplace netloc Net 1 10 2 3940 910 4270
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 1 9 410 1030 NJ 1030 NJ 1030 NJ 1030 NJ 1030 NJ 1030 2410 1110 NJ 1110 3510
+preplace netloc clk_wiz_1_clk_out1 1 6 6 2010 760 2420J 840 2770 970 3540J 940 3930 920 4290J
+preplace netloc clk_wiz_0_clk_out1 1 2 1 610 600n
+preplace netloc rst_ps8_0_99M_peripheral_reset 1 1 11 390 1080 NJ 1080 NJ 1080 NJ 1080 NJ 1080 NJ 1080 NJ 1080 NJ 1080 3590J 1170 NJ 1170 4310
+preplace netloc xlconcat_0_dout 1 10 1 3900 1070n
+preplace netloc v_gamma_lut_0_interrupt 1 6 4 1960 1060 NJ 1060 NJ 1060 NJ
+preplace netloc v_demosaic_0_interrupt 1 5 5 1590J 710 1950J 1100 NJ 1100 NJ 1100 3570
+preplace netloc axi_vdma_0_mm2s_introut 1 7 3 2370 1070 NJ 1070 3600J
+preplace netloc axi_vdma_0_s2mm_introut 1 7 3 2360 1090 NJ 1090 3580J
+preplace netloc clk_wiz_0_clk_out2 1 0 12 20 1000 400J 1020 600 450 910 510 1240 690 1600 740 1980 740 2440 690 2810 960 3530 710 3960 930 4280
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 7 1 2450 640n
+preplace netloc proc_sys_reset_0_peripheral_aresetn1 1 7 4 2390J 1040 NJ 1040 3560J 920 3910
+preplace netloc axi_interconnect_0_M00_AXI 1 10 1 3950 210n
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 7 1 2370 590n
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 7 1 2400 830n
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 7 1 2380 850n
+preplace netloc axis_subset_converter_0_M_AXIS 1 4 1 N 590
+preplace netloc axis_subset_converter_1_M_AXIS 1 8 4 2780J 950 NJ 950 3940J 940 4260
+preplace netloc mipi_csi2_rx_subsyst_0_video_out 1 3 1 N 570
+preplace netloc smartconnect_0_M00_AXI 1 8 1 2790 610n
+preplace netloc som240_1_connector_mipi_csi_ias_1 1 0 3 NJ 520 NJ 520 NJ
+preplace netloc v_demosaic_0_m_axis_video 1 5 1 1590 590n
+preplace netloc v_gamma_lut_0_m_axis_video 1 6 1 1970 600n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 9 1 3510 70n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 9 1 3520 90n
+preplace netloc axi_interconnect_0_M01_AXI 1 2 9 610 460 NJ 460 NJ 460 NJ 460 NJ 460 NJ 460 NJ 460 3560J 510 3940
+preplace netloc axi_interconnect_0_M02_AXI 1 10 1 3990 250n
+preplace netloc axi_interconnect_0_M03_AXI 1 4 7 1250 510 NJ 510 NJ 510 NJ 510 2840J 530 NJ 530 3930
+preplace netloc axi_interconnect_0_M04_AXI 1 5 6 1590 520 NJ 520 NJ 520 NJ 520 NJ 520 3900
+preplace netloc axi_interconnect_0_M05_AXI 1 6 5 2000 530 NJ 530 2780J 540 NJ 540 3910
+preplace netloc v_tc_0_vtiming_out 1 11 1 4250 700n
+levelinfo -pg 1 0 200 500 760 1070 1420 1780 2180 2610 3180 3750 4120 4460 4670
+pagesize -pg 1 -db -bbox -sgen -280 0 4670 1210
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_board_cnt":"11",
+   "da_clkrst_cnt":"22",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

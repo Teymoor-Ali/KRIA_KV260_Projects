@@ -1,0 +1,4 @@
+2 warnings and 26 errors generated.
+Error while processing E:\KRIA\project_2\project_2.runs\design_1_v_demosaic_0_0_synth_1\prj\sol\.autopilot\db\v_demosaic.pp.0.cpp.
+clang-tidy applied 409 of 409 suggested fixes.
+Suppressed 2 warnings (2 with check filters).

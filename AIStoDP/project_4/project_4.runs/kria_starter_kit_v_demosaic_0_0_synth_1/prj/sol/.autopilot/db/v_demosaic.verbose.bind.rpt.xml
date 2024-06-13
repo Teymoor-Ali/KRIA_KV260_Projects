@@ -1,0 +1,50 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'v_demosaic'" level="0">
+<item name = "Date">Thu Jun 13 17:31:58 2024
+</item>
+<item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
+<item name = "Project">prj</item>
+<item name = "Solution">sol (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">3.39 ns, 2.475 ns, 0.92 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">?, ?, ?, ?, ?, ?, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="grp_AXIvideo2MultiBayer_fu_140">AXIvideo2MultiBayer, ?, ?, ?, ?, ?, ?, no</column>
+<column name="bayer_phase_assign_channel_Block_entry_split_proc_fu_163">Block_entry_split_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
+<column name="grp_Debayer_fu_168">Debayer, 65597, 4296605721, 0.222 ms, 14.565 sec, 52, 4296605722, dataflow</column>
+<column name="grp_ZipperRemoval_fu_182">ZipperRemoval, 1, 4295426041, 3.390 ns, 14.561 sec, 1, 4295426041, no</column>
+<column name="grp_MultiPixStream2AXIvideo_fu_190">MultiPixStream2AXIvideo, 2, 8305202, 6.780 ns, 28.155 ms, 2, 8305202, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>
