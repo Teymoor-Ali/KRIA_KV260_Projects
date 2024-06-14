@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xE2E5C8ED5FAA7DD7",
+      "boundary_crc": "0xA816CDC31D406B3C",
       "device": "xck26-sfvc784-2LV-c",
       "gen_directory": "../../../../project_4.gen/sources_1/bd/kria_starter_kit",
       "name": "kria_starter_kit",
@@ -71,6 +71,37 @@
             "direction": "I",
             "left": "3",
             "right": "0"
+          }
+        }
+      },
+      "IIC": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:iic:1.0",
+        "vlnv": "xilinx.com:interface:iic_rtl:1.0",
+        "port_maps": {
+          "SCL_I": {
+            "physical_name": "IIC_scl_i",
+            "direction": "I"
+          },
+          "SCL_O": {
+            "physical_name": "IIC_scl_o",
+            "direction": "O"
+          },
+          "SCL_T": {
+            "physical_name": "IIC_scl_t",
+            "direction": "O"
+          },
+          "SDA_I": {
+            "physical_name": "IIC_sda_i",
+            "direction": "I"
+          },
+          "SDA_O": {
+            "physical_name": "IIC_sda_o",
+            "direction": "O"
+          },
+          "SDA_T": {
+            "physical_name": "IIC_sda_t",
+            "direction": "O"
           }
         }
       }
@@ -2722,6 +2753,9 @@
         "xci_path": "ip\\kria_starter_kit_v_tc_0_0\\kria_starter_kit_v_tc_0_0.xci",
         "inst_hier_path": "v_tc_0",
         "parameters": {
+          "VIDEO_MODE": {
+            "value": "1080p"
+          },
           "max_clocks_per_line": {
             "value": "8192"
           }
@@ -3046,6 +3080,12 @@
           "v_axi4s_vid_out_0/vtiming_in"
         ]
       },
+      "zynq_ultra_ps_e_0_IIC_0": {
+        "interface_ports": [
+          "IIC",
+          "zynq_ultra_ps_e_0/IIC_0"
+        ]
+      },
       "zynq_ultra_ps_e_0_M_AXI_HPM0_FPD": {
         "interface_ports": [
           "zynq_ultra_ps_e_0/M_AXI_HPM0_FPD",
@@ -3130,6 +3170,12 @@
           "v_tc_0/clk"
         ]
       },
+      "clk_wiz_1_locked": {
+        "ports": [
+          "clk_wiz_1/locked",
+          "proc_sys_reset_0/dcm_locked"
+        ]
+      },
       "proc_sys_reset_0_peripheral_aresetn": {
         "ports": [
           "proc_sys_reset_0/peripheral_reset",
@@ -3164,8 +3210,7 @@
           "axi_interconnect_0/M05_ARESETN",
           "mipi_csi2_rx_subsyst_0/lite_aresetn",
           "smartconnect_0/aresetn",
-          "axi_interconnect_0/M01_ARESETN",
-          "proc_sys_reset_0/ext_reset_in"
+          "axi_interconnect_0/M01_ARESETN"
         ]
       },
       "rst_ps8_0_99M_peripheral_reset": {
@@ -3233,7 +3278,8 @@
       "zynq_ultra_ps_e_0_pl_resetn0": {
         "ports": [
           "zynq_ultra_ps_e_0/pl_resetn0",
-          "rst_ps8_0_99M/ext_reset_in"
+          "rst_ps8_0_99M/ext_reset_in",
+          "proc_sys_reset_0/ext_reset_in"
         ]
       }
     },
