@@ -1,0 +1,440 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Jun 16 22:31:48 2024
+# Process ID: 29272
+# Current directory: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1
+# Command line: vivado.exe -log bd_d10d_vfb_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_d10d_vfb_0_0.tcl
+# Log file: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/bd_d10d_vfb_0_0.vds
+# Journal file: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1\vivado.jou
+# Running On        :Tey
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 9 5900X 12-Core Processor            
+# CPU Frequency     :4200 MHz
+# CPU Physical cores:12
+# CPU Logical cores :24
+# Host memory       :68621 MB
+# Swap memory       :62277 MB
+# Total Virtual     :130898 MB
+# Available Virtual :76369 MB
+#-----------------------------------------------------------
+source bd_d10d_vfb_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 629.484 ; gain = 200.230
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_d10d_vfb_0_0
+Command: synth_design -top bd_d10d_vfb_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 32364
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2057.148 ; gain = 398.582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'i_axis_tlast', assumed default net type 'wire' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_YUV420_vc16_demux.v:337]
+INFO: [Synth 8-11241] undeclared symbol 'odd_lines_hold', assumed default net type 'wire' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/8490/hdl/vfb_v1_0_syn_rfs.v:602]
+INFO: [Synth 8-11241] undeclared symbol 's_yuv_detector_vc13', assumed default net type 'wire' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:1239]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_vfb_0_0' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0.v:52]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_vfb_0_0_core' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:52]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_25_reorder' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/8490/hdl/vfb_v1_0_syn_rfs.v:973]
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter AXIS_TUSER_WIDTH bound to: 96 - type: integer 
+	Parameter AXIS_TDEST_WIDTH bound to: 4 - type: integer 
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_TSB0_WIDTH bound to: 32 - type: integer 
+	Parameter VFB_TSB1_WIDTH bound to: 0 - type: integer 
+	Parameter VFB_TSB2_WIDTH bound to: 3 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 24 - type: integer 
+	Parameter VFB_DATA_TYPE bound to: 43 - type: integer 
+	Parameter VFB_VC bound to: 0 - type: integer 
+	Parameter VFB_FILTER_VC bound to: 0 - type: integer 
+	Parameter VFB_REQ_BUFFER bound to: 1 - type: integer 
+	Parameter VFB_REQ_REORDER bound to: 1 - type: integer 
+	Parameter VFB_FIFO_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_DCONV_TUW bound to: 24 - type: integer 
+	Parameter VFB_4PXL_W bound to: 40 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_25_reorder' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/8490/hdl/vfb_v1_0_syn_rfs.v:973]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_vfb_0_0_axis_dconverter' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_axis_dconverter.v:47]
+INFO: [Synth 8-6157] synthesizing module 'bd_d10d_vfb_0_0_axis_converter' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/ip_0/synth/bd_d10d_vfb_0_0_axis_converter.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_30_axis_dwidth_converter' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/411b/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:806]
+INFO: [Synth 8-6157] synthesizing module 'axis_dwidth_converter_v1_1_30_axisc_downsizer' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/411b/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_30_axisc_downsizer' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/411b/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:60]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_31_axis_register_slice' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/ca8d/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_31_axisc_register_slice' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/ca8d/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_31_axisc_register_slice' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/ca8d/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_31_axis_register_slice' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/ca8d/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_31_axis_register_slice__parameterized0' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/ca8d/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector__parameterized0' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_axis2vector__parameterized0' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:805]
+INFO: [Synth 8-6157] synthesizing module 'axis_register_slice_v1_1_31_axisc_register_slice__parameterized0' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/ca8d/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_31_axisc_register_slice__parameterized0' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/ca8d/hdl/axis_register_slice_v1_1_vl_rfs.v:1929]
+INFO: [Synth 8-6157] synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis__parameterized0' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_infrastructure_v1_1_1_util_vector2axis__parameterized0' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/434f/hdl/axis_infrastructure_v1_1_vl_rfs.v:986]
+INFO: [Synth 8-6155] done synthesizing module 'axis_register_slice_v1_1_31_axis_register_slice__parameterized0' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/ca8d/hdl/axis_register_slice_v1_1_vl_rfs.v:2830]
+INFO: [Synth 8-6155] done synthesizing module 'axis_dwidth_converter_v1_1_30_axis_dwidth_converter' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/411b/hdl/axis_dwidth_converter_v1_1_vl_rfs.v:806]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_vfb_0_0_axis_converter' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/ip_0/synth/bd_d10d_vfb_0_0_axis_converter.v:53]
+WARNING: [Synth 8-689] width (3) of port connection 'm_axis_tuser' does not match port width (12) of module 'bd_d10d_vfb_0_0_axis_converter' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_axis_dconverter.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_vfb_0_0_axis_dconverter' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_axis_dconverter.v:47]
+INFO: [Synth 8-6157] synthesizing module 'vfb_v1_0_25_op_inf' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/8490/hdl/vfb_v1_0_syn_rfs.v:3831]
+	Parameter VFB_TU_WIDTH bound to: 1 - type: integer 
+	Parameter VFB_TSB0_WIDTH bound to: 32 - type: integer 
+	Parameter VFB_TSB1_WIDTH bound to: 0 - type: integer 
+	Parameter VFB_TSB2_WIDTH bound to: 3 - type: integer 
+	Parameter AXIS_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter VFB_PXL_W bound to: 10 - type: integer 
+	Parameter VFB_PXL_W_BB bound to: 16 - type: integer 
+	Parameter VFB_DCONV_OWIDTH bound to: 32 - type: integer 
+	Parameter VFB_OP_DWIDTH bound to: 24 - type: integer 
+	Parameter VFB_OP_PIXELS bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'vfb_v1_0_25_op_inf' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/8490/hdl/vfb_v1_0_syn_rfs.v:3831]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_vfb_0_0_core' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'bd_d10d_vfb_0_0' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0.v:52]
+WARNING: [Synth 8-6014] Unused sequential element REQ_BUFFER_RAW10.buff_tk_i_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/8490/hdl/vfb_v1_0_syn_rfs.v:2219]
+WARNING: [Synth 8-6014] Unused sequential element REQ_BUFFER_RAW10.liv_tk_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/8490/hdl/vfb_v1_0_syn_rfs.v:2220]
+WARNING: [Synth 8-6014] Unused sequential element first_beat_rcvd_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/8490/hdl/vfb_v1_0_syn_rfs.v:3665]
+WARNING: [Synth 8-6014] Unused sequential element lbuffull_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:3398]
+WARNING: [Synth 8-6014] Unused sequential element strm_lb_full_d1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:3365]
+WARNING: [Synth 8-6014] Unused sequential element strm_lb_fullvld_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:3372]
+WARNING: [Synth 8-6014] Unused sequential element vfb_buffull_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:3381]
+WARNING: [Synth 8-6014] Unused sequential element asyncfifofull_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:3389]
+WARNING: [Synth 8-3848] Net m_axis_tdest in module/entity bd_d10d_vfb_0_0_core does not have driver. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_core.v:140]
+WARNING: [Synth 8-7129] Port s_axis_tdata[31] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[30] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[29] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[28] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[27] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[26] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[15] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[14] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[13] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[12] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[11] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdata[10] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[31] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[30] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[29] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[28] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[27] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[26] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[25] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[24] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[23] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[22] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[21] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[20] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[19] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[18] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[17] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[16] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[15] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[14] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[13] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[12] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[11] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tid[10] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[31] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[30] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[29] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[28] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[27] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[26] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[25] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[24] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[23] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[22] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[21] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[20] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[19] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[18] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[17] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[16] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[15] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[14] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[13] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[12] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[11] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[10] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[9] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[8] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[7] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[6] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[5] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[4] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[3] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[2] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[1] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tdest[0] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tuser[2] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tuser[1] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[3] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[2] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[1] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_tkeep[0] in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sband_te in module vfb_v1_0_25_op_inf is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_31_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_31_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_31_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_31_axisc_register_slice__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[3] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[2] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_1_util_axis2vector__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK in module axis_register_slice_v1_1_31_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLK2X in module axis_register_slice_v1_1_31_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ARESET in module axis_register_slice_v1_1_31_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ACLKEN in module axis_register_slice_v1_1_31_axisc_register_slice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[7] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[6] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[5] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[4] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[3] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[2] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[1] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
+WARNING: [Synth 8-7129] Port core_men_vfb in module bd_d10d_vfb_0_0_core is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2189.047 ; gain = 530.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2189.047 ; gain = 530.480
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2189.047 ; gain = 530.480
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 2189.047 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2292.609 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 2292.625 ; gain = 0.016
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 2292.625 ; gain = 634.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xck26-sfvc784-2LV-c
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 2292.625 ; gain = 634.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/dont_touch.xdc, line 20).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/axis_dconverter/axis_conv_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 2292.625 ; gain = 634.059
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 2292.625 ; gain = 634.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 1     
+	  10 Input    8 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
+	   8 Input    4 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    1 Bit       Adders := 1     
++---Registers : 
+	              180 Bit    Registers := 2     
+	               64 Bit    Registers := 6     
+	               41 Bit    Registers := 2     
+	               32 Bit    Registers := 5     
+	               24 Bit    Registers := 2     
+	               20 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 26    
++---Muxes : 
+	   2 Input  180 Bit        Muxes := 4     
+	   4 Input  176 Bit        Muxes := 2     
+	   4 Input   64 Bit        Muxes := 1     
+	   2 Input   64 Bit        Muxes := 3     
+	   2 Input   41 Bit        Muxes := 2     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   4 Input   24 Bit        Muxes := 1     
+	   4 Input   20 Bit        Muxes := 1     
+	   2 Input   20 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   4 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 6     
+	   3 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 39    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1248 (col length:96)
+BRAMs: 288 (col length: RAMB18 96 RAMB36 48)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port core_men_vfb in module bd_d10d_vfb_0_0_core is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 2292.625 ; gain = 634.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:37 . Memory (MB): peak = 2685.996 ; gain = 1027.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 2748.270 ; gain = 1089.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT1  |     6|
+|2     |LUT2  |    28|
+|3     |LUT3  |    75|
+|4     |LUT4  |    13|
+|5     |LUT5  |   131|
+|6     |LUT6  |   195|
+|7     |MUXF7 |    40|
+|8     |FDRE  |   635|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2755.406 ; gain = 993.262
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:45 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2755.406 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2755.406 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: c7f123c7
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:00:55 . Memory (MB): peak = 2755.406 ; gain = 2071.602
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2755.406 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/bd_d10d_vfb_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_d10d_vfb_0_0, cache-ID = 1cae5a4332d4d5be
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2755.406 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/bd_d10d_vfb_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_d10d_vfb_0_0_utilization_synth.rpt -pb bd_d10d_vfb_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 22:32:56 2024...

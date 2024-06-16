@@ -1,0 +1,132 @@
+{
+  "0": {
+    "basicblocks": 1,
+    "calls": "2 3 1 8",
+    "file": "v_demosaic.cpp",
+    "fileloc": 89,
+    "instructions": 39,
+    "name": "v_demosaic",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 2497
+  },
+  "1": {
+    "basicblocks": 21,
+    "calls": "",
+    "file": "v_demosaic.cpp",
+    "fileloc": 1077,
+    "instructions": 201,
+    "loads": {
+      "L": 16
+    },
+    "name": "ZipperRemoval",
+    "stores": {
+      "L": 29
+    },
+    "total_instructions": 201
+  },
+  "2": {
+    "basicblocks": 15,
+    "calls": "4 4",
+    "file": "v_demosaic.cpp",
+    "fileloc": 133,
+    "instructions": 185,
+    "loads": {
+      "L": 9
+    },
+    "name": "AXIvideo2MultiBayer",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 187
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "7 9 6",
+    "file": "v_demosaic.cpp",
+    "fileloc": 1060,
+    "instructions": 16,
+    "name": "Debayer",
+    "total_instructions": 1995
+  },
+  "4": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  },
+  "5": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "std_abs.h",
+    "fileloc": 61,
+    "instructions": 4,
+    "name": "abs",
+    "total_instructions": 4
+  },
+  "6": {
+    "basicblocks": 31,
+    "calls": "5 5 5 5 5 5",
+    "file": "v_demosaic.cpp",
+    "fileloc": 841,
+    "instructions": 536,
+    "loads": {
+      "L": 62
+    },
+    "name": "DebayerRandBatG",
+    "stores": {
+      "L": 87
+    },
+    "total_instructions": 560
+  },
+  "7": {
+    "basicblocks": 36,
+    "calls": "5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5",
+    "file": "v_demosaic.cpp",
+    "fileloc": 264,
+    "instructions": 730,
+    "loads": {
+      "G": 5,
+      "L": 67
+    },
+    "name": "DebayerG",
+    "stores": {
+      "L": 75
+    },
+    "total_instructions": 810
+  },
+  "8": {
+    "basicblocks": 7,
+    "calls": "",
+    "file": "v_demosaic.cpp",
+    "fileloc": 208,
+    "instructions": 75,
+    "loads": {
+      "L": 2
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "L": 6
+    },
+    "total_instructions": 75
+  },
+  "9": {
+    "basicblocks": 34,
+    "calls": "5 5 5 5",
+    "file": "v_demosaic.cpp",
+    "fileloc": 593,
+    "instructions": 593,
+    "loads": {
+      "L": 69
+    },
+    "name": "DebayerRatBorBatR",
+    "stores": {
+      "L": 104
+    },
+    "total_instructions": 609
+  }
+}

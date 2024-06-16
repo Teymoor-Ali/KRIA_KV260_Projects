@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Jun 16 22:41:35 2024
+# Process ID: 26712
+# Current directory: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_auto_ds_0_synth_1
+# Command line: vivado.exe -log design_1_auto_ds_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_auto_ds_0.tcl
+# Log file: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_auto_ds_0_synth_1/design_1_auto_ds_0.vds
+# Journal file: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_auto_ds_0_synth_1\vivado.jou
+# Running On        :Tey
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 9 5900X 12-Core Processor            
+# CPU Frequency     :4200 MHz
+# CPU Physical cores:12
+# CPU Logical cores :24
+# Host memory       :68621 MB
+# Swap memory       :62277 MB
+# Total Virtual     :130898 MB
+# Available Virtual :74245 MB
+#-----------------------------------------------------------
+source design_1_auto_ds_0.tcl -notrace
