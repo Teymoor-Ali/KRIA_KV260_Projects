@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'MultiPixStream2AXIvideo'
 ================================================================
-* Date:           Sun Jun 16 22:34:22 2024
+* Date:           Sun Jun 16 23:48:27 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -20,26 +20,26 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  3.37 ns|  2.023 ns|     0.91 ns|
+    |ap_clk  |  6.73 ns|  2.335 ns|     1.82 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
     * Summary: 
-    +---------+---------+----------+----------+-----+---------+---------+
-    |  Latency (cycles) |  Latency (absolute) |    Interval   | Pipeline|
-    |   min   |   max   |    min   |    max   | min |   max   |   Type  |
-    +---------+---------+----------+----------+-----+---------+---------+
-    |        2|  2079002|  6.734 ns|  7.000 ms|    2|  2079002|       no|
-    +---------+---------+----------+----------+-----+---------+---------+
+    +---------+---------+-----------+-----------+-----+---------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |    Interval   | Pipeline|
+    |   min   |   max   |    min    |    max    | min |   max   |   Type  |
+    +---------+---------+-----------+-----------+-----+---------+---------+
+    |        2|  2079002|  13.468 ns|  14.000 ms|    2|  2079002|       no|
+    +---------+---------+-----------+-----------+-----+---------+---------+
 
     + Detail: 
         * Instance: 
-        +--------------------------------------------------------------+---------------------------------------------------+---------+---------+-----------+----------+-----+------+-----------------------------------------------+
-        |                                                              |                                                   |  Latency (cycles) |  Latency (absolute)  |  Interval  |                    Pipeline                   |
-        |                           Instance                           |                       Module                      |   min   |   max   |    min    |    max   | min |  max |                      Type                     |
-        +--------------------------------------------------------------+---------------------------------------------------+---------+---------+-----------+----------+-----+------+-----------------------------------------------+
-        |grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100  |MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2  |        3|     1923|  10.101 ns|  6.475 us|    1|  1921|  loop auto-rewind stp(delay=0 clock cycles(s))|
-        +--------------------------------------------------------------+---------------------------------------------------+---------+---------+-----------+----------+-----+------+-----------------------------------------------+
+        +--------------------------------------------------------------+---------------------------------------------------+---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
+        |                                                              |                                                   |  Latency (cycles) |   Latency (absolute)  |  Interval  |                    Pipeline                   |
+        |                           Instance                           |                       Module                      |   min   |   max   |    min    |    max    | min |  max |                      Type                     |
+        +--------------------------------------------------------------+---------------------------------------------------+---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
+        |grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100  |MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2  |        3|     1923|  20.202 ns|  12.949 us|    1|  1921|  loop auto-rewind stp(delay=0 clock cycles(s))|
+        +--------------------------------------------------------------+---------------------------------------------------+---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
 
         * Loop: 
         +--------------------+---------+---------+----------+-----------+-----------+----------+----------+
@@ -116,9 +116,9 @@ ST_2 : Operation 27 [2/2] (1.22ns)   --->   "%call_ln228 = call void @MultiPixSt
 ST_2 : Operation 28 [1/1] (0.28ns)   --->   "%and_ln228 = and i1 %icmp_ln228, i1 %sof" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:228]   --->   Operation 28 'and' 'and_ln228' <Predicate = (!icmp_ln228_1)> <Delay = 0.28> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 29 [1/1] (0.42ns)   --->   "%store_ln228 = store i11 %i_2, i11 %i" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:228]   --->   Operation 29 'store' 'store_ln228' <Predicate = (!icmp_ln228_1)> <Delay = 0.42>
 
-State 3 <SV = 2> <Delay = 1.72>
+State 3 <SV = 2> <Delay = 2.33>
 ST_3 : Operation 30 [1/1] (0.00ns)   --->   "%specloopname_ln228 = specloopname void @_ssdm_op_SpecLoopName, void @empty_7" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:228]   --->   Operation 30 'specloopname' 'specloopname_ln228' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 31 [1/2] (1.72ns)   --->   "%call_ln228 = call void @MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2, i1 %sof, i11 %trunc_ln222, i12 %sub_i_i, i30 %imgUnzip, i32 %m_axis_video_V_data_V, i4 %m_axis_video_V_keep_V, i4 %m_axis_video_V_strb_V, i1 %m_axis_video_V_user_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_dest_V" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:228]   --->   Operation 31 'call' 'call_ln228' <Predicate = true> <Delay = 1.72> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_3 : Operation 31 [1/2] (2.33ns)   --->   "%call_ln228 = call void @MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2, i1 %sof, i11 %trunc_ln222, i12 %sub_i_i, i30 %imgUnzip, i32 %m_axis_video_V_data_V, i4 %m_axis_video_V_keep_V, i4 %m_axis_video_V_strb_V, i1 %m_axis_video_V_user_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_dest_V" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:228]   --->   Operation 31 'call' 'call_ln228' <Predicate = true> <Delay = 2.33> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%br_ln228 = br void %VITIS_LOOP_230_2" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:228]   --->   Operation 32 'br' 'br_ln228' <Predicate = true> <Delay = 0.00>
 
 State 4 <SV = 3> <Delay = 0.00>

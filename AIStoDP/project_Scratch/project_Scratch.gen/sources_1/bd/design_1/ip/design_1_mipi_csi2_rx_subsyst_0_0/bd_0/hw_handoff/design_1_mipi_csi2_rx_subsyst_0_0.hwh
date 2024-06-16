@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Jun 16 22:41:23 2024" VIVADOVERSION="2024.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Jun 16 23:46:38 2024" VIVADOVERSION="2024.1">
 
   <SYSTEMINFO ARCH="zynquplus" BOARD="xilinx.com:kv260_som_som240_1_connector_kv260_carrier_som240_1_connector:part0:1.4" DEVICE="xck26" NAME="bd_d10d" PACKAGE="sfvc784" SPEEDGRADE="-2LV"/>
 
@@ -111,7 +111,7 @@
         <CONNECTION INSTANCE="rx" PORT="frame_rcvd_pulse_out"/>
       </CONNECTIONS>
     </PORT>
-    <PORT CLKFREQUENCY="297003926" DIR="I" NAME="lite_aclk" SIGIS="clk" SIGNAME="External_Ports_lite_aclk">
+    <PORT CLKFREQUENCY="148501963" DIR="I" NAME="lite_aclk" SIGIS="clk" SIGNAME="External_Ports_lite_aclk">
       <CONNECTIONS>
         <CONNECTION INSTANCE="rx" PORT="s_axi_aclk"/>
       </CONNECTIONS>
@@ -156,7 +156,7 @@
         <CONNECTION INSTANCE="phy" PORT="system_rst_out"/>
       </CONNECTIONS>
     </PORT>
-    <PORT CLKFREQUENCY="297003926" DIR="I" NAME="video_aclk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
+    <PORT CLKFREQUENCY="148501963" DIR="I" NAME="video_aclk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
       <CONNECTIONS>
         <CONNECTION INSTANCE="rx" PORT="m_axis_aclk"/>
         <CONNECTION INSTANCE="vfb_0" PORT="s_axis_aclk"/>
@@ -220,7 +220,7 @@
       <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
       <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_clk_wiz_0_0_clk_out1"/>
       <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
-      <PARAMETER NAME="FREQ_HZ" VALUE="297003926"/>
+      <PARAMETER NAME="FREQ_HZ" VALUE="148501963"/>
       <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
       <PARAMETER NAME="HAS_BURST" VALUE="0"/>
       <PARAMETER NAME="HAS_CACHE" VALUE="0"/>
@@ -273,7 +273,7 @@
     </BUSINTERFACE>
     <BUSINTERFACE BUSNAME="vfb_0_m_vfb" NAME="video_out" TYPE="INITIATOR">
       <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_clk_wiz_0_0_clk_out1"/>
-      <PARAMETER NAME="FREQ_HZ" VALUE="297003926"/>
+      <PARAMETER NAME="FREQ_HZ" VALUE="148501963"/>
       <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
       <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
       <PARAMETER NAME="HAS_TREADY" VALUE="1"/>
@@ -1235,7 +1235,7 @@
             <CONNECTION INSTANCE="External_Ports" PORT="csirxss_csi_irq"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="297003926" DIR="I" NAME="m_axis_aclk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
+        <PORT CLKFREQUENCY="148501963" DIR="I" NAME="m_axis_aclk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="video_aclk"/>
           </CONNECTIONS>
@@ -1290,7 +1290,7 @@
             <CONNECTION INSTANCE="vfb_0" PORT="mdt_tv"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="297003926" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="External_Ports_lite_aclk">
+        <PORT CLKFREQUENCY="148501963" DIR="I" NAME="s_axi_aclk" SIGIS="clk" SIGNAME="External_Ports_lite_aclk">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="lite_aclk"/>
           </CONNECTIONS>
@@ -1415,7 +1415,7 @@
             <CONNECTION INSTANCE="vfb_0" PORT="vfb_wc_full"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="297003926" DIR="I" NAME="video_aclk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
+        <PORT CLKFREQUENCY="148501963" DIR="I" NAME="video_aclk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="video_aclk"/>
           </CONNECTIONS>
@@ -1429,7 +1429,7 @@
           <PARAMETER NAME="BUSER_WIDTH" VALUE="0"/>
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_clk_wiz_0_0_clk_out1"/>
           <PARAMETER NAME="DATA_WIDTH" VALUE="32"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="297003926"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="148501963"/>
           <PARAMETER NAME="HAS_BRESP" VALUE="1"/>
           <PARAMETER NAME="HAS_BURST" VALUE="0"/>
           <PARAMETER NAME="HAS_CACHE" VALUE="0"/>
@@ -1527,7 +1527,7 @@
         </BUSINTERFACE>
         <BUSINTERFACE BUSNAME="rx_m_axis" NAME="m_axis" TYPE="INITIATOR" VLNV="xilinx.com:interface:axis:1.0">
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_clk_wiz_0_0_clk_out1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="297003926"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="148501963"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="1"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
           <PARAMETER NAME="HAS_TREADY" VALUE="1"/>
@@ -1604,7 +1604,7 @@
             <CONNECTION INSTANCE="rx" PORT="mdt_tv"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="297003926" DIR="I" NAME="s_axis_aclk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
+        <PORT CLKFREQUENCY="148501963" DIR="I" NAME="s_axis_aclk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="video_aclk"/>
           </CONNECTIONS>
@@ -1664,7 +1664,7 @@
             <CONNECTION INSTANCE="External_Ports" PORT="video_aresetn"/>
           </CONNECTIONS>
         </PORT>
-        <PORT CLKFREQUENCY="297003926" DIR="I" NAME="vfb_clk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
+        <PORT CLKFREQUENCY="148501963" DIR="I" NAME="vfb_clk" SIGIS="clk" SIGNAME="External_Ports_video_aclk">
           <CONNECTIONS>
             <CONNECTION INSTANCE="External_Ports" PORT="video_aclk"/>
           </CONNECTIONS>
@@ -1723,7 +1723,7 @@
       <BUSINTERFACES>
         <BUSINTERFACE BUSNAME="rx_m_axis" NAME="s_axis" TYPE="TARGET" VLNV="xilinx.com:interface:axis:1.0">
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_clk_wiz_0_0_clk_out1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="297003926"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="148501963"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="1"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
           <PARAMETER NAME="HAS_TREADY" VALUE="1"/>
@@ -1747,7 +1747,7 @@
         </BUSINTERFACE>
         <BUSINTERFACE BUSNAME="vfb_0_m_vfb" NAME="m_vfb" TYPE="INITIATOR" VLNV="xilinx.com:interface:axis:1.0">
           <PARAMETER NAME="CLK_DOMAIN" VALUE="design_1_clk_wiz_0_0_clk_out1"/>
-          <PARAMETER NAME="FREQ_HZ" VALUE="297003926"/>
+          <PARAMETER NAME="FREQ_HZ" VALUE="148501963"/>
           <PARAMETER NAME="HAS_TKEEP" VALUE="0"/>
           <PARAMETER NAME="HAS_TLAST" VALUE="1"/>
           <PARAMETER NAME="HAS_TREADY" VALUE="1"/>

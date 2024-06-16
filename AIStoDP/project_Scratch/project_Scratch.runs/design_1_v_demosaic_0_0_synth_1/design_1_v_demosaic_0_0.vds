@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Sun Jun 16 22:32:55 2024
-# Process ID: 25588
+# Start of session at: Sun Jun 16 23:46:55 2024
+# Process ID: 24176
 # Current directory: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1
 # Command line: vivado.exe -log design_1_v_demosaic_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_v_demosaic_0_0.tcl
 # Log file: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/design_1_v_demosaic_0_0.vds
@@ -19,10 +19,10 @@
 # Host memory       :68621 MB
 # Swap memory       :62277 MB
 # Total Virtual     :130898 MB
-# Available Virtual :59429 MB
+# Available Virtual :77100 MB
 #-----------------------------------------------------------
 source design_1_v_demosaic_0_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 630.016 ; gain = 201.102
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 629.012 ; gain = 199.402
 ECHO is off.
 "PYTHONPATH" variable is set greater than default max string limit of "519" characters.
 Please ignore this, if you have already made changes to your system registry to accept more than
@@ -33,12 +33,12 @@ ECHO is off.
   **** SW Build 5069499 on May 21 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Sun Jun 16 22:33:08 2024
+  **** Start of session at: Sun Jun 16 23:47:08 2024
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/scripts/vitis_hls/hls.tcl -notrace
-INFO: [HLS 200-10] For user 'Teymo' on host 'tey' (Windows NT_amd64 version 10.0) on Sun Jun 16 22:33:09 +0100 2024
+INFO: [HLS 200-10] For user 'Teymo' on host 'tey' (Windows NT_amd64 version 10.0) on Sun Jun 16 23:47:09 +0100 2024
 INFO: [HLS 200-10] In directory 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1'
 Sourcing Tcl script 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/runhls.tcl'
 INFO: [HLS 200-1510] Running: open_project -reset prj 
@@ -90,16 +90,16 @@ INFO: [HLS 200-1510] Running: add_files -cflags  -I f:/Projects/Vivado/project_S
 INFO: [HLS 200-10] Adding design file 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls/hls_video_types.h' to the project
 INFO: [HLS 200-1510] Running: add_files -cflags  -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src  f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls/hls_video_undistort.h 
 INFO: [HLS 200-10] Adding design file 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls/hls_video_undistort.h' to the project
-INFO: [HLS 200-1510] Running: create_clock -period 3.367 -name ap_clk 
-INFO: [SYN 201-201] Setting up clock 'ap_clk' with a period of 3.367ns.
+INFO: [HLS 200-1510] Running: create_clock -period 6.734 -name ap_clk 
+INFO: [SYN 201-201] Setting up clock 'ap_clk' with a period of 6.734ns.
 INFO: [HLS 200-1510] Running: config_rtl -module_prefix design_1_v_demosaic_0_0_ 
 INFO: [HLS 200-1510] Running: config_export -vendor xilinx.com -library ip -version 1.1 
 INFO: [HLS 200-1510] Running: csynth_design 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.085 seconds; current allocated memory: 227.336 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.113 seconds; current allocated memory: 227.281 MB.
 INFO: [HLS 200-10] Analyzing design file '../../project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/v_demosaic.cpp' ... 
 WARNING: [HLS 207-5540] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:102:23)
 WARNING: [HLS 207-5540] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:104:23)
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 31.71 seconds; current allocated memory: 247.270 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5 seconds. CPU system time: 0 seconds. Elapsed time: 34.894 seconds; current allocated memory: 247.332 MB.
 INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
 INFO: [HLS 200-1995] There were 24,178 instructions in the design after the 'Compile/Link' phase of compilation. See the Design Size Report for more details: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/report/csynth_design_size.rpt
 INFO: [HLS 200-1995] There were 4,323 instructions in the design after the 'Unroll/Inline (step 1)' phase of compilation. See the Design Size Report for more details: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/report/csynth_design_size.rpt
@@ -436,12 +436,12 @@ INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at F:/Proj
 INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1090:30 
 INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1091:30 
 INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1092:30 
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 30.559 seconds; current allocated memory: 250.387 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 250.426 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 31.431 seconds; current allocated memory: 250.594 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 250.633 MB.
 INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.086 seconds; current allocated memory: 258.078 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 257.512 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.098 seconds; current allocated memory: 262.730 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.098 seconds; current allocated memory: 262.656 MB.
 WARNING: [XFORM 203-561] Updating loop upper bound from 65535 to 1920 for loop 'VITIS_LOOP_230_2' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:230:43) in function 'MultiPixStream2AXIvideo'.
 WARNING: [XFORM 203-561] Ignored invalid trip count directive (MAX (= 1920) < AVE (= 32767)) for loop 'VITIS_LOOP_230_2' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:230:43) in function 'MultiPixStream2AXIvideo'.
 WARNING: [XFORM 203-561] Updating loop upper bound from 65535 to 1080 for loop 'VITIS_LOOP_228_1' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:228:39) in function 'MultiPixStream2AXIvideo'.
@@ -480,7 +480,7 @@ INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (F:/Projects/V
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1129:51) to (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1159:17) in function 'ZipperRemoval'... converting 4 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1009:27) to (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1052:27) in function 'DebayerRandBatG'... converting 7 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:439:65) to (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:585:27) in function 'DebayerG'... converting 4 basic blocks.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 2.09 seconds; current allocated memory: 291.953 MB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.073 seconds; current allocated memory: 291.160 MB.
 WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'linebuf_yuv.3' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:283).
 WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'linebuf_yuv.2' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:283).
 WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'linebuf_yuv.1' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:283).
@@ -497,7 +497,7 @@ WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'lineBuffer
 WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'lineBuffer.i' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:862).
 WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'lineBuffer_1.i' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:862).
 WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'lineBuffer.i' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:862).
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.833 seconds; current allocated memory: 439.012 MB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.823 seconds; current allocated memory: 439.020 MB.
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-10] Synthesizing 'v_demosaic' ...
 WARNING: [SYN 201-103] Legalizing function name 'Block_entry.split_proc' to 'Block_entry_split_proc'.
@@ -507,13 +507,13 @@ INFO: [HLS 200-42] -- Implementing module 'Block_entry_split_proc'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.187 seconds; current allocated memory: 443.793 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.193 seconds; current allocated memory: 443.738 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.059 seconds; current allocated memory: 444.895 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 444.828 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'reg_unsigned_short_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -521,13 +521,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'reg<unsigned short>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'reg<unsigned short>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.077 seconds; current allocated memory: 445.789 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 445.688 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 445.844 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 446.008 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'AXIvideo2MultiBayer_Pipeline_loop_wait_for_start' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -535,13 +535,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'loop_wait_for_start'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'loop_wait_for_start'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.094 seconds; current allocated memory: 446.258 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.086 seconds; current allocated memory: 446.516 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.066 seconds; current allocated memory: 446.465 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 446.586 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'AXIvideo2MultiBayer_Pipeline_loop_width' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -549,13 +549,13 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'loop_width'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'loop_width'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.101 seconds; current allocated memory: 446.926 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.097 seconds; current allocated memory: 446.965 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.064 seconds; current allocated memory: 447.004 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 447.121 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -563,25 +563,25 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'loop_wait_for_eol'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'loop_wait_for_eol'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.088 seconds; current allocated memory: 447.328 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.096 seconds; current allocated memory: 447.281 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.069 seconds; current allocated memory: 447.453 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 447.348 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'AXIvideo2MultiBayer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 447.723 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 447.430 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.073 seconds; current allocated memory: 447.832 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 447.520 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'DebayerG_Pipeline_VITIS_LOOP_318_4' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -589,117 +589,117 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [HLS 200-486] Changing DSP latency (root=add_ln504_1) to 3 in order to utilize available DSP registers.
 INFO: [HLS 200-486] Changing DSP latency (root=add_ln504) to 3 in order to utilize available DSP registers.
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_318_4'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 21, loop 'VITIS_LOOP_318_4'
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 11, loop 'VITIS_LOOP_318_4'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.466 seconds; current allocated memory: 456.605 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.449 seconds; current allocated memory: 456.578 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.151 seconds; current allocated memory: 456.668 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.146 seconds; current allocated memory: 456.645 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'DebayerG' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.192 seconds; current allocated memory: 456.688 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.179 seconds; current allocated memory: 456.656 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 456.688 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 456.656 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_633_2'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 9, loop 'VITIS_LOOP_633_2'
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 5, loop 'VITIS_LOOP_633_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.238 seconds; current allocated memory: 458.672 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.246 seconds; current allocated memory: 458.223 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.106 seconds; current allocated memory: 458.820 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.122 seconds; current allocated memory: 458.230 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'DebayerRatBorBatR' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.132 seconds; current allocated memory: 458.906 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.144 seconds; current allocated memory: 458.238 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.071 seconds; current allocated memory: 459.172 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 458.316 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'DebayerRandBatG_Pipeline_VITIS_LOOP_881_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_881_2'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 7, loop 'VITIS_LOOP_881_2'
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_881_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.216 seconds; current allocated memory: 461.438 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.222 seconds; current allocated memory: 460.590 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.106 seconds; current allocated memory: 461.793 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 460.762 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'DebayerRandBatG' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.126 seconds; current allocated memory: 461.816 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.125 seconds; current allocated memory: 461.156 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.073 seconds; current allocated memory: 462.102 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 461.156 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'Debayer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.079 seconds; current allocated memory: 462.152 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 461.328 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 462.340 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.073 seconds; current allocated memory: 461.355 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'ZipperRemoval_Pipeline_VITIS_LOOP_1101_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_1101_2'.
-INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 5, loop 'VITIS_LOOP_1101_2'
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_1101_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.142 seconds; current allocated memory: 462.734 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.143 seconds; current allocated memory: 461.887 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 462.906 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.088 seconds; current allocated memory: 462.332 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'ZipperRemoval' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 463.066 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 462.375 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 463.129 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.084 seconds; current allocated memory: 462.801 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -707,75 +707,73 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_230_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'VITIS_LOOP_230_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.097 seconds; current allocated memory: 463.227 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 463.199 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 463.477 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 463.473 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'MultiPixStream2AXIvideo' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 463.523 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 463.516 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.071 seconds; current allocated memory: 463.676 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 463.652 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-42] -- Implementing module 'v_demosaic' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 463.789 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 463.723 MB.
 INFO: [BIND 205-100] Starting micro-architecture generation ...
 INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.077 seconds; current allocated memory: 464.230 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 464.074 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'Block_entry_split_proc' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'Block_entry_split_proc'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.093 seconds; current allocated memory: 465.504 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 465.297 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'reg_unsigned_short_s' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'reg_unsigned_short_s' pipeline 'reg<unsigned short>' pipeline type 'function pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'reg_unsigned_short_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 466.418 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.104 seconds; current allocated memory: 466.266 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiBayer_Pipeline_loop_wait_for_start' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiBayer_Pipeline_loop_wait_for_start'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.088 seconds; current allocated memory: 467.004 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.102 seconds; current allocated memory: 466.727 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiBayer_Pipeline_loop_width' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'AXIvideo2MultiBayer_Pipeline_loop_width' pipeline 'loop_width' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiBayer_Pipeline_loop_width'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.115 seconds; current allocated memory: 468.234 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.108 seconds; current allocated memory: 467.578 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.115 seconds; current allocated memory: 468.996 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.115 seconds; current allocated memory: 468.211 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiBayer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiBayer'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.119 seconds; current allocated memory: 470.098 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.122 seconds; current allocated memory: 469.914 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'DebayerG_Pipeline_VITIS_LOOP_318_4' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'DebayerG_Pipeline_VITIS_LOOP_318_4' pipeline 'VITIS_LOOP_318_4' pipeline type 'loop pipeline'
-INFO: [HLS 200-1552] Enabling free running pipeline (frp) architecture on pipeline 'VITIS_LOOP_318_4' in module 'DebayerG_Pipeline_VITIS_LOOP_318_4'. Estimated max control fanout for pipeline is 7572.
-INFO: [RTGEN 206-104] Estimated max fanout for 'DebayerG_Pipeline_VITIS_LOOP_318_4' is 5271 from HDL expression: (1'b0 == ap_block_pp0_stage0_11001)
 INFO: [RTGEN 206-100] Generating core module 'mac_muladd_14s_10ns_24s_25_4_1': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_14s_10ns_24_1_1': 2 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'mul_18s_8ns_18_1_1': 2 instance(s).
@@ -784,36 +782,36 @@ INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerG_Pipeline_VITIS_L
 INFO: [RTMG 210-279] Implementing memory 'design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R' using auto ROMs.
 INFO: [RTMG 210-279] Implementing memory 'design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV2_TABLE_ROM_AUTO_1R' using auto ROMs.
 INFO: [RTMG 210-278] Implementing memory 'design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W' using auto RAMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.649 seconds; current allocated memory: 479.137 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.513 seconds; current allocated memory: 476.223 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'DebayerG' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerG'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.669 seconds; current allocated memory: 488.164 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.65 seconds; current allocated memory: 485.676 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2' pipeline 'VITIS_LOOP_633_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2'.
 INFO: [RTMG 210-278] Implementing memory 'design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W' using auto RAMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.217 seconds; current allocated memory: 490.211 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.216 seconds; current allocated memory: 487.871 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'DebayerRatBorBatR' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerRatBorBatR'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.399 seconds; current allocated memory: 496.105 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.376 seconds; current allocated memory: 493.762 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'DebayerRandBatG_Pipeline_VITIS_LOOP_881_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'DebayerRandBatG_Pipeline_VITIS_LOOP_881_2' pipeline 'VITIS_LOOP_881_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_10_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerRandBatG_Pipeline_VITIS_LOOP_881_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.214 seconds; current allocated memory: 499.590 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.208 seconds; current allocated memory: 496.457 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'DebayerRandBatG' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerRandBatG'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.377 seconds; current allocated memory: 505.191 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.37 seconds; current allocated memory: 501.688 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'Debayer' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -824,29 +822,29 @@ INFO: [RTMG 210-285] Implementing FIFO 'imgRB_U(design_1_v_demosaic_0_0_fifo_w30
 INFO: [RTMG 210-285] Implementing FIFO 'bayerPhase_c_U(design_1_v_demosaic_0_0_fifo_w16_d2_S)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'start_for_DebayerRatBorBatR_U0_U(design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'start_for_DebayerRandBatG_U0_U(design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0)' using Shift Registers.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.233 seconds; current allocated memory: 506.543 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.229 seconds; current allocated memory: 503.441 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'ZipperRemoval_Pipeline_VITIS_LOOP_1101_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'ZipperRemoval_Pipeline_VITIS_LOOP_1101_2' pipeline 'VITIS_LOOP_1101_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'ZipperRemoval_Pipeline_VITIS_LOOP_1101_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.158 seconds; current allocated memory: 507.719 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.147 seconds; current allocated memory: 504.277 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'ZipperRemoval' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'ZipperRemoval'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.197 seconds; current allocated memory: 510.199 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.197 seconds; current allocated memory: 506.770 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2' pipeline 'VITIS_LOOP_230_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.145 seconds; current allocated memory: 511.219 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.133 seconds; current allocated memory: 507.812 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'MultiPixStream2AXIvideo' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [RTGEN 206-100] Finished creating RTL model for 'MultiPixStream2AXIvideo'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.144 seconds; current allocated memory: 511.738 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.136 seconds; current allocated memory: 508.852 MB.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'v_demosaic' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -874,19 +872,19 @@ WARNING: [RTGEN 206-101] RTL name 'fifo_w16_d2_S' is changed to 'fifo_w16_d2_S_x
 WARNING: [RTGEN 206-101] RTL name 'fifo_w30_d2_S' is changed to 'fifo_w30_d2_S_x' due to conflict.
 INFO: [RTGEN 206-100] Finished creating RTL model for 'v_demosaic'.
 INFO: [RTMG 210-285] Implementing FIFO 'bayer_phase_assign_channel_U(design_1_v_demosaic_0_0_fifo_w16_d2_S_x)' using Shift Registers.
-INFO: [RTMG 210-285] Implementing FIFO 'imgBayer_U(design_1_v_demosaic_0_0_fifo_w10_d3_S)' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'imgBayer_U(design_1_v_demosaic_0_0_fifo_w10_d2_S)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'imgRgb_U(design_1_v_demosaic_0_0_fifo_w30_d2_S_x)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'imgUnzip_U(design_1_v_demosaic_0_0_fifo_w30_d2_S_x)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'start_for_ZipperRemoval_U0_U(design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'start_for_MultiPixStream2AXIvideo_U0_U(design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0)' using Shift Registers.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.539 seconds; current allocated memory: 513.055 MB.
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.803 seconds; current allocated memory: 516.473 MB.
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.327 seconds; current allocated memory: 530.855 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.551 seconds; current allocated memory: 510.289 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.73 seconds; current allocated memory: 513.449 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.262 seconds; current allocated memory: 527.855 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for v_demosaic with prefix design_1_v_demosaic_0_0_.
 INFO: [VLOG 209-307] Generating Verilog RTL for v_demosaic with prefix design_1_v_demosaic_0_0_.
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
-INFO: [HLS 200-789] **** Estimated Fmax: 406.85 MHz
-INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:01:18; Allocated memory: 305.695 MB.
+INFO: [HLS 200-789] **** Estimated Fmax: 206.02 MHz
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:01:22; Allocated memory: 302.551 MB.
 INFO: [HLS 200-1510] Running: export_design -format ip_catalog 
 INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
 !! WARNING !!
@@ -899,17 +897,17 @@ default limit of 519 characters.
   **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
   **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
   **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-  **** Start of session at: Sun Jun 16 22:34:35 2024
+  **** Start of session at: Sun Jun 16 23:48:39 2024
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
     ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 
 source run_ippack.tcl -notrace
 INFO: calling package_hls_ip ip_types=vitis sysgen json_file=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/sol_data.json outdir=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip srcdir=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol sort_interfaces_ports=false
 INFO: Copied 1 ipmisc file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/misc
-INFO: Copied 49 verilog file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/verilog
-INFO: Copied 41 vhdl file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/vhdl
+INFO: Copied 47 verilog file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/verilog
+INFO: Copied 39 vhdl file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/vhdl
 INFO: Copied 10 swdriver file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/drivers
-ipx::create_core: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 635.125 ; gain = 194.047
+ipx::create_core: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 635.168 ; gain = 192.141
 INFO: Import ports from HDL: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/vhdl/design_1_v_demosaic_0_0_v_demosaic.vhd (design_1_v_demosaic_0_0_v_demosaic)
 INFO: Add axi4lite interface s_axi_CTRL
 INFO: Add clock interface ap_clk
@@ -925,22 +923,117 @@ INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/component.xml
 INFO: Created IP archive F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/xilinx_com_ip_v_demosaic_1_1.zip
-INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 22:34:45 2024...
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 23:48:50 2024...
 INFO: [HLS 200-802] Generated output file prj/sol/impl/export.zip
-INFO: [HLS 200-2161] Finished Command export_design Elapsed time: 00:00:15; Allocated memory: 4.844 MB.
-INFO: [HLS 200-112] Total CPU user time: 21 seconds. Total CPU system time: 3 seconds. Total elapsed time: 97.808 seconds; peak allocated memory: 537.324 MB.
-compile_c: Time (s): cpu = 00:00:01 ; elapsed = 00:01:40 . Memory (MB): peak = 683.965 ; gain = 0.000
+INFO: [HLS 200-2161] Finished Command export_design Elapsed time: 00:00:15; Allocated memory: 5.750 MB.
+INFO: [HLS 200-112] Total CPU user time: 22 seconds. Total CPU system time: 4 seconds. Total elapsed time: 101.681 seconds; peak allocated memory: 535.184 MB.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_Block_entry_split_proc.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_CTRL_s_axi.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_Debayer.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R.dat" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV2_TABLE_ROM_AUTO_1R.dat" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV2_TABLE_ROM_AUTO_1R.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRandBatG.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_fifo_w16_d2_S.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_fifo_w16_d2_S_x.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_fifo_w30_d2_S.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_fifo_w30_d2_S_x.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_detection_unit.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_detector.vh" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_idx0_monitor.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_idx1_monitor.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_kernel_monitor_top.vh" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_report_unit.vh" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_mul_18s_8ns_18_1_1.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_MultiPixStream2AXIvideo.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_reg_unsigned_short_s.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_regslice_both.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_sparsemux_7_2_10_1_1.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_ZipperRemoval.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_v_demosaic.v" already exists in file group "xilinx_veriloghlssynthesis", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_Block_entry_split_proc.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_CTRL_s_axi.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_Debayer.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R.dat" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV2_TABLE_ROM_AUTO_1R.dat" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV2_TABLE_ROM_AUTO_1R.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRandBatG.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_fifo_w16_d2_S.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_fifo_w16_d2_S_x.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_fifo_w30_d2_S.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_fifo_w30_d2_S_x.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_detection_unit.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_detector.vh" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_idx0_monitor.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_idx1_monitor.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_kernel_monitor_top.vh" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_hls_deadlock_report_unit.vh" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_mul_18s_8ns_18_1_1.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_MultiPixStream2AXIvideo.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_reg_unsigned_short_s.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_regslice_both.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_sparsemux_7_2_10_1_1.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_ZipperRemoval.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+WARNING: [IP_Flow 19-1971] File named "hdl/verilog/design_1_v_demosaic_0_0_v_demosaic.v" already exists in file group "xilinx_veriloghlssimulation", cannot add it again.
+compile_c: Time (s): cpu = 00:00:00 ; elapsed = 00:01:44 . Memory (MB): peak = 683.773 ; gain = 0.000
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_v_demosaic_0_0
 Command: synth_design -top design_1_v_demosaic_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
 Starting synth_design
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+F:/Projects/Vivado/project_Scratch/project_Scratch.srcs/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/design_1_v_demosaic_0_0.xci
+
 Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
 INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 6500
+INFO: [Synth 8-7075] Helper process launched with PID 30444
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2054.574 ; gain = 398.188
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2055.395 ; gain = 398.984
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-10515] begin/end is required for generate-for in this mode of Verilog [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:72]
 INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/synth/design_1_v_demosaic_0_0.v:53]
@@ -990,12 +1083,6 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_mac_muladd_14s
 INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:55]
-INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_frp_pipeline_valid' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:11]
-WARNING: [Synth 8-11581] system function call 'value$plusargs' not supported [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:54]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_frp_pipeline_valid' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:11]
-INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_frp_fifoout' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_fifoout.v:11]
-WARNING: [Synth 8-11581] system function call 'value$plusargs' not supported [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_fifoout.v:86]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_frp_fifoout' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_fifoout.v:11]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4.v:9]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_DebayerG' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerG.v:9]
 INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_DebayerRatBorBatR' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR.v:9]
@@ -1043,10 +1130,10 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_fifo_w16_d2_S_
 INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w16_d2_S_x.v:129]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w16_d2_S_x.v:129]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_fifo_w16_d2_S_x' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w16_d2_S_x.v:11]
-INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_fifo_w10_d3_S' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d3_S.v:11]
-INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_fifo_w10_d3_S_ShiftReg' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d3_S.v:129]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_fifo_w10_d3_S_ShiftReg' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d3_S.v:129]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_fifo_w10_d3_S' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d3_S.v:11]
+INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_fifo_w10_d2_S' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d2_S.v:11]
+INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d2_S.v:129]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d2_S.v:129]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_fifo_w10_d2_S' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d2_S.v:11]
 INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_fifo_w30_d2_S_x' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w30_d2_S_x.v:11]
 INFO: [Synth 8-6157] synthesizing module 'design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w30_d2_S_x.v:129]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_fifo_w30_d2_S_x.v:129]
@@ -1062,28 +1149,8 @@ INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_start_for
 INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0_v_demosaic' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_v_demosaic.v:9]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_v_demosaic_0_0' (0#1) [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/synth/design_1_v_demosaic_0_0.v:53]
 WARNING: [Synth 8-6014] Unused sequential element int_ap_done_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_CTRL_s_axi.v:290]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[0].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[1].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[2].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[3].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[4].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[5].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[6].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[7].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[8].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[9].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[10].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[11].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[12].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[13].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[14].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[15].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[16].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[17].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[18].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element genblk1[19].v1_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:69]
-WARNING: [Synth 8-6014] Unused sequential element incr_reg was removed.  [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v:112]
 WARNING: [Synth 8-7129] Port addr[1] in module design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg is either unconnected or has no load
 WARNING: [Synth 8-7129] Port addr[1] in module design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg is either unconnected or has no load
 WARNING: [Synth 8-7129] Port imgUnzip_num_data_valid[2] in module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 is either unconnected or has no load
 WARNING: [Synth 8-7129] Port imgUnzip_num_data_valid[1] in module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 is either unconnected or has no load
@@ -1182,21 +1249,20 @@ WARNING: [Synth 8-7129] Port imgG_fifo_cap[2] in module design_1_v_demosaic_0_0_
 WARNING: [Synth 8-7129] Port imgG_fifo_cap[1] in module design_1_v_demosaic_0_0_DebayerRatBorBatR is either unconnected or has no load
 WARNING: [Synth 8-7129] Port imgG_fifo_cap[0] in module design_1_v_demosaic_0_0_DebayerRatBorBatR is either unconnected or has no load
 WARNING: [Synth 8-7129] Port imgRB_num_data_valid[2] in module design_1_v_demosaic_0_0_DebayerRatBorBatR is either unconnected or has no load
-WARNING: [Synth 8-7129] Port imgRB_num_data_valid[1] in module design_1_v_demosaic_0_0_DebayerRatBorBatR is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2257.145 ; gain = 600.758
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2246.285 ; gain = 589.875
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2257.145 ; gain = 600.758
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2246.285 ; gain = 589.875
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2257.145 ; gain = 600.758
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2246.285 ; gain = 589.875
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.162 . Memory (MB): peak = 2257.145 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.124 . Memory (MB): peak = 2246.285 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -1209,14 +1275,14 @@ Parsing XDC File [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources
 Finished Parsing XDC File [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/design_1_v_demosaic_0_0.xdc] for cell 'inst'
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2360.184 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2346.965 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.163 . Memory (MB): peak = 2367.594 ; gain = 7.410
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.141 . Memory (MB): peak = 2351.547 ; gain = 4.582
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2367.594 ; gain = 711.207
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2351.547 ; gain = 695.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -1224,14 +1290,14 @@ Start Loading Part and Timing Information
 Loading part: xck26-sfvc784-2LV-c
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2367.594 ; gain = 711.207
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2351.547 ; gain = 695.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2367.594 ; gain = 711.207
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 2351.547 ; gain = 695.137
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'design_1_v_demosaic_0_0_CTRL_s_axi'
 INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'design_1_v_demosaic_0_0_CTRL_s_axi'
@@ -1239,10 +1305,9 @@ INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'desig
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'design_1_v_demosaic_0_0_regslice_both__parameterized0'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'design_1_v_demosaic_0_0_regslice_both__parameterized1'
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
-WARNING: [Synth 8-3936] Found unconnected internal register 'x_11_reg_3717_reg' and it is trimmed from '17' to '11' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4.v:2576]
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
-WARNING: [Synth 8-3936] Found unconnected internal register 'r_2_reg_2210_reg' and it is trimmed from '14' to '10' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2.v:1123]
+WARNING: [Synth 8-3936] Found unconnected internal register 'r_2_reg_2125_reg' and it is trimmed from '14' to '10' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2.v:916]
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'design_1_v_demosaic_0_0_regslice_both__parameterized2'
@@ -1308,7 +1373,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'design_1_v_demosaic_0_0_regslice_both__parameterized3'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 2367.594 ; gain = 711.207
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 2351.547 ; gain = 695.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -1318,24 +1383,21 @@ Detailed RTL Component Info :
 	   2 Input   26 Bit       Adders := 1     
 	   2 Input   17 Bit       Adders := 7     
 	   2 Input   16 Bit       Adders := 2     
-	   2 Input   14 Bit       Adders := 8     
+	   2 Input   15 Bit       Adders := 1     
+	   2 Input   14 Bit       Adders := 4     
+	   4 Input   14 Bit       Adders := 4     
 	   3 Input   14 Bit       Adders := 2     
-	   2 Input   13 Bit       Adders := 24    
+	   2 Input   13 Bit       Adders := 13    
 	   3 Input   13 Bit       Adders := 20    
-	   5 Input   13 Bit       Adders := 1     
-	   4 Input   12 Bit       Adders := 10    
-	   3 Input   12 Bit       Adders := 6     
-	   2 Input   12 Bit       Adders := 24    
-	   2 Input   11 Bit       Adders := 19    
+	   7 Input   13 Bit       Adders := 1     
+	   4 Input   12 Bit       Adders := 12    
+	   2 Input   12 Bit       Adders := 23    
+	   3 Input   12 Bit       Adders := 4     
+	   2 Input   11 Bit       Adders := 14    
+	   4 Input   11 Bit       Adders := 1     
 	   3 Input   11 Bit       Adders := 26    
-	   3 Input   10 Bit       Adders := 2     
-	   2 Input   10 Bit       Adders := 12    
-	   2 Input    9 Bit       Adders := 1     
-	   2 Input    7 Bit       Adders := 1     
-	   3 Input    7 Bit       Adders := 1     
-	   2 Input    6 Bit       Adders := 2     
-	   4 Input    5 Bit       Adders := 1     
-	   2 Input    5 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 14    
+	   4 Input   10 Bit       Adders := 1     
 	   2 Input    3 Bit       Adders := 8     
 	   2 Input    2 Bit       Adders := 12    
 	   2 Input    1 Bit       Adders := 4     
@@ -1345,57 +1407,51 @@ Detailed RTL Component Info :
 	   3 Input      1 Bit         XORs := 2     
 +---Registers : 
 	               32 Bit    Registers := 3     
-	               30 Bit    Registers := 14    
-	               26 Bit    Registers := 2     
-	               24 Bit    Registers := 2     
-	               18 Bit    Registers := 4     
-	               17 Bit    Registers := 6     
-	               16 Bit    Registers := 14    
-	               15 Bit    Registers := 7     
-	               14 Bit    Registers := 41    
-	               13 Bit    Registers := 13    
-	               12 Bit    Registers := 57    
-	               11 Bit    Registers := 43    
-	               10 Bit    Registers := 718   
-	                9 Bit    Registers := 7     
-	                8 Bit    Registers := 8     
-	                7 Bit    Registers := 4     
+	               30 Bit    Registers := 12    
+	               18 Bit    Registers := 3     
+	               17 Bit    Registers := 7     
+	               16 Bit    Registers := 15    
+	               15 Bit    Registers := 6     
+	               14 Bit    Registers := 21    
+	               13 Bit    Registers := 5     
+	               12 Bit    Registers := 22    
+	               11 Bit    Registers := 27    
+	               10 Bit    Registers := 443   
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 3     
 	                6 Bit    Registers := 2     
 	                5 Bit    Registers := 1     
 	                4 Bit    Registers := 11    
-	                3 Bit    Registers := 9     
+	                3 Bit    Registers := 8     
 	                2 Bit    Registers := 31    
-	                1 Bit    Registers := 397   
+	                1 Bit    Registers := 273   
 +---RAMs : 
 	              56K Bit	(1921 X 30 bit)          RAMs := 4     
 	              18K Bit	(1921 X 10 bit)          RAMs := 4     
 +---ROMs : 
 	                    ROMs := 5     
 +---Muxes : 
-	   2 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 1     
 	   2 Input   30 Bit        Muxes := 4     
-	   2 Input   17 Bit        Muxes := 1     
 	   2 Input   16 Bit        Muxes := 7     
 	   2 Input   15 Bit        Muxes := 1     
 	   2 Input   13 Bit        Muxes := 10    
 	   2 Input   12 Bit        Muxes := 23    
-	   5 Input   12 Bit        Muxes := 2     
-	   2 Input   10 Bit        Muxes := 231   
+	   2 Input   10 Bit        Muxes := 244   
 	   4 Input   10 Bit        Muxes := 1     
 	   2 Input    7 Bit        Muxes := 3     
 	   2 Input    6 Bit        Muxes := 2     
+	   3 Input    5 Bit        Muxes := 2     
 	   2 Input    5 Bit        Muxes := 1     
 	   4 Input    4 Bit        Muxes := 1     
 	   2 Input    4 Bit        Muxes := 13    
-	   3 Input    3 Bit        Muxes := 3     
+	   3 Input    3 Bit        Muxes := 1     
 	   2 Input    3 Bit        Muxes := 8     
-	   2 Input    2 Bit        Muxes := 174   
+	   2 Input    2 Bit        Muxes := 173   
 	   3 Input    2 Bit        Muxes := 42    
 	   4 Input    2 Bit        Muxes := 14    
-	   6 Input    2 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 217   
-	   8 Input    1 Bit        Muxes := 1     
-	   3 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 196   
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -1414,30 +1470,26 @@ Start Cross Boundary and Area Optimization
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 WARNING: [Synth 8-3936] Found unconnected internal register 'regslice_both_s_axis_video_V_data_V_U/data_p1_reg' and it is trimmed from '16' to '10' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_regslice_both.v:42]
 WARNING: [Synth 8-3936] Found unconnected internal register 'regslice_both_s_axis_video_V_data_V_U/data_p2_reg' and it is trimmed from '16' to '10' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_regslice_both.v:64]
-WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '46' to '25' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:45]
-WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '45' to '25' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:37]
 WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '46' to '25' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:45]
 WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '45' to '25' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:37]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg' and it is trimmed from '46' to '25' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:45]
+WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/m_reg_reg' and it is trimmed from '45' to '25' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:37]
 WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/a_reg_reg' and it is trimmed from '27' to '25' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:35]
 WARNING: [Synth 8-3936] Found unconnected internal register 'mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/a_reg_reg' and it is trimmed from '27' to '25' bits. [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/hdl/verilog/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1.v:35]
-DSP Report: Generating DSP lshr_ln501_1_reg_4342_reg, operation Mode is: (A2*B'')'.
-DSP Report: register lshr_ln501_1_reg_4342_reg is absorbed into DSP lshr_ln501_1_reg_4342_reg.
-DSP Report: register lshr_ln501_1_reg_4342_reg is absorbed into DSP lshr_ln501_1_reg_4342_reg.
-DSP Report: register norm_reg_4329_reg is absorbed into DSP lshr_ln501_1_reg_4342_reg.
-DSP Report: register lshr_ln501_1_reg_4342_reg is absorbed into DSP lshr_ln501_1_reg_4342_reg.
-DSP Report: operator mul_18s_8ns_18_1_1_U56/tmp_product is absorbed into DSP lshr_ln501_1_reg_4342_reg.
-DSP Report: Generating DSP mul_ln504_1_reg_4377_reg, operation Mode is: (A''*B2)'.
-DSP Report: register mul_ln504_1_reg_4377_reg is absorbed into DSP mul_ln504_1_reg_4377_reg.
-DSP Report: register ave_1_reg_4068_pp0_iter13_reg_reg is absorbed into DSP mul_ln504_1_reg_4377_reg.
-DSP Report: register ave_1_reg_4068_pp0_iter14_reg_reg is absorbed into DSP mul_ln504_1_reg_4377_reg.
-DSP Report: register mul_ln504_1_reg_4377_reg is absorbed into DSP mul_ln504_1_reg_4377_reg.
-DSP Report: operator mul_14s_10ns_24_1_1_U59/tmp_product is absorbed into DSP mul_ln504_1_reg_4377_reg.
-DSP Report: Generating DSP lshr_ln_reg_4337_reg, operation Mode is: (A2*B'')'.
-DSP Report: register lshr_ln_reg_4337_reg is absorbed into DSP lshr_ln_reg_4337_reg.
-DSP Report: register lshr_ln_reg_4337_reg is absorbed into DSP lshr_ln_reg_4337_reg.
-DSP Report: register norm_reg_4329_reg is absorbed into DSP lshr_ln_reg_4337_reg.
-DSP Report: register lshr_ln_reg_4337_reg is absorbed into DSP lshr_ln_reg_4337_reg.
-DSP Report: operator mul_18s_9ns_18_1_1_U55/tmp_product is absorbed into DSP lshr_ln_reg_4337_reg.
+DSP Report: Generating DSP lshr_ln501_1_reg_4228_reg, operation Mode is: (A2*B2)'.
+DSP Report: register lshr_ln501_1_reg_4228_reg is absorbed into DSP lshr_ln501_1_reg_4228_reg.
+DSP Report: register DIV2_TABLE_U/q0_reg is absorbed into DSP lshr_ln501_1_reg_4228_reg.
+DSP Report: register lshr_ln501_1_reg_4228_reg is absorbed into DSP lshr_ln501_1_reg_4228_reg.
+DSP Report: operator mul_18s_8ns_18_1_1_U56/tmp_product is absorbed into DSP lshr_ln501_1_reg_4228_reg.
+DSP Report: Generating DSP mul_14s_10ns_24_1_1_U59/tmp_product, operation Mode is: A''*B2.
+DSP Report: register mul_14s_10ns_24_1_1_U59/tmp_product is absorbed into DSP mul_14s_10ns_24_1_1_U59/tmp_product.
+DSP Report: register ave_1_reg_4055_pp0_iter6_reg_reg is absorbed into DSP mul_14s_10ns_24_1_1_U59/tmp_product.
+DSP Report: register ave_1_reg_4055_pp0_iter7_reg_reg is absorbed into DSP mul_14s_10ns_24_1_1_U59/tmp_product.
+DSP Report: operator mul_14s_10ns_24_1_1_U59/tmp_product is absorbed into DSP mul_14s_10ns_24_1_1_U59/tmp_product.
+DSP Report: Generating DSP mul_18s_9ns_18_1_1_U55/tmp_product, operation Mode is: A2*B2.
+DSP Report: register mul_18s_9ns_18_1_1_U55/tmp_product is absorbed into DSP mul_18s_9ns_18_1_1_U55/tmp_product.
+DSP Report: register DIV2_TABLE_U/q0_reg is absorbed into DSP mul_18s_9ns_18_1_1_U55/tmp_product.
+DSP Report: operator mul_18s_9ns_18_1_1_U55/tmp_product is absorbed into DSP mul_18s_9ns_18_1_1_U55/tmp_product.
 DSP Report: Generating DSP mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg, operation Mode is: (C+(A2*B'')')'.
 DSP Report: register mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg is absorbed into DSP mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg.
 DSP Report: register mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg is absorbed into DSP mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg.
@@ -1446,24 +1498,20 @@ DSP Report: register mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_
 DSP Report: register mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/m_reg_reg is absorbed into DSP mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg.
 DSP Report: operator mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p is absorbed into DSP mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg.
 DSP Report: operator mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/m is absorbed into DSP mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg.
-DSP Report: Generating DSP lshr_ln501_2_reg_4347_reg, operation Mode is: (A2*B'')'.
-DSP Report: register lshr_ln501_2_reg_4347_reg is absorbed into DSP lshr_ln501_2_reg_4347_reg.
-DSP Report: register lshr_ln501_2_reg_4347_reg is absorbed into DSP lshr_ln501_2_reg_4347_reg.
-DSP Report: register norm_reg_4329_reg is absorbed into DSP lshr_ln501_2_reg_4347_reg.
-DSP Report: register lshr_ln501_2_reg_4347_reg is absorbed into DSP lshr_ln501_2_reg_4347_reg.
-DSP Report: operator mul_18s_8ns_18_1_1_U57/tmp_product is absorbed into DSP lshr_ln501_2_reg_4347_reg.
-DSP Report: Generating DSP mul_ln504_2_reg_4382_reg, operation Mode is: (A''*B2)'.
-DSP Report: register mul_ln504_2_reg_4382_reg is absorbed into DSP mul_ln504_2_reg_4382_reg.
-DSP Report: register ave_2_reg_4084_pp0_iter13_reg_reg is absorbed into DSP mul_ln504_2_reg_4382_reg.
-DSP Report: register ave_2_reg_4084_pp0_iter14_reg_reg is absorbed into DSP mul_ln504_2_reg_4382_reg.
-DSP Report: register mul_ln504_2_reg_4382_reg is absorbed into DSP mul_ln504_2_reg_4382_reg.
-DSP Report: operator mul_14s_10ns_24_1_1_U60/tmp_product is absorbed into DSP mul_ln504_2_reg_4382_reg.
-DSP Report: Generating DSP lshr_ln501_3_reg_4352_reg, operation Mode is: (A2*B'')'.
-DSP Report: register lshr_ln501_3_reg_4352_reg is absorbed into DSP lshr_ln501_3_reg_4352_reg.
-DSP Report: register lshr_ln501_3_reg_4352_reg is absorbed into DSP lshr_ln501_3_reg_4352_reg.
-DSP Report: register norm_reg_4329_reg is absorbed into DSP lshr_ln501_3_reg_4352_reg.
-DSP Report: register lshr_ln501_3_reg_4352_reg is absorbed into DSP lshr_ln501_3_reg_4352_reg.
-DSP Report: operator mul_18s_9ns_18_1_1_U58/tmp_product is absorbed into DSP lshr_ln501_3_reg_4352_reg.
+DSP Report: Generating DSP lshr_ln501_2_reg_4233_reg, operation Mode is: (A2*B2)'.
+DSP Report: register lshr_ln501_2_reg_4233_reg is absorbed into DSP lshr_ln501_2_reg_4233_reg.
+DSP Report: register DIV2_TABLE_U/q0_reg is absorbed into DSP lshr_ln501_2_reg_4233_reg.
+DSP Report: register lshr_ln501_2_reg_4233_reg is absorbed into DSP lshr_ln501_2_reg_4233_reg.
+DSP Report: operator mul_18s_8ns_18_1_1_U57/tmp_product is absorbed into DSP lshr_ln501_2_reg_4233_reg.
+DSP Report: Generating DSP mul_14s_10ns_24_1_1_U60/tmp_product, operation Mode is: A''*B2.
+DSP Report: register mul_14s_10ns_24_1_1_U60/tmp_product is absorbed into DSP mul_14s_10ns_24_1_1_U60/tmp_product.
+DSP Report: register ave_2_reg_4070_pp0_iter6_reg_reg is absorbed into DSP mul_14s_10ns_24_1_1_U60/tmp_product.
+DSP Report: register ave_2_reg_4070_pp0_iter7_reg_reg is absorbed into DSP mul_14s_10ns_24_1_1_U60/tmp_product.
+DSP Report: operator mul_14s_10ns_24_1_1_U60/tmp_product is absorbed into DSP mul_14s_10ns_24_1_1_U60/tmp_product.
+DSP Report: Generating DSP mul_18s_9ns_18_1_1_U58/tmp_product, operation Mode is: A2*B2.
+DSP Report: register mul_18s_9ns_18_1_1_U58/tmp_product is absorbed into DSP mul_18s_9ns_18_1_1_U58/tmp_product.
+DSP Report: register DIV2_TABLE_U/q0_reg is absorbed into DSP mul_18s_9ns_18_1_1_U58/tmp_product.
+DSP Report: operator mul_18s_9ns_18_1_1_U58/tmp_product is absorbed into DSP mul_18s_9ns_18_1_1_U58/tmp_product.
 DSP Report: Generating DSP mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg, operation Mode is: (C+(A2*B'')')'.
 DSP Report: register mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg is absorbed into DSP mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg.
 DSP Report: register mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg is absorbed into DSP mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg.
@@ -1499,35 +1547,34 @@ WARNING: [Synth 8-3332] Sequential element (MultiPixStream2AXIvideo_U0/regslice_
 WARNING: [Synth 8-3332] Sequential element (MultiPixStream2AXIvideo_U0/regslice_both_m_axis_video_V_dest_V_U/FSM_sequential_state_reg[1]) is unused and will be removed from module design_1_v_demosaic_0_0_v_demosaic.
 WARNING: [Synth 8-3332] Sequential element (MultiPixStream2AXIvideo_U0/regslice_both_m_axis_video_V_dest_V_U/FSM_sequential_state_reg[0]) is unused and will be removed from module design_1_v_demosaic_0_0_v_demosaic.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 2367.594 ; gain = 711.207
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 2351.547 ; gain = 695.137
 ---------------------------------------------------------------------------------
  Sort Area is  mac_muladd_14s_10ns_24s_25_4_1_U61/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg_6 : 0 0 : 2155 2155 : Used 1 time 0
  Sort Area is  mac_muladd_14s_10ns_24s_25_4_1_U62/design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U/p_reg_reg_b : 0 0 : 2155 2155 : Used 1 time 0
- Sort Area is  lshr_ln501_3_reg_4352_reg_0 : 0 0 : 1222 1222 : Used 1 time 0
- Sort Area is  lshr_ln_reg_4337_reg_8 : 0 0 : 1222 1222 : Used 1 time 0
- Sort Area is  mul_ln504_1_reg_4377_reg_a : 0 0 : 1170 1170 : Used 1 time 0
- Sort Area is  mul_ln504_2_reg_4382_reg_4 : 0 0 : 1170 1170 : Used 1 time 0
- Sort Area is  lshr_ln501_1_reg_4342_reg_9 : 0 0 : 1114 1114 : Used 1 time 0
- Sort Area is  lshr_ln501_2_reg_4347_reg_2 : 0 0 : 1114 1114 : Used 1 time 0
+ Sort Area is  mul_18s_9ns_18_1_1_U55/tmp_product_8 : 0 0 : 1194 1194 : Used 1 time 0
+ Sort Area is  mul_18s_9ns_18_1_1_U58/tmp_product_0 : 0 0 : 1194 1194 : Used 1 time 0
+ Sort Area is  mul_14s_10ns_24_1_1_U59/tmp_product_a : 0 0 : 1146 1146 : Used 1 time 0
+ Sort Area is  mul_14s_10ns_24_1_1_U60/tmp_product_4 : 0 0 : 1146 1146 : Used 1 time 0
+ Sort Area is  lshr_ln501_1_reg_4228_reg_9 : 0 0 : 1105 1105 : Used 1 time 0
+ Sort Area is  lshr_ln501_2_reg_4233_reg_2 : 0 0 : 1105 1105 : Used 1 time 0
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
 ROM: Preliminary Mapping Report
-+-----------------------------------------------------------+--------------------------+---------------+----------------+
-|Module Name                                                | RTL Object               | Depth x Width | Implemented As | 
-+-----------------------------------------------------------+--------------------------+---------------+----------------+
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | var_quant_3_reg_4281_reg | 1024x10       | Block RAM      | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | var_quant_2_reg_4261_reg | 1024x10       | Block RAM      | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | var_quant_reg_4266_reg   | 1024x10       | Block RAM      | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | var_quant_1_reg_4256_reg | 1024x10       | Block RAM      | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV2_TABLE_U/q0_reg      | 4096x18       | Block RAM      | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | var_quant_3_reg_4281_reg | 1024x10       | Block RAM      | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | var_quant_2_reg_4261_reg | 1024x10       | Block RAM      | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | var_quant_reg_4266_reg   | 1024x10       | Block RAM      | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | var_quant_1_reg_4256_reg | 1024x10       | Block RAM      | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV2_TABLE_U/q0_reg      | 4096x18       | Block RAM      | 
-+-----------------------------------------------------------+--------------------------+---------------+----------------+
++-----------------------------------------------------------+---------------------+---------------+----------------+
+|Module Name                                                | RTL Object          | Depth x Width | Implemented As | 
++-----------------------------------------------------------+---------------------+---------------+----------------+
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV1_TABLE_U/q1_reg | 1024x10       | Block RAM      | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV1_TABLE_U/q3_reg | 1024x10       | Block RAM      | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV1_TABLE_U/q0_reg | 1024x10       | Block RAM      | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV1_TABLE_U/q2_reg | 1024x10       | Block RAM      | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | p_0_out             | 4096x18       | LUT            | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV1_TABLE_U/q1_reg | 1024x10       | Block RAM      | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV1_TABLE_U/q3_reg | 1024x10       | Block RAM      | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV1_TABLE_U/q0_reg | 1024x10       | Block RAM      | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | DIV1_TABLE_U/q2_reg | 1024x10       | Block RAM      | 
++-----------------------------------------------------------+---------------------+---------------+----------------+
 
 
 Block RAM: Preliminary Mapping Report (see note below)
@@ -1535,9 +1582,9 @@ Block RAM: Preliminary Mapping Report (see note below)
 |Module Name                                                                               | RTL Object                                                                    | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
 +------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
 |inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_3_U/ram_reg                                                       | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
+|inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_2_U/ram_reg                                                       | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
 |inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_1_U/ram_reg                                                       | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
 |inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_U/ram_reg                                                         | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
-|inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_2_U/ram_reg                                                       | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
 |inst/Debayer_U0/DebayerRatBorBatR_U0                                                      | grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/lineBuffer_1_U/ram_reg | 1 K x 30(READ_FIRST)   | W |   | 1 K x 30(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 1,1             | 
 |inst/Debayer_U0/DebayerRatBorBatR_U0                                                      | grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/lineBuffer_U/ram_reg   | 1 K x 30(READ_FIRST)   | W |   | 1 K x 30(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 1,1             | 
 |inst/Debayer_U0/\DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134  | lineBuffer_2_U/ram_reg                                                        | 1 K x 30(READ_FIRST)   | W |   | 1 K x 30(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 1,1             | 
@@ -1550,13 +1597,13 @@ DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding R
 +-----------------------------------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
 |Module Name                                                | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
 +-----------------------------------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A2*B'')'      | 18     | 9      | -      | -      | 18     | 1    | 2    | -    | -    | -     | 1    | 0    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A''*B2)'      | 14     | 11     | -      | -      | 25     | 2    | 1    | -    | -    | -     | 1    | 0    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A2*B'')'      | 18     | 10     | -      | -      | 18     | 1    | 2    | -    | -    | -     | 1    | 0    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A2*B2)'       | 18     | 9      | -      | -      | 18     | 1    | 1    | -    | -    | -     | 1    | 0    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | A''*B2         | 14     | 11     | -      | -      | 25     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | A2*B2          | 18     | 10     | -      | -      | 28     | 1    | 1    | -    | -    | -     | 0    | 0    | 
 |design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (C+(A2*B'')')' | 18     | 15     | 24     | -      | 25     | 1    | 2    | 0    | -    | -     | 1    | 1    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A2*B'')'      | 18     | 9      | -      | -      | 18     | 1    | 2    | -    | -    | -     | 1    | 0    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A''*B2)'      | 14     | 11     | -      | -      | 25     | 2    | 1    | -    | -    | -     | 1    | 0    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A2*B'')'      | 18     | 10     | -      | -      | 18     | 1    | 2    | -    | -    | -     | 1    | 0    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A2*B2)'       | 18     | 9      | -      | -      | 18     | 1    | 1    | -    | -    | -     | 1    | 0    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | A''*B2         | 14     | 11     | -      | -      | 25     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | A2*B2          | 18     | 10     | -      | -      | 28     | 1    | 1    | -    | -    | -     | 0    | 0    | 
 |design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (C+(A2*B'')')' | 18     | 15     | 24     | -      | 25     | 1    | 2    | 0    | -    | -     | 1    | 1    | 
 +-----------------------------------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
 
@@ -1568,7 +1615,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 2764.512 ; gain = 1108.125
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:00:49 . Memory (MB): peak = 2754.762 ; gain = 1098.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
@@ -1582,7 +1629,7 @@ INFO: [Synth 8-7124] RAM ("inst/Debayer_U0/\DebayerRandBatG_U0/grp_DebayerRandBa
 INFO: [Synth 8-5556] The block RAM "inst/Debayer_U0/\DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134 /lineBuffer_U/ram_reg" may be mapped as a cascade chain, because it is not timing critical.
 INFO: [Synth 8-7124] RAM ("inst/Debayer_U0/\DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134 /lineBuffer_U/ram_reg") is implemented using BRAM instead of URAM. Memory would be severely underutilized if URAMs are used
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:00:51 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Finished Timing Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:00:53 . Memory (MB): peak = 2853.934 ; gain = 1197.523
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -1593,9 +1640,9 @@ Block RAM: Final Mapping Report
 |Module Name                                                                               | RTL Object                                                                    | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
 +------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
 |inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_3_U/ram_reg                                                       | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
+|inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_2_U/ram_reg                                                       | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
 |inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_1_U/ram_reg                                                       | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
 |inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_U/ram_reg                                                         | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
-|inst/Debayer_U0/\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184                | linebuf_yuv_2_U/ram_reg                                                       | 1 K x 10(READ_FIRST)   | W |   | 1 K x 10(WRITE_FIRST)  |   | R | Port A and B     | 0      | 1      | 1               | 
 |inst/Debayer_U0/DebayerRatBorBatR_U0                                                      | grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/lineBuffer_1_U/ram_reg | 1 K x 30(READ_FIRST)   | W |   | 1 K x 30(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 1,1             | 
 |inst/Debayer_U0/DebayerRatBorBatR_U0                                                      | grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/lineBuffer_U/ram_reg   | 1 K x 30(READ_FIRST)   | W |   | 1 K x 30(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 1,1             | 
 |inst/Debayer_U0/\DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134  | lineBuffer_2_U/ram_reg                                                        | 1 K x 30(READ_FIRST)   | W |   | 1 K x 30(WRITE_FIRST)  |   | R | Port A and B     | 0      | 2      | 1,1             | 
@@ -1609,10 +1656,13 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/linebuf_yuv_3_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/linebuf_yuv_2_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/linebuf_yuv_1_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/linebuf_yuv_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/DIV2_TABLE_U/q0_reg_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
-INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/DIV2_TABLE_U/q0_reg_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/DIV1_TABLE_U/q1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/DIV1_TABLE_U/q1_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/DIV1_TABLE_U/q0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/DIV1_TABLE_U/q0_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/lineBuffer_1_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/lineBuffer_1_U/ram_reg_bram_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/lineBuffer_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
@@ -1622,7 +1672,7 @@ INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerRandBatG
 INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134/lineBuffer_U/ram_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance inst/Debayer_U0/DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134/lineBuffer_U/ram_reg_bram_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Finished Technology Mapping : Time (s): cpu = 00:00:55 ; elapsed = 00:00:55 . Memory (MB): peak = 2853.934 ; gain = 1197.523
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -1640,111 +1690,83 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:57 ; elapsed = 00:00:57 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Finished IO Insertion : Time (s): cpu = 00:00:59 ; elapsed = 00:00:59 . Memory (MB): peak = 2863.961 ; gain = 1207.551
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:57 ; elapsed = 00:00:57 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:59 ; elapsed = 00:00:59 . Memory (MB): peak = 2863.961 ; gain = 1207.551
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:58 ; elapsed = 00:00:58 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:00 ; elapsed = 00:01:00 . Memory (MB): peak = 2863.961 ; gain = 1207.551
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:58 ; elapsed = 00:00:58 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:00 ; elapsed = 00:01:00 . Memory (MB): peak = 2863.961 ; gain = 1207.551
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:00 ; elapsed = 00:01:00 . Memory (MB): peak = 2863.961 ; gain = 1207.551
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:00 ; elapsed = 00:01:00 . Memory (MB): peak = 2863.961 ; gain = 1207.551
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 
 Static Shift Register Report:
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|Module Name                        | RTL Name                                                                                                                                         | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load65_reg_3805_pp0_iter18_reg_reg[9]                                     | 16     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ap_loop_exit_ready_pp0_iter19_reg_reg                                       | 19     | 1     | NO           | NO                 | YES               | 0      | 1       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/icmp_ln318_reg_3713_pp0_iter18_reg_reg[0]                                   | 16     | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load67_reg_3854_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load69_reg_3798_pp0_iter18_reg_reg[9]                                     | 16     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load71_reg_3849_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load73_reg_3791_pp0_iter18_reg_reg[9]                                     | 16     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/cmp147_reg_3726_pp0_iter2_reg_reg[0]                                        | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load_reg_3931_pp0_iter18_reg_reg[9]                                       | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load51_reg_3926_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load52_reg_3921_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load53_reg_3916_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load54_reg_3911_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load55_reg_3905_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load56_reg_3900_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load57_reg_3895_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load58_reg_3890_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load59_reg_3885_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load60_reg_3880_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load61_reg_3874_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load62_reg_3869_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load63_reg_3864_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load64_reg_3859_pp0_iter18_reg_reg[9]                                     | 15     | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/icmp_ln439_reg_3750_pp0_iter18_reg_reg[0]                                   | 19     | 1     | NO           | NO                 | YES               | 0      | 1       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/g_2_reg_723_pp0_iter18_reg_reg[9]                                           | 15     | 10    | NO           | NO                 | YES               | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_1_reg_4068_pp0_iter12_reg_reg[13]                                       | 8      | 14    | NO           | NO                 | YES               | 14     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/SD_reg_4110_pp0_iter7_reg_reg[9]                                            | 4      | 10    | NO           | YES                | YES               | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_reg_4142_pp0_iter12_reg_reg[13]                                         | 7      | 14    | NO           | NO                 | YES               | 14     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_2_reg_4084_pp0_iter12_reg_reg[13]                                       | 8      | 14    | NO           | NO                 | YES               | 14     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_3_reg_4158_pp0_iter12_reg_reg[13]                                       | 7      | 14    | NO           | NO                 | YES               | 14     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/tmp_53_reg_3757_pp0_iter19_reg_reg[0]                                       | 20     | 1     | NO           | NO                 | YES               | 0      | 1       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/and_ln833_reg_2152_pp0_iter7_reg_reg[0]                   | 8      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/icmp_ln772_reg_2148_pp0_iter4_reg_reg[0]                  | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/pix_3_reg_533_pp0_iter6_reg_reg[9]                        | 3      | 10    | NO           | NO                 | YES               | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_2_0_0_09101516_i_load_reg_2277_pp0_iter6_reg_reg[9]   | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/ap_loop_exit_ready_pp0_iter7_reg_reg                      | 7      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_1_0_0_09091514_i_load_reg_2195_pp0_iter6_reg_reg[9]   | 4      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_0_0_09081512_i_load_reg_2272_pp0_iter6_reg_reg[9]   | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_0948_114981509_i_load_reg_2266_pp0_iter6_reg_reg[9] | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_0949_114961507_i_load_reg_2261_pp0_iter6_reg_reg[9] | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_0950_114941505_i_load_reg_2255_pp0_iter6_reg_reg[9] | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_2_0_0_09161504_i_load_reg_2250_pp0_iter6_reg_reg[9]   | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_1_0_0_09151502_i_load_reg_2188_pp0_iter6_reg_reg[9]   | 4      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_0_0_09141500_i_load_reg_2245_pp0_iter6_reg_reg[9]   | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_0948_21437_i_load_reg_2310_pp0_iter6_reg_reg[9]     | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_0949_21434_i_load_reg_2305_pp0_iter6_reg_reg[9]     | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_0950_21431_i_load_reg_2299_pp0_iter6_reg_reg[9]     | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_09481407_i_load_reg_2293_pp0_iter6_reg_reg[9]       | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_09491404_i_load_reg_2288_pp0_iter6_reg_reg[9]       | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/p_0_0_09501401_i_load_reg_2282_pp0_iter6_reg_reg[9]       | 3      | 10    | NO           | NO                 | NO                | 10     | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134/and_ln1052_reg_1957_pp0_iter5_reg_reg[0]                      | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134/icmp_ln1014_reg_1950_pp0_iter5_reg_reg[0]                     | 6      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134/ap_loop_exit_ready_pp0_iter5_reg_reg                          | 5      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | ZipperRemoval_U0/grp_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2_fu_104/icmp_ln1159_reg_725_pp0_iter3_reg_reg[0]                                    | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-|design_1_v_demosaic_0_0_v_demosaic | ZipperRemoval_U0/grp_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2_fu_104/ap_loop_exit_ready_pp0_iter3_reg_reg                                        | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
-+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
-
-
-Dynamic Shift Register Report:
-+------------+----------------+--------+------------+--------+---------+--------+--------+--------+
-|Module Name | RTL Name       | Length | Data Width | SRL16E | SRLC32E | Mux F7 | Mux F8 | Mux F9 | 
-+------------+----------------+--------+------------+--------+---------+--------+--------+--------+
-|dsrl        | fifo_reg[21]   | 32     | 32         | 0      | 32      | 0      | 0      | 0      | 
-|dsrl__1     | SRL_SIG_reg[2] | 10     | 10         | 10     | 0       | 0      | 0      | 0      | 
-+------------+----------------+--------+------------+--------+---------+--------+--------+--------+
++-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                        | RTL Name                                                                                                                        | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/tmp_53_reg_3872_pp0_iter9_reg_reg[0]                       | 10     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/g_2_reg_723_pp0_iter8_reg_reg[9]                           | 7      | 10    | NO           | NO                 | YES               | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/icmp_ln439_reg_3865_pp0_iter9_reg_reg[0]                   | 10     | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_1_reg_4055_pp0_iter5_reg_reg[13]                       | 3      | 12    | NO           | NO                 | YES               | 12     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_1_reg_4055_pp0_iter5_reg_reg[1]                        | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_reg_4028_pp0_iter4_reg_reg[13]                         | 3      | 14    | NO           | NO                 | YES               | 14     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_2_reg_4070_pp0_iter5_reg_reg[13]                       | 3      | 12    | NO           | NO                 | YES               | 12     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_2_reg_4070_pp0_iter5_reg_reg[1]                        | 4      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ave_3_reg_4085_pp0_iter4_reg_reg[1]                        | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load65_reg_3896_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/ap_loop_exit_ready_pp0_iter9_reg_reg                       | 9      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/icmp_ln318_reg_3809_pp0_iter8_reg_reg[0]                   | 8      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load67_reg_3891_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load69_reg_3886_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load71_reg_3881_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load73_reg_3876_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load_reg_3976_pp0_iter8_reg_reg[9]                       | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load51_reg_3971_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load52_reg_3965_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load53_reg_3960_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load54_reg_3955_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load55_reg_3949_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load56_reg_3944_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load57_reg_3939_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load58_reg_3933_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load59_reg_3928_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load60_reg_3923_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load61_reg_3917_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load62_reg_3912_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load63_reg_3907_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/p_load64_reg_3901_pp0_iter8_reg_reg[9]                     | 7      | 10    | NO           | NO                 | NO                | 10     | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/and_ln833_reg_2193_pp0_iter3_reg_reg[0]  | 4      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/icmp_ln772_reg_2189_pp0_iter2_reg_reg[0] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRatBorBatR_U0/grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/ap_loop_exit_ready_pp0_iter3_reg_reg     | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134/and_ln1052_reg_2007_pp0_iter2_reg_reg[0]     | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|design_1_v_demosaic_0_0_v_demosaic | Debayer_U0/DebayerRandBatG_U0/grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134/icmp_ln1014_reg_2000_pp0_iter2_reg_reg[0]    | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
 
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -1757,14 +1779,14 @@ DSP Final Report (the ' indicates corresponding REG is set)
 +-----------------------------------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
 |Module Name                                                | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
 +-----------------------------------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A'*B'')'      | 30     | 8      | -      | -      | 18     | 1    | 2    | -    | -    | -     | 0    | 1    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A''*B')'      | 30     | 10     | -      | -      | 24     | 2    | 1    | -    | -    | -     | 0    | 1    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A'*B'')'      | 30     | 9      | -      | -      | 18     | 1    | 2    | -    | -    | -     | 0    | 1    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A'*B'')'      | 30     | 8      | -      | -      | 18     | 1    | 2    | -    | -    | -     | 0    | 1    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A''*B')'      | 30     | 10     | -      | -      | 24     | 2    | 1    | -    | -    | -     | 0    | 1    | 
-|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A'*B'')'      | 30     | 9      | -      | -      | 18     | 1    | 2    | -    | -    | -     | 0    | 1    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A'*B')'       | 30     | 8      | -      | -      | 18     | 1    | 1    | -    | -    | -     | 0    | 1    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (A'*B')'       | 30     | 8      | -      | -      | 18     | 1    | 1    | -    | -    | -     | 0    | 1    | 
 |design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (C+(A'*B'')')' | 10     | 18     | 48     | -      | 25     | 1    | 2    | 2    | -    | -     | 1    | 1    | 
 |design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | (C+(A'*B'')')' | 10     | 18     | 48     | -      | 25     | 1    | 2    | 2    | -    | -     | 1    | 1    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | A''*B'         | 30     | 10     | -      | -      | 25     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | A''*B'         | 30     | 10     | -      | -      | 25     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | A'*B'          | 30     | 9      | -      | -      | 28     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 | A'*B'          | 30     | 9      | -      | -      | 28     | 1    | 1    | -    | -    | -     | 0    | 0    | 
 +-----------------------------------------------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
 
 
@@ -1778,57 +1800,57 @@ Report Cell Usage:
 +------+----------------+------+
 |      |Cell            |Count |
 +------+----------------+------+
-|1     |CARRY8          |   267|
+|1     |CARRY8          |   240|
 |2     |DSP_ALU         |     8|
 |4     |DSP_A_B_DATA    |     8|
-|6     |DSP_C_DATA      |     8|
-|7     |DSP_MULTIPLIER  |     8|
-|8     |DSP_M_DATA      |     8|
-|10    |DSP_OUTPUT      |     8|
-|11    |DSP_PREADD      |     8|
-|12    |DSP_PREADD_DATA |     8|
-|13    |LUT1            |    93|
-|14    |LUT2            |   941|
-|15    |LUT3            |   993|
-|16    |LUT4            |   728|
-|17    |LUT5            |   861|
-|18    |LUT6            |   921|
-|19    |MUXF7           |     2|
-|20    |RAMB18E2        |     2|
-|21    |RAMB36E2        |    14|
-|26    |SRL16E          |   456|
-|27    |SRLC32E         |    35|
-|28    |FDRE            |  5724|
-|29    |FDSE            |    37|
+|7     |DSP_C_DATA      |     8|
+|9     |DSP_MULTIPLIER  |     8|
+|10    |DSP_M_DATA      |     8|
+|12    |DSP_OUTPUT      |     8|
+|14    |DSP_PREADD      |     8|
+|15    |DSP_PREADD_DATA |     8|
+|16    |LUT1            |   102|
+|17    |LUT2            |   750|
+|18    |LUT3            |   862|
+|19    |LUT4            |   936|
+|20    |LUT5            |   744|
+|21    |LUT6            |  1271|
+|22    |MUXF7           |    78|
+|23    |MUXF8           |    33|
+|24    |RAMB18E2        |     2|
+|25    |RAMB36E2        |    12|
+|27    |SRL16E          |   263|
+|28    |FDRE            |  4492|
+|29    |FDSE            |    20|
 +------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:00 ; elapsed = 00:01:00 . Memory (MB): peak = 2863.961 ; gain = 1207.551
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 181 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:00:52 . Memory (MB): peak = 2866.523 ; gain = 1099.688
-Synthesis Optimization Complete : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 2866.523 ; gain = 1210.137
+Synthesis finished with 0 errors, 0 critical warnings and 160 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:45 ; elapsed = 00:00:54 . Memory (MB): peak = 2863.961 ; gain = 1102.289
+Synthesis Optimization Complete : Time (s): cpu = 00:01:00 ; elapsed = 00:01:01 . Memory (MB): peak = 2863.961 ; gain = 1207.551
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 2866.523 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 277 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 2863.961 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 359 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/var_quant_3_reg_4281_reg has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
-INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/var_quant_reg_4266_reg has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2866.523 ; gain = 0.000
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/DIV1_TABLE_U/q0_reg has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell inst/Debayer_U0/DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/DIV1_TABLE_U/q1_reg has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2863.961 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 8 instances were transformed.
   DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 8 instances
 
-Synth Design complete | Checksum: fe14db35
+Synth Design complete | Checksum: 10b0f921
 INFO: [Common 17-83] Releasing license: Synthesis
-185 Infos, 154 Warnings, 0 Critical Warnings and 0 Errors encountered.
+184 Infos, 223 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:08 . Memory (MB): peak = 2866.523 ; gain = 2182.559
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2866.523 ; gain = 0.000
+synth_design: Time (s): cpu = 00:01:09 ; elapsed = 00:01:10 . Memory (MB): peak = 2863.961 ; gain = 2180.188
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2863.961 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/design_1_v_demosaic_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_v_demosaic_0_0, cache-ID = 9c3c19019250e493
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2866.523 ; gain = 0.000
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_v_demosaic_0_0, cache-ID = 0a0413249dd4ab89
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2863.961 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/design_1_v_demosaic_0_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_v_demosaic_0_0_utilization_synth.rpt -pb design_1_v_demosaic_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 22:35:57 2024...
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 23:50:03 2024...

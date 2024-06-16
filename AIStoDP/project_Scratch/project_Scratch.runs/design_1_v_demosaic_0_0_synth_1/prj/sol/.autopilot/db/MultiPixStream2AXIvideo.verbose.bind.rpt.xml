@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'MultiPixStream2AXIvideo'" level="0">
-<item name = "Date">Sun Jun 16 22:34:22 2024
+<item name = "Date">Sun Jun 16 23:48:27 2024
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">3.37 ns, 2.023 ns, 0.91 ns</column>
+<column name="ap_clk">6.73 ns, 2.335 ns, 1.82 ns</column>
 </table>
 </item>
 </section>
@@ -24,14 +24,14 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">2, 2079002, 6.734 ns, 7.000 ms, 2, 2079002, no</column>
+<column name="">2, 2079002, 13.468 ns, 14.000 ms, 2, 2079002, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100">MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2, 3, 1923, 10.101 ns, 6.475 us, 1, 1921, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100">MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2, 3, 1923, 20.202 ns, 12.949 us, 1, 1921, loop auto-rewind stp(delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

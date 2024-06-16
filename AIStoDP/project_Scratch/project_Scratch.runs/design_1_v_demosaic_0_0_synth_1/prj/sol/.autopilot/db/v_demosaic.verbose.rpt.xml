@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'v_demosaic'" level="0">
-<item name = "Date">Sun Jun 16 22:34:27 2024
+<item name = "Date">Sun Jun 16 23:48:31 2024
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">3.37 ns, 2.458 ns, 0.91 ns</column>
+<column name="ap_clk">6.73 ns, 4.854 ns, 1.82 ns</column>
 </table>
 </item>
 </section>
@@ -33,9 +33,9 @@
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="AXIvideo2MultiBayer_U0">AXIvideo2MultiBayer, ?, ?, ?, ?, ?, ?, no</column>
 <column name="Block_entry_split_proc_U0">Block_entry_split_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
-<column name="Debayer_U0">Debayer, 65601, 4296671258, 0.221 ms, 14.467 sec, 54, 4296671259, dataflow</column>
-<column name="ZipperRemoval_U0">ZipperRemoval, 1, 4295426041, 3.367 ns, 14.463 sec, 1, 4295426041, no</column>
-<column name="MultiPixStream2AXIvideo_U0">MultiPixStream2AXIvideo, 2, 2079002, 6.734 ns, 7.000 ms, 2, 2079002, no</column>
+<column name="Debayer_U0">Debayer, 65574, 4296015888, 0.442 ms, 28.929 sec, 34, 4296015889, dataflow</column>
+<column name="ZipperRemoval_U0">ZipperRemoval, 1, 4295360506, 6.734 ns, 28.925 sec, 1, 4295360506, no</column>
+<column name="MultiPixStream2AXIvideo_U0">MultiPixStream2AXIvideo, 2, 2079002, 13.468 ns, 14.000 ms, 2, 2079002, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -54,12 +54,12 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 12, -</column>
 <column name="FIFO">-, -, 396, 268, -</column>
-<column name="Instance">30, 8, 11006, 11573, 0</column>
+<column name="Instance">30, 8, 7106, 10519, 0</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, 0, 18, -</column>
 <column name="Register">-, -, 2, -, -</column>
 <specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
-<specialColumn name="Utilization (%)">10, ~0, 4, 10, 0</specialColumn>
+<specialColumn name="Utilization (%)">10, ~0, 3, 9, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
@@ -69,9 +69,9 @@
 <column name="AXIvideo2MultiBayer_U0">AXIvideo2MultiBayer, 0, 0, 149, 447, 0</column>
 <column name="Block_entry_split_proc_U0">Block_entry_split_proc, 0, 0, 18, 20, 0</column>
 <column name="CTRL_s_axi_U">CTRL_s_axi, 0, 0, 102, 136, 0</column>
-<column name="Debayer_U0">Debayer, 30, 8, 10197, 9905, 0</column>
+<column name="Debayer_U0">Debayer, 30, 8, 6422, 8885, 0</column>
 <column name="MultiPixStream2AXIvideo_U0">MultiPixStream2AXIvideo, 0, 0, 72, 271, 0</column>
-<column name="ZipperRemoval_U0">ZipperRemoval, 0, 0, 468, 794, 0</column>
+<column name="ZipperRemoval_U0">ZipperRemoval, 0, 0, 343, 760, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -85,7 +85,7 @@
 <item name = "FIFO"><table name="" hasTotal="1">
 <keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
 <column name="bayer_phase_assign_channel_U">0, 99, 0, -, 2, 16, 32</column>
-<column name="imgBayer_U">0, 99, 0, -, 3, 10, 30</column>
+<column name="imgBayer_U">0, 99, 0, -, 2, 10, 20</column>
 <column name="imgRgb_U">0, 99, 0, -, 2, 30, 60</column>
 <column name="imgUnzip_U">0, 99, 0, -, 2, 30, 60</column>
 </table>

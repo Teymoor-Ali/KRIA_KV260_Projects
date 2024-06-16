@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2'
 ================================================================
-* Date:           Sun Jun 16 22:34:26 2024
+* Date:           Sun Jun 16 23:48:31 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -20,17 +20,17 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  3.37 ns|  1.726 ns|     0.91 ns|
+    |ap_clk  |  6.73 ns|  2.335 ns|     1.82 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
     * Summary: 
-    +---------+---------+-----------+----------+-----+------+-----------------------------------------------+
-    |  Latency (cycles) |  Latency (absolute)  |  Interval  |                    Pipeline                   |
-    |   min   |   max   |    min    |    max   | min |  max |                      Type                     |
-    +---------+---------+-----------+----------+-----+------+-----------------------------------------------+
-    |        3|     1923|  10.101 ns|  6.475 us|    1|  1921|  loop auto-rewind stp(delay=0 clock cycles(s))|
-    +---------+---------+-----------+----------+-----+------+-----------------------------------------------+
+    +---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval  |                    Pipeline                   |
+    |   min   |   max   |    min    |    max    | min |  max |                      Type                     |
+    +---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
+    |        3|     1923|  20.202 ns|  12.949 us|    1|  1921|  loop auto-rewind stp(delay=0 clock cycles(s))|
+    +---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
 
     + Detail: 
         * Instance: 
@@ -222,12 +222,12 @@ ST_1 : Operation 19 [1/1] (0.80ns)   --->   "%axi_last = icmp_eq  i12 %sub_i_i_r
 ST_1 : Operation 20 [1/1] (0.42ns)   --->   "%store_ln230 = store i11 %j_2, i11 %j" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:230]   --->   Operation 20 'store' 'store_ln230' <Predicate = (!icmp_ln230)> <Delay = 0.42>
 ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%br_ln230 = br void %for.body10" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:230]   --->   Operation 21 'br' 'br_ln230' <Predicate = (!icmp_ln230)> <Delay = 0.00>
 
-State 2 <SV = 1> <Delay = 1.72>
+State 2 <SV = 1> <Delay = 2.33>
 ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%sof_2 = phi i1 %sof_read, void %newFuncRoot, i1 0, void %for.body10.split"   --->   Operation 22 'phi' 'sof_2' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%speclooptripcount_ln0 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 0, i64 1920, i64 0"   --->   Operation 23 'speclooptripcount' 'speclooptripcount_ln0' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%specpipeline_ln233 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_17" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:233]   --->   Operation 24 'specpipeline' 'specpipeline_ln233' <Predicate = (!icmp_ln230)> <Delay = 0.00>
 ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%specloopname_ln230 = specloopname void @_ssdm_op_SpecLoopName, void @empty_6" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:230]   --->   Operation 25 'specloopname' 'specloopname_ln230' <Predicate = (!icmp_ln230)> <Delay = 0.00>
-ST_2 : Operation 26 [1/1] (1.22ns)   --->   "%axi_data = read i30 @_ssdm_op_Read.ap_fifo.volatile.i30P0A, i30 %imgUnzip" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:245]   --->   Operation 26 'read' 'axi_data' <Predicate = (!icmp_ln230)> <Delay = 1.22> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 30> <Depth = 2> <FIFO>
+ST_2 : Operation 26 [1/1] (1.83ns)   --->   "%axi_data = read i30 @_ssdm_op_Read.ap_fifo.volatile.i30P0A, i30 %imgUnzip" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:245]   --->   Operation 26 'read' 'axi_data' <Predicate = (!icmp_ln230)> <Delay = 1.83> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 30> <Depth = 2> <FIFO>
 ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%zext_ln258 = zext i30 %axi_data" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:258]   --->   Operation 27 'zext' 'zext_ln258' <Predicate = (!icmp_ln230)> <Delay = 0.00>
 ST_2 : Operation 28 [1/1] (0.49ns)   --->   "%write_ln258 = write void @_ssdm_op_Write.axis.volatile.i32P0A.i4P0A.i4P0A.i1P0A.i1P0A.i1P0A.i1P0A, i32 %m_axis_video_V_data_V, i4 %m_axis_video_V_keep_V, i4 %m_axis_video_V_strb_V, i1 %m_axis_video_V_user_V, i1 %m_axis_video_V_last_V, i1 %m_axis_video_V_id_V, i1 %m_axis_video_V_dest_V, i32 %zext_ln258, i4 15, i4 0, i1 %sof_2, i1 %axi_last, i1 0, i1 0" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:258]   --->   Operation 28 'write' 'write_ln258' <Predicate = (!icmp_ln230)> <Delay = 0.49> <CoreInst = "regslice">   --->   Core 148 'regslice' <Latency = 0> <II = 1> <Delay = 0.65> <Adapter> <Opcode : 'read' 'write'>
 ST_2 : Operation 29 [1/1] (0.42ns)   --->   "%ret_ln0 = ret"   --->   Operation 29 'ret' 'ret_ln0' <Predicate = (icmp_ln230)> <Delay = 0.42>

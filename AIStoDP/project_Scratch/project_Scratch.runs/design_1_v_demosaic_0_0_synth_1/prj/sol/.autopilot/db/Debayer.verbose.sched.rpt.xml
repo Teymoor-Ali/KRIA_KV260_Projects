@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'Debayer'" level="0">
-<item name = "Date">Sun Jun 16 22:34:21 2024
+<item name = "Date">Sun Jun 16 23:48:26 2024
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">3.37 ns, 2.458 ns, 0.91 ns</column>
+<column name="ap_clk">6.73 ns, 4.854 ns, 1.82 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">65601, 4296671258, 0.221 ms, 14.467 sec, 54, 4296671259, dataflow</column>
+<column name="">65574, 4296015888, 0.442 ms, 28.929 sec, 34, 4296015889, dataflow</column>
 </table>
 </item>
 <item name = "Detail">

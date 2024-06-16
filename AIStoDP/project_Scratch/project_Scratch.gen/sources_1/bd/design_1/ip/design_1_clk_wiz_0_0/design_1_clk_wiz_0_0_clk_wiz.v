@@ -55,7 +55,7 @@
 //----------------------------------------------------------------------------
 // clk_out1__148.50196______0.000______50.0______200.365____358.416
 // clk_out2__198.00262______0.000______50.0______192.725____358.416
-// clk_out3__297.00393______0.000______50.0______182.485____358.416
+// clk_out3__148.50196______0.000______50.0______200.365____358.416
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
@@ -120,6 +120,10 @@ wire clk_in2_design_1_clk_wiz_0_0;
   wire        clkinstopped_unused;
   wire        reset_high;
 
+ 
+
+// Auto Instantiation//
+
 
   
     MMCME4_ADV
@@ -140,22 +144,22 @@ wire clk_in2_design_1_clk_wiz_0_0;
     .CLKOUT1_PHASE        (0.000),
     .CLKOUT1_DUTY_CYCLE   (0.500),
     .CLKOUT1_USE_FINE_PS  ("FALSE"),
-    .CLKOUT2_DIVIDE       (4),
+    .CLKOUT2_DIVIDE       (8),
     .CLKOUT2_PHASE        (0.000),
     .CLKOUT2_DUTY_CYCLE   (0.500),
     .CLKOUT2_USE_FINE_PS  ("FALSE"),
     .CLKIN1_PERIOD        (4.667))
   
-  mmcme4_adv_inst
+     mmcme4_adv_inst
     // Output clocks
    (
     .CLKFBOUT            (clkfbout_design_1_clk_wiz_0_0),
     .CLKFBOUTB           (clkfboutb_unused),
     .CLKOUT0             (clk_out1_design_1_clk_wiz_0_0),
     .CLKOUT0B            (clkout0b_unused),
-    .CLKOUT1             (clk_out2_design_1_clk_wiz_0_0),
+	.CLKOUT1             (clk_out2_design_1_clk_wiz_0_0),
     .CLKOUT1B            (clkout1b_unused),
-    .CLKOUT2             (clk_out3_design_1_clk_wiz_0_0),
+    .CLKOUT2             (clkout2_unused),
     .CLKOUT2B            (clkout2b_unused),
     .CLKOUT3             (clkout3_unused),
     .CLKOUT3B            (clkout3b_unused),
@@ -189,6 +193,22 @@ wire clk_in2_design_1_clk_wiz_0_0;
     .CLKFBSTOPPED        (clkfbstopped_unused),
     .PWRDWN              (1'b0),
     .RST                 (reset_high));
+
+BUFGCE_DIV #(
+      .BUFGCE_DIVIDE(1.0),      // 1-8
+      // Programmable Inversion Attributes: Specifies built-in programmable inversion on specific pins
+      .IS_CE_INVERTED(1'b0),  // Optional inversion for CE
+      .IS_CLR_INVERTED(1'b0), // Optional inversion for CLR
+      .IS_I_INVERTED(1'b0)    // Optional inversion for I
+   )
+   BUFGCE_DIV_CLK3_inst (
+      .O(clk_out3_design_1_clk_wiz_0_0),     // 1-bit output: Buffer
+      .CE(1'b1),   // 1-bit input: Buffer enable
+      .CLR(1'b0), // 1-bit input: Asynchronous clear
+      .I(clk_out1_design_1_clk_wiz_0_0)      // 1-bit input: Buffer
+   );
+
+
   assign reset_high = ~resetn; 
 
   assign locked = locked_int;
@@ -211,9 +231,7 @@ wire clk_in2_design_1_clk_wiz_0_0;
    (.O   (clk_out2),
     .I   (clk_out2_design_1_clk_wiz_0_0));
 
-  BUFG clkout3_buf
-   (.O   (clk_out3),
-    .I   (clk_out3_design_1_clk_wiz_0_0));
+  assign clk_out3 = clk_out3_design_1_clk_wiz_0_0;
 
 
 

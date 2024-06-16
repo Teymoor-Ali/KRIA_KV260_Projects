@@ -86,48 +86,47 @@ reg    internal_ap_ready;
 reg    bayerPhase_c1_blk_n;
 reg    ap_block_state1;
 wire   [16:0] zext_ln274_fu_244_p1;
-reg   [16:0] zext_ln274_reg_530;
+reg   [16:0] zext_ln274_reg_531;
 wire   [16:0] loopHeight_fu_248_p2;
-reg   [16:0] loopHeight_reg_535;
+reg   [16:0] loopHeight_reg_536;
 wire   [16:0] loopWidth_fu_258_p2;
-reg   [16:0] loopWidth_reg_540;
+reg   [16:0] loopWidth_reg_541;
 wire   [0:0] x_phase_fu_264_p1;
-reg   [0:0] x_phase_reg_545;
-reg   [14:0] trunc_ln293_1_reg_550;
-reg   [9:0] p_lcssa50195052_load_reg_559;
+reg   [0:0] x_phase_reg_546;
+reg   [14:0] trunc_ln293_1_reg_551;
+reg   [16:0] y_7_reg_557;
 wire    ap_CS_fsm_state2;
-reg   [9:0] p_lcssa50215054_load_reg_564;
-reg   [9:0] p_lcssa50225056_load_reg_569;
-reg   [9:0] p_lcssa50235058_load_reg_574;
-reg   [9:0] p_lcssa50255060_load_reg_579;
-reg   [9:0] p_lcssa50265062_load_reg_584;
-reg   [9:0] p_lcssa50275064_load_reg_589;
-reg   [9:0] p_lcssa50295066_load_reg_594;
-reg   [9:0] p_lcssa50305068_load_reg_599;
-reg   [9:0] p_lcssa50315070_load_reg_604;
-reg   [9:0] p_lcssa50335072_load_reg_609;
-reg   [9:0] p_lcssa50345074_load_reg_614;
-reg   [9:0] p_lcssa50355076_load_reg_619;
-reg   [9:0] p_lcssa50375078_load_reg_624;
-reg   [9:0] p_lcssa50385080_load_reg_629;
-reg   [9:0] p_lcssa51955201_load_reg_634;
-reg   [9:0] p_lcssa51965203_load_reg_639;
-reg   [9:0] p_lcssa51975205_load_reg_644;
-reg   [9:0] p_lcssa51985207_load_reg_649;
-reg   [9:0] p_lcssa51995209_load_reg_654;
-wire   [16:0] out_y_fu_357_p2;
-reg   [16:0] out_y_reg_659;
-wire   [0:0] empty_fu_363_p1;
-reg   [0:0] empty_reg_664;
-wire   [0:0] cmp84_fu_367_p2;
-reg   [0:0] cmp84_reg_669;
-wire   [0:0] cmp170_fu_372_p2;
-reg   [0:0] cmp170_reg_674;
-wire   [14:0] xor_fu_386_p2;
-reg   [14:0] xor_reg_679;
+reg   [9:0] p_lcssa50195052_load_reg_566;
+reg   [9:0] p_lcssa50215054_load_reg_571;
+reg   [9:0] p_lcssa50225056_load_reg_576;
+reg   [9:0] p_lcssa50235058_load_reg_581;
+reg   [9:0] p_lcssa50255060_load_reg_586;
+reg   [9:0] p_lcssa50265062_load_reg_591;
+reg   [9:0] p_lcssa50275064_load_reg_596;
+reg   [9:0] p_lcssa50295066_load_reg_601;
+reg   [9:0] p_lcssa50305068_load_reg_606;
+reg   [9:0] p_lcssa50315070_load_reg_611;
+reg   [9:0] p_lcssa50335072_load_reg_616;
+reg   [9:0] p_lcssa50345074_load_reg_621;
+reg   [9:0] p_lcssa50355076_load_reg_626;
+reg   [9:0] p_lcssa50375078_load_reg_631;
+reg   [9:0] p_lcssa50385080_load_reg_636;
+reg   [9:0] p_lcssa51955201_load_reg_641;
+reg   [9:0] p_lcssa51965203_load_reg_646;
+reg   [9:0] p_lcssa51975205_load_reg_651;
+reg   [9:0] p_lcssa51985207_load_reg_656;
+reg   [9:0] p_lcssa51995209_load_reg_661;
+wire   [0:0] cmp84_fu_357_p2;
+reg   [0:0] cmp84_reg_666;
+wire   [16:0] out_y_fu_367_p2;
+reg   [16:0] out_y_reg_671;
 wire    ap_CS_fsm_state3;
-wire   [0:0] cmp689_fu_392_p2;
-reg   [0:0] cmp689_reg_684;
+wire   [14:0] xor_fu_381_p2;
+reg   [14:0] xor_reg_676;
+wire   [0:0] cmp689_fu_387_p2;
+reg   [0:0] cmp689_reg_681;
+wire   [0:0] cmp170_fu_393_p2;
+reg   [0:0] cmp170_reg_686;
 wire    grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_ap_start;
 wire    grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_ap_done;
 wire    grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_ap_idle;
@@ -202,7 +201,8 @@ wire   [16:0] y_8_fu_291_p2;
 wire   [0:0] icmp_ln315_fu_286_p2;
 reg    bayerPhase_c1_write_local;
 wire   [16:0] zext_ln275_fu_254_p1;
-wire   [14:0] and226_cast_fu_383_p1;
+wire   [0:0] empty_fu_373_p1;
+wire   [14:0] and226_cast_fu_377_p1;
 reg   [3:0] ap_NS_fsm;
 reg    ap_ST_fsm_state1_blk;
 wire    ap_ST_fsm_state2_blk;
@@ -227,8 +227,8 @@ design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 grp_DebayerG_Pipeline
     .ap_idle(grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_ap_idle),
     .ap_ready(grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_ap_ready),
     .imgBayer_dout(imgBayer_dout),
-    .imgBayer_num_data_valid(imgBayer_num_data_valid),
-    .imgBayer_fifo_cap(imgBayer_fifo_cap),
+    .imgBayer_num_data_valid(3'd0),
+    .imgBayer_fifo_cap(3'd0),
     .imgBayer_empty_n(imgBayer_empty_n),
     .imgBayer_read(grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_imgBayer_read),
     .imgG_din(grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_imgG_din),
@@ -236,34 +236,34 @@ design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 grp_DebayerG_Pipeline
     .imgG_fifo_cap(3'd0),
     .imgG_full_n(imgG_full_n),
     .imgG_write(grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_imgG_write),
-    .p_lcssa51995209(p_lcssa51995209_load_reg_654),
-    .p_lcssa51985207(p_lcssa51985207_load_reg_649),
-    .p_lcssa51975205(p_lcssa51975205_load_reg_644),
-    .p_lcssa51965203(p_lcssa51965203_load_reg_639),
-    .p_lcssa51955201(p_lcssa51955201_load_reg_634),
-    .p_lcssa50385080(p_lcssa50385080_load_reg_629),
-    .p_lcssa50375078(p_lcssa50375078_load_reg_624),
-    .p_lcssa50355076(p_lcssa50355076_load_reg_619),
-    .p_lcssa50345074(p_lcssa50345074_load_reg_614),
-    .p_lcssa50335072(p_lcssa50335072_load_reg_609),
-    .p_lcssa50315070(p_lcssa50315070_load_reg_604),
-    .p_lcssa50305068(p_lcssa50305068_load_reg_599),
-    .p_lcssa50295066(p_lcssa50295066_load_reg_594),
-    .p_lcssa50275064(p_lcssa50275064_load_reg_589),
-    .p_lcssa50265062(p_lcssa50265062_load_reg_584),
-    .p_lcssa50255060(p_lcssa50255060_load_reg_579),
-    .p_lcssa50235058(p_lcssa50235058_load_reg_574),
-    .p_lcssa50225056(p_lcssa50225056_load_reg_569),
-    .p_lcssa50215054(p_lcssa50215054_load_reg_564),
-    .p_lcssa50195052(p_lcssa50195052_load_reg_559),
-    .loopWidth(loopWidth_reg_540),
-    .empty(x_phase_reg_545),
-    .xor_r(xor_reg_679),
-    .cmp689(cmp689_reg_684),
-    .out_y(out_y_reg_659),
+    .p_lcssa51995209(p_lcssa51995209_load_reg_661),
+    .p_lcssa51985207(p_lcssa51985207_load_reg_656),
+    .p_lcssa51975205(p_lcssa51975205_load_reg_651),
+    .p_lcssa51965203(p_lcssa51965203_load_reg_646),
+    .p_lcssa51955201(p_lcssa51955201_load_reg_641),
+    .p_lcssa50385080(p_lcssa50385080_load_reg_636),
+    .p_lcssa50375078(p_lcssa50375078_load_reg_631),
+    .p_lcssa50355076(p_lcssa50355076_load_reg_626),
+    .p_lcssa50345074(p_lcssa50345074_load_reg_621),
+    .p_lcssa50335072(p_lcssa50335072_load_reg_616),
+    .p_lcssa50315070(p_lcssa50315070_load_reg_611),
+    .p_lcssa50305068(p_lcssa50305068_load_reg_606),
+    .p_lcssa50295066(p_lcssa50295066_load_reg_601),
+    .p_lcssa50275064(p_lcssa50275064_load_reg_596),
+    .p_lcssa50265062(p_lcssa50265062_load_reg_591),
+    .p_lcssa50255060(p_lcssa50255060_load_reg_586),
+    .p_lcssa50235058(p_lcssa50235058_load_reg_581),
+    .p_lcssa50225056(p_lcssa50225056_load_reg_576),
+    .p_lcssa50215054(p_lcssa50215054_load_reg_571),
+    .p_lcssa50195052(p_lcssa50195052_load_reg_566),
+    .loopWidth(loopWidth_reg_541),
+    .empty(x_phase_reg_546),
+    .xor_r(xor_reg_676),
+    .cmp689(cmp689_reg_681),
+    .out_y(out_y_reg_671),
     .zext_ln275(width),
-    .cmp170(cmp170_reg_674),
-    .cmp84(cmp84_reg_669),
+    .cmp170(cmp170_reg_686),
+    .cmp84(cmp84_reg_666),
     .p_out(grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_p_out),
     .p_out_ap_vld(grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_p_out_ap_vld),
     .p_out1(grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_p_out1),
@@ -359,48 +359,48 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if ((1'b1 == ap_CS_fsm_state2)) begin
-        cmp170_reg_674 <= cmp170_fu_372_p2;
-        cmp84_reg_669 <= cmp84_fu_367_p2;
-        empty_reg_664 <= empty_fu_363_p1;
-        out_y_reg_659 <= out_y_fu_357_p2;
-        p_lcssa50195052_load_reg_559 <= p_lcssa50195052_fu_78;
-        p_lcssa50215054_load_reg_564 <= p_lcssa50215054_fu_82;
-        p_lcssa50225056_load_reg_569 <= p_lcssa50225056_fu_86;
-        p_lcssa50235058_load_reg_574 <= p_lcssa50235058_fu_90;
-        p_lcssa50255060_load_reg_579 <= p_lcssa50255060_fu_94;
-        p_lcssa50265062_load_reg_584 <= p_lcssa50265062_fu_98;
-        p_lcssa50275064_load_reg_589 <= p_lcssa50275064_fu_102;
-        p_lcssa50295066_load_reg_594 <= p_lcssa50295066_fu_106;
-        p_lcssa50305068_load_reg_599 <= p_lcssa50305068_fu_110;
-        p_lcssa50315070_load_reg_604 <= p_lcssa50315070_fu_114;
-        p_lcssa50335072_load_reg_609 <= p_lcssa50335072_fu_118;
-        p_lcssa50345074_load_reg_614 <= p_lcssa50345074_fu_122;
-        p_lcssa50355076_load_reg_619 <= p_lcssa50355076_fu_126;
-        p_lcssa50375078_load_reg_624 <= p_lcssa50375078_fu_130;
-        p_lcssa50385080_load_reg_629 <= p_lcssa50385080_fu_134;
-        p_lcssa51955201_load_reg_634 <= p_lcssa51955201_fu_138;
-        p_lcssa51965203_load_reg_639 <= p_lcssa51965203_fu_142;
-        p_lcssa51975205_load_reg_644 <= p_lcssa51975205_fu_146;
-        p_lcssa51985207_load_reg_649 <= p_lcssa51985207_fu_150;
-        p_lcssa51995209_load_reg_654 <= p_lcssa51995209_fu_154;
+    if ((1'b1 == ap_CS_fsm_state3)) begin
+        cmp170_reg_686 <= cmp170_fu_393_p2;
+        cmp689_reg_681 <= cmp689_fu_387_p2;
+        out_y_reg_671 <= out_y_fu_367_p2;
+        xor_reg_676 <= xor_fu_381_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
-    if ((1'b1 == ap_CS_fsm_state3)) begin
-        cmp689_reg_684 <= cmp689_fu_392_p2;
-        xor_reg_679 <= xor_fu_386_p2;
+    if ((1'b1 == ap_CS_fsm_state2)) begin
+        cmp84_reg_666 <= cmp84_fu_357_p2;
+        p_lcssa50195052_load_reg_566 <= p_lcssa50195052_fu_78;
+        p_lcssa50215054_load_reg_571 <= p_lcssa50215054_fu_82;
+        p_lcssa50225056_load_reg_576 <= p_lcssa50225056_fu_86;
+        p_lcssa50235058_load_reg_581 <= p_lcssa50235058_fu_90;
+        p_lcssa50255060_load_reg_586 <= p_lcssa50255060_fu_94;
+        p_lcssa50265062_load_reg_591 <= p_lcssa50265062_fu_98;
+        p_lcssa50275064_load_reg_596 <= p_lcssa50275064_fu_102;
+        p_lcssa50295066_load_reg_601 <= p_lcssa50295066_fu_106;
+        p_lcssa50305068_load_reg_606 <= p_lcssa50305068_fu_110;
+        p_lcssa50315070_load_reg_611 <= p_lcssa50315070_fu_114;
+        p_lcssa50335072_load_reg_616 <= p_lcssa50335072_fu_118;
+        p_lcssa50345074_load_reg_621 <= p_lcssa50345074_fu_122;
+        p_lcssa50355076_load_reg_626 <= p_lcssa50355076_fu_126;
+        p_lcssa50375078_load_reg_631 <= p_lcssa50375078_fu_130;
+        p_lcssa50385080_load_reg_636 <= p_lcssa50385080_fu_134;
+        p_lcssa51955201_load_reg_641 <= p_lcssa51955201_fu_138;
+        p_lcssa51965203_load_reg_646 <= p_lcssa51965203_fu_142;
+        p_lcssa51975205_load_reg_651 <= p_lcssa51975205_fu_146;
+        p_lcssa51985207_load_reg_656 <= p_lcssa51985207_fu_150;
+        p_lcssa51995209_load_reg_661 <= p_lcssa51995209_fu_154;
+        y_7_reg_557 <= y_fu_74;
     end
 end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_state1) & (1'b1 == ap_CS_fsm_state1))) begin
-        loopHeight_reg_535 <= loopHeight_fu_248_p2;
-        loopWidth_reg_540 <= loopWidth_fu_258_p2;
-        trunc_ln293_1_reg_550 <= {{bayerPhase_read[15:1]}};
-        x_phase_reg_545 <= x_phase_fu_264_p1;
-        zext_ln274_reg_530[15 : 0] <= zext_ln274_fu_244_p1[15 : 0];
+        loopHeight_reg_536 <= loopHeight_fu_248_p2;
+        loopWidth_reg_541 <= loopWidth_fu_258_p2;
+        trunc_ln293_1_reg_551 <= {{bayerPhase_read[15:1]}};
+        x_phase_reg_546 <= x_phase_fu_264_p1;
+        zext_ln274_reg_531[15 : 0] <= zext_ln274_fu_244_p1[15 : 0];
     end
 end
 
@@ -648,7 +648,7 @@ always @ (*) begin
     endcase
 end
 
-assign and226_cast_fu_383_p1 = empty_reg_664;
+assign and226_cast_fu_377_p1 = empty_fu_373_p1;
 
 assign ap_CS_fsm_state1 = ap_CS_fsm[32'd0];
 
@@ -668,17 +668,17 @@ assign bayerPhase_c1_din = bayerPhase_read;
 
 assign bayerPhase_c1_write = bayerPhase_c1_write_local;
 
-assign cmp170_fu_372_p2 = ((y_fu_74 != 17'd0) ? 1'b1 : 1'b0);
+assign cmp170_fu_393_p2 = ((y_7_reg_557 != 17'd0) ? 1'b1 : 1'b0);
 
-assign cmp689_fu_392_p2 = ((and226_cast_fu_383_p1 == trunc_ln293_1_reg_550) ? 1'b1 : 1'b0);
+assign cmp689_fu_387_p2 = ((and226_cast_fu_377_p1 == trunc_ln293_1_reg_551) ? 1'b1 : 1'b0);
 
-assign cmp84_fu_367_p2 = ((y_fu_74 < zext_ln274_reg_530) ? 1'b1 : 1'b0);
+assign cmp84_fu_357_p2 = ((y_fu_74 < zext_ln274_reg_531) ? 1'b1 : 1'b0);
 
-assign empty_fu_363_p1 = out_y_fu_357_p2[0:0];
+assign empty_fu_373_p1 = out_y_fu_367_p2[0:0];
 
 assign grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_ap_start = grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_ap_start_reg;
 
-assign icmp_ln315_fu_286_p2 = ((y_fu_74 == loopHeight_reg_535) ? 1'b1 : 1'b0);
+assign icmp_ln315_fu_286_p2 = ((y_fu_74 == loopHeight_reg_536) ? 1'b1 : 1'b0);
 
 assign imgG_din = grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_imgG_din;
 
@@ -686,13 +686,13 @@ assign loopHeight_fu_248_p2 = (zext_ln274_fu_244_p1 + 17'd2);
 
 assign loopWidth_fu_258_p2 = (zext_ln275_fu_254_p1 + 17'd2);
 
-assign out_y_fu_357_p2 = ($signed(y_fu_74) + $signed(17'd131070));
+assign out_y_fu_367_p2 = ($signed(y_7_reg_557) + $signed(17'd131070));
 
 assign start_out = real_start;
 
 assign x_phase_fu_264_p1 = bayerPhase_read[0:0];
 
-assign xor_fu_386_p2 = (trunc_ln293_1_reg_550 ^ and226_cast_fu_383_p1);
+assign xor_fu_381_p2 = (trunc_ln293_1_reg_551 ^ and226_cast_fu_377_p1);
 
 assign y_8_fu_291_p2 = (y_fu_74 + 17'd1);
 
@@ -701,7 +701,7 @@ assign zext_ln274_fu_244_p1 = height;
 assign zext_ln275_fu_254_p1 = width;
 
 always @ (posedge ap_clk) begin
-    zext_ln274_reg_530[16] <= 1'b0;
+    zext_ln274_reg_531[16] <= 1'b0;
 end
 
 endmodule //design_1_v_demosaic_0_0_DebayerG

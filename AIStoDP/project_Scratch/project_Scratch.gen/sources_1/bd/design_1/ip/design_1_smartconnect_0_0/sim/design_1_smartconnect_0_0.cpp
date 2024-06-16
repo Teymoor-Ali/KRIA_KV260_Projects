@@ -96,7 +96,7 @@ void design_1_smartconnect_0_0::before_end_of_elaboration()
   // 'S00_AXI' transactor parameters
     xsc::common_cpp::properties S00_AXI_transactor_param_props;
     S00_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -172,7 +172,7 @@ void design_1_smartconnect_0_0::before_end_of_elaboration()
   // 'S01_AXI' transactor parameters
     xsc::common_cpp::properties S01_AXI_transactor_param_props;
     S01_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S01_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S01_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S01_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -250,7 +250,7 @@ void design_1_smartconnect_0_0::before_end_of_elaboration()
   // 'M00_AXI' transactor parameters
     xsc::common_cpp::properties M00_AXI_transactor_param_props;
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "128");
-    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "49");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -380,7 +380,7 @@ void design_1_smartconnect_0_0::before_end_of_elaboration()
   // 'S00_AXI' transactor parameters
     xsc::common_cpp::properties S00_AXI_transactor_param_props;
     S00_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -456,7 +456,7 @@ void design_1_smartconnect_0_0::before_end_of_elaboration()
   // 'S01_AXI' transactor parameters
     xsc::common_cpp::properties S01_AXI_transactor_param_props;
     S01_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S01_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S01_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S01_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -534,7 +534,7 @@ void design_1_smartconnect_0_0::before_end_of_elaboration()
   // 'M00_AXI' transactor parameters
     xsc::common_cpp::properties M00_AXI_transactor_param_props;
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "128");
-    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "49");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -664,7 +664,7 @@ void design_1_smartconnect_0_0::before_end_of_elaboration()
   // 'S00_AXI' transactor parameters
     xsc::common_cpp::properties S00_AXI_transactor_param_props;
     S00_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -740,7 +740,7 @@ void design_1_smartconnect_0_0::before_end_of_elaboration()
   // 'S01_AXI' transactor parameters
     xsc::common_cpp::properties S01_AXI_transactor_param_props;
     S01_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S01_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S01_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S01_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -818,7 +818,7 @@ void design_1_smartconnect_0_0::before_end_of_elaboration()
   // 'M00_AXI' transactor parameters
     xsc::common_cpp::properties M00_AXI_transactor_param_props;
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "128");
-    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "49");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -936,7 +936,7 @@ design_1_smartconnect_0_0::design_1_smartconnect_0_0(const sc_core::sc_module_na
   // configure S00_AXI_transactor
     xsc::common_cpp::properties S00_AXI_transactor_param_props;
     S00_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -992,7 +992,7 @@ design_1_smartconnect_0_0::design_1_smartconnect_0_0(const sc_core::sc_module_na
   // configure S01_AXI_transactor
     xsc::common_cpp::properties S01_AXI_transactor_param_props;
     S01_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S01_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S01_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S01_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -1051,7 +1051,7 @@ design_1_smartconnect_0_0::design_1_smartconnect_0_0(const sc_core::sc_module_na
   // configure M00_AXI_transactor
     xsc::common_cpp::properties M00_AXI_transactor_param_props;
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "128");
-    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "49");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -1213,7 +1213,7 @@ design_1_smartconnect_0_0::design_1_smartconnect_0_0(const sc_core::sc_module_na
   // configure S00_AXI_transactor
     xsc::common_cpp::properties S00_AXI_transactor_param_props;
     S00_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -1269,7 +1269,7 @@ design_1_smartconnect_0_0::design_1_smartconnect_0_0(const sc_core::sc_module_na
   // configure S01_AXI_transactor
     xsc::common_cpp::properties S01_AXI_transactor_param_props;
     S01_AXI_transactor_param_props.addLong("DATA_WIDTH", "64");
-    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    S01_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     S01_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     S01_AXI_transactor_param_props.addLong("ADDR_WIDTH", "32");
     S01_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
@@ -1328,7 +1328,7 @@ design_1_smartconnect_0_0::design_1_smartconnect_0_0(const sc_core::sc_module_na
   // configure M00_AXI_transactor
     xsc::common_cpp::properties M00_AXI_transactor_param_props;
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "128");
-    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "297003926");
+    M00_AXI_transactor_param_props.addLong("FREQ_HZ", "148501963");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "49");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");

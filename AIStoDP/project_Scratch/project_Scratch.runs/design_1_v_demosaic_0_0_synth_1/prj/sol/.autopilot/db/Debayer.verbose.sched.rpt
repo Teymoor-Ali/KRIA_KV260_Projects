@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'Debayer'
 ================================================================
-* Date:           Sun Jun 16 22:34:21 2024
+* Date:           Sun Jun 16 23:48:26 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  3.37 ns|  2.458 ns|     0.91 ns|
+    |ap_clk  |  6.73 ns|  4.854 ns|     1.82 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |   Latency (cycles)   |   Latency (absolute)  |     Interval     | Pipeline |
     |   min   |     max    |    min   |     max    | min |     max    |   Type   |
     +---------+------------+----------+------------+-----+------------+----------+
-    |    65601|  4296671258|  0.221 ms|  14.467 sec|   54|  4296671259|  dataflow|
+    |    65574|  4296015888|  0.442 ms|  28.929 sec|   34|  4296015889|  dataflow|
     +---------+------------+----------+------------+-----+------------+----------+
 
     + Detail: 
@@ -80,8 +80,8 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 2.45>
-ST_1 : Operation 7 [1/1] (1.22ns)   --->   "%bayerPhase_read_2 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %bayerPhase_read" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 7 'read' 'bayerPhase_read_2' <Predicate = true> <Delay = 1.22> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+State 1 <SV = 0> <Delay = 3.67>
+ST_1 : Operation 7 [1/1] (1.83ns)   --->   "%bayerPhase_read_2 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %bayerPhase_read" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 7 'read' 'bayerPhase_read_2' <Predicate = true> <Delay = 1.83> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%width_read = read i16 @_ssdm_op_Read.ap_stable.i16, i16 %width" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 8 'read' 'width_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%height_read = read i16 @_ssdm_op_Read.ap_stable.i16, i16 %height" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 9 'read' 'height_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%trunc_ln1070 = trunc i16 %width_read" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 10 'trunc' 'trunc_ln1070' <Predicate = true> <Delay = 0.00>
@@ -90,19 +90,19 @@ ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%bayerPhase_c1 = alloca i64 1" [F:/
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%bayerPhase_c = alloca i64 1" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 13 'alloca' 'bayerPhase_c' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
 ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%imgG = alloca i64 1"   --->   Operation 14 'alloca' 'imgG' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 30> <Depth = 2> <FIFO>
 ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%imgRB = alloca i64 1"   --->   Operation 15 'alloca' 'imgRB' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 30> <Depth = 2> <FIFO>
-ST_1 : Operation 16 [2/2] (1.22ns)   --->   "%call_ln1071 = call void @DebayerG, i10 %imgBayer, i30 %imgG, i16 %height_read, i16 %width_read, i16 %bayerPhase_read_2, i16 %bayerPhase_c1, i10 %DIV1_TABLE, i18 %DIV2_TABLE" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1071]   --->   Operation 16 'call' 'call_ln1071' <Predicate = true> <Delay = 1.22> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 16 [2/2] (1.83ns)   --->   "%call_ln1071 = call void @DebayerG, i10 %imgBayer, i30 %imgG, i16 %height_read, i16 %width_read, i16 %bayerPhase_read_2, i16 %bayerPhase_c1, i10 %DIV1_TABLE, i18 %DIV2_TABLE" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1071]   --->   Operation 16 'call' 'call_ln1071' <Predicate = true> <Delay = 1.83> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.86>
 ST_2 : Operation 17 [1/2] (0.86ns)   --->   "%call_ln1071 = call void @DebayerG, i10 %imgBayer, i30 %imgG, i16 %height_read, i16 %width_read, i16 %bayerPhase_read_2, i16 %bayerPhase_c1, i10 %DIV1_TABLE, i18 %DIV2_TABLE" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1071]   --->   Operation 17 'call' 'call_ln1071' <Predicate = true> <Delay = 0.86> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 3 <SV = 2> <Delay = 2.02>
-ST_3 : Operation 18 [2/2] (2.02ns)   --->   "%call_ln1072 = call void @DebayerRatBorBatR, i30 %imgG, i30 %imgRB, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c1, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1072]   --->   Operation 18 'call' 'call_ln1072' <Predicate = true> <Delay = 2.02> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 3 <SV = 2> <Delay = 2.63>
+ST_3 : Operation 18 [2/2] (2.63ns)   --->   "%call_ln1072 = call void @DebayerRatBorBatR, i30 %imgG, i30 %imgRB, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c1, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1072]   --->   Operation 18 'call' 'call_ln1072' <Predicate = true> <Delay = 2.63> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 4 <SV = 3> <Delay = 0.79>
 ST_4 : Operation 19 [1/2] (0.79ns)   --->   "%call_ln1072 = call void @DebayerRatBorBatR, i30 %imgG, i30 %imgRB, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c1, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1072]   --->   Operation 19 'call' 'call_ln1072' <Predicate = true> <Delay = 0.79> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 5 <SV = 4> <Delay = 2.02>
-ST_5 : Operation 20 [2/2] (2.02ns)   --->   "%call_ln1073 = call void @DebayerRandBatG, i30 %imgRB, i30 %imgRgb, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1073]   --->   Operation 20 'call' 'call_ln1073' <Predicate = true> <Delay = 2.02> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 5 <SV = 4> <Delay = 2.63>
+ST_5 : Operation 20 [2/2] (2.63ns)   --->   "%call_ln1073 = call void @DebayerRandBatG, i30 %imgRB, i30 %imgRgb, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1073]   --->   Operation 20 'call' 'call_ln1073' <Predicate = true> <Delay = 2.63> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.79>
 ST_6 : Operation 21 [1/1] (0.00ns)   --->   "%empty = specchannel i32 @_ssdm_op_SpecChannel, void @bayerPhase_c1_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %bayerPhase_c1, i16 %bayerPhase_c1" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 21 'specchannel' 'empty' <Predicate = true> <Delay = 0.00>
@@ -125,28 +125,28 @@ ST_6 : Operation 35 [1/1] (0.00ns)   --->   "%ret_ln1074 = ret" [F:/Projects/Viv
 ============================================================
 + Verbose Summary: Timing violations
 ============================================================
-Target clock period: 3.367ns, clock uncertainty: 0.909ns.
+Target clock period: 6.734ns, clock uncertainty: 1.818ns.
 
- <State 1>: 2.458ns
+ <State 1>: 3.676ns
 The critical path consists of the following:
-	wire read operation ('bayerPhase', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070) on port 'bayerPhase_read' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070) [8]  (1.229 ns)
-	'call' operation 0 bit ('call_ln1071', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1071) to 'DebayerG' [30]  (1.229 ns)
+	wire read operation ('bayerPhase', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070) on port 'bayerPhase_read' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070) [8]  (1.838 ns)
+	'call' operation 0 bit ('call_ln1071', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1071) to 'DebayerG' [30]  (1.838 ns)
 
  <State 2>: 0.863ns
 The critical path consists of the following:
 	'call' operation 0 bit ('call_ln1071', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1071) to 'DebayerG' [30]  (0.863 ns)
 
- <State 3>: 2.027ns
+ <State 3>: 2.636ns
 The critical path consists of the following:
-	'call' operation 0 bit ('call_ln1072', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1072) to 'DebayerRatBorBatR' [31]  (2.027 ns)
+	'call' operation 0 bit ('call_ln1072', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1072) to 'DebayerRatBorBatR' [31]  (2.636 ns)
 
  <State 4>: 0.798ns
 The critical path consists of the following:
 	'call' operation 0 bit ('call_ln1072', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1072) to 'DebayerRatBorBatR' [31]  (0.798 ns)
 
- <State 5>: 2.027ns
+ <State 5>: 2.636ns
 The critical path consists of the following:
-	'call' operation 0 bit ('call_ln1073', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1073) to 'DebayerRandBatG' [32]  (2.027 ns)
+	'call' operation 0 bit ('call_ln1073', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1073) to 'DebayerRandBatG' [32]  (2.636 ns)
 
  <State 6>: 0.798ns
 The critical path consists of the following:

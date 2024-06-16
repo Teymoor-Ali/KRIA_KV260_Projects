@@ -2,7 +2,7 @@
 //Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-//Date        : Sun Jun 16 22:41:22 2024
+//Date        : Sun Jun 16 23:46:07 2024
 //Host        : Tey running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -10,7 +10,7 @@
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=29,numReposBlks=20,numNonXlnxBlks=0,numHierBlks=9,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_board_cnt=3,da_clkrst_cnt=5,da_zynq_ultra_ps_e_cnt=1,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
+(* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=30,numReposBlks=21,numNonXlnxBlks=0,numHierBlks=9,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_board_cnt=3,da_clkrst_cnt=6,da_zynq_ultra_ps_e_cnt=1,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
    (IIC_1_0_scl_i,
     IIC_1_0_scl_o,
@@ -337,7 +337,8 @@ module design_1
   wire [15:0]zynq_ultra_ps_e_0_M_AXI_HPM1_FPD_WSTRB;
   wire zynq_ultra_ps_e_0_M_AXI_HPM1_FPD_WVALID;
   wire zynq_ultra_ps_e_0_pl_clk0;
-  wire zynq_ultra_ps_e_0_pl_resetn0;
+  wire [0:0]zynq_ultra_ps_e_0_pl_resetn0;
+  wire zynq_ultra_ps_e_0_pl_resetn1;
 
   assign IIC_1_0_scl_o = zynq_ultra_ps_e_0_IIC_1_SCL_O;
   assign IIC_1_0_scl_t = zynq_ultra_ps_e_0_IIC_1_SCL_T;
@@ -683,6 +684,13 @@ module design_1
         .peripheral_aresetn(proc_sys_reset_2_peripheral_aresetn),
         .peripheral_reset(proc_sys_reset_2_peripheral_reset),
         .slowest_sync_clk(clk_wiz_0_clk_out1));
+  design_1_proc_sys_reset_3_0 proc_sys_reset_3
+       (.aux_reset_in(zynq_ultra_ps_e_0_pl_resetn1),
+        .dcm_locked(clk_wiz_0_locked),
+        .ext_reset_in(zynq_ultra_ps_e_0_pl_resetn1),
+        .mb_debug_sys_rst(1'b0),
+        .peripheral_aresetn(zynq_ultra_ps_e_0_pl_resetn0),
+        .slowest_sync_clk(zynq_ultra_ps_e_0_pl_clk0));
   design_1_smartconnect_0_0 smartconnect_0
        (.M00_AXI_araddr(smartconnect_0_M00_AXI_ARADDR),
         .M00_AXI_arburst(smartconnect_0_M00_AXI_ARBURST),
@@ -1014,7 +1022,7 @@ module design_1
         .maxihpm1_fpd_aclk(clk_wiz_0_clk_out3),
         .pl_clk0(zynq_ultra_ps_e_0_pl_clk0),
         .pl_ps_irq0(1'b0),
-        .pl_resetn0(zynq_ultra_ps_e_0_pl_resetn0),
+        .pl_resetn0(zynq_ultra_ps_e_0_pl_resetn1),
         .saxigp0_araddr(smartconnect_0_M00_AXI_ARADDR),
         .saxigp0_arburst(smartconnect_0_M00_AXI_ARBURST),
         .saxigp0_arcache(smartconnect_0_M00_AXI_ARCACHE),

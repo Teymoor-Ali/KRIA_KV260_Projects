@@ -128,21 +128,19 @@ reg    width_val7_blk_n;
 reg    colorFormat_val20_blk_n;
 reg    fid_in_val9_blk_n;
 reg    field_id_val8_blk_n;
-reg   [7:0] colorFormat_val20_read_reg_288;
+reg   [7:0] colorFormat_val20_read_reg_289;
 reg    ap_block_state1;
-reg   [0:0] fid_in_val9_read_reg_293;
-reg   [15:0] field_id_val8_read_reg_298;
-reg   [10:0] cols_reg_303;
-reg   [10:0] rows_reg_308;
+reg   [0:0] fid_in_val9_read_reg_294;
+reg   [15:0] field_id_val8_read_reg_299;
+reg   [10:0] cols_reg_304;
+reg   [10:0] rows_reg_309;
 wire   [11:0] sub_i_fu_211_p2;
-reg   [11:0] sub_i_reg_316;
+reg   [11:0] sub_i_reg_317;
 wire   [0:0] icmp_ln979_fu_217_p2;
-reg   [0:0] icmp_ln979_reg_321;
-wire   [10:0] i_2_fu_245_p2;
-reg   [10:0] i_2_reg_329;
-wire    ap_CS_fsm_state2;
+reg   [0:0] icmp_ln979_reg_322;
 wire   [0:0] and_ln979_fu_251_p2;
-reg   [0:0] and_ln979_reg_334;
+reg   [0:0] and_ln979_reg_330;
+wire    ap_CS_fsm_state2;
 wire    grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_ap_start;
 wire    grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_ap_done;
 wire    grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_ap_idle;
@@ -174,6 +172,7 @@ wire    ap_CS_fsm_state3;
 reg   [15:0] counter_loc_0_i_fu_100;
 reg   [0:0] p_phi_i_loc_fu_104;
 reg   [10:0] i_fu_96;
+wire   [10:0] i_2_fu_245_p2;
 reg    colorFormat_val20_read_local;
 reg    fid_in_val9_read_local;
 reg    field_id_val8_read_local;
@@ -209,8 +208,8 @@ design_1_v_tpg_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2 grp_MultiPi
     .ap_ready(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_ap_ready),
     .sof(sof_reg_155),
     .empty(empty_reg_145),
-    .cols(cols_reg_303),
-    .fid_in_val9_load(fid_in_val9_read_reg_293),
+    .cols(cols_reg_304),
+    .fid_in_val9_load(fid_in_val9_read_reg_294),
     .fid(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_fid),
     .fid_ap_vld(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_fid_ap_vld),
     .ovrlayYUV_dout(ovrlayYUV_dout),
@@ -218,7 +217,7 @@ design_1_v_tpg_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2 grp_MultiPi
     .ovrlayYUV_fifo_cap(5'd0),
     .ovrlayYUV_empty_n(ovrlayYUV_empty_n),
     .ovrlayYUV_read(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_ovrlayYUV_read),
-    .colorFormat_val20_load(colorFormat_val20_read_reg_288),
+    .colorFormat_val20_load(colorFormat_val20_read_reg_289),
     .m_axis_video_TDATA(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_m_axis_video_TDATA),
     .m_axis_video_TVALID(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_m_axis_video_TVALID),
     .m_axis_video_TREADY(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_m_axis_video_TREADY),
@@ -228,8 +227,8 @@ design_1_v_tpg_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2 grp_MultiPi
     .m_axis_video_TLAST(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_m_axis_video_TLAST),
     .m_axis_video_TID(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_m_axis_video_TID),
     .m_axis_video_TDEST(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_m_axis_video_TDEST),
-    .field_id_val8_load(field_id_val8_read_reg_298),
-    .sub_i(sub_i_reg_316),
+    .field_id_val8_load(field_id_val8_read_reg_299),
+    .sub_i(sub_i_reg_317),
     .counter_loc_1_i_out_i(counter_loc_0_i_fu_100),
     .counter_loc_1_i_out_o(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_counter_loc_1_i_out_o),
     .counter_loc_1_i_out_o_ap_vld(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2_fu_167_counter_loc_1_i_out_o_ap_vld),
@@ -300,14 +299,14 @@ end
 always @ (posedge ap_clk) begin
     if (((1'b1 == ap_CS_fsm_state1) & (1'b0 == ap_block_state1))) begin
         i_fu_96 <= 11'd0;
-    end else if ((1'b1 == ap_CS_fsm_state4)) begin
-        i_fu_96 <= i_2_reg_329;
+    end else if (((1'b1 == ap_CS_fsm_state2) & (icmp_ln979_1_fu_240_p2 == 1'd0))) begin
+        i_fu_96 <= i_2_fu_245_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_CS_fsm_state4)) begin
-        sof_reg_155 <= and_ln979_reg_334;
+        sof_reg_155 <= and_ln979_reg_330;
     end else if (((1'b1 == ap_CS_fsm_state1) & (1'b0 == ap_block_state1))) begin
         sof_reg_155 <= 1'd1;
     end
@@ -315,20 +314,19 @@ end
 
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_CS_fsm_state2)) begin
-        and_ln979_reg_334 <= and_ln979_fu_251_p2;
-        i_2_reg_329 <= i_2_fu_245_p2;
+        and_ln979_reg_330 <= and_ln979_fu_251_p2;
     end
 end
 
 always @ (posedge ap_clk) begin
     if (((1'b1 == ap_CS_fsm_state1) & (1'b0 == ap_block_state1))) begin
-        colorFormat_val20_read_reg_288 <= colorFormat_val20_dout;
-        cols_reg_303 <= width_val7_dout;
-        fid_in_val9_read_reg_293 <= fid_in_val9_dout;
-        field_id_val8_read_reg_298 <= field_id_val8_dout;
-        icmp_ln979_reg_321 <= icmp_ln979_fu_217_p2;
-        rows_reg_308 <= height_val4_dout;
-        sub_i_reg_316 <= sub_i_fu_211_p2;
+        colorFormat_val20_read_reg_289 <= colorFormat_val20_dout;
+        cols_reg_304 <= width_val7_dout;
+        fid_in_val9_read_reg_294 <= fid_in_val9_dout;
+        field_id_val8_read_reg_299 <= field_id_val8_dout;
+        icmp_ln979_reg_322 <= icmp_ln979_fu_217_p2;
+        rows_reg_309 <= height_val4_dout;
+        sub_i_reg_317 <= sub_i_fu_211_p2;
     end
 end
 
@@ -534,7 +532,7 @@ always @ (*) begin
     endcase
 end
 
-assign and_ln979_fu_251_p2 = (sof_reg_155 & icmp_ln979_reg_321);
+assign and_ln979_fu_251_p2 = (sof_reg_155 & icmp_ln979_reg_322);
 
 assign ap_CS_fsm_state1 = ap_CS_fsm[32'd0];
 
@@ -562,7 +560,7 @@ assign height_val4_read = height_val4_read_local;
 
 assign i_2_fu_245_p2 = (i_fu_96 + 11'd1);
 
-assign icmp_ln979_1_fu_240_p2 = ((i_fu_96 == rows_reg_308) ? 1'b1 : 1'b0);
+assign icmp_ln979_1_fu_240_p2 = ((i_fu_96 == rows_reg_309) ? 1'b1 : 1'b0);
 
 assign icmp_ln979_fu_217_p2 = ((width_val7_dout == 11'd0) ? 1'b1 : 1'b0);
 

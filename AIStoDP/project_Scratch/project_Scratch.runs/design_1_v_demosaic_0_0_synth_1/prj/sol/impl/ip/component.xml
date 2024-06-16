@@ -824,7 +824,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>2826d382</spirit:value>
+            <spirit:value>3e89dcf0</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -840,7 +840,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>28627bd9</spirit:value>
+            <spirit:value>59435a96</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -856,7 +856,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>550f0c1c</spirit:value>
+            <spirit:value>4e70aa96</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -872,7 +872,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>4ef210fe</spirit:value>
+            <spirit:value>d658c7b7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1641,7 +1641,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d3_S.v</spirit:name>
+        <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d2_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1662,14 +1662,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_frp_fifoout.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1857,7 +1849,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d3_S.v</spirit:name>
+        <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_fifo_w10_d2_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1883,16 +1875,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_frp_fifoout.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/design_1_v_demosaic_0_0_frp_pipeline_valid.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2089,7 +2071,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_fifo_w10_d3_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_fifo_w10_d2_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2110,14 +2092,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_frp_fifoout.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_frp_pipeline_valid.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2183,7 +2157,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_v_demosaic.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_733ea521</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_f3271f0e</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -2274,7 +2248,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_fifo_w10_d3_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_fifo_w10_d2_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2300,16 +2274,6 @@
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_frp_fifoout.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/design_1_v_demosaic_0_0_frp_pipeline_valid.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2477,7 +2441,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>clk_period</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.clk_period" spirit:order="1">3.367</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.clk_period" spirit:order="1">6.734</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>machine</spirit:name>
@@ -2506,8 +2470,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>V_demosaic</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2113605334</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2024-06-16T21:34:45Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2113605408</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2024-06-16T22:48:49Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -2517,10 +2481,10 @@
       <xilinx:xilinxVersion>2024.1</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="7bb7c34b"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="16d0ece2"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="d6a70f8e"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="06f68f77"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="e69f734e"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="9f3463c0"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="a89b9fc0"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="bd8bd280"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'ZipperRemoval'" level="0">
-<item name = "Date">Sun Jun 16 22:34:22 2024
+<item name = "Date">Sun Jun 16 23:48:26 2024
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">3.37 ns, 2.423 ns, 0.91 ns</column>
+<column name="ap_clk">6.73 ns, 3.188 ns, 1.82 ns</column>
 </table>
 </item>
 </section>
@@ -24,19 +24,19 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">1, 4295426041, 3.367 ns, 14.463 sec, 1, 4295426041, no</column>
+<column name="">1, 4295360506, 6.734 ns, 28.925 sec, 1, 4295360506, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2_fu_104">ZipperRemoval_Pipeline_VITIS_LOOP_1101_2, 6, 65541, 20.202 ns, 0.221 ms, 2, 65537, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2_fu_104">ZipperRemoval_Pipeline_VITIS_LOOP_1101_2, 5, 65540, 33.670 ns, 0.441 ms, 2, 65537, loop auto-rewind stp(delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_1099_1">0, 4295426040, 9 ~ 65544, -, -, 0 ~ 65535, no</column>
+<column name="- VITIS_LOOP_1099_1">0, 4295360505, 8 ~ 65543, -, -, 0 ~ 65535, no</column>
 </table>
 </item>
 </section>

@@ -214,7 +214,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "8", "EstimateLatencyMax" : "1928",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "5", "EstimateLatencyMax" : "1925",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -261,10 +261,10 @@ set RtlHierarchyInfo {[
 			{"Name" : "p_0_0_0_0_011551706_i_out", "Type" : "Vld", "Direction" : "O"}],
 		"Loop" : [
 			{"Name" : "VITIS_LOOP_881_2", "PipelineType" : "UPC",
-				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter6", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter6", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
+				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter3", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter3", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.lineBuffer_2_U", "Parent" : "0"},
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.lineBuffer_U", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sparsemux_7_2_10_1_1_U173", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sparsemux_7_2_10_1_1_U172", "Parent" : "0"},
 	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_sequential_init_U", "Parent" : "0"}]}
 
 
@@ -289,25 +289,25 @@ set ArgLastReadFirstWriteLatency {
 		empty {Type I LastRead 0 FirstWrite -1}
 		cmp59_i {Type I LastRead 0 FirstWrite -1}
 		imgRB {Type I LastRead 1 FirstWrite -1}
-		imgRgb {Type O LastRead -1 FirstWrite 6}
-		p_0_0_01183_217801809_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_01184_217781807_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_01185_217761805_i_out {Type O LastRead -1 FirstWrite 5}
-		right_2_i_out {Type O LastRead -1 FirstWrite 5}
-		right_1_i_out {Type O LastRead -1 FirstWrite 5}
-		right_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_0116117861797_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_0116217841795_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_0116317821793_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_2_0_0_011571712_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_1_0_0_011561709_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_0_0_011551706_i_out {Type O LastRead -1 FirstWrite 5}}}
+		imgRgb {Type O LastRead -1 FirstWrite 3}
+		p_0_0_01183_217801809_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_01184_217781807_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_01185_217761805_i_out {Type O LastRead -1 FirstWrite 2}
+		right_2_i_out {Type O LastRead -1 FirstWrite 2}
+		right_1_i_out {Type O LastRead -1 FirstWrite 2}
+		right_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0116117861797_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0116217841795_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0116317821793_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_2_0_0_011571712_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_1_0_0_011561709_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0_0_011551706_i_out {Type O LastRead -1 FirstWrite 2}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "8", "Max" : "1928"}
-	, {"Name" : "Interval", "Min" : "8", "Max" : "1928"}
+	{"Name" : "Latency", "Min" : "5", "Max" : "1925"}
+	, {"Name" : "Interval", "Min" : "5", "Max" : "1925"}
 ]}
 
 set PipelineEnableSignalInfo {[

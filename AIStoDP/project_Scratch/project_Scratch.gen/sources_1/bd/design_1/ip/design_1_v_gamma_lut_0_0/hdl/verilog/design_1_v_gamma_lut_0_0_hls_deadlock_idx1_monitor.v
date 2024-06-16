@@ -11,8 +11,8 @@ module design_1_v_gamma_lut_0_0_hls_deadlock_idx1_monitor ( // for module design
 
 // signal declare
 reg monitor_find_block;
-wire idx4_block;
 wire idx2_block;
+wire idx4_block;
 wire idx3_block;
 wire sub_parallel_block;
 wire all_sub_parallel_has_block;
@@ -21,11 +21,11 @@ wire cur_axis_has_block;
 wire seq_is_axis_block;
 
 assign block = monitor_find_block;
-assign idx4_block = axis_block_sigs[2];
 assign idx2_block = axis_block_sigs[0];
+assign idx4_block = axis_block_sigs[2];
 assign idx3_block = axis_block_sigs[1];
 assign all_sub_parallel_has_block = 1'b0;
-assign all_sub_single_has_block = 1'b0 | (idx4_block & (axis_block_sigs[2])) | (idx2_block & (axis_block_sigs[0])) | (idx3_block & (axis_block_sigs[1]));
+assign all_sub_single_has_block = 1'b0 | (idx2_block & (axis_block_sigs[0])) | (idx4_block & (axis_block_sigs[2])) | (idx3_block & (axis_block_sigs[1]));
 assign cur_axis_has_block = 1'b0;
 assign seq_is_axis_block = all_sub_parallel_has_block | all_sub_single_has_block | cur_axis_has_block;
 

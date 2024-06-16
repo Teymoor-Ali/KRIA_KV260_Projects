@@ -102,7 +102,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1", "real_start" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "53", "EstimateLatencyMax" : "4296671258",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "33", "EstimateLatencyMax" : "4296015888",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -111,7 +111,7 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "imgBayer", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "3", "DependentChanType" : "0",
+			{"Name" : "imgBayer", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "2", "DependentChanType" : "0",
 				"SubConnect" : [
 					{"ID" : "1", "SubInstance" : "grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184", "Port" : "imgBayer", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
 			{"Name" : "imgG", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "2", "DependentChanType" : "0",
@@ -132,13 +132,13 @@ set RtlHierarchyInfo {[
 		"Loop" : [
 			{"Name" : "VITIS_LOOP_315_3", "PipelineType" : "no",
 				"LoopDec" : {"FSMBitwidth" : "4", "FirstState" : "ap_ST_fsm_state2", "LastState" : ["ap_ST_fsm_state4"], "QuitState" : ["ap_ST_fsm_state2"], "PreState" : ["ap_ST_fsm_state1"], "PostState" : ["ap_ST_fsm_state1"], "OneDepthLoop" : "0", "OneStateBlock": ""}}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184", "Parent" : "0", "Child" : ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184", "Parent" : "0", "Child" : ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16"],
 		"CDFG" : "DebayerG_Pipeline_VITIS_LOOP_318_4",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "23", "EstimateLatencyMax" : "65558",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "13", "EstimateLatencyMax" : "65548",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -204,7 +204,8 @@ set RtlHierarchyInfo {[
 			{"Name" : "DIV1_TABLE", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "DIV2_TABLE", "Type" : "Memory", "Direction" : "I"}],
 		"Loop" : [
-			{"Name" : "VITIS_LOOP_318_4", "PipelineType" : "NotSupport"}]},
+			{"Name" : "VITIS_LOOP_318_4", "PipelineType" : "UPC",
+				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter10", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter10", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
 	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.DIV1_TABLE_U", "Parent" : "1"},
 	{"ID" : "3", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.DIV2_TABLE_U", "Parent" : "1"},
 	{"ID" : "4", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.linebuf_yuv_3_U", "Parent" : "1"},
@@ -219,15 +220,13 @@ set RtlHierarchyInfo {[
 	{"ID" : "13", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.mul_14s_10ns_24_1_1_U60", "Parent" : "1"},
 	{"ID" : "14", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.mac_muladd_14s_10ns_24s_25_4_1_U61", "Parent" : "1"},
 	{"ID" : "15", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.mac_muladd_14s_10ns_24s_25_4_1_U62", "Parent" : "1"},
-	{"ID" : "16", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.flow_control_loop_pipe_sequential_init_U", "Parent" : "1"},
-	{"ID" : "17", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.frp_pipeline_valid_U", "Parent" : "1"},
-	{"ID" : "18", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.pf_imgG_U", "Parent" : "1"}]}
+	{"ID" : "16", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.flow_control_loop_pipe_sequential_init_U", "Parent" : "1"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	DebayerG {
 		imgBayer {Type I LastRead 1 FirstWrite -1}
-		imgG {Type O LastRead -1 FirstWrite 20}
+		imgG {Type O LastRead -1 FirstWrite 10}
 		height {Type I LastRead 0 FirstWrite -1}
 		width {Type I LastRead 0 FirstWrite -1}
 		bayerPhase_read {Type I LastRead 0 FirstWrite -1}
@@ -256,7 +255,7 @@ set ArgLastReadFirstWriteLatency {
 		p_lcssa50215054 {Type I LastRead 0 FirstWrite -1}
 		p_lcssa50195052 {Type I LastRead 0 FirstWrite -1}
 		loopWidth {Type I LastRead 0 FirstWrite -1}
-		imgG {Type O LastRead -1 FirstWrite 20}
+		imgG {Type O LastRead -1 FirstWrite 10}
 		empty {Type I LastRead 0 FirstWrite -1}
 		xor_r {Type I LastRead 0 FirstWrite -1}
 		cmp689 {Type I LastRead 0 FirstWrite -1}
@@ -265,34 +264,34 @@ set ArgLastReadFirstWriteLatency {
 		cmp170 {Type I LastRead 0 FirstWrite -1}
 		cmp84 {Type I LastRead 0 FirstWrite -1}
 		imgBayer {Type I LastRead 1 FirstWrite -1}
-		p_out {Type O LastRead -1 FirstWrite 19}
-		p_out1 {Type O LastRead -1 FirstWrite 19}
-		p_out2 {Type O LastRead -1 FirstWrite 19}
-		p_out3 {Type O LastRead -1 FirstWrite 19}
-		p_out4 {Type O LastRead -1 FirstWrite 19}
-		p_out5 {Type O LastRead -1 FirstWrite 19}
-		p_out6 {Type O LastRead -1 FirstWrite 19}
-		p_out7 {Type O LastRead -1 FirstWrite 19}
-		p_out8 {Type O LastRead -1 FirstWrite 19}
-		p_out9 {Type O LastRead -1 FirstWrite 19}
-		p_out10 {Type O LastRead -1 FirstWrite 19}
-		p_out11 {Type O LastRead -1 FirstWrite 19}
-		p_out12 {Type O LastRead -1 FirstWrite 19}
-		p_out13 {Type O LastRead -1 FirstWrite 19}
-		p_out14 {Type O LastRead -1 FirstWrite 19}
-		p_out15 {Type O LastRead -1 FirstWrite 19}
-		p_out16 {Type O LastRead -1 FirstWrite 19}
-		p_out17 {Type O LastRead -1 FirstWrite 19}
-		p_out18 {Type O LastRead -1 FirstWrite 19}
-		p_out19 {Type O LastRead -1 FirstWrite 19}
+		p_out {Type O LastRead -1 FirstWrite 9}
+		p_out1 {Type O LastRead -1 FirstWrite 9}
+		p_out2 {Type O LastRead -1 FirstWrite 9}
+		p_out3 {Type O LastRead -1 FirstWrite 9}
+		p_out4 {Type O LastRead -1 FirstWrite 9}
+		p_out5 {Type O LastRead -1 FirstWrite 9}
+		p_out6 {Type O LastRead -1 FirstWrite 9}
+		p_out7 {Type O LastRead -1 FirstWrite 9}
+		p_out8 {Type O LastRead -1 FirstWrite 9}
+		p_out9 {Type O LastRead -1 FirstWrite 9}
+		p_out10 {Type O LastRead -1 FirstWrite 9}
+		p_out11 {Type O LastRead -1 FirstWrite 9}
+		p_out12 {Type O LastRead -1 FirstWrite 9}
+		p_out13 {Type O LastRead -1 FirstWrite 9}
+		p_out14 {Type O LastRead -1 FirstWrite 9}
+		p_out15 {Type O LastRead -1 FirstWrite 9}
+		p_out16 {Type O LastRead -1 FirstWrite 9}
+		p_out17 {Type O LastRead -1 FirstWrite 9}
+		p_out18 {Type O LastRead -1 FirstWrite 9}
+		p_out19 {Type O LastRead -1 FirstWrite 9}
 		DIV1_TABLE {Type I LastRead -1 FirstWrite -1}
 		DIV2_TABLE {Type I LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "53", "Max" : "4296671258"}
-	, {"Name" : "Interval", "Min" : "53", "Max" : "1703962"}
+	{"Name" : "Latency", "Min" : "33", "Max" : "4296015888"}
+	, {"Name" : "Interval", "Min" : "33", "Max" : "1048592"}
 ]}
 
 set PipelineEnableSignalInfo {[

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'v_demosaic'
 ================================================================
-* Date:           Sun Jun 16 22:34:22 2024
+* Date:           Sun Jun 16 23:48:27 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  3.37 ns|  2.458 ns|     0.91 ns|
+    |ap_clk  |  6.73 ns|  4.854 ns|     1.82 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -94,13 +94,13 @@ ST_2 : Operation 14 [1/1] (1.00ns)   --->   "%height_read = read i16 @_ssdm_op_R
 ST_2 : Operation 15 [1/1] (1.00ns)   --->   "%width_read = read i16 @_ssdm_op_Read.ap_stable.i16, i16 %width"   --->   Operation 15 'read' 'width_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 120 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
 ST_2 : Operation 16 [2/2] (0.00ns)   --->   "%call_ln115 = call void @AXIvideo2MultiBayer, i16 %s_axis_video_V_data_V, i2 %s_axis_video_V_keep_V, i2 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i10 %imgBayer, i16 %height_read, i16 %width_read" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:115]   --->   Operation 16 'call' 'call_ln115' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 3 <SV = 2> <Delay = 1.00>
-ST_3 : Operation 17 [1/1] (1.00ns)   --->   "%bayer_phase_read = read i16 @_ssdm_op_Read.s_axilite.i16, i16 %bayer_phase"   --->   Operation 17 'read' 'bayer_phase_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 120 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
-ST_3 : Operation 18 [1/2] (0.79ns)   --->   "%call_ln115 = call void @AXIvideo2MultiBayer, i16 %s_axis_video_V_data_V, i2 %s_axis_video_V_keep_V, i2 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i10 %imgBayer, i16 %height_read, i16 %width_read" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:115]   --->   Operation 18 'call' 'call_ln115' <Predicate = true> <Delay = 0.79> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 3 <SV = 2> <Delay = 0.79>
+ST_3 : Operation 17 [1/2] (0.79ns)   --->   "%call_ln115 = call void @AXIvideo2MultiBayer, i16 %s_axis_video_V_data_V, i2 %s_axis_video_V_keep_V, i2 %s_axis_video_V_strb_V, i1 %s_axis_video_V_user_V, i1 %s_axis_video_V_last_V, i1 %s_axis_video_V_id_V, i1 %s_axis_video_V_dest_V, i10 %imgBayer, i16 %height_read, i16 %width_read" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:115]   --->   Operation 17 'call' 'call_ln115' <Predicate = true> <Delay = 0.79> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 4 <SV = 3> <Delay = 0.00>
+State 4 <SV = 3> <Delay = 1.00>
+ST_4 : Operation 18 [1/1] (1.00ns)   --->   "%bayer_phase_read = read i16 @_ssdm_op_Read.s_axilite.i16, i16 %bayer_phase"   --->   Operation 18 'read' 'bayer_phase_read' <Predicate = true> <Delay = 1.00> <CoreInst = "s_axilite">   --->   Core 120 's_axilite' <Latency = 0> <II = 1> <Delay = 1.00> <Adapter> <Opcode : 'read' 'write'>
 ST_4 : Operation 19 [1/1] (0.00ns)   --->   "%bayer_phase_assign_channel = call i16 @Block_entry.split_proc, i16 %bayer_phase_read"   --->   Operation 19 'call' 'bayer_phase_assign_channel' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
-ST_4 : Operation 20 [2/2] (2.45ns)   --->   "%call_ln116 = call void @Debayer, i10 %imgBayer, i30 %imgRgb, i16 %height_read, i16 %width_read, i16 %bayer_phase_assign_channel, i10 %DIV1_TABLE, i18 %DIV2_TABLE" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:116]   --->   Operation 20 'call' 'call_ln116' <Predicate = true> <Delay = 2.45> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_4 : Operation 20 [2/2] (3.67ns)   --->   "%call_ln116 = call void @Debayer, i10 %imgBayer, i30 %imgRgb, i16 %height_read, i16 %width_read, i16 %bayer_phase_assign_channel, i10 %DIV1_TABLE, i18 %DIV2_TABLE" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:116]   --->   Operation 20 'call' 'call_ln116' <Predicate = true> <Delay = 3.67> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 5 <SV = 4> <Delay = 0.00>
 ST_5 : Operation 21 [1/2] (0.00ns)   --->   "%call_ln116 = call void @Debayer, i10 %imgBayer, i30 %imgRgb, i16 %height_read, i16 %width_read, i16 %bayer_phase_assign_channel, i10 %DIV1_TABLE, i18 %DIV2_TABLE" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:116]   --->   Operation 21 'call' 'call_ln116' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
@@ -160,7 +160,7 @@ ST_10 : Operation 62 [1/1] (0.00ns)   --->   "%ret_ln123 = ret" [F:/Projects/Viv
 ============================================================
 + Verbose Summary: Timing violations
 ============================================================
-Target clock period: 3.367ns, clock uncertainty: 0.909ns.
+Target clock period: 6.734ns, clock uncertainty: 1.818ns.
 
  <State 1>: 0.000ns
 The critical path consists of the following:
@@ -169,12 +169,13 @@ The critical path consists of the following:
 The critical path consists of the following:
 	wire read operation ('height') on port 'height' [49]  (1.000 ns)
 
- <State 3>: 1.000ns
+ <State 3>: 0.798ns
+The critical path consists of the following:
+	'call' operation 0 bit ('call_ln115', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:115) to 'AXIvideo2MultiBayer' [63]  (0.798 ns)
+
+ <State 4>: 1.000ns
 The critical path consists of the following:
 	s_axi read operation ('bayer_phase') on port 'bayer_phase' [48]  (1.000 ns)
-
- <State 4>: 0.000ns
-The critical path consists of the following:
 
  <State 5>: 0.000ns
 The critical path consists of the following:

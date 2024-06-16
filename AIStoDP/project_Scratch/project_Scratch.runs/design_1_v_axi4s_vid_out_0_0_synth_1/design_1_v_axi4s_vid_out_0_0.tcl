@@ -56,6 +56,11 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "design_1_v_axi4s_vid_out_0_0_synth_1" START { ROLLUP_AUTO }
+set_param power.BramSDPPropagationFix 1
+set_param power.enableUnconnectedCarry8PinPower 1
+set_param power.enableCarry8RouteBelPower 1
+set_param power.enableLutRouteBelPower 1
+set_param bd.open.in_stealth_mode 2
 set_param ced.repoPaths C:/Users/Teymo/AppData/Roaming/Xilinx/Vivado/2024.1/xhub/ced_store/Vivado_example_project
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
@@ -77,7 +82,7 @@ set_property ip_output_repo f:/Projects/Vivado/project_Scratch/project_Scratch.c
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet f:/Projects/Vivado/project_Scratch/project_Scratch.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0.xci
+read_ip -quiet F:/Projects/Vivado/project_Scratch/project_Scratch.srcs/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0.xci
 set_property used_in_implementation false [get_files -all f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0_ooc.xdc]
 

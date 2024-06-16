@@ -1051,7 +1051,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.45</m_delay>
+				<m_delay>3.67</m_delay>
 				<m_topoIndex>9</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2495,7 +2495,7 @@
 		<item class_id="37" tracking_level="0" version="0">
 			<first>48</first>
 			<second class_id="38" tracking_level="0" version="0">
-				<first>2</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>

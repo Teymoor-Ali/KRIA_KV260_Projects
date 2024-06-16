@@ -248,7 +248,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.22</m_delay>
+          <m_delay>1.83</m_delay>
           <m_topoIndex>1</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -734,7 +734,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.22</m_delay>
+          <m_delay>1.83</m_delay>
           <m_topoIndex>10</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -798,7 +798,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.02</m_delay>
+          <m_delay>2.63</m_delay>
           <m_topoIndex>11</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -861,7 +861,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.02</m_delay>
+          <m_delay>2.63</m_delay>
           <m_topoIndex>12</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -1367,8 +1367,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>65601</mMinLatency>
-        <mMaxLatency>1703962</mMaxLatency>
+        <mMinLatency>65574</mMinLatency>
+        <mMaxLatency>1048592</mMaxLatency>
         <mIsDfPipe>1</mIsDfPipe>
         <mDfPipe class_id="23" tracking_level="1" version="0" object_id="_60">
           <port_list class_id="24" tracking_level="0" version="0">
@@ -2040,11 +2040,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>4719</second>
+              <second>3494</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>4979</second>
+              <second>4816</second>
             </item>
             <item>
               <first>URAM</first>
@@ -2063,11 +2063,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>1988</second>
+              <second>1066</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>2106</second>
+              <second>1926</second>
             </item>
             <item>
               <first>URAM</first>
@@ -2086,11 +2086,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>3093</second>
+              <second>1465</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>2541</second>
+              <second>1864</second>
             </item>
             <item>
               <first>URAM</first>
@@ -2389,7 +2389,7 @@
           <second>
             <count>1</count>
             <item_version>0</item_version>
-            <item>146</item>
+            <item>143</item>
           </second>
         </item>
         <item>
@@ -2397,7 +2397,7 @@
           <second>
             <count>1</count>
             <item_version>0</item_version>
-            <item>178</item>
+            <item>175</item>
           </second>
         </item>
         <item>
@@ -2405,7 +2405,7 @@
           <second>
             <count>1</count>
             <item_version>0</item_version>
-            <item>129</item>
+            <item>126</item>
           </second>
         </item>
         <item>
@@ -2413,7 +2413,7 @@
           <second>
             <count>1</count>
             <item_version>0</item_version>
-            <item>162</item>
+            <item>159</item>
           </second>
         </item>
       </dp_fifo_map>

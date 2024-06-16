@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Sun Jun 16 22:34:35 2024
-# Process ID: 17784
+# Start of session at: Sun Jun 16 23:48:39 2024
+# Process ID: 9808
 # Current directory: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip
 # Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
 # Log file: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/vivado.log
@@ -19,15 +19,15 @@
 # Host memory       :68621 MB
 # Swap memory       :62277 MB
 # Total Virtual     :130898 MB
-# Available Virtual :68034 MB
+# Available Virtual :59988 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace
 INFO: calling package_hls_ip ip_types=vitis sysgen json_file=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/sol_data.json outdir=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip srcdir=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol sort_interfaces_ports=false
 INFO: Copied 1 ipmisc file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/misc
-INFO: Copied 49 verilog file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/verilog
-INFO: Copied 41 vhdl file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/vhdl
+INFO: Copied 47 verilog file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/verilog
+INFO: Copied 39 vhdl file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/vhdl
 INFO: Copied 10 swdriver file(s) to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/drivers
-ipx::create_core: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 635.125 ; gain = 194.047
+ipx::create_core: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 635.168 ; gain = 192.141
 INFO: Import ports from HDL: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/hdl/vhdl/design_1_v_demosaic_0_0_v_demosaic.vhd (design_1_v_demosaic_0_0_v_demosaic)
 INFO: Add axi4lite interface s_axi_CTRL
 INFO: Add clock interface ap_clk
@@ -43,4 +43,4 @@ INFO: Calling post_process_sysgen to specialize IP
 Generating sysgen info xml from json file
 INFO: Created IP F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/component.xml
 INFO: Created IP archive F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/xilinx_com_ip_v_demosaic_1_1.zip
-INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 22:34:45 2024...
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 23:48:50 2024...

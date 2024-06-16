@@ -2,7 +2,7 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Sun Jun 16 22:32:51 2024
+// Date        : Sun Jun 16 23:47:53 2024
 // Host        : Tey running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.v
@@ -65,7 +65,6 @@ module design_1_clk_wiz_0_0_clk_wiz
   wire clk_out2;
   wire clk_out2_design_1_clk_wiz_0_0;
   wire clk_out3;
-  wire clk_out3_design_1_clk_wiz_0_0;
   wire locked;
   wire reset_high;
   wire resetn;
@@ -77,6 +76,7 @@ module design_1_clk_wiz_0_0_clk_wiz
   wire NLW_mmcme4_adv_inst_CLKINSTOPPED_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKOUT0B_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKOUT1B_UNCONNECTED;
+  wire NLW_mmcme4_adv_inst_CLKOUT2_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKOUT2B_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKOUT3_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKOUT3B_UNCONNECTED;
@@ -87,6 +87,21 @@ module design_1_clk_wiz_0_0_clk_wiz
   wire NLW_mmcme4_adv_inst_PSDONE_UNCONNECTED;
   wire [15:0]NLW_mmcme4_adv_inst_DO_UNCONNECTED;
 
+  (* BOX_TYPE = "PRIMITIVE" *) 
+  BUFGCE_DIV #(
+    .BUFGCE_DIVIDE(1),
+    .CE_TYPE("SYNC"),
+    .HARDSYNC_CLR("FALSE"),
+    .IS_CE_INVERTED(1'b0),
+    .IS_CLR_INVERTED(1'b0),
+    .IS_I_INVERTED(1'b0),
+    .SIM_DEVICE("ULTRASCALE"),
+    .STARTUP_SYNC("FALSE")) 
+    BUFGCE_DIV_CLK3_inst
+       (.CE(1'b1),
+        .CLR(1'b0),
+        .I(clk_out1_design_1_clk_wiz_0_0),
+        .O(clk_out3));
   (* BOX_TYPE = "PRIMITIVE" *) 
   (* CAPACITANCE = "DONT_CARE" *) 
   (* IBUF_DELAY_VALUE = "0" *) 
@@ -117,16 +132,6 @@ module design_1_clk_wiz_0_0_clk_wiz
         .I(clk_out2_design_1_clk_wiz_0_0),
         .O(clk_out2));
   (* BOX_TYPE = "PRIMITIVE" *) 
-  (* XILINX_LEGACY_PRIM = "BUFG" *) 
-  (* XILINX_TRANSFORM_PINMAP = "VCC:CE" *) 
-  BUFGCE #(
-    .CE_TYPE("ASYNC"),
-    .SIM_DEVICE("ULTRASCALE_PLUS")) 
-    clkout3_buf
-       (.CE(1'b1),
-        .I(clk_out3_design_1_clk_wiz_0_0),
-        .O(clk_out3));
-  (* BOX_TYPE = "PRIMITIVE" *) 
   (* OPT_MODIFIED = "MLO" *) 
   MMCME4_ADV #(
     .BANDWIDTH("OPTIMIZED"),
@@ -143,7 +148,7 @@ module design_1_clk_wiz_0_0_clk_wiz
     .CLKOUT1_DUTY_CYCLE(0.500000),
     .CLKOUT1_PHASE(0.000000),
     .CLKOUT1_USE_FINE_PS("FALSE"),
-    .CLKOUT2_DIVIDE(4),
+    .CLKOUT2_DIVIDE(8),
     .CLKOUT2_DUTY_CYCLE(0.500000),
     .CLKOUT2_PHASE(0.000000),
     .CLKOUT2_USE_FINE_PS("FALSE"),
@@ -195,7 +200,7 @@ module design_1_clk_wiz_0_0_clk_wiz
         .CLKOUT0B(NLW_mmcme4_adv_inst_CLKOUT0B_UNCONNECTED),
         .CLKOUT1(clk_out2_design_1_clk_wiz_0_0),
         .CLKOUT1B(NLW_mmcme4_adv_inst_CLKOUT1B_UNCONNECTED),
-        .CLKOUT2(clk_out3_design_1_clk_wiz_0_0),
+        .CLKOUT2(NLW_mmcme4_adv_inst_CLKOUT2_UNCONNECTED),
         .CLKOUT2B(NLW_mmcme4_adv_inst_CLKOUT2B_UNCONNECTED),
         .CLKOUT3(NLW_mmcme4_adv_inst_CLKOUT3_UNCONNECTED),
         .CLKOUT3B(NLW_mmcme4_adv_inst_CLKOUT3B_UNCONNECTED),

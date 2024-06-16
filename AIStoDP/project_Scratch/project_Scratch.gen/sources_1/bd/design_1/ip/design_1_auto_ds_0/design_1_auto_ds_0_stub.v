@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Sun Jun 16 22:34:12 2024
+// Date        : Sun Jun 16 23:49:12 2024
 // Host        : Tey running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub -rename_top design_1_auto_ds_0 -prefix
-//               design_1_auto_ds_0_ design_1_auto_ds_0_stub.v
+// Command     : write_verilog -force -mode synth_stub
+//               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_stub.v
 // Design      : design_1_auto_ds_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xck26-sfvc784-2LV-c

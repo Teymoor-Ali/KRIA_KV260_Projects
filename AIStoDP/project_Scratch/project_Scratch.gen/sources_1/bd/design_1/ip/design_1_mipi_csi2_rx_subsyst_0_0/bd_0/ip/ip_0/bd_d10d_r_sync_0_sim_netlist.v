@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
 // Date        : Sun Jun 16 22:32:50 2024
 // Host        : Tey running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_d10d_r_sync_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top bd_d10d_r_sync_0 -prefix
+//               bd_d10d_r_sync_0_ bd_d10d_r_sync_0_sim_netlist.v
 // Design      : bd_d10d_r_sync_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -70,7 +70,6 @@ module bd_d10d_r_sync_0
         .slowest_sync_clk(slowest_sync_clk));
 endmodule
 
-(* ORIG_REF_NAME = "cdc_sync" *) 
 module bd_d10d_r_sync_0_cdc_sync
    (lpf_asr_reg,
     scndry_out,
@@ -266,7 +265,6 @@ module bd_d10d_r_sync_0_cdc_sync_0
         .O(lpf_exr_reg));
 endmodule
 
-(* ORIG_REF_NAME = "lpf" *) 
 module bd_d10d_r_sync_0_lpf
    (lpf_int,
     slowest_sync_clk,
@@ -421,7 +419,6 @@ endmodule
 (* C_AUX_RESET_HIGH = "1'b0" *) (* C_AUX_RST_WIDTH = "4" *) (* C_EXT_RESET_HIGH = "1'b0" *) 
 (* C_EXT_RST_WIDTH = "4" *) (* C_FAMILY = "zynquplus" *) (* C_NUM_BUS_RST = "1" *) 
 (* C_NUM_INTERCONNECT_ARESETN = "1" *) (* C_NUM_PERP_ARESETN = "1" *) (* C_NUM_PERP_RST = "1" *) 
-(* ORIG_REF_NAME = "proc_sys_reset" *) 
 module bd_d10d_r_sync_0_proc_sys_reset
    (slowest_sync_clk,
     ext_reset_in,
@@ -538,7 +535,6 @@ module bd_d10d_r_sync_0_proc_sys_reset
         .slowest_sync_clk(slowest_sync_clk));
 endmodule
 
-(* ORIG_REF_NAME = "sequence_psr" *) 
 module bd_d10d_r_sync_0_sequence_psr
    (MB_out,
     Bsr_out,
@@ -779,7 +775,6 @@ module bd_d10d_r_sync_0_sequence_psr
         .R(lpf_int));
 endmodule
 
-(* ORIG_REF_NAME = "upcnt_n" *) 
 module bd_d10d_r_sync_0_upcnt_n
    (Q,
     seq_clr,

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'Debayer'" level="0">
-<item name = "Date">Sun Jun 16 22:34:26 2024
+<item name = "Date">Sun Jun 16 23:48:30 2024
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">3.37 ns, 2.458 ns, 0.91 ns</column>
+<column name="ap_clk">6.73 ns, 4.854 ns, 1.82 ns</column>
 </table>
 </item>
 </section>
@@ -24,16 +24,16 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">65601, 4296671258, 0.221 ms, 14.467 sec, 54, 4296671259, dataflow</column>
+<column name="">65574, 4296015888, 0.442 ms, 28.929 sec, 34, 4296015889, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="DebayerG_U0">DebayerG, 53, 4296671258, 0.178 us, 14.467 sec, 53, 4296671258, no</column>
-<column name="DebayerRatBorBatR_U0">DebayerRatBorBatR, 14, 2089574, 47.138 ns, 7.036 ms, 14, 2089574, no</column>
-<column name="DebayerRandBatG_U0">DebayerRandBatG, 12, 2087412, 40.404 ns, 7.028 ms, 12, 2087412, no</column>
+<column name="DebayerG_U0">DebayerG, 33, 4296015888, 0.222 us, 28.929 sec, 33, 4296015888, no</column>
+<column name="DebayerRatBorBatR_U0">DebayerRatBorBatR, 10, 2085250, 67.340 ns, 14.042 ms, 10, 2085250, no</column>
+<column name="DebayerRandBatG_U0">DebayerRandBatG, 9, 2084169, 60.606 ns, 14.035 ms, 9, 2084169, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -52,21 +52,21 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 2, -</column>
 <column name="FIFO">-, -, 396, 268, -</column>
-<column name="Instance">30, 8, 9800, 9626, 0</column>
+<column name="Instance">30, 8, 6025, 8606, 0</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, 0, 9, -</column>
 <column name="Register">-, -, 1, -, -</column>
 <specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
-<specialColumn name="Utilization (%)">10, ~0, 4, 8, 0</specialColumn>
+<specialColumn name="Utilization (%)">10, ~0, 2, 7, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="DebayerG_U0">DebayerG, 14, 8, 4719, 4979, 0</column>
-<column name="DebayerRandBatG_U0">DebayerRandBatG, 8, 0, 1988, 2106, 0</column>
-<column name="DebayerRatBorBatR_U0">DebayerRatBorBatR, 8, 0, 3093, 2541, 0</column>
+<column name="DebayerG_U0">DebayerG, 14, 8, 3494, 4816, 0</column>
+<column name="DebayerRandBatG_U0">DebayerRandBatG, 8, 0, 1066, 1926, 0</column>
+<column name="DebayerRatBorBatR_U0">DebayerRatBorBatR, 8, 0, 1465, 1864, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -113,8 +113,6 @@
 <column name="start_write">out, 1, ap_ctrl_hs, Debayer, return value</column>
 <column name="ap_clk">in, 1, ap_ctrl_hs, Debayer, return value</column>
 <column name="ap_rst">in, 1, ap_ctrl_hs, Debayer, return value</column>
-<column name="imgBayer_num_data_valid">in, 3, ap_ctrl_hs, Debayer, return value</column>
-<column name="imgBayer_fifo_cap">in, 3, ap_ctrl_hs, Debayer, return value</column>
 <column name="ap_done">out, 1, ap_ctrl_hs, Debayer, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, Debayer, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, Debayer, return value</column>

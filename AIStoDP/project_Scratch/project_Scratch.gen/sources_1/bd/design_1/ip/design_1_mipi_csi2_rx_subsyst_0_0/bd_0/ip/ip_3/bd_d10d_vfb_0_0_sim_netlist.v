@@ -2,7 +2,7 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Sun Jun 16 22:32:56 2024
+// Date        : Sun Jun 16 23:47:58 2024
 // Host        : Tey running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0_sim_netlist.v
@@ -541,7 +541,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
   wire [2:0]state;
   wire \state_reg_n_0_[2] ;
 
-  (* SOFT_HLUTNM = "soft_lutpair31" *) 
+  (* SOFT_HLUTNM = "soft_lutpair32" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[0]_INST_0 
@@ -549,7 +549,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[0]),
         .O(m_axis_tdata[0]));
-  (* SOFT_HLUTNM = "soft_lutpair32" *) 
+  (* SOFT_HLUTNM = "soft_lutpair33" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[16]_INST_0 
@@ -564,7 +564,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[17]),
         .O(m_axis_tdata[11]));
-  (* SOFT_HLUTNM = "soft_lutpair27" *) 
+  (* SOFT_HLUTNM = "soft_lutpair28" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[18]_INST_0 
@@ -572,7 +572,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[18]),
         .O(m_axis_tdata[12]));
-  (* SOFT_HLUTNM = "soft_lutpair28" *) 
+  (* SOFT_HLUTNM = "soft_lutpair29" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[19]_INST_0 
@@ -580,7 +580,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[19]),
         .O(m_axis_tdata[13]));
-  (* SOFT_HLUTNM = "soft_lutpair32" *) 
+  (* SOFT_HLUTNM = "soft_lutpair33" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[1]_INST_0 
@@ -588,7 +588,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[1]),
         .O(m_axis_tdata[1]));
-  (* SOFT_HLUTNM = "soft_lutpair28" *) 
+  (* SOFT_HLUTNM = "soft_lutpair29" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[20]_INST_0 
@@ -596,7 +596,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[20]),
         .O(m_axis_tdata[14]));
-  (* SOFT_HLUTNM = "soft_lutpair29" *) 
+  (* SOFT_HLUTNM = "soft_lutpair30" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[21]_INST_0 
@@ -604,7 +604,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[21]),
         .O(m_axis_tdata[15]));
-  (* SOFT_HLUTNM = "soft_lutpair29" *) 
+  (* SOFT_HLUTNM = "soft_lutpair30" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[22]_INST_0 
@@ -612,7 +612,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[22]),
         .O(m_axis_tdata[16]));
-  (* SOFT_HLUTNM = "soft_lutpair30" *) 
+  (* SOFT_HLUTNM = "soft_lutpair31" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[23]_INST_0 
@@ -620,7 +620,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[23]),
         .O(m_axis_tdata[17]));
-  (* SOFT_HLUTNM = "soft_lutpair30" *) 
+  (* SOFT_HLUTNM = "soft_lutpair31" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[24]_INST_0 
@@ -628,7 +628,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[24]),
         .O(m_axis_tdata[18]));
-  (* SOFT_HLUTNM = "soft_lutpair31" *) 
+  (* SOFT_HLUTNM = "soft_lutpair32" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[25]_INST_0 
@@ -636,7 +636,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[25]),
         .O(m_axis_tdata[19]));
-  (* SOFT_HLUTNM = "soft_lutpair23" *) 
+  (* SOFT_HLUTNM = "soft_lutpair24" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[2]_INST_0 
@@ -644,7 +644,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[2]),
         .O(m_axis_tdata[2]));
-  (* SOFT_HLUTNM = "soft_lutpair24" *) 
+  (* SOFT_HLUTNM = "soft_lutpair25" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[3]_INST_0 
@@ -652,7 +652,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[3]),
         .O(m_axis_tdata[3]));
-  (* SOFT_HLUTNM = "soft_lutpair24" *) 
+  (* SOFT_HLUTNM = "soft_lutpair25" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[4]_INST_0 
@@ -660,7 +660,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[4]),
         .O(m_axis_tdata[4]));
-  (* SOFT_HLUTNM = "soft_lutpair25" *) 
+  (* SOFT_HLUTNM = "soft_lutpair26" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[5]_INST_0 
@@ -668,7 +668,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[5]),
         .O(m_axis_tdata[5]));
-  (* SOFT_HLUTNM = "soft_lutpair25" *) 
+  (* SOFT_HLUTNM = "soft_lutpair26" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[6]_INST_0 
@@ -676,7 +676,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[6]),
         .O(m_axis_tdata[6]));
-  (* SOFT_HLUTNM = "soft_lutpair26" *) 
+  (* SOFT_HLUTNM = "soft_lutpair27" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[7]_INST_0 
@@ -684,7 +684,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[7]),
         .O(m_axis_tdata[7]));
-  (* SOFT_HLUTNM = "soft_lutpair26" *) 
+  (* SOFT_HLUTNM = "soft_lutpair27" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[8]_INST_0 
@@ -692,7 +692,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[8]),
         .O(m_axis_tdata[8]));
-  (* SOFT_HLUTNM = "soft_lutpair27" *) 
+  (* SOFT_HLUTNM = "soft_lutpair28" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tdata[9]_INST_0 
@@ -700,7 +700,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I1(\r0_out_sel_r_reg_n_0_[0] ),
         .I2(p_0_in1_in[9]),
         .O(m_axis_tdata[9]));
-  (* SOFT_HLUTNM = "soft_lutpair21" *) 
+  (* SOFT_HLUTNM = "soft_lutpair22" *) 
   LUT5 #(
     .INIT(32'hCCACACCC)) 
     \m_axis_tid[0]_INST_0 
@@ -801,7 +801,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I4(r0_last_reg_n_0),
         .I5(r0_is_end),
         .O(m_axis_tlast));
-  (* SOFT_HLUTNM = "soft_lutpair23" *) 
+  (* SOFT_HLUTNM = "soft_lutpair24" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \m_axis_tuser[0]_INST_0 
@@ -1147,7 +1147,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I3(p_0_in),
         .I4(SR),
         .O(\r0_out_sel_r[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair21" *) 
+  (* SOFT_HLUTNM = "soft_lutpair22" *) 
   LUT3 #(
     .INIT(8'h02)) 
     \r0_out_sel_r[0]_i_2 
@@ -1368,7 +1368,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .D(r0_user),
         .Q(r1_user),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair22" *) 
+  (* SOFT_HLUTNM = "soft_lutpair23" *) 
   LUT5 #(
     .INIT(32'hFF550FCF)) 
     \state[0]_i_1 
@@ -1388,7 +1388,7 @@ module bd_d10d_vfb_0_0_axis_dwidth_converter_v1_1_30_axisc_downsizer
         .I4(\state_reg_n_0_[2] ),
         .I5(Q[0]),
         .O(state[1]));
-  (* SOFT_HLUTNM = "soft_lutpair22" *) 
+  (* SOFT_HLUTNM = "soft_lutpair23" *) 
   LUT5 #(
     .INIT(32'h000008C0)) 
     \state[2]_i_1 
@@ -1833,6 +1833,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
   wire \vfb_vcdt[9]_i_1_n_0 ;
   wire \vfb_vcdt[9]_i_2_n_0 ;
 
+  (* SOFT_HLUTNM = "soft_lutpair36" *) 
   LUT4 #(
     .INIT(16'h40FF)) 
     \buf_valid[1]_i_4 
@@ -1870,7 +1871,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[16] ),
         .O(sband_td_r[0]));
-  (* SOFT_HLUTNM = "soft_lutpair48" *) 
+  (* SOFT_HLUTNM = "soft_lutpair50" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[10]_i_1 
@@ -1878,7 +1879,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[26] ),
         .O(sband_td_r[10]));
-  (* SOFT_HLUTNM = "soft_lutpair47" *) 
+  (* SOFT_HLUTNM = "soft_lutpair49" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[11]_i_1 
@@ -1886,7 +1887,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[27] ),
         .O(sband_td_r[11]));
-  (* SOFT_HLUTNM = "soft_lutpair47" *) 
+  (* SOFT_HLUTNM = "soft_lutpair49" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[12]_i_1 
@@ -1894,7 +1895,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[28] ),
         .O(sband_td_r[12]));
-  (* SOFT_HLUTNM = "soft_lutpair46" *) 
+  (* SOFT_HLUTNM = "soft_lutpair48" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[13]_i_1 
@@ -1902,7 +1903,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[29] ),
         .O(sband_td_r[13]));
-  (* SOFT_HLUTNM = "soft_lutpair46" *) 
+  (* SOFT_HLUTNM = "soft_lutpair48" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[14]_i_1 
@@ -1910,7 +1911,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[30] ),
         .O(sband_td_r[14]));
-  (* SOFT_HLUTNM = "soft_lutpair45" *) 
+  (* SOFT_HLUTNM = "soft_lutpair47" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[15]_i_1 
@@ -1918,7 +1919,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[31] ),
         .O(sband_td_r[15]));
-  (* SOFT_HLUTNM = "soft_lutpair45" *) 
+  (* SOFT_HLUTNM = "soft_lutpair47" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[16]_i_1 
@@ -1926,7 +1927,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[32] ),
         .O(sband_td_r[16]));
-  (* SOFT_HLUTNM = "soft_lutpair44" *) 
+  (* SOFT_HLUTNM = "soft_lutpair46" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[17]_i_1 
@@ -1934,7 +1935,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[33] ),
         .O(sband_td_r[17]));
-  (* SOFT_HLUTNM = "soft_lutpair44" *) 
+  (* SOFT_HLUTNM = "soft_lutpair46" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[18]_i_1 
@@ -1942,7 +1943,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[34] ),
         .O(sband_td_r[18]));
-  (* SOFT_HLUTNM = "soft_lutpair43" *) 
+  (* SOFT_HLUTNM = "soft_lutpair45" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[19]_i_1 
@@ -1950,7 +1951,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[35] ),
         .O(sband_td_r[19]));
-  (* SOFT_HLUTNM = "soft_lutpair52" *) 
+  (* SOFT_HLUTNM = "soft_lutpair54" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[1]_i_1 
@@ -1958,7 +1959,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[17] ),
         .O(sband_td_r[1]));
-  (* SOFT_HLUTNM = "soft_lutpair43" *) 
+  (* SOFT_HLUTNM = "soft_lutpair45" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[20]_i_1 
@@ -1966,7 +1967,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[36] ),
         .O(sband_td_r[20]));
-  (* SOFT_HLUTNM = "soft_lutpair42" *) 
+  (* SOFT_HLUTNM = "soft_lutpair44" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[21]_i_1 
@@ -1974,7 +1975,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[37] ),
         .O(sband_td_r[21]));
-  (* SOFT_HLUTNM = "soft_lutpair42" *) 
+  (* SOFT_HLUTNM = "soft_lutpair44" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[22]_i_1 
@@ -1982,7 +1983,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[38] ),
         .O(sband_td_r[22]));
-  (* SOFT_HLUTNM = "soft_lutpair41" *) 
+  (* SOFT_HLUTNM = "soft_lutpair43" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[23]_i_1 
@@ -1990,7 +1991,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[39] ),
         .O(sband_td_r[23]));
-  (* SOFT_HLUTNM = "soft_lutpair41" *) 
+  (* SOFT_HLUTNM = "soft_lutpair43" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[24]_i_1 
@@ -1998,7 +1999,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[40] ),
         .O(sband_td_r[24]));
-  (* SOFT_HLUTNM = "soft_lutpair40" *) 
+  (* SOFT_HLUTNM = "soft_lutpair42" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[25]_i_1 
@@ -2006,7 +2007,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[41] ),
         .O(sband_td_r[25]));
-  (* SOFT_HLUTNM = "soft_lutpair40" *) 
+  (* SOFT_HLUTNM = "soft_lutpair42" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[26]_i_1 
@@ -2014,7 +2015,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[42] ),
         .O(sband_td_r[26]));
-  (* SOFT_HLUTNM = "soft_lutpair39" *) 
+  (* SOFT_HLUTNM = "soft_lutpair41" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[27]_i_1 
@@ -2022,7 +2023,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[43] ),
         .O(sband_td_r[27]));
-  (* SOFT_HLUTNM = "soft_lutpair39" *) 
+  (* SOFT_HLUTNM = "soft_lutpair41" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[28]_i_1 
@@ -2030,7 +2031,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[44] ),
         .O(sband_td_r[28]));
-  (* SOFT_HLUTNM = "soft_lutpair38" *) 
+  (* SOFT_HLUTNM = "soft_lutpair40" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[29]_i_1 
@@ -2038,7 +2039,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[45] ),
         .O(sband_td_r[29]));
-  (* SOFT_HLUTNM = "soft_lutpair52" *) 
+  (* SOFT_HLUTNM = "soft_lutpair54" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[2]_i_1 
@@ -2046,7 +2047,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[18] ),
         .O(sband_td_r[2]));
-  (* SOFT_HLUTNM = "soft_lutpair38" *) 
+  (* SOFT_HLUTNM = "soft_lutpair40" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[30]_i_1 
@@ -2054,7 +2055,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[46] ),
         .O(sband_td_r[30]));
-  (* SOFT_HLUTNM = "soft_lutpair37" *) 
+  (* SOFT_HLUTNM = "soft_lutpair39" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[31]_i_1 
@@ -2062,7 +2063,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[47] ),
         .O(sband_td_r[31]));
-  (* SOFT_HLUTNM = "soft_lutpair51" *) 
+  (* SOFT_HLUTNM = "soft_lutpair53" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[3]_i_1 
@@ -2070,7 +2071,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[19] ),
         .O(sband_td_r[3]));
-  (* SOFT_HLUTNM = "soft_lutpair51" *) 
+  (* SOFT_HLUTNM = "soft_lutpair53" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[4]_i_1 
@@ -2078,7 +2079,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[20] ),
         .O(sband_td_r[4]));
-  (* SOFT_HLUTNM = "soft_lutpair50" *) 
+  (* SOFT_HLUTNM = "soft_lutpair52" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[5]_i_1 
@@ -2086,7 +2087,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[21] ),
         .O(sband_td_r[5]));
-  (* SOFT_HLUTNM = "soft_lutpair50" *) 
+  (* SOFT_HLUTNM = "soft_lutpair52" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[6]_i_1 
@@ -2094,7 +2095,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[22] ),
         .O(sband_td_r[6]));
-  (* SOFT_HLUTNM = "soft_lutpair49" *) 
+  (* SOFT_HLUTNM = "soft_lutpair51" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[7]_i_1 
@@ -2102,7 +2103,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[23] ),
         .O(sband_td_r[7]));
-  (* SOFT_HLUTNM = "soft_lutpair49" *) 
+  (* SOFT_HLUTNM = "soft_lutpair51" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[8]_i_1 
@@ -2110,7 +2111,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(sband_tact0),
         .I2(\sband_td_r_reg_n_0_[24] ),
         .O(sband_td_r[8]));
-  (* SOFT_HLUTNM = "soft_lutpair48" *) 
+  (* SOFT_HLUTNM = "soft_lutpair50" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_td_r[9]_i_1 
@@ -2406,7 +2407,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .D(sband_td_r[9]),
         .Q(\sband_td_r_reg_n_0_[9] ),
         .R(vfb_valid_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair37" *) 
+  (* SOFT_HLUTNM = "soft_lutpair39" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \sband_tk_r[2]_i_1 
@@ -2443,6 +2444,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I4(sband_tl_r_reg_0),
         .I5(sband_tl_r_reg_1),
         .O(sband_tact0));
+  (* SOFT_HLUTNM = "soft_lutpair35" *) 
   LUT4 #(
     .INIT(16'hFFF4)) 
     sband_tl_r_i_3
@@ -2523,7 +2525,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .D(sband_tu),
         .Q(sband_tu_r),
         .R(vfb_valid_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair34" *) 
+  (* SOFT_HLUTNM = "soft_lutpair35" *) 
   LUT5 #(
     .INIT(32'h02030003)) 
     sdt_tr_INST_0
@@ -2541,12 +2543,13 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I1(vfb_cnt_reg[2]),
         .I2(vfb_cnt_reg[3]),
         .O(sdt_tr_INST_0_i_1_n_0));
+  (* SOFT_HLUTNM = "soft_lutpair55" *) 
   LUT1 #(
     .INIT(2'h1)) 
     \vfb_cnt[1]_i_1 
        (.I0(vfb_cnt_reg[1]),
         .O(cnt_done0[1]));
-  (* SOFT_HLUTNM = "soft_lutpair53" *) 
+  (* SOFT_HLUTNM = "soft_lutpair55" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \vfb_cnt[2]_i_1 
@@ -2569,7 +2572,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
        (.I0(vfb_ready),
         .I1(vfb_valid_reg_0),
         .O(sband_tr2));
-  (* SOFT_HLUTNM = "soft_lutpair53" *) 
+  (* SOFT_HLUTNM = "soft_lutpair38" *) 
   LUT3 #(
     .INIT(8'h6A)) 
     \vfb_cnt[3]_i_3 
@@ -2703,7 +2706,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I4(\vfb_data_reg[2]_0 ),
         .I5(vfb_arstn),
         .O(\vfb_data[19]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair35" *) 
+  (* SOFT_HLUTNM = "soft_lutpair37" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \vfb_data[19]_i_5 
@@ -2920,7 +2923,6 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I4(m_axis_tvalid),
         .I5(sband_tact0),
         .O(\sband_tk_r_reg[2]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair34" *) 
   LUT3 #(
     .INIT(8'h80)) 
     vfb_eol_i_3
@@ -2944,7 +2946,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I4(\vfb_sof_reg[0]_0 ),
         .I5(vfb_arstn),
         .O(\vfb_sof[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair33" *) 
+  (* SOFT_HLUTNM = "soft_lutpair34" *) 
   LUT5 #(
     .INIT(32'h55F3F7F3)) 
     \vfb_sof[0]_i_2 
@@ -2980,7 +2982,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .D(\vfb_sof[0]_i_1_n_0 ),
         .Q(\vfb_sof_reg[0]_0 ),
         .R(1'b0));
-  (* SOFT_HLUTNM = "soft_lutpair33" *) 
+  (* SOFT_HLUTNM = "soft_lutpair34" *) 
   LUT5 #(
     .INIT(32'h5FFF4000)) 
     vfb_tu0_i_1
@@ -3011,7 +3013,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I4(vfb_ready),
         .I5(vfb_eol_reg_0),
         .O(vfb_valid_i_2_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair36" *) 
+  (* SOFT_HLUTNM = "soft_lutpair38" *) 
   LUT4 #(
     .INIT(16'h8AAA)) 
     vfb_valid_i_3
@@ -3116,7 +3118,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_op_inf
         .I3(sband_tact0),
         .I4(sband_tact),
         .O(\vfb_vcdt[9]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair35" *) 
+  (* SOFT_HLUTNM = "soft_lutpair37" *) 
   LUT4 #(
     .INIT(16'hFFE2)) 
     \vfb_vcdt[9]_i_2 
@@ -3556,7 +3558,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(\REQ_BUFFER_RAW10.resi_wdth_reg_n_0_[7] ),
         .I5(\REQ_BUFFER_RAW10.resi_wdth_reg_n_0_[6] ),
         .O(\REQ_BUFFER_RAW10.buff_tl_i_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair4" *) 
+  (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT4 #(
     .INIT(16'h8AAA)) 
     \REQ_BUFFER_RAW10.buff_tl_i_i_3 
@@ -3565,6 +3567,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I2(s_fifo_tv),
         .I3(\REQ_BUFFER_RAW10.buff_tv_i_reg_n_0 ),
         .O(\REQ_BUFFER_RAW10.buff_tl_i_i_3_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT5 #(
     .INIT(32'h5D555555)) 
     \REQ_BUFFER_RAW10.buff_tl_i_i_4 
@@ -3620,7 +3623,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(\REQ_BUFFER_RAW10.buff_tv_i_reg_n_0 ),
         .I5(\REQ_BUFFER_RAW10.liv_ts [3]),
         .O(\REQ_BUFFER_RAW10.buff_ts_i[3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair4" *) 
+  (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT5 #(
     .INIT(32'hFFBFAAAA)) 
     \REQ_BUFFER_RAW10.buff_ts_i[4]_i_1 
@@ -3753,7 +3756,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(\REQ_BUFFER_RAW10.buff_tu_i ),
         .I5(s_axis_aresetn),
         .O(\REQ_BUFFER_RAW10.buff_tu_i_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
+  (* SOFT_HLUTNM = "soft_lutpair9" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \REQ_BUFFER_RAW10.buff_tu_i_i_2 
@@ -3785,6 +3788,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I3(\REQ_BUFFER_RAW10.resi_wdth_reg_n_0_[5] ),
         .I4(\REQ_BUFFER_RAW10.filt_tl_on ),
         .O(\REQ_BUFFER_RAW10.buff_tv_i_i_2_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT5 #(
     .INIT(32'hFFFFFFE0)) 
     \REQ_BUFFER_RAW10.buff_tv_i_i_3 
@@ -3794,7 +3798,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I3(\REQ_BUFFER_RAW10.resi_wdth_reg_n_0_[6] ),
         .I4(\REQ_BUFFER_RAW10.resi_wdth_reg_n_0_[7] ),
         .O(\REQ_BUFFER_RAW10.buff_tv_i_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT3 #(
     .INIT(8'h08)) 
     \REQ_BUFFER_RAW10.buff_tv_i_i_4 
@@ -4860,14 +4864,14 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
     \REQ_BUFFER_RAW10.indx_cntr[0]_i_1 
        (.I0(\REQ_BUFFER_RAW10.indx_cntr [0]),
         .O(\REQ_BUFFER_RAW10.indx_cntr[0]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
+  (* SOFT_HLUTNM = "soft_lutpair13" *) 
   LUT2 #(
     .INIT(4'h6)) 
     \REQ_BUFFER_RAW10.indx_cntr[1]_i_1 
        (.I0(\REQ_BUFFER_RAW10.indx_cntr [0]),
         .I1(\REQ_BUFFER_RAW10.indx_cntr [1]),
         .O(\REQ_BUFFER_RAW10.indx_cntr[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
+  (* SOFT_HLUTNM = "soft_lutpair13" *) 
   LUT3 #(
     .INIT(8'h78)) 
     \REQ_BUFFER_RAW10.indx_cntr[2]_i_1 
@@ -5698,7 +5702,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I2(\REQ_BUFFER_RAW10.resi_wdth132_out ),
         .I3(\REQ_BUFFER_RAW10.resi_wdth_reg_n_0_[3] ),
         .O(p_1_in[3]));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT5 #(
     .INIT(32'h69969669)) 
     \REQ_BUFFER_RAW10.resi_wdth[3]_i_2 
@@ -5738,7 +5742,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(\REQ_BUFFER_RAW10.resi_wdth[7]_i_10_n_0 ),
         .I5(\REQ_BUFFER_RAW10.resi_wdth[7]_i_9_n_0 ),
         .O(\REQ_BUFFER_RAW10.resi_wdth[4]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  (* SOFT_HLUTNM = "soft_lutpair4" *) 
   LUT5 #(
     .INIT(32'h009696FF)) 
     \REQ_BUFFER_RAW10.resi_wdth[4]_i_4 
@@ -5748,7 +5752,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I3(\REQ_BUFFER_RAW10.resi_wdth[4]_i_5_n_0 ),
         .I4(\REQ_BUFFER_RAW10.resi_wdth[4]_i_6_n_0 ),
         .O(\REQ_BUFFER_RAW10.resi_wdth[4]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
+  (* SOFT_HLUTNM = "soft_lutpair12" *) 
   LUT3 #(
     .INIT(8'h69)) 
     \REQ_BUFFER_RAW10.resi_wdth[4]_i_5 
@@ -5756,7 +5760,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I1(\REQ_BUFFER_RAW10.b6 ),
         .I2(sband_tk[5]),
         .O(\REQ_BUFFER_RAW10.resi_wdth[4]_i_5_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
   LUT5 #(
     .INIT(32'h5595AA6A)) 
     \REQ_BUFFER_RAW10.resi_wdth[4]_i_6 
@@ -5776,7 +5780,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(\REQ_BUFFER_RAW10.resi_wdth[7]_i_8_n_0 ),
         .I5(\REQ_BUFFER_RAW10.resi_wdth[7]_i_7_n_0 ),
         .O(p_1_in[5]));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \REQ_BUFFER_RAW10.resi_wdth[5]_i_2 
@@ -5793,7 +5797,6 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(\REQ_BUFFER_RAW10.resi_wdth[7]_i_7_n_0 ),
         .I5(\REQ_BUFFER_RAW10.resi_wdth[7]_i_8_n_0 ),
         .O(p_1_in[6]));
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT4 #(
     .INIT(16'h56AA)) 
     \REQ_BUFFER_RAW10.resi_wdth[6]_i_2 
@@ -5811,7 +5814,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I3(s_axis_tready),
         .I4(s_axis_aresetn),
         .O(\REQ_BUFFER_RAW10.resi_wdth[7]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
+  (* SOFT_HLUTNM = "soft_lutpair12" *) 
   LUT3 #(
     .INIT(8'hE8)) 
     \REQ_BUFFER_RAW10.resi_wdth[7]_i_10 
@@ -5838,7 +5841,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(\REQ_BUFFER_RAW10.resi_wdth[7]_i_8_n_0 ),
         .I5(\REQ_BUFFER_RAW10.resi_wdth132_out ),
         .O(p_1_in[7]));
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
   LUT5 #(
     .INIT(32'h5555666A)) 
     \REQ_BUFFER_RAW10.resi_wdth[7]_i_4 
@@ -5868,7 +5871,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(\REQ_BUFFER_RAW10.resi_wdth[7]_i_9_n_0 ),
         .I5(\REQ_BUFFER_RAW10.resi_wdth[7]_i_10_n_0 ),
         .O(\REQ_BUFFER_RAW10.resi_wdth[7]_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT5 #(
     .INIT(32'h87F00FE1)) 
     \REQ_BUFFER_RAW10.resi_wdth[7]_i_7 
@@ -6587,7 +6590,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I2(\buf_valid_reg[0]_0 ),
         .I3(\buf_valid[1]_i_3_n_0 ),
         .O(\buf_data[0][172]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
+  (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT5 #(
     .INIT(32'hFDFF2000)) 
     \buf_data[0][172]_i_2 
@@ -7724,7 +7727,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .D(\buf_data_reg[1][172]_0 [11]),
         .Q(\buf_data_reg[1] [73]),
         .R(\buf_valid[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
+  (* SOFT_HLUTNM = "soft_lutpair8" *) 
   LUT4 #(
     .INIT(16'hAFA8)) 
     \buf_valid[0]_i_1 
@@ -7738,7 +7741,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
     \buf_valid[1]_i_1 
        (.I0(s_axis_aresetn),
         .O(\buf_valid[1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
+  (* SOFT_HLUTNM = "soft_lutpair8" *) 
   LUT4 #(
     .INIT(16'hD8D0)) 
     \buf_valid[1]_i_2 
@@ -7757,6 +7760,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(\buf_valid[1]_i_5_n_0 ),
         .I5(cur_dtype_sink_reg_n_0),
         .O(\buf_valid[1]_i_3_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair10" *) 
   LUT3 #(
     .INIT(8'hFB)) 
     \buf_valid[1]_i_5 
@@ -7782,7 +7786,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
        (.I0(sband_tl),
         .I1(s_axis_aresetn),
         .O(cur_dtype_pxls_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
+  (* SOFT_HLUTNM = "soft_lutpair10" *) 
   LUT3 #(
     .INIT(8'hF4)) 
     cur_dtype_pxls_i_2
@@ -7806,7 +7810,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .D(cur_dtype_pxls_i_2_n_0),
         .Q(cur_dtype_pxls),
         .R(cur_dtype_pxls_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
+  (* SOFT_HLUTNM = "soft_lutpair9" *) 
   LUT4 #(
     .INIT(16'hFF80)) 
     cur_dtype_sink_i_1
@@ -7821,7 +7825,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .D(cur_dtype_sink_i_1_n_0),
         .Q(cur_dtype_sink_reg_n_0),
         .R(cur_dtype_pxls_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT3 #(
     .INIT(8'hAE)) 
     cur_dtype_udef_i_1
@@ -7835,7 +7839,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .D(cur_dtype_udef_i_1_n_0),
         .Q(cur_dtype_udef),
         .R(cur_dtype_pxls_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
+  (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT1 #(
     .INIT(2'h1)) 
     s_axis_tready_INST_0
@@ -9188,118 +9192,119 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
        (.I0(s_axis_tdata__0[48]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [0]));
-  (* SOFT_HLUTNM = "soft_lutpair20" *) 
+  (* SOFT_HLUTNM = "soft_lutpair21" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[33]_i_1 
        (.I0(s_axis_tdata__0[49]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [1]));
-  (* SOFT_HLUTNM = "soft_lutpair20" *) 
+  (* SOFT_HLUTNM = "soft_lutpair21" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[34]_i_1 
        (.I0(s_axis_tdata__0[50]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair19" *) 
+  (* SOFT_HLUTNM = "soft_lutpair20" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[35]_i_1 
        (.I0(s_axis_tdata__0[51]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [3]));
-  (* SOFT_HLUTNM = "soft_lutpair19" *) 
+  (* SOFT_HLUTNM = "soft_lutpair20" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[36]_i_1 
        (.I0(s_axis_tdata__0[52]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [4]));
-  (* SOFT_HLUTNM = "soft_lutpair18" *) 
+  (* SOFT_HLUTNM = "soft_lutpair19" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[37]_i_1 
        (.I0(s_axis_tdata__0[53]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [5]));
-  (* SOFT_HLUTNM = "soft_lutpair18" *) 
+  (* SOFT_HLUTNM = "soft_lutpair19" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[38]_i_1 
        (.I0(s_axis_tdata__0[54]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [6]));
-  (* SOFT_HLUTNM = "soft_lutpair17" *) 
+  (* SOFT_HLUTNM = "soft_lutpair18" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[39]_i_1 
        (.I0(s_axis_tdata__0[55]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [7]));
-  (* SOFT_HLUTNM = "soft_lutpair17" *) 
+  (* SOFT_HLUTNM = "soft_lutpair18" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[40]_i_1 
        (.I0(s_axis_tdata__0[56]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [8]));
-  (* SOFT_HLUTNM = "soft_lutpair16" *) 
+  (* SOFT_HLUTNM = "soft_lutpair17" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[41]_i_1 
        (.I0(s_axis_tdata__0[57]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [9]));
-  (* SOFT_HLUTNM = "soft_lutpair16" *) 
+  (* SOFT_HLUTNM = "soft_lutpair17" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[42]_i_1 
        (.I0(s_axis_tdata__0[58]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [10]));
-  (* SOFT_HLUTNM = "soft_lutpair15" *) 
+  (* SOFT_HLUTNM = "soft_lutpair16" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[43]_i_1 
        (.I0(s_axis_tdata__0[59]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [11]));
-  (* SOFT_HLUTNM = "soft_lutpair15" *) 
+  (* SOFT_HLUTNM = "soft_lutpair16" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[44]_i_1 
        (.I0(s_axis_tdata__0[60]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [12]));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
+  (* SOFT_HLUTNM = "soft_lutpair15" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[45]_i_1 
        (.I0(s_axis_tdata__0[61]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [13]));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
+  (* SOFT_HLUTNM = "soft_lutpair15" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[46]_i_1 
        (.I0(s_axis_tdata__0[62]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [14]));
-  (* SOFT_HLUTNM = "soft_lutpair13" *) 
+  (* SOFT_HLUTNM = "soft_lutpair14" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_td_r[47]_i_1 
        (.I0(s_axis_tdata__0[63]),
         .I1(sband_tact0),
         .O(\buf_data_reg[0][171]_0 [15]));
-  (* SOFT_HLUTNM = "soft_lutpair13" *) 
+  (* SOFT_HLUTNM = "soft_lutpair14" *) 
   LUT2 #(
     .INIT(4'h8)) 
     \sband_tk_r[4]_i_2 
        (.I0(\REQ_BUFFER_RAW10.b6 ),
         .I1(sband_tact0),
         .O(D));
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
   LUT3 #(
     .INIT(8'h20)) 
     sband_tl_r_i_2
@@ -9307,7 +9312,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I1(\buf_valid[1]_i_3_n_0 ),
         .I2(\buf_valid_reg[0]_0 ),
         .O(sband_tl));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT3 #(
     .INIT(8'h40)) 
     \sband_tu_r[0]_i_1 
@@ -9315,14 +9320,13 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I1(\buf_valid_reg[0]_0 ),
         .I2(\sband_tu_r[0]_i_2_n_0 ),
         .O(sband_tu));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \sband_tu_r[0]_i_2 
        (.I0(\buf_data_reg_n_0_[0][4] ),
         .I1(\buf_valid[1]_i_3_n_0 ),
         .O(\sband_tu_r[0]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT3 #(
     .INIT(8'h08)) 
     sdt_tv_INST_0
@@ -9360,7 +9364,7 @@ module bd_d10d_vfb_0_0_vfb_v1_0_25_reorder
         .I4(m_axis_tvalid),
         .I5(m_axis_tlast),
         .O(\buf_data_reg[0][102]_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
   LUT5 #(
     .INIT(32'hFF080808)) 
     \vfb_sof[0]_i_4 

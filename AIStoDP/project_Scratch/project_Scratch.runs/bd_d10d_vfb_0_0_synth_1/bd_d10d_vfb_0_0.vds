@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Sun Jun 16 22:31:48 2024
-# Process ID: 29272
+# Start of session at: Sun Jun 16 23:46:55 2024
+# Process ID: 33352
 # Current directory: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1
 # Command line: vivado.exe -log bd_d10d_vfb_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_d10d_vfb_0_0.tcl
 # Log file: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/bd_d10d_vfb_0_0.vds
@@ -19,10 +19,10 @@
 # Host memory       :68621 MB
 # Swap memory       :62277 MB
 # Total Virtual     :130898 MB
-# Available Virtual :76369 MB
+# Available Virtual :77557 MB
 #-----------------------------------------------------------
 source bd_d10d_vfb_0_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 629.484 ; gain = 200.230
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 629.309 ; gain = 198.227
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: bd_d10d_vfb_0_0
 Command: synth_design -top bd_d10d_vfb_0_0 -part xck26-sfvc784-2LV-c -incremental_mode off -mode out_of_context
 Starting synth_design
@@ -31,9 +31,9 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
 INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 32364
+INFO: [Synth 8-7075] Helper process launched with PID 27220
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2057.148 ; gain = 398.582
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2058.387 ; gain = 399.805
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-11241] undeclared symbol 'i_axis_tlast', assumed default net type 'wire' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_3/bd_d10d_vfb_0_0/src/verilog/bd_d10d_vfb_0_0_YUV420_vc16_demux.v:337]
 INFO: [Synth 8-11241] undeclared symbol 'odd_lines_hold', assumed default net type 'wire' [f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ipshared/8490/hdl/vfb_v1_0_syn_rfs.v:602]
@@ -203,18 +203,18 @@ WARNING: [Synth 8-7129] Port TSTRB[0] in module axis_infrastructure_v1_1_1_util_
 WARNING: [Synth 8-7129] Port TDEST[0] in module axis_infrastructure_v1_1_1_util_axis2vector is either unconnected or has no load
 WARNING: [Synth 8-7129] Port core_men_vfb in module bd_d10d_vfb_0_0_core is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2189.047 ; gain = 530.480
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2188.867 ; gain = 530.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2189.047 ; gain = 530.480
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2188.867 ; gain = 530.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2189.047 ; gain = 530.480
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2188.867 ; gain = 530.285
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 2189.047 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 2188.867 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -225,14 +225,14 @@ Parsing XDC File [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10
 Finished Parsing XDC File [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2292.609 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2234.699 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 2292.625 ; gain = 0.016
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.043 . Memory (MB): peak = 2237.059 ; gain = 2.359
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 2292.625 ; gain = 634.059
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 2237.059 ; gain = 578.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -240,7 +240,7 @@ Start Loading Part and Timing Information
 Loading part: xck26-sfvc784-2LV-c
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 2292.625 ; gain = 634.059
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 2237.059 ; gain = 578.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -248,11 +248,11 @@ Start Applying 'set_property' XDC Constraints
 Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/dont_touch.xdc, line 20).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/axis_dconverter/axis_conv_inst. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:22 . Memory (MB): peak = 2292.625 ; gain = 634.059
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 2237.059 ; gain = 578.477
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-4490] FSM extraction disabled for register 'state_reg' through user attribute
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 2292.625 ; gain = 634.059
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 2237.059 ; gain = 578.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -318,25 +318,25 @@ Start Cross Boundary and Area Optimization
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 WARNING: [Synth 8-7129] Port core_men_vfb in module bd_d10d_vfb_0_0_core is either unconnected or has no load
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:27 . Memory (MB): peak = 2292.625 ; gain = 634.059
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:25 . Memory (MB): peak = 2237.059 ; gain = 578.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:37 . Memory (MB): peak = 2685.996 ; gain = 1027.430
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:35 . Memory (MB): peak = 2685.195 ; gain = 1026.613
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 2748.270 ; gain = 1089.703
+Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 2747.852 ; gain = 1089.270
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:39 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:37 . Memory (MB): peak = 2755.844 ; gain = 1097.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -354,37 +354,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:42 . Memory (MB): peak = 2755.844 ; gain = 1097.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:42 . Memory (MB): peak = 2755.844 ; gain = 1097.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:42 . Memory (MB): peak = 2755.844 ; gain = 1097.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:42 . Memory (MB): peak = 2755.844 ; gain = 1097.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:42 . Memory (MB): peak = 2755.844 ; gain = 1097.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:42 . Memory (MB): peak = 2755.844 ; gain = 1097.262
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -410,18 +410,18 @@ Report Cell Usage:
 |8     |FDRE  |   635|
 +------+------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:44 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:42 . Memory (MB): peak = 2755.844 ; gain = 1097.262
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2755.406 ; gain = 993.262
-Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:45 . Memory (MB): peak = 2755.406 ; gain = 1096.840
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 2755.844 ; gain = 1049.070
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:00:43 . Memory (MB): peak = 2755.844 ; gain = 1097.262
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2755.406 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2755.844 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 40 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2755.406 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2755.844 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -429,12 +429,12 @@ Synth Design complete | Checksum: c7f123c7
 INFO: [Common 17-83] Releasing license: Synthesis
 53 Infos, 108 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:00:55 . Memory (MB): peak = 2755.406 ; gain = 2071.602
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2755.406 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:51 . Memory (MB): peak = 2755.844 ; gain = 2073.051
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2755.844 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/bd_d10d_vfb_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_d10d_vfb_0_0, cache-ID = 1cae5a4332d4d5be
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP bd_d10d_vfb_0_0, cache-ID = b04656159645bad7
 INFO: [Coretcl 2-1174] Renamed 4 cell refs.
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2755.406 ; gain = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2755.844 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/bd_d10d_vfb_0_0_synth_1/bd_d10d_vfb_0_0.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_d10d_vfb_0_0_utilization_synth.rpt -pb bd_d10d_vfb_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 22:32:56 2024...
+INFO: [Common 17-206] Exiting Vivado at Sun Jun 16 23:47:58 2024...

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'AXIvideo2MultiBayer_Pipeline_loop_width'
 ================================================================
-* Date:           Sun Jun 16 22:34:23 2024
+* Date:           Sun Jun 16 23:48:27 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -20,17 +20,17 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  3.37 ns|  1.731 ns|     0.91 ns|
+    |ap_clk  |  6.73 ns|  1.838 ns|     1.82 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
     * Summary: 
-    +---------+---------+----------+----------+-----+------+-----------------------------------------------+
-    |  Latency (cycles) |  Latency (absolute) |  Interval  |                    Pipeline                   |
-    |   min   |   max   |    min   |    max   | min |  max |                      Type                     |
-    +---------+---------+----------+----------+-----+------+-----------------------------------------------+
-    |        2|     1922|  6.734 ns|  6.471 us|    1|  1921|  loop auto-rewind stp(delay=0 clock cycles(s))|
-    +---------+---------+----------+----------+-----+------+-----------------------------------------------+
+    +---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval  |                    Pipeline                   |
+    |   min   |   max   |    min    |    max    | min |  max |                      Type                     |
+    +---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
+    |        2|     1922|  13.468 ns|  12.943 us|    1|  1921|  loop auto-rewind stp(delay=0 clock cycles(s))|
+    +---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
 
     + Detail: 
         * Instance: 
@@ -260,10 +260,10 @@ ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%write_ln0 = write void @_ssdm_op_W
 ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%write_ln0 = write void @_ssdm_op_Write.ap_auto.i10P0A, i10 %axi_data_3_out, i10 %axi_data_load"   --->   Operation 50 'write' 'write_ln0' <Predicate = (icmp_ln166)> <Delay = 0.00>
 ST_1 : Operation 51 [1/1] (0.42ns)   --->   "%ret_ln0 = ret"   --->   Operation 51 'ret' 'ret_ln0' <Predicate = (icmp_ln166)> <Delay = 0.42>
 
-State 2 <SV = 1> <Delay = 1.22>
+State 2 <SV = 1> <Delay = 1.83>
 ST_2 : Operation 45 [1/1] (0.00ns)   --->   "%axi_data_4 = load i10 %axi_data" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:185]   --->   Operation 45 'load' 'axi_data_4' <Predicate = (!icmp_ln166)> <Delay = 0.00>
 ST_2 : Operation 46 [1/1] (0.00ns)   --->   "%axi_last_4 = load i1 %axi_last"   --->   Operation 46 'load' 'axi_last_4' <Predicate = (!icmp_ln166)> <Delay = 0.00>
-ST_2 : Operation 47 [1/1] (1.22ns)   --->   "%write_ln185 = write void @_ssdm_op_Write.ap_fifo.volatile.i10P0A, i10 %imgBayer, i10 %axi_data_4" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:185]   --->   Operation 47 'write' 'write_ln185' <Predicate = (!icmp_ln166)> <Delay = 1.22> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 10> <Depth = 2> <FIFO>
+ST_2 : Operation 47 [1/1] (1.83ns)   --->   "%write_ln185 = write void @_ssdm_op_Write.ap_fifo.volatile.i10P0A, i10 %imgBayer, i10 %axi_data_4" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:185]   --->   Operation 47 'write' 'write_ln185' <Predicate = (!icmp_ln166)> <Delay = 1.83> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 10> <Depth = 2> <FIFO>
 
 
 ============================================================

@@ -37,7 +37,7 @@
           <spirit:name>FREQ_HZ</spirit:name>
           <spirit:displayName>ctrl clock frequency</spirit:displayName>
           <spirit:description>ctrl clock frequency</spirit:description>
-          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.S_AXI_ACLK_INTF.FREQ_HZ">297003926</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.S_AXI_ACLK_INTF.FREQ_HZ">148501963</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_TOLERANCE_HZ</spirit:name>
@@ -326,7 +326,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CTRL.FREQ_HZ">297003926</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.CTRL.FREQ_HZ">148501963</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -910,11 +910,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:33:08 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:48:10 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6b1b3d62</spirit:value>
+            <spirit:value>9:b79a1d3b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -928,11 +928,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:31:37 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:46:44 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6b1b3d62</spirit:value>
+            <spirit:value>9:b79a1d3b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -955,7 +955,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6dbc8adc</spirit:value>
+            <spirit:value>9:b4883a8e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -971,11 +971,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:31:37 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:46:44 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6dbc8adc</spirit:value>
+            <spirit:value>9:b4883a8e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -998,7 +998,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6b1b3d62</spirit:value>
+            <spirit:value>9:b79a1d3b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1014,11 +1014,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:31:37 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:46:44 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6b1b3d62</spirit:value>
+            <spirit:value>9:b79a1d3b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>

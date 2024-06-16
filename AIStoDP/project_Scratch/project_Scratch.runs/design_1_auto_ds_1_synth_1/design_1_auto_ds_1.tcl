@@ -60,6 +60,7 @@ set_param power.BramSDPPropagationFix 1
 set_param power.enableUnconnectedCarry8PinPower 1
 set_param power.enableCarry8RouteBelPower 1
 set_param power.enableLutRouteBelPower 1
+set_param bd.open.in_stealth_mode 2
 set_param ced.repoPaths C:/Users/Teymo/AppData/Roaming/Xilinx/Vivado/2024.1/xhub/ced_store/Vivado_example_project
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run

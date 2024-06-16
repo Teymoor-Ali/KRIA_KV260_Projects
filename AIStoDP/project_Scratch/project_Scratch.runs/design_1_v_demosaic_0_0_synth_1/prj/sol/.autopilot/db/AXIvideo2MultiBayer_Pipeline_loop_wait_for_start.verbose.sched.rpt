@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'AXIvideo2MultiBayer_Pipeline_loop_wait_for_start'
 ================================================================
-* Date:           Sun Jun 16 22:34:18 2024
+* Date:           Sun Jun 16 23:48:23 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  3.37 ns|  0.933 ns|     0.91 ns|
+    |ap_clk  |  6.73 ns|  0.933 ns|     1.82 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -115,7 +115,7 @@ ST_1 : Operation 29 [1/1] (0.42ns)   --->   "%ret_ln0 = ret"   --->   Operation 
 ============================================================
 + Verbose Summary: Timing violations
 ============================================================
-Target clock period: 3.367ns, clock uncertainty: 0.909ns.
+Target clock period: 6.734ns, clock uncertainty: 1.818ns.
 
  <State 1>: 0.933ns
 The critical path consists of the following:

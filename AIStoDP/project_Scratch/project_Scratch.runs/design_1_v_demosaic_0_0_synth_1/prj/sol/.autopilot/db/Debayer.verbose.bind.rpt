@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'Debayer'
 ================================================================
-* Date:           Sun Jun 16 22:34:21 2024
+* Date:           Sun Jun 16 23:48:26 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  3.37 ns|  2.458 ns|     0.91 ns|
+    |ap_clk  |  6.73 ns|  4.854 ns|     1.82 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |   Latency (cycles)   |   Latency (absolute)  |     Interval     | Pipeline |
     |   min   |     max    |    min   |     max    | min |     max    |   Type   |
     +---------+------------+----------+------------+-----+------------+----------+
-    |    65601|  4296671258|  0.221 ms|  14.467 sec|   54|  4296671259|  dataflow|
+    |    65574|  4296015888|  0.442 ms|  28.929 sec|   34|  4296015889|  dataflow|
     +---------+------------+----------+------------+-----+------------+----------+
 
     + Detail: 
@@ -38,9 +38,9 @@
         |                              |                   |   Latency (cycles)   |   Latency (absolute)   |     Interval     | Pipeline|
         |           Instance           |       Module      |   min   |     max    |    min    |     max    | min |     max    |   Type  |
         +------------------------------+-------------------+---------+------------+-----------+------------+-----+------------+---------+
-        |grp_DebayerG_fu_94            |DebayerG           |       53|  4296671258|   0.178 us|  14.467 sec|   53|  4296671258|       no|
-        |grp_DebayerRatBorBatR_fu_112  |DebayerRatBorBatR  |       14|     2089574|  47.138 ns|    7.036 ms|   14|     2089574|       no|
-        |grp_DebayerRandBatG_fu_122    |DebayerRandBatG    |       12|     2087412|  40.404 ns|    7.028 ms|   12|     2087412|       no|
+        |grp_DebayerG_fu_94            |DebayerG           |       33|  4296015888|   0.222 us|  28.929 sec|   33|  4296015888|       no|
+        |grp_DebayerRatBorBatR_fu_112  |DebayerRatBorBatR  |       10|     2085250|  67.340 ns|   14.042 ms|   10|     2085250|       no|
+        |grp_DebayerRandBatG_fu_122    |DebayerRandBatG    |        9|     2084169|  60.606 ns|   14.035 ms|    9|     2084169|       no|
         +------------------------------+-------------------+---------+------------+-----------+------------+-----+------------+---------+
 
         * Loop: 
@@ -87,8 +87,8 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 2.45>
-ST_1 : Operation 7 [1/1] (1.22ns)   --->   "%bayerPhase_read_2 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %bayerPhase_read" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 7 'read' 'bayerPhase_read_2' <Predicate = true> <Delay = 1.22> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
+State 1 <SV = 0> <Delay = 3.67>
+ST_1 : Operation 7 [1/1] (1.83ns)   --->   "%bayerPhase_read_2 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %bayerPhase_read" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 7 'read' 'bayerPhase_read_2' <Predicate = true> <Delay = 1.83> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = -1> <Depth = -1> <FIFO>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%width_read = read i16 @_ssdm_op_Read.ap_stable.i16, i16 %width" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 8 'read' 'width_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%height_read = read i16 @_ssdm_op_Read.ap_stable.i16, i16 %height" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 9 'read' 'height_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%trunc_ln1070 = trunc i16 %width_read" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 10 'trunc' 'trunc_ln1070' <Predicate = true> <Delay = 0.00>
@@ -97,19 +97,19 @@ ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%bayerPhase_c1 = alloca i64 1" [F:/
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%bayerPhase_c = alloca i64 1" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 13 'alloca' 'bayerPhase_c' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 16> <Depth = 2> <FIFO>
 ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%imgG = alloca i64 1"   --->   Operation 14 'alloca' 'imgG' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 30> <Depth = 2> <FIFO>
 ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%imgRB = alloca i64 1"   --->   Operation 15 'alloca' 'imgRB' <Predicate = true> <Delay = 0.00> <CoreInst = "FIFO_SRL">   --->   Core 80 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 30> <Depth = 2> <FIFO>
-ST_1 : Operation 16 [2/2] (1.22ns)   --->   "%call_ln1071 = call void @DebayerG, i10 %imgBayer, i30 %imgG, i16 %height_read, i16 %width_read, i16 %bayerPhase_read_2, i16 %bayerPhase_c1, i10 %DIV1_TABLE, i18 %DIV2_TABLE" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1071]   --->   Operation 16 'call' 'call_ln1071' <Predicate = true> <Delay = 1.22> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 16 [2/2] (1.83ns)   --->   "%call_ln1071 = call void @DebayerG, i10 %imgBayer, i30 %imgG, i16 %height_read, i16 %width_read, i16 %bayerPhase_read_2, i16 %bayerPhase_c1, i10 %DIV1_TABLE, i18 %DIV2_TABLE" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1071]   --->   Operation 16 'call' 'call_ln1071' <Predicate = true> <Delay = 1.83> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 0.86>
 ST_2 : Operation 17 [1/2] (0.86ns)   --->   "%call_ln1071 = call void @DebayerG, i10 %imgBayer, i30 %imgG, i16 %height_read, i16 %width_read, i16 %bayerPhase_read_2, i16 %bayerPhase_c1, i10 %DIV1_TABLE, i18 %DIV2_TABLE" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1071]   --->   Operation 17 'call' 'call_ln1071' <Predicate = true> <Delay = 0.86> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 3 <SV = 2> <Delay = 2.02>
-ST_3 : Operation 18 [2/2] (2.02ns)   --->   "%call_ln1072 = call void @DebayerRatBorBatR, i30 %imgG, i30 %imgRB, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c1, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1072]   --->   Operation 18 'call' 'call_ln1072' <Predicate = true> <Delay = 2.02> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 3 <SV = 2> <Delay = 2.63>
+ST_3 : Operation 18 [2/2] (2.63ns)   --->   "%call_ln1072 = call void @DebayerRatBorBatR, i30 %imgG, i30 %imgRB, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c1, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1072]   --->   Operation 18 'call' 'call_ln1072' <Predicate = true> <Delay = 2.63> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 4 <SV = 3> <Delay = 0.79>
 ST_4 : Operation 19 [1/2] (0.79ns)   --->   "%call_ln1072 = call void @DebayerRatBorBatR, i30 %imgG, i30 %imgRB, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c1, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1072]   --->   Operation 19 'call' 'call_ln1072' <Predicate = true> <Delay = 0.79> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
-State 5 <SV = 4> <Delay = 2.02>
-ST_5 : Operation 20 [2/2] (2.02ns)   --->   "%call_ln1073 = call void @DebayerRandBatG, i30 %imgRB, i30 %imgRgb, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1073]   --->   Operation 20 'call' 'call_ln1073' <Predicate = true> <Delay = 2.02> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 5 <SV = 4> <Delay = 2.63>
+ST_5 : Operation 20 [2/2] (2.63ns)   --->   "%call_ln1073 = call void @DebayerRandBatG, i30 %imgRB, i30 %imgRgb, i11 %trunc_ln1070_1, i11 %trunc_ln1070, i16 %bayerPhase_c" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1073]   --->   Operation 20 'call' 'call_ln1073' <Predicate = true> <Delay = 2.63> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.79>
 ST_6 : Operation 21 [1/1] (0.00ns)   --->   "%empty = specchannel i32 @_ssdm_op_SpecChannel, void @bayerPhase_c1_str, i32 1, void @p_str, void @p_str, i32 2, i32 0, i16 %bayerPhase_c1, i16 %bayerPhase_c1" [F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1070]   --->   Operation 21 'specchannel' 'empty' <Predicate = true> <Delay = 0.00>
@@ -828,9 +828,9 @@ ret_ln1074                  (ret                 ) [ 0000000]
 |----------|------------------------------|---------|---------|---------|---------|---------|---------|
 | Operation|        Functional Unit       |   BRAM  |   DSP   |  Delay  |    FF   |   LUT   |   URAM  |
 |----------|------------------------------|---------|---------|---------|---------|---------|---------|
-|          |      grp_DebayerG_fu_94      |    8    |    8    |  6.503  |   2402  |   3218  |    0    |
-|   call   | grp_DebayerRatBorBatR_fu_112 |    8    |    0    |  3.416  |   1347  |   1145  |    0    |
-|          |  grp_DebayerRandBatG_fu_122  |    8    |    0    |  0.427  |   1140  |   1300  |    0    |
+|          |      grp_DebayerG_fu_94      |    8    |    8    |  7.357  |   1928  |   3236  |    0    |
+|   call   | grp_DebayerRatBorBatR_fu_112 |    8    |    0    |  1.708  |   1144  |   1145  |    0    |
+|          |  grp_DebayerRandBatG_fu_122  |    8    |    0    |  0.854  |   885   |   1309  |    0    |
 |----------|------------------------------|---------|---------|---------|---------|---------|---------|
 |          | bayerPhase_read_2_read_fu_76 |    0    |    0    |    0    |    0    |    0    |    0    |
 |   read   |     width_read_read_fu_82    |    0    |    0    |    0    |    0    |    0    |    0    |
@@ -839,7 +839,7 @@ ret_ln1074                  (ret                 ) [ 0000000]
 |   trunc  |      trunc_ln1070_fu_132     |    0    |    0    |    0    |    0    |    0    |    0    |
 |          |     trunc_ln1070_1_fu_136    |    0    |    0    |    0    |    0    |    0    |    0    |
 |----------|------------------------------|---------|---------|---------|---------|---------|---------|
-|   Total  |                              |    24   |    8    |  10.346 |   4889  |   5663  |    0    |
+|   Total  |                              |    24   |    8    |  9.919  |   3957  |   5690  |    0    |
 |----------|------------------------------|---------|---------|---------|---------|---------|---------|
 
 Memories:
@@ -879,10 +879,10 @@ N/A
 +-----------+--------+--------+--------+--------+--------+--------+
 |           |  BRAM  |   DSP  |  Delay |   FF   |   LUT  |  URAM  |
 +-----------+--------+--------+--------+--------+--------+--------+
-|  Function |   24   |    8   |   10   |  4889  |  5663  |    0   |
+|  Function |   24   |    8   |    9   |  3957  |  5690  |    0   |
 |   Memory  |    -   |    -   |    -   |    -   |    -   |    -   |
 |Multiplexer|    -   |    -   |    1   |    0   |   27   |    -   |
 |  Register |    -   |    -   |    -   |   162  |    -   |    -   |
 +-----------+--------+--------+--------+--------+--------+--------+
-|   Total   |   24   |    8   |   11   |  5051  |  5690  |    0   |
+|   Total   |   24   |    8   |   11   |  4119  |  5717  |    0   |
 +-----------+--------+--------+--------+--------+--------+--------+

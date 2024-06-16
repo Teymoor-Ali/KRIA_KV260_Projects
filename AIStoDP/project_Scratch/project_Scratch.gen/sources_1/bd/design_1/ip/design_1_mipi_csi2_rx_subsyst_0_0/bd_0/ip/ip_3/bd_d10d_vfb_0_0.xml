@@ -143,7 +143,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXIS.FREQ_HZ">297003926</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.S_AXIS.FREQ_HZ">148501963</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -318,7 +318,7 @@
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_HZ</spirit:name>
-          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_VFB.FREQ_HZ">297003926</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.M_VFB.FREQ_HZ">148501963</spirit:value>
           <spirit:vendorExtensions>
             <xilinx:parameterInfo>
               <xilinx:parameterUsage>none</xilinx:parameterUsage>
@@ -422,7 +422,7 @@
           <spirit:name>FREQ_HZ</spirit:name>
           <spirit:displayName>CSI clock frequency</spirit:displayName>
           <spirit:description>CSI clock frequency</spirit:description>
-          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.S_AXIS_SIGNAL_CLOCK.FREQ_HZ">297003926</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.S_AXIS_SIGNAL_CLOCK.FREQ_HZ">148501963</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_TOLERANCE_HZ</spirit:name>
@@ -526,7 +526,7 @@
           <spirit:name>FREQ_HZ</spirit:name>
           <spirit:displayName>Video clock frequency</spirit:displayName>
           <spirit:description>Video clock frequency</spirit:description>
-          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.M_VFB_SIGNAL_CLOCK.FREQ_HZ">297003926</spirit:value>
+          <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="BUSIFPARAM_VALUE.M_VFB_SIGNAL_CLOCK.FREQ_HZ">148501963</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>FREQ_TOLERANCE_HZ</spirit:name>
@@ -598,11 +598,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:31:30 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:46:38 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:91cfa645</spirit:value>
+            <spirit:value>9:188c6909</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -617,11 +617,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:31:30 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:46:38 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:91cfa645</spirit:value>
+            <spirit:value>9:188c6909</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -636,11 +636,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:31:30 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:46:38 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:8f844410</spirit:value>
+            <spirit:value>9:da8ebdba</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -655,11 +655,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:31:30 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:46:38 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:8f844410</spirit:value>
+            <spirit:value>9:da8ebdba</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -691,11 +691,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:32:56 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:47:58 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:8f844410</spirit:value>
+            <spirit:value>9:da8ebdba</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -709,11 +709,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jun 16 21:31:30 UTC 2024</spirit:value>
+            <spirit:value>Sun Jun 16 22:46:38 UTC 2024</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:8f844410</spirit:value>
+            <spirit:value>9:da8ebdba</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>

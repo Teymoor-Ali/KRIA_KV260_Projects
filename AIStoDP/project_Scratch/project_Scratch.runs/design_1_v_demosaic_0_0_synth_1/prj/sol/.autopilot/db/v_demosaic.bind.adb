@@ -1051,7 +1051,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.45</m_delay>
+				<m_delay>3.67</m_delay>
 				<m_topoIndex>9</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2538,25 +2538,25 @@
 			<item class_id_reference="36" object_id="_187">
 				<id>3</id>
 				<operations>
-					<count>2</count>
+					<count>1</count>
 					<item_version>0</item_version>
 					<item class_id_reference="38" object_id="_188">
-						<id>48</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="38" object_id="_189">
 						<id>63</id>
 						<stage>1</stage>
 						<latency>2</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="36" object_id="_190">
+			<item class_id_reference="36" object_id="_189">
 				<id>4</id>
 				<operations>
-					<count>2</count>
+					<count>3</count>
 					<item_version>0</item_version>
+					<item class_id_reference="38" object_id="_190">
+						<id>48</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
 					<item class_id_reference="38" object_id="_191">
 						<id>62</id>
 						<stage>1</stage>
@@ -2969,7 +2969,7 @@
 		<item class_id="46" tracking_level="0" version="0">
 			<first>48</first>
 			<second class_id="47" tracking_level="0" version="0">
-				<first>2</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3203,7 +3203,7 @@
 			</second>
 		</item>
 		<item>
-			<first>168</first>
+			<first>169</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -3212,7 +3212,7 @@
 			</second>
 		</item>
 		<item>
-			<first>182</first>
+			<first>183</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -3221,7 +3221,7 @@
 			</second>
 		</item>
 		<item>
-			<first>190</first>
+			<first>191</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -3279,7 +3279,7 @@
 			</second>
 		</item>
 		<item>
-			<first>grp_Debayer_fu_168</first>
+			<first>grp_Debayer_fu_169</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -3288,7 +3288,7 @@
 			</second>
 		</item>
 		<item>
-			<first>grp_MultiPixStream2AXIvideo_fu_190</first>
+			<first>grp_MultiPixStream2AXIvideo_fu_191</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -3297,7 +3297,7 @@
 			</second>
 		</item>
 		<item>
-			<first>grp_ZipperRemoval_fu_182</first>
+			<first>grp_ZipperRemoval_fu_183</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -3365,10 +3365,10 @@
 		</item>
 	</dp_mem_port_nodes>
 	<dp_reg_nodes>
-		<count>7</count>
+		<count>6</count>
 		<item_version>0</item_version>
 		<item>
-			<first>211</first>
+			<first>212</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3376,7 +3376,7 @@
 			</second>
 		</item>
 		<item>
-			<first>217</first>
+			<first>218</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3384,7 +3384,7 @@
 			</second>
 		</item>
 		<item>
-			<first>223</first>
+			<first>224</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3392,7 +3392,7 @@
 			</second>
 		</item>
 		<item>
-			<first>229</first>
+			<first>230</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3400,7 +3400,7 @@
 			</second>
 		</item>
 		<item>
-			<first>237</first>
+			<first>238</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3408,15 +3408,7 @@
 			</second>
 		</item>
 		<item>
-			<first>245</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>48</item>
-			</second>
-		</item>
-		<item>
-			<first>250</first>
+			<first>246</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3425,10 +3417,10 @@
 		</item>
 	</dp_reg_nodes>
 	<dp_regname_nodes>
-		<count>7</count>
+		<count>6</count>
 		<item_version>0</item_version>
 		<item>
-			<first>bayer_phase_assign_channel_reg_250</first>
+			<first>bayer_phase_assign_channel_reg_246</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3436,15 +3428,7 @@
 			</second>
 		</item>
 		<item>
-			<first>bayer_phase_read_reg_245</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>48</item>
-			</second>
-		</item>
-		<item>
-			<first>height_read_reg_229</first>
+			<first>height_read_reg_230</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3452,7 +3436,7 @@
 			</second>
 		</item>
 		<item>
-			<first>imgBayer_reg_211</first>
+			<first>imgBayer_reg_212</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3460,7 +3444,7 @@
 			</second>
 		</item>
 		<item>
-			<first>imgRgb_reg_217</first>
+			<first>imgRgb_reg_218</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3468,7 +3452,7 @@
 			</second>
 		</item>
 		<item>
-			<first>imgUnzip_reg_223</first>
+			<first>imgUnzip_reg_224</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3476,7 +3460,7 @@
 			</second>
 		</item>
 		<item>
-			<first>width_read_reg_237</first>
+			<first>width_read_reg_238</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

@@ -4,8 +4,8 @@
 -- Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
 -- Date        : Sun Jun 16 22:32:50 2024
 -- Host        : Tey running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_mipi_csi2_rx_subsyst_0_0/bd_0/ip/ip_0/bd_d10d_r_sync_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top bd_d10d_r_sync_0 -prefix
+--               bd_d10d_r_sync_0_ bd_d10d_r_sync_0_sim_netlist.vhdl
 -- Design      : bd_d10d_r_sync_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -26,8 +26,6 @@ entity bd_d10d_r_sync_0_cdc_sync is
     aux_reset_in : in STD_LOGIC;
     slowest_sync_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_d10d_r_sync_0_cdc_sync : entity is "cdc_sync";
 end bd_d10d_r_sync_0_cdc_sync;
 
 architecture STRUCTURE of bd_d10d_r_sync_0_cdc_sync is
@@ -248,8 +246,6 @@ entity bd_d10d_r_sync_0_upcnt_n is
     seq_cnt_en : in STD_LOGIC;
     slowest_sync_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_d10d_r_sync_0_upcnt_n : entity is "upcnt_n";
 end bd_d10d_r_sync_0_upcnt_n;
 
 architecture STRUCTURE of bd_d10d_r_sync_0_upcnt_n is
@@ -414,8 +410,6 @@ entity bd_d10d_r_sync_0_lpf is
     ext_reset_in : in STD_LOGIC;
     aux_reset_in : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_d10d_r_sync_0_lpf : entity is "lpf";
 end bd_d10d_r_sync_0_lpf;
 
 architecture STRUCTURE of bd_d10d_r_sync_0_lpf is
@@ -604,8 +598,6 @@ entity bd_d10d_r_sync_0_sequence_psr is
     lpf_int : in STD_LOGIC;
     slowest_sync_clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_d10d_r_sync_0_sequence_psr : entity is "sequence_psr";
 end bd_d10d_r_sync_0_sequence_psr;
 
 architecture STRUCTURE of bd_d10d_r_sync_0_sequence_psr is
@@ -944,8 +936,6 @@ entity bd_d10d_r_sync_0_proc_sys_reset is
   attribute C_NUM_PERP_ARESETN of bd_d10d_r_sync_0_proc_sys_reset : entity is 1;
   attribute C_NUM_PERP_RST : integer;
   attribute C_NUM_PERP_RST of bd_d10d_r_sync_0_proc_sys_reset : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of bd_d10d_r_sync_0_proc_sys_reset : entity is "proc_sys_reset";
 end bd_d10d_r_sync_0_proc_sys_reset;
 
 architecture STRUCTURE of bd_d10d_r_sync_0_proc_sys_reset is

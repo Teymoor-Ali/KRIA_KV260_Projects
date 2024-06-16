@@ -160,22 +160,7 @@ entry:43 %call_ln115 = call void @AXIvideo2MultiBayer, i16 %s_axis_video_V_data_
 
 <state id="3" st_id="3">
 
-<operation id="17" st_id="3" stage="1" lat="1">
-<core>s_axilite</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="48" bw="16" op_0_bw="16" op_1_bw="16">
-<![CDATA[
-entry:28 %bayer_phase_read = read i16 @_ssdm_op_Read.s_axilite.i16, i16 %bayer_phase
-
-]]></Node>
-<StgValue><ssdm name="bayer_phase_read"/></StgValue>
-</operation>
-
-<operation id="18" st_id="3" stage="1" lat="2">
+<operation id="17" st_id="3" stage="1" lat="2">
 <core></core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -192,6 +177,21 @@ entry:43 %call_ln115 = call void @AXIvideo2MultiBayer, i16 %s_axis_video_V_data_
 </state>
 
 <state id="4" st_id="4">
+
+<operation id="18" st_id="4" stage="1" lat="1">
+<core>s_axilite</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="48" bw="16" op_0_bw="16" op_1_bw="16">
+<![CDATA[
+entry:28 %bayer_phase_read = read i16 @_ssdm_op_Read.s_axilite.i16, i16 %bayer_phase
+
+]]></Node>
+<StgValue><ssdm name="bayer_phase_read"/></StgValue>
+</operation>
 
 <operation id="19" st_id="4" stage="1" lat="1">
 <core>FIFO_SRL</core>

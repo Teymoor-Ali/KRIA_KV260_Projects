@@ -989,38 +989,6 @@ VITIS_LOOP_318_4.split:19 %p_lcssa51995209_load = load i10 %p_lcssa51995209
 </operation>
 
 <operation id="67" st_id="2" stage="1" lat="1">
-<core>Adder</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln315" val="0"/>
-</and_exp></or_exp>
-</condition>
-
-<Node id="75" bw="17" op_0_bw="17" op_1_bw="17">
-<![CDATA[
-VITIS_LOOP_318_4.split:22 %out_y = add i17 %y_7, i17 131070
-
-]]></Node>
-<StgValue><ssdm name="out_y"/></StgValue>
-</operation>
-
-<operation id="68" st_id="2" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln315" val="0"/>
-</and_exp></or_exp>
-</condition>
-
-<Node id="76" bw="1" op_0_bw="17">
-<![CDATA[
-VITIS_LOOP_318_4.split:23 %empty = trunc i17 %out_y
-
-]]></Node>
-<StgValue><ssdm name="empty"/></StgValue>
-</operation>
-
-<operation id="69" st_id="2" stage="1" lat="1">
 <core>Cmp</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -1036,23 +1004,7 @@ VITIS_LOOP_318_4.split:27 %cmp84 = icmp_ult  i17 %y_7, i17 %zext_ln274
 <StgValue><ssdm name="cmp84"/></StgValue>
 </operation>
 
-<operation id="70" st_id="2" stage="1" lat="1">
-<core>Cmp</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp><literal name="icmp_ln315" val="0"/>
-</and_exp></or_exp>
-</condition>
-
-<Node id="81" bw="1" op_0_bw="17" op_1_bw="17">
-<![CDATA[
-VITIS_LOOP_318_4.split:28 %cmp170 = icmp_ne  i17 %y_7, i17 0
-
-]]></Node>
-<StgValue><ssdm name="cmp170"/></StgValue>
-</operation>
-
-<operation id="71" st_id="2" stage="1" lat="1">
+<operation id="68" st_id="2" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -1068,7 +1020,7 @@ VITIS_LOOP_318_4.split:29 %empty_166 = wait i32 @_ssdm_op_Wait
 <StgValue><ssdm name="empty_166"/></StgValue>
 </operation>
 
-<operation id="72" st_id="2" stage="1" lat="1">
+<operation id="69" st_id="2" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -1084,7 +1036,7 @@ VITIS_LOOP_318_4.split:31 %store_ln271 = store i17 %y_8, i17 %y
 <StgValue><ssdm name="store_ln271"/></StgValue>
 </operation>
 
-<operation id="73" st_id="2" stage="1" lat="1">
+<operation id="70" st_id="2" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -1103,7 +1055,37 @@ for.end749:0 %ret_ln591 = ret
 
 <state id="3" st_id="3">
 
-<operation id="74" st_id="3" stage="1" lat="1">
+<operation id="71" st_id="3" stage="1" lat="1">
+<core>Adder</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="75" bw="17" op_0_bw="17" op_1_bw="17">
+<![CDATA[
+VITIS_LOOP_318_4.split:22 %out_y = add i17 %y_7, i17 131070
+
+]]></Node>
+<StgValue><ssdm name="out_y"/></StgValue>
+</operation>
+
+<operation id="72" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="76" bw="1" op_0_bw="17">
+<![CDATA[
+VITIS_LOOP_318_4.split:23 %empty = trunc i17 %out_y
+
+]]></Node>
+<StgValue><ssdm name="empty"/></StgValue>
+</operation>
+
+<operation id="73" st_id="3" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -1118,7 +1100,7 @@ VITIS_LOOP_318_4.split:24 %and226_cast = zext i1 %empty
 <StgValue><ssdm name="and226_cast"/></StgValue>
 </operation>
 
-<operation id="75" st_id="3" stage="1" lat="1">
+<operation id="74" st_id="3" stage="1" lat="1">
 <core>LogicGate</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -1133,7 +1115,7 @@ VITIS_LOOP_318_4.split:25 %xor = xor i15 %trunc_ln293_1, i15 %and226_cast
 <StgValue><ssdm name="xor"/></StgValue>
 </operation>
 
-<operation id="76" st_id="3" stage="1" lat="1">
+<operation id="75" st_id="3" stage="1" lat="1">
 <core>Cmp</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -1146,6 +1128,21 @@ VITIS_LOOP_318_4.split:26 %cmp689 = icmp_eq  i15 %and226_cast, i15 %trunc_ln293_
 
 ]]></Node>
 <StgValue><ssdm name="cmp689"/></StgValue>
+</operation>
+
+<operation id="76" st_id="3" stage="1" lat="1">
+<core>Cmp</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="81" bw="1" op_0_bw="17" op_1_bw="17">
+<![CDATA[
+VITIS_LOOP_318_4.split:28 %cmp170 = icmp_ne  i17 %y_7, i17 0
+
+]]></Node>
+<StgValue><ssdm name="cmp170"/></StgValue>
 </operation>
 
 <operation id="77" st_id="3" stage="2" lat="2">
@@ -1598,35 +1595,35 @@ VITIS_LOOP_318_4.split:32 %br_ln315 = br void %VITIS_LOOP_318_4
 </dataflow>
 <dataflow id="283" from="p_lcssa51995209" to="p_lcssa51995209_load" fromId="25" toId="66">
 </dataflow>
-<dataflow id="284" from="y_7" to="out_y" fromId="43" toId="67">
+<dataflow id="284" from="y_7" to="cmp84" fromId="43" toId="67">
 </dataflow>
-<dataflow id="286" from="StgValue_285" to="out_y" fromId="285" toId="67">
+<dataflow id="285" from="zext_ln274" to="cmp84" fromId="35" toId="67">
 </dataflow>
-<dataflow id="287" from="out_y" to="empty" fromId="67" toId="68">
+<dataflow id="287" from="_ssdm_op_Wait" to="empty_166" fromId="286" toId="68">
 </dataflow>
-<dataflow id="288" from="y_7" to="cmp84" fromId="43" toId="69">
+<dataflow id="288" from="y_8" to="store_ln271" fromId="45" toId="69">
 </dataflow>
-<dataflow id="289" from="zext_ln274" to="cmp84" fromId="35" toId="69">
+<dataflow id="289" from="y" to="store_ln271" fromId="5" toId="69">
 </dataflow>
-<dataflow id="290" from="y_7" to="cmp170" fromId="43" toId="70">
+<dataflow id="290" from="y_7" to="out_y" fromId="43" toId="71">
 </dataflow>
-<dataflow id="291" from="StgValue_254" to="cmp170" fromId="254" toId="70">
+<dataflow id="292" from="StgValue_291" to="out_y" fromId="291" toId="71">
 </dataflow>
-<dataflow id="293" from="_ssdm_op_Wait" to="empty_166" fromId="292" toId="71">
+<dataflow id="293" from="out_y" to="empty" fromId="71" toId="72">
 </dataflow>
-<dataflow id="294" from="y_8" to="store_ln271" fromId="45" toId="72">
+<dataflow id="294" from="empty" to="and226_cast" fromId="72" toId="73">
 </dataflow>
-<dataflow id="295" from="y" to="store_ln271" fromId="5" toId="72">
+<dataflow id="295" from="trunc_ln293_1" to="xor" fromId="40" toId="74">
 </dataflow>
-<dataflow id="296" from="empty" to="and226_cast" fromId="68" toId="74">
+<dataflow id="296" from="and226_cast" to="xor" fromId="73" toId="74">
 </dataflow>
-<dataflow id="297" from="trunc_ln293_1" to="xor" fromId="40" toId="75">
+<dataflow id="297" from="and226_cast" to="cmp689" fromId="73" toId="75">
 </dataflow>
-<dataflow id="298" from="and226_cast" to="xor" fromId="74" toId="75">
+<dataflow id="298" from="trunc_ln293_1" to="cmp689" fromId="40" toId="75">
 </dataflow>
-<dataflow id="299" from="and226_cast" to="cmp689" fromId="74" toId="76">
+<dataflow id="299" from="y_7" to="cmp170" fromId="43" toId="76">
 </dataflow>
-<dataflow id="300" from="trunc_ln293_1" to="cmp689" fromId="40" toId="76">
+<dataflow id="300" from="StgValue_254" to="cmp170" fromId="254" toId="76">
 </dataflow>
 <dataflow id="302" from="DebayerG_Pipeline_VITIS_LOOP_318_4" to="call_ln275" fromId="301" toId="77">
 </dataflow>
@@ -1676,17 +1673,17 @@ VITIS_LOOP_318_4.split:32 %br_ln315 = br void %VITIS_LOOP_318_4
 </dataflow>
 <dataflow id="325" from="x_phase" to="call_ln275" fromId="39" toId="77">
 </dataflow>
-<dataflow id="326" from="xor" to="call_ln275" fromId="75" toId="77">
+<dataflow id="326" from="xor" to="call_ln275" fromId="74" toId="77">
 </dataflow>
-<dataflow id="327" from="cmp689" to="call_ln275" fromId="76" toId="77">
+<dataflow id="327" from="cmp689" to="call_ln275" fromId="75" toId="77">
 </dataflow>
-<dataflow id="328" from="out_y" to="call_ln275" fromId="67" toId="77">
+<dataflow id="328" from="out_y" to="call_ln275" fromId="71" toId="77">
 </dataflow>
 <dataflow id="329" from="width_read" to="call_ln275" fromId="27" toId="77">
 </dataflow>
-<dataflow id="330" from="cmp170" to="call_ln275" fromId="70" toId="77">
+<dataflow id="330" from="cmp170" to="call_ln275" fromId="76" toId="77">
 </dataflow>
-<dataflow id="331" from="cmp84" to="call_ln275" fromId="69" toId="77">
+<dataflow id="331" from="cmp84" to="call_ln275" fromId="67" toId="77">
 </dataflow>
 <dataflow id="332" from="imgBayer" to="call_ln275" fromId="87" toId="77">
 </dataflow>
@@ -1794,17 +1791,17 @@ VITIS_LOOP_318_4.split:32 %br_ln315 = br void %VITIS_LOOP_318_4
 </dataflow>
 <dataflow id="390" from="x_phase" to="call_ln275" fromId="39" toId="80">
 </dataflow>
-<dataflow id="391" from="xor" to="call_ln275" fromId="75" toId="80">
+<dataflow id="391" from="xor" to="call_ln275" fromId="74" toId="80">
 </dataflow>
-<dataflow id="392" from="cmp689" to="call_ln275" fromId="76" toId="80">
+<dataflow id="392" from="cmp689" to="call_ln275" fromId="75" toId="80">
 </dataflow>
-<dataflow id="393" from="out_y" to="call_ln275" fromId="67" toId="80">
+<dataflow id="393" from="out_y" to="call_ln275" fromId="71" toId="80">
 </dataflow>
 <dataflow id="394" from="width_read" to="call_ln275" fromId="27" toId="80">
 </dataflow>
-<dataflow id="395" from="cmp170" to="call_ln275" fromId="70" toId="80">
+<dataflow id="395" from="cmp170" to="call_ln275" fromId="76" toId="80">
 </dataflow>
-<dataflow id="396" from="cmp84" to="call_ln275" fromId="69" toId="80">
+<dataflow id="396" from="cmp84" to="call_ln275" fromId="67" toId="80">
 </dataflow>
 <dataflow id="397" from="imgBayer" to="call_ln275" fromId="87" toId="80">
 </dataflow>

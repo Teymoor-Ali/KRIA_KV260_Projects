@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2'" level="0">
-<item name = "Date">Sun Jun 16 22:34:20 2024
+<item name = "Date">Sun Jun 16 23:48:25 2024
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">3.37 ns, 2.427 ns, 0.91 ns</column>
+<column name="ap_clk">6.73 ns, 4.794 ns, 1.82 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">10, 1930, 33.670 ns, 6.498 us, 2, 1922, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="">6, 1926, 40.404 ns, 12.970 us, 2, 1922, loop auto-rewind stp(delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_633_2">8, 1928, 9, 1, 1, 1 ~ 1921, yes</column>
+<column name="- VITIS_LOOP_633_2">4, 1924, 5, 1, 1, 1 ~ 1921, yes</column>
 </table>
 </item>
 </section>

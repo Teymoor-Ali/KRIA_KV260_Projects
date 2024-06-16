@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'AXIvideo2MultiBayer'
 ================================================================
-* Date:           Sun Jun 16 22:34:23 2024
+* Date:           Sun Jun 16 23:48:27 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  3.37 ns|  2.102 ns|     0.91 ns|
+    |ap_clk  |  6.73 ns|  2.102 ns|     1.82 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -34,16 +34,16 @@
 
     + Detail: 
         * Instance: 
-        +-------------------------------------------------------------+--------------------------------------------------+---------+---------+----------+----------+-----+------+-----------------------------------------------+
-        |                                                             |                                                  |  Latency (cycles) |  Latency (absolute) |  Interval  |                    Pipeline                   |
-        |                           Instance                          |                      Module                      |   min   |   max   |    min   |    max   | min |  max |                      Type                     |
-        +-------------------------------------------------------------+--------------------------------------------------+---------+---------+----------+----------+-----+------+-----------------------------------------------+
-        |grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136  |AXIvideo2MultiBayer_Pipeline_loop_wait_for_start  |        ?|        ?|         ?|         ?|    0|     0|  loop auto-rewind stp(delay=0 clock cycles(s))|
-        |grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156           |AXIvideo2MultiBayer_Pipeline_loop_width           |        2|     1922|  6.734 ns|  6.471 us|    1|  1921|  loop auto-rewind stp(delay=0 clock cycles(s))|
-        |grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184    |AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol    |        ?|        ?|         ?|         ?|    0|     0|  loop auto-rewind stp(delay=0 clock cycles(s))|
-        |grp_reg_unsigned_short_s_fu_220                              |reg_unsigned_short_s                              |        1|        1|  3.367 ns|  3.367 ns|    1|     1|                                            yes|
-        |grp_reg_unsigned_short_s_fu_225                              |reg_unsigned_short_s                              |        1|        1|  3.367 ns|  3.367 ns|    1|     1|                                            yes|
-        +-------------------------------------------------------------+--------------------------------------------------+---------+---------+----------+----------+-----+------+-----------------------------------------------+
+        +-------------------------------------------------------------+--------------------------------------------------+---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
+        |                                                             |                                                  |  Latency (cycles) |   Latency (absolute)  |  Interval  |                    Pipeline                   |
+        |                           Instance                          |                      Module                      |   min   |   max   |    min    |    max    | min |  max |                      Type                     |
+        +-------------------------------------------------------------+--------------------------------------------------+---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
+        |grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136  |AXIvideo2MultiBayer_Pipeline_loop_wait_for_start  |        ?|        ?|          ?|          ?|    0|     0|  loop auto-rewind stp(delay=0 clock cycles(s))|
+        |grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156           |AXIvideo2MultiBayer_Pipeline_loop_width           |        2|     1922|  13.468 ns|  12.943 us|    1|  1921|  loop auto-rewind stp(delay=0 clock cycles(s))|
+        |grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184    |AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol    |        ?|        ?|          ?|          ?|    0|     0|  loop auto-rewind stp(delay=0 clock cycles(s))|
+        |grp_reg_unsigned_short_s_fu_220                              |reg_unsigned_short_s                              |        1|        1|   6.734 ns|   6.734 ns|    1|     1|                                            yes|
+        |grp_reg_unsigned_short_s_fu_225                              |reg_unsigned_short_s                              |        1|        1|   6.734 ns|   6.734 ns|    1|     1|                                            yes|
+        +-------------------------------------------------------------+--------------------------------------------------+---------+---------+-----------+-----------+-----+------+-----------------------------------------------+
 
         * Loop: 
         +---------------+---------+---------+----------+-----------+-----------+----------+----------+

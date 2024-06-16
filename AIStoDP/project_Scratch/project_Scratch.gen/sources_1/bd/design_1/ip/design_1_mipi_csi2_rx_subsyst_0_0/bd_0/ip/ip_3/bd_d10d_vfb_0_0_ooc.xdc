@@ -52,8 +52,8 @@
 # #########################################################
 
 
-create_clock -period 3.367 -name s_axis_aclk [get_ports s_axis_aclk]
+create_clock -period 6.734 -name s_axis_aclk [get_ports s_axis_aclk]
 
-create_clock -period 3.367 -name vfb_clk [get_ports vfb_clk]
+create_clock -period 6.734 -name vfb_clk [get_ports vfb_clk]
 
 

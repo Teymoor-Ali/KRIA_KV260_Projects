@@ -1,6 +1,6 @@
 
 set TopModule "v_demosaic"
-set ClockPeriod 3.367
+set ClockPeriod 6.734
 set ClockList ap_clk
 set HasVivadoClockPeriod 0
 set CombLogicFlag 0

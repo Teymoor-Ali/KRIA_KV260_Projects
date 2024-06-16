@@ -86,7 +86,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1", "real_start" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1", "EstimateLatencyMax" : "4295426041",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1", "EstimateLatencyMax" : "4295360506",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -112,7 +112,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "6", "EstimateLatencyMax" : "65541",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "5", "EstimateLatencyMax" : "65540",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -143,14 +143,14 @@ set RtlHierarchyInfo {[
 			{"Name" : "phi_ln1132_out", "Type" : "Vld", "Direction" : "O"}],
 		"Loop" : [
 			{"Name" : "VITIS_LOOP_1101_2", "PipelineType" : "UPC",
-				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter4", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter4", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
+				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter3", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter3", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
 	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2_fu_104.flow_control_loop_pipe_sequential_init_U", "Parent" : "1"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	ZipperRemoval {
 		imgRgb {Type I LastRead 1 FirstWrite -1}
-		imgUnzip {Type O LastRead -1 FirstWrite 4}
+		imgUnzip {Type O LastRead -1 FirstWrite 3}
 		height {Type I LastRead 0 FirstWrite -1}
 		width {Type I LastRead 0 FirstWrite -1}}
 	ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 {
@@ -161,21 +161,21 @@ set ArgLastReadFirstWriteLatency {
 		loopWidth {Type I LastRead 0 FirstWrite -1}
 		zext_ln1085 {Type I LastRead 0 FirstWrite -1}
 		imgRgb {Type I LastRead 1 FirstWrite -1}
-		imgUnzip {Type O LastRead -1 FirstWrite 4}
-		p_0_0_0480_1667_out {Type O LastRead -1 FirstWrite 3}
-		p_0_0_0481_1665_out {Type O LastRead -1 FirstWrite 3}
-		p_0_0_0482_1663_out {Type O LastRead -1 FirstWrite 3}
-		p_0_0_0480_1661_out {Type IO LastRead 3 FirstWrite 3}
-		p_0_0_0481_1660_out {Type IO LastRead 3 FirstWrite 3}
+		imgUnzip {Type O LastRead -1 FirstWrite 3}
+		p_0_0_0480_1667_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0481_1665_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0482_1663_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0480_1661_out {Type IO LastRead 2 FirstWrite 2}
+		p_0_0_0481_1660_out {Type IO LastRead 2 FirstWrite 2}
 		p_0_0_0482_1659_out {Type IO LastRead 2 FirstWrite 2}
-		p_0_0_0483_1658_out {Type IO LastRead 3 FirstWrite 3}
+		p_0_0_0483_1658_out {Type IO LastRead 2 FirstWrite 2}
 		phi_ln1132_out {Type O LastRead -1 FirstWrite 0}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "1", "Max" : "4295426041"}
-	, {"Name" : "Interval", "Min" : "1", "Max" : "458745"}
+	{"Name" : "Latency", "Min" : "1", "Max" : "4295360506"}
+	, {"Name" : "Interval", "Min" : "1", "Max" : "393210"}
 ]}
 
 set PipelineEnableSignalInfo {[

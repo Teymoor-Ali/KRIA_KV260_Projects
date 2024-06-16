@@ -22,8 +22,6 @@ module design_1_v_demosaic_0_0_Debayer (
         bayerPhase_read,
         ap_clk,
         ap_rst,
-        imgBayer_num_data_valid,
-        imgBayer_fifo_cap,
         height_ap_vld,
         width_ap_vld,
         bayerPhase_read_ap_vld,
@@ -49,8 +47,6 @@ input  [15:0] width;
 input  [15:0] bayerPhase_read;
 input   ap_clk;
 input   ap_rst;
-input  [2:0] imgBayer_num_data_valid;
-input  [2:0] imgBayer_fifo_cap;
 input   height_ap_vld;
 input   width_ap_vld;
 input   bayerPhase_read_ap_vld;
@@ -150,8 +146,8 @@ design_1_v_demosaic_0_0_DebayerG DebayerG_U0(
     .start_out(DebayerG_U0_start_out),
     .start_write(DebayerG_U0_start_write),
     .imgBayer_dout(imgBayer_dout),
-    .imgBayer_num_data_valid(imgBayer_num_data_valid),
-    .imgBayer_fifo_cap(imgBayer_fifo_cap),
+    .imgBayer_num_data_valid(3'd0),
+    .imgBayer_fifo_cap(3'd0),
     .imgBayer_empty_n(imgBayer_empty_n),
     .imgBayer_read(DebayerG_U0_imgBayer_read),
     .imgG_din(DebayerG_U0_imgG_din),

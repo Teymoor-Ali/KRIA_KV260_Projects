@@ -296,13 +296,13 @@ set NewPortList {[
  	{ "name": "p_out19_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "p_out19", "role": "ap_vld" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
 		"CDFG" : "DebayerG_Pipeline_VITIS_LOOP_318_4",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "23", "EstimateLatencyMax" : "65558",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "13", "EstimateLatencyMax" : "65548",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -368,7 +368,8 @@ set RtlHierarchyInfo {[
 			{"Name" : "DIV1_TABLE", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "DIV2_TABLE", "Type" : "Memory", "Direction" : "I"}],
 		"Loop" : [
-			{"Name" : "VITIS_LOOP_318_4", "PipelineType" : "NotSupport"}]},
+			{"Name" : "VITIS_LOOP_318_4", "PipelineType" : "UPC",
+				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter10", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter10", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.DIV1_TABLE_U", "Parent" : "0"},
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.DIV2_TABLE_U", "Parent" : "0"},
 	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.linebuf_yuv_3_U", "Parent" : "0"},
@@ -383,9 +384,7 @@ set RtlHierarchyInfo {[
 	{"ID" : "12", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_14s_10ns_24_1_1_U60", "Parent" : "0"},
 	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_10ns_24s_25_4_1_U61", "Parent" : "0"},
 	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mac_muladd_14s_10ns_24s_25_4_1_U62", "Parent" : "0"},
-	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_sequential_init_U", "Parent" : "0"},
-	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.frp_pipeline_valid_U", "Parent" : "0"},
-	{"ID" : "17", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.pf_imgG_U", "Parent" : "0"}]}
+	{"ID" : "15", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_sequential_init_U", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -411,7 +410,7 @@ set ArgLastReadFirstWriteLatency {
 		p_lcssa50215054 {Type I LastRead 0 FirstWrite -1}
 		p_lcssa50195052 {Type I LastRead 0 FirstWrite -1}
 		loopWidth {Type I LastRead 0 FirstWrite -1}
-		imgG {Type O LastRead -1 FirstWrite 20}
+		imgG {Type O LastRead -1 FirstWrite 10}
 		empty {Type I LastRead 0 FirstWrite -1}
 		xor_r {Type I LastRead 0 FirstWrite -1}
 		cmp689 {Type I LastRead 0 FirstWrite -1}
@@ -420,34 +419,34 @@ set ArgLastReadFirstWriteLatency {
 		cmp170 {Type I LastRead 0 FirstWrite -1}
 		cmp84 {Type I LastRead 0 FirstWrite -1}
 		imgBayer {Type I LastRead 1 FirstWrite -1}
-		p_out {Type O LastRead -1 FirstWrite 19}
-		p_out1 {Type O LastRead -1 FirstWrite 19}
-		p_out2 {Type O LastRead -1 FirstWrite 19}
-		p_out3 {Type O LastRead -1 FirstWrite 19}
-		p_out4 {Type O LastRead -1 FirstWrite 19}
-		p_out5 {Type O LastRead -1 FirstWrite 19}
-		p_out6 {Type O LastRead -1 FirstWrite 19}
-		p_out7 {Type O LastRead -1 FirstWrite 19}
-		p_out8 {Type O LastRead -1 FirstWrite 19}
-		p_out9 {Type O LastRead -1 FirstWrite 19}
-		p_out10 {Type O LastRead -1 FirstWrite 19}
-		p_out11 {Type O LastRead -1 FirstWrite 19}
-		p_out12 {Type O LastRead -1 FirstWrite 19}
-		p_out13 {Type O LastRead -1 FirstWrite 19}
-		p_out14 {Type O LastRead -1 FirstWrite 19}
-		p_out15 {Type O LastRead -1 FirstWrite 19}
-		p_out16 {Type O LastRead -1 FirstWrite 19}
-		p_out17 {Type O LastRead -1 FirstWrite 19}
-		p_out18 {Type O LastRead -1 FirstWrite 19}
-		p_out19 {Type O LastRead -1 FirstWrite 19}
+		p_out {Type O LastRead -1 FirstWrite 9}
+		p_out1 {Type O LastRead -1 FirstWrite 9}
+		p_out2 {Type O LastRead -1 FirstWrite 9}
+		p_out3 {Type O LastRead -1 FirstWrite 9}
+		p_out4 {Type O LastRead -1 FirstWrite 9}
+		p_out5 {Type O LastRead -1 FirstWrite 9}
+		p_out6 {Type O LastRead -1 FirstWrite 9}
+		p_out7 {Type O LastRead -1 FirstWrite 9}
+		p_out8 {Type O LastRead -1 FirstWrite 9}
+		p_out9 {Type O LastRead -1 FirstWrite 9}
+		p_out10 {Type O LastRead -1 FirstWrite 9}
+		p_out11 {Type O LastRead -1 FirstWrite 9}
+		p_out12 {Type O LastRead -1 FirstWrite 9}
+		p_out13 {Type O LastRead -1 FirstWrite 9}
+		p_out14 {Type O LastRead -1 FirstWrite 9}
+		p_out15 {Type O LastRead -1 FirstWrite 9}
+		p_out16 {Type O LastRead -1 FirstWrite 9}
+		p_out17 {Type O LastRead -1 FirstWrite 9}
+		p_out18 {Type O LastRead -1 FirstWrite 9}
+		p_out19 {Type O LastRead -1 FirstWrite 9}
 		DIV1_TABLE {Type I LastRead -1 FirstWrite -1}
 		DIV2_TABLE {Type I LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "23", "Max" : "65558"}
-	, {"Name" : "Interval", "Min" : "23", "Max" : "65558"}
+	{"Name" : "Latency", "Min" : "13", "Max" : "65548"}
+	, {"Name" : "Interval", "Min" : "13", "Max" : "65548"}
 ]}
 
 set PipelineEnableSignalInfo {[

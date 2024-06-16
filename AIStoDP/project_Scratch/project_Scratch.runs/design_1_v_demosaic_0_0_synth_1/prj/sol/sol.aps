@@ -13,7 +13,7 @@
         <library value="xilinx/zynquplus/zynquplus" name="DefaultPlatform"/>
     </libraryList>
     <clockList>
-        <clock name="ap_clk" period="3.367" default="false"/>
+        <clock name="ap_clk" period="6.734" default="false"/>
     </clockList>
     <config>
         <config_rtl module_prefix="design_1_v_demosaic_0_0_"/>

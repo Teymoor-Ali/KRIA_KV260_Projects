@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'DebayerG'" level="0">
-<item name = "Date">Sun Jun 16 22:34:20 2024
+<item name = "Date">Sun Jun 16 23:48:24 2024
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">3.37 ns, 2.453 ns, 0.91 ns</column>
+<column name="ap_clk">6.73 ns, 4.854 ns, 1.82 ns</column>
 </table>
 </item>
 </section>
@@ -24,19 +24,19 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">53, 4296671258, 0.178 us, 14.467 sec, 53, 4296671258, no</column>
+<column name="">33, 4296015888, 0.222 us, 28.929 sec, 33, 4296015888, no</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184">DebayerG_Pipeline_VITIS_LOOP_318_4, 23, 65558, 77.441 ns, 0.221 ms, 3, 65538, loop auto-rewind stp(delay=0 clock cycles(s))</column>
+<column name="grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184">DebayerG_Pipeline_VITIS_LOOP_318_4, 13, 65548, 87.542 ns, 0.441 ms, 3, 65538, loop auto-rewind stp(delay=0 clock cycles(s))</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_315_3">52, 4296671257, 26 ~ 65561, -, -, 2 ~ 65537, no</column>
+<column name="- VITIS_LOOP_315_3">32, 4296015887, 16 ~ 65551, -, -, 2 ~ 65537, no</column>
 </table>
 </item>
 </section>

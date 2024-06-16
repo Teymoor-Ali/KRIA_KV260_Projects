@@ -6,7 +6,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="design_1_v_tpg_0_0_v_tpg,hls_ip_2024_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xck26-sfvc784-2LV-c,HLS_INPUT_CLOCK=3.367000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=2.457910,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=4298,HLS_SYN_LUT=6352,HLS_VERSION=2024_1}" *)
+(* CORE_GENERATION_INFO="design_1_v_tpg_0_0_v_tpg,hls_ip_2024_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xck26-sfvc784-2LV-c,HLS_INPUT_CLOCK=6.734000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=4.827500,HLS_SYN_LAT=-1,HLS_SYN_TPT=none,HLS_SYN_MEM=0,HLS_SYN_DSP=0,HLS_SYN_FF=4003,HLS_SYN_LUT=6120,HLS_VERSION=2024_1}" *)
 
 module design_1_v_tpg_0_0_v_tpg (
         ap_clk,
@@ -51,12 +51,11 @@ module design_1_v_tpg_0_0_v_tpg (
         interrupt
 );
 
-parameter    ap_ST_fsm_state1 = 6'd1;
-parameter    ap_ST_fsm_state2 = 6'd2;
-parameter    ap_ST_fsm_state3 = 6'd4;
-parameter    ap_ST_fsm_state4 = 6'd8;
-parameter    ap_ST_fsm_state5 = 6'd16;
-parameter    ap_ST_fsm_state6 = 6'd32;
+parameter    ap_ST_fsm_state1 = 5'd1;
+parameter    ap_ST_fsm_state2 = 5'd2;
+parameter    ap_ST_fsm_state3 = 5'd4;
+parameter    ap_ST_fsm_state4 = 5'd8;
+parameter    ap_ST_fsm_state5 = 5'd16;
 parameter    C_S_AXI_CTRL_DATA_WIDTH = 32;
 parameter    C_S_AXI_CTRL_ADDR_WIDTH = 8;
 parameter    C_S_AXI_DATA_WIDTH = 32;
@@ -109,7 +108,7 @@ output   interrupt;
 wire    ap_start;
 reg    ap_done;
 reg    ap_idle;
-(* fsm_encoding = "none" *) reg   [5:0] ap_CS_fsm;
+(* fsm_encoding = "none" *) reg   [4:0] ap_CS_fsm;
 wire    ap_CS_fsm_state1;
 reg    ap_ready;
 wire   [15:0] height;
@@ -141,12 +140,11 @@ wire   [15:0] bck_motion_en;
 reg   [31:0] count;
 reg   [31:0] s;
 wire   [0:0] icmp_ln500_fu_475_p2;
-reg   [0:0] icmp_ln500_reg_542;
+reg   [0:0] icmp_ln500_reg_543;
 wire    ap_CS_fsm_state2;
 wire   [31:0] add_ln502_fu_485_p2;
-reg   [31:0] add_ln502_reg_546;
 reg   [15:0] height_read_reg_555;
-wire    ap_CS_fsm_state4;
+wire    ap_CS_fsm_state3;
 reg   [15:0] width_read_reg_560;
 reg   [15:0] field_id_read_reg_565;
 reg   [15:0] passthruStartX_read_reg_575;
@@ -180,27 +178,25 @@ wire    grp_reg_unsigned_short_s_fu_469_ap_idle;
 wire    grp_reg_unsigned_short_s_fu_469_ap_ready;
 wire   [15:0] grp_reg_unsigned_short_s_fu_469_ap_return;
 reg   [31:0] count_new_0_reg_338;
-wire    ap_CS_fsm_state3;
 wire   [0:0] icmp_ln503_fu_491_p2;
 reg    grp_v_tpgHlsDataFlow_fu_349_ap_start_reg;
-wire    ap_CS_fsm_state5;
+wire    ap_CS_fsm_state4;
 reg    ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_ready;
 reg    ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_done;
-reg    ap_block_state5_on_subcall_done;
+reg    ap_block_state4_on_subcall_done;
 wire    ap_sync_grp_v_tpgHlsDataFlow_fu_349_ap_ready;
-wire   [31:0] select_ln505_fu_522_p3;
-wire   [28:0] tmp_1_fu_500_p4;
-wire   [0:0] icmp_ln505_fu_510_p2;
-wire   [31:0] add_ln507_fu_516_p2;
-wire    ap_CS_fsm_state6;
+wire   [31:0] select_ln505_fu_523_p3;
+wire   [28:0] tmp_1_fu_501_p4;
+wire   [0:0] icmp_ln505_fu_511_p2;
+wire   [31:0] add_ln507_fu_517_p2;
+wire    ap_CS_fsm_state5;
 wire    regslice_both_m_axis_video_V_data_V_U_apdone_blk;
-reg   [5:0] ap_NS_fsm;
+reg   [4:0] ap_NS_fsm;
 reg    ap_ST_fsm_state1_blk;
 wire    ap_ST_fsm_state2_blk;
 wire    ap_ST_fsm_state3_blk;
-wire    ap_ST_fsm_state4_blk;
+reg    ap_ST_fsm_state4_blk;
 reg    ap_ST_fsm_state5_blk;
-reg    ap_ST_fsm_state6_blk;
 wire    regslice_both_s_axis_video_V_data_V_U_apdone_blk;
 wire   [31:0] s_axis_video_TDATA_int_regslice;
 wire    s_axis_video_TVALID_int_regslice;
@@ -255,7 +251,7 @@ wire    ap_ce_reg;
 
 // power-on initialization
 initial begin
-#0 ap_CS_fsm = 6'd1;
+#0 ap_CS_fsm = 5'd1;
 #0 count = 32'd0;
 #0 s = 32'd0;
 #0 grp_v_tpgHlsDataFlow_fu_349_ap_start_reg = 1'b0;
@@ -596,7 +592,7 @@ always @ (posedge ap_clk) begin
     if (ap_rst_n_inv == 1'b1) begin
         ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_done <= 1'b0;
     end else begin
-        if (((1'b0 == ap_block_state5_on_subcall_done) & (1'b1 == ap_CS_fsm_state5))) begin
+        if (((1'b0 == ap_block_state4_on_subcall_done) & (1'b1 == ap_CS_fsm_state4))) begin
             ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_done <= 1'b0;
         end else if ((grp_v_tpgHlsDataFlow_fu_349_ap_done == 1'b1)) begin
             ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_done <= 1'b1;
@@ -608,7 +604,7 @@ always @ (posedge ap_clk) begin
     if (ap_rst_n_inv == 1'b1) begin
         ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_ready <= 1'b0;
     end else begin
-        if (((1'b0 == ap_block_state5_on_subcall_done) & (1'b1 == ap_CS_fsm_state5))) begin
+        if (((1'b0 == ap_block_state4_on_subcall_done) & (1'b1 == ap_CS_fsm_state4))) begin
             ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_ready <= 1'b0;
         end else if ((grp_v_tpgHlsDataFlow_fu_349_ap_ready == 1'b1)) begin
             ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_ready <= 1'b1;
@@ -620,7 +616,7 @@ always @ (posedge ap_clk) begin
     if (ap_rst_n_inv == 1'b1) begin
         grp_v_tpgHlsDataFlow_fu_349_ap_start_reg <= 1'b0;
     end else begin
-        if (((1'b1 == ap_CS_fsm_state4) | ((ap_sync_grp_v_tpgHlsDataFlow_fu_349_ap_ready == 1'b0) & (1'b1 == ap_CS_fsm_state5)))) begin
+        if (((1'b1 == ap_CS_fsm_state3) | ((ap_sync_grp_v_tpgHlsDataFlow_fu_349_ap_ready == 1'b0) & (1'b1 == ap_CS_fsm_state4)))) begin
             grp_v_tpgHlsDataFlow_fu_349_ap_start_reg <= 1'b1;
         end else if ((grp_v_tpgHlsDataFlow_fu_349_ap_ready == 1'b1)) begin
             grp_v_tpgHlsDataFlow_fu_349_ap_start_reg <= 1'b0;
@@ -629,9 +625,9 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if ((1'b1 == ap_CS_fsm_state3)) begin
+    if (((icmp_ln500_fu_475_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state2))) begin
         if ((icmp_ln503_fu_491_p2 == 1'd0)) begin
-            count_new_0_reg_338 <= add_ln502_reg_546;
+            count_new_0_reg_338 <= add_ln502_fu_485_p2;
         end else if ((icmp_ln503_fu_491_p2 == 1'd1)) begin
             count_new_0_reg_338 <= 32'd0;
         end
@@ -639,14 +635,7 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if ((1'b1 == ap_CS_fsm_state2)) begin
-        add_ln502_reg_546 <= add_ln502_fu_485_p2;
-        icmp_ln500_reg_542 <= icmp_ln500_fu_475_p2;
-    end
-end
-
-always @ (posedge ap_clk) begin
-    if ((1'b1 == ap_CS_fsm_state4)) begin
+    if ((1'b1 == ap_CS_fsm_state3)) begin
         bckgndId_read_reg_600 <= bckgndId;
         colorFormat_read_reg_610 <= colorFormat;
         enableInput_read_reg_595 <= enableInput;
@@ -662,14 +651,20 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((icmp_ln500_reg_542 == 1'd1) & (1'b1 == ap_CS_fsm_state4))) begin
+    if (((icmp_ln500_reg_543 == 1'd1) & (1'b1 == ap_CS_fsm_state3))) begin
         count <= count_new_0_reg_338;
     end
 end
 
 always @ (posedge ap_clk) begin
-    if (((icmp_ln503_fu_491_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state3))) begin
-        s <= select_ln505_fu_522_p3;
+    if ((1'b1 == ap_CS_fsm_state2)) begin
+        icmp_ln500_reg_543 <= icmp_ln500_fu_475_p2;
+    end
+end
+
+always @ (posedge ap_clk) begin
+    if (((icmp_ln500_fu_475_p2 == 1'd1) & (icmp_ln503_fu_491_p2 == 1'd1) & (1'b1 == ap_CS_fsm_state2))) begin
+        s <= select_ln505_fu_523_p3;
     end
 end
 
@@ -685,10 +680,16 @@ assign ap_ST_fsm_state2_blk = 1'b0;
 
 assign ap_ST_fsm_state3_blk = 1'b0;
 
-assign ap_ST_fsm_state4_blk = 1'b0;
+always @ (*) begin
+    if ((1'b1 == ap_block_state4_on_subcall_done)) begin
+        ap_ST_fsm_state4_blk = 1'b1;
+    end else begin
+        ap_ST_fsm_state4_blk = 1'b0;
+    end
+end
 
 always @ (*) begin
-    if ((1'b1 == ap_block_state5_on_subcall_done)) begin
+    if ((regslice_both_m_axis_video_V_data_V_U_apdone_blk == 1'b1)) begin
         ap_ST_fsm_state5_blk = 1'b1;
     end else begin
         ap_ST_fsm_state5_blk = 1'b0;
@@ -696,15 +697,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((regslice_both_m_axis_video_V_data_V_U_apdone_blk == 1'b1)) begin
-        ap_ST_fsm_state6_blk = 1'b1;
-    end else begin
-        ap_ST_fsm_state6_blk = 1'b0;
-    end
-end
-
-always @ (*) begin
-    if (((regslice_both_m_axis_video_V_data_V_U_apdone_blk == 1'b0) & (1'b1 == ap_CS_fsm_state6))) begin
+    if (((regslice_both_m_axis_video_V_data_V_U_apdone_blk == 1'b0) & (1'b1 == ap_CS_fsm_state5))) begin
         ap_done = 1'b1;
     end else begin
         ap_done = 1'b0;
@@ -720,7 +713,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((regslice_both_m_axis_video_V_data_V_U_apdone_blk == 1'b0) & (1'b1 == ap_CS_fsm_state6))) begin
+    if (((regslice_both_m_axis_video_V_data_V_U_apdone_blk == 1'b0) & (1'b1 == ap_CS_fsm_state5))) begin
         ap_ready = 1'b1;
     end else begin
         ap_ready = 1'b0;
@@ -736,7 +729,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((1'b0 == ap_block_state5_on_subcall_done) & (1'b1 == ap_CS_fsm_state5))) begin
+    if (((1'b0 == ap_block_state4_on_subcall_done) & (1'b1 == ap_CS_fsm_state4))) begin
         grp_v_tpgHlsDataFlow_fu_349_ap_continue = 1'b1;
     end else begin
         grp_v_tpgHlsDataFlow_fu_349_ap_continue = 1'b0;
@@ -744,7 +737,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if ((1'b1 == ap_CS_fsm_state5)) begin
+    if ((1'b1 == ap_CS_fsm_state4)) begin
         s_axis_video_TREADY_int_regslice = grp_v_tpgHlsDataFlow_fu_349_s_axis_video_TREADY;
     end else begin
         s_axis_video_TREADY_int_regslice = 1'b0;
@@ -761,30 +754,23 @@ always @ (*) begin
             end
         end
         ap_ST_fsm_state2 : begin
-            if (((icmp_ln500_fu_475_p2 == 1'd0) & (1'b1 == ap_CS_fsm_state2))) begin
-                ap_NS_fsm = ap_ST_fsm_state4;
-            end else begin
-                ap_NS_fsm = ap_ST_fsm_state3;
-            end
+            ap_NS_fsm = ap_ST_fsm_state3;
         end
         ap_ST_fsm_state3 : begin
             ap_NS_fsm = ap_ST_fsm_state4;
         end
         ap_ST_fsm_state4 : begin
-            ap_NS_fsm = ap_ST_fsm_state5;
-        end
-        ap_ST_fsm_state5 : begin
-            if (((1'b0 == ap_block_state5_on_subcall_done) & (1'b1 == ap_CS_fsm_state5))) begin
-                ap_NS_fsm = ap_ST_fsm_state6;
-            end else begin
+            if (((1'b0 == ap_block_state4_on_subcall_done) & (1'b1 == ap_CS_fsm_state4))) begin
                 ap_NS_fsm = ap_ST_fsm_state5;
+            end else begin
+                ap_NS_fsm = ap_ST_fsm_state4;
             end
         end
-        ap_ST_fsm_state6 : begin
-            if (((regslice_both_m_axis_video_V_data_V_U_apdone_blk == 1'b0) & (1'b1 == ap_CS_fsm_state6))) begin
+        ap_ST_fsm_state5 : begin
+            if (((regslice_both_m_axis_video_V_data_V_U_apdone_blk == 1'b0) & (1'b1 == ap_CS_fsm_state5))) begin
                 ap_NS_fsm = ap_ST_fsm_state1;
             end else begin
-                ap_NS_fsm = ap_ST_fsm_state6;
+                ap_NS_fsm = ap_ST_fsm_state5;
             end
         end
         default : begin
@@ -795,7 +781,7 @@ end
 
 assign add_ln502_fu_485_p2 = (count + 32'd1);
 
-assign add_ln507_fu_516_p2 = (s + 32'd1);
+assign add_ln507_fu_517_p2 = (s + 32'd1);
 
 assign ap_CS_fsm_state1 = ap_CS_fsm[32'd0];
 
@@ -807,10 +793,8 @@ assign ap_CS_fsm_state4 = ap_CS_fsm[32'd3];
 
 assign ap_CS_fsm_state5 = ap_CS_fsm[32'd4];
 
-assign ap_CS_fsm_state6 = ap_CS_fsm[32'd5];
-
 always @ (*) begin
-    ap_block_state5_on_subcall_done = ((ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_ready & ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_done) == 1'b0);
+    ap_block_state4_on_subcall_done = ((ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_ready & ap_sync_reg_grp_v_tpgHlsDataFlow_fu_349_ap_done) == 1'b0);
 end
 
 always @ (*) begin
@@ -823,13 +807,13 @@ assign fid = grp_v_tpgHlsDataFlow_fu_349_fid;
 
 assign grp_v_tpgHlsDataFlow_fu_349_ap_start = grp_v_tpgHlsDataFlow_fu_349_ap_start_reg;
 
-assign grp_v_tpgHlsDataFlow_fu_349_m_axis_video_TREADY = (m_axis_video_TREADY_int_regslice & ap_CS_fsm_state5);
+assign grp_v_tpgHlsDataFlow_fu_349_m_axis_video_TREADY = (m_axis_video_TREADY_int_regslice & ap_CS_fsm_state4);
 
 assign icmp_ln500_fu_475_p2 = ((grp_reg_unsigned_short_s_fu_469_ap_return == 16'd1) ? 1'b1 : 1'b0);
 
-assign icmp_ln503_fu_491_p2 = ((add_ln502_reg_546 == 32'd10) ? 1'b1 : 1'b0);
+assign icmp_ln503_fu_491_p2 = ((add_ln502_fu_485_p2 == 32'd10) ? 1'b1 : 1'b0);
 
-assign icmp_ln505_fu_510_p2 = (($signed(tmp_1_fu_500_p4) < $signed(29'd1)) ? 1'b1 : 1'b0);
+assign icmp_ln505_fu_511_p2 = (($signed(tmp_1_fu_501_p4) < $signed(29'd1)) ? 1'b1 : 1'b0);
 
 assign m_axis_video_TVALID = regslice_both_m_axis_video_V_data_V_U_vld_out;
 
@@ -837,9 +821,9 @@ assign m_axis_video_TVALID_int_regslice = grp_v_tpgHlsDataFlow_fu_349_m_axis_vid
 
 assign s_axis_video_TREADY = regslice_both_s_axis_video_V_data_V_U_ack_in;
 
-assign select_ln505_fu_522_p3 = ((icmp_ln505_fu_510_p2[0:0] == 1'b1) ? add_ln507_fu_516_p2 : 32'd0);
+assign select_ln505_fu_523_p3 = ((icmp_ln505_fu_511_p2[0:0] == 1'b1) ? add_ln507_fu_517_p2 : 32'd0);
 
-assign tmp_1_fu_500_p4 = {{s[31:3]}};
+assign tmp_1_fu_501_p4 = {{s[31:3]}};
 
 
 reg find_df_deadlock = 0;

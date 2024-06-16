@@ -963,7 +963,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.22</m_delay>
+          <m_delay>1.83</m_delay>
           <m_topoIndex>17</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -1006,7 +1006,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.22</m_delay>
+          <m_delay>1.83</m_delay>
           <m_topoIndex>18</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -1049,7 +1049,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.22</m_delay>
+          <m_delay>1.83</m_delay>
           <m_topoIndex>19</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -1093,7 +1093,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.22</m_delay>
+          <m_delay>1.83</m_delay>
           <m_topoIndex>20</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -4489,8 +4489,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>14</mMinLatency>
-        <mMaxLatency>2089574</mMaxLatency>
+        <mMinLatency>10</mMinLatency>
+        <mMaxLatency>2085250</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -4536,8 +4536,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>1</mMinTripCount>
         <mMaxTripCount>1081</mMaxTripCount>
-        <mMinLatency>13</mMinLatency>
-        <mMaxLatency>2089573</mMaxLatency>
+        <mMinLatency>9</mMinLatency>
+        <mMaxLatency>2085249</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -5015,11 +5015,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>2718</second>
+              <second>1090</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>2303</second>
+              <second>1626</second>
             </item>
             <item>
               <first>URAM</first>

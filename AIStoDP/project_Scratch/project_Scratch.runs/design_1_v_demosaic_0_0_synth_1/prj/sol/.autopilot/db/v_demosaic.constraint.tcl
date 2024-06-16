@@ -2,8 +2,8 @@ set clock_constraint { \
     name clk \
     module v_demosaic \
     port ap_clk \
-    period 3.367 \
-    uncertainty 0.90909 \
+    period 6.734 \
+    uncertainty 1.81818 \
 }
 
 set all_path {}

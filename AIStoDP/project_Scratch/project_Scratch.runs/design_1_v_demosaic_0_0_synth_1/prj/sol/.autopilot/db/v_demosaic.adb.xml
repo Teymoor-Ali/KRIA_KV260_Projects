@@ -160,22 +160,7 @@ entry:43 %call_ln115 = call void @AXIvideo2MultiBayer, i16 %s_axis_video_V_data_
 
 <state id="3" st_id="3">
 
-<operation id="17" st_id="3" stage="1" lat="1">
-<core>s_axilite</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="48" bw="16" op_0_bw="16" op_1_bw="16">
-<![CDATA[
-entry:28 %bayer_phase_read = read i16 @_ssdm_op_Read.s_axilite.i16, i16 %bayer_phase
-
-]]></Node>
-<StgValue><ssdm name="bayer_phase_read"/></StgValue>
-</operation>
-
-<operation id="18" st_id="3" stage="1" lat="2">
+<operation id="17" st_id="3" stage="1" lat="2">
 <core></core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
@@ -192,6 +177,21 @@ entry:43 %call_ln115 = call void @AXIvideo2MultiBayer, i16 %s_axis_video_V_data_
 </state>
 
 <state id="4" st_id="4">
+
+<operation id="18" st_id="4" stage="1" lat="1">
+<core>s_axilite</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="48" bw="16" op_0_bw="16" op_1_bw="16">
+<![CDATA[
+entry:28 %bayer_phase_read = read i16 @_ssdm_op_Read.s_axilite.i16, i16 %bayer_phase
+
+]]></Node>
+<StgValue><ssdm name="bayer_phase_read"/></StgValue>
+</operation>
 
 <operation id="19" st_id="4" stage="1" lat="1">
 <core>FIFO_SRL</core>
@@ -974,35 +974,35 @@ entry:47 %ret_ln123 = ret
 </dataflow>
 <dataflow id="112" from="width_read" to="call_ln115" fromId="15" toId="16">
 </dataflow>
-<dataflow id="114" from="_ssdm_op_Read.s_axilite.i16" to="bayer_phase_read" fromId="113" toId="17">
+<dataflow id="113" from="AXIvideo2MultiBayer" to="call_ln115" fromId="101" toId="17">
 </dataflow>
-<dataflow id="115" from="bayer_phase" to="bayer_phase_read" fromId="75" toId="17">
+<dataflow id="114" from="s_axis_video_V_data_V" to="call_ln115" fromId="76" toId="17">
 </dataflow>
-<dataflow id="116" from="AXIvideo2MultiBayer" to="call_ln115" fromId="101" toId="18">
+<dataflow id="115" from="s_axis_video_V_keep_V" to="call_ln115" fromId="77" toId="17">
 </dataflow>
-<dataflow id="117" from="s_axis_video_V_data_V" to="call_ln115" fromId="76" toId="18">
+<dataflow id="116" from="s_axis_video_V_strb_V" to="call_ln115" fromId="78" toId="17">
 </dataflow>
-<dataflow id="118" from="s_axis_video_V_keep_V" to="call_ln115" fromId="77" toId="18">
+<dataflow id="117" from="s_axis_video_V_user_V" to="call_ln115" fromId="79" toId="17">
 </dataflow>
-<dataflow id="119" from="s_axis_video_V_strb_V" to="call_ln115" fromId="78" toId="18">
+<dataflow id="118" from="s_axis_video_V_last_V" to="call_ln115" fromId="80" toId="17">
 </dataflow>
-<dataflow id="120" from="s_axis_video_V_user_V" to="call_ln115" fromId="79" toId="18">
+<dataflow id="119" from="s_axis_video_V_id_V" to="call_ln115" fromId="81" toId="17">
 </dataflow>
-<dataflow id="121" from="s_axis_video_V_last_V" to="call_ln115" fromId="80" toId="18">
+<dataflow id="120" from="s_axis_video_V_dest_V" to="call_ln115" fromId="82" toId="17">
 </dataflow>
-<dataflow id="122" from="s_axis_video_V_id_V" to="call_ln115" fromId="81" toId="18">
+<dataflow id="121" from="imgBayer" to="call_ln115" fromId="11" toId="17">
 </dataflow>
-<dataflow id="123" from="s_axis_video_V_dest_V" to="call_ln115" fromId="82" toId="18">
+<dataflow id="122" from="height_read" to="call_ln115" fromId="14" toId="17">
 </dataflow>
-<dataflow id="124" from="imgBayer" to="call_ln115" fromId="11" toId="18">
+<dataflow id="123" from="width_read" to="call_ln115" fromId="15" toId="17">
 </dataflow>
-<dataflow id="125" from="height_read" to="call_ln115" fromId="14" toId="18">
+<dataflow id="125" from="_ssdm_op_Read.s_axilite.i16" to="bayer_phase_read" fromId="124" toId="18">
 </dataflow>
-<dataflow id="126" from="width_read" to="call_ln115" fromId="15" toId="18">
+<dataflow id="126" from="bayer_phase" to="bayer_phase_read" fromId="75" toId="18">
 </dataflow>
 <dataflow id="128" from="Block_entry.split_proc" to="bayer_phase_assign_channel" fromId="127" toId="19">
 </dataflow>
-<dataflow id="129" from="bayer_phase_read" to="bayer_phase_assign_channel" fromId="17" toId="19">
+<dataflow id="129" from="bayer_phase_read" to="bayer_phase_assign_channel" fromId="18" toId="19">
 </dataflow>
 <dataflow id="131" from="Debayer" to="call_ln116" fromId="130" toId="20">
 </dataflow>

@@ -32,7 +32,7 @@ set C_modelArgMapList {[
  	{ "Name" : "width", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} , 
  	{ "Name" : "bayerPhase_read", "interface" : "wire", "bitwidth" : 16, "direction" : "READONLY"} ]}
 # RTL Port declarations: 
-set portNum 24
+set portNum 22
 set portList { 
 	{ ap_start sc_in sc_logic 1 start -1 } 
 	{ start_full_n sc_in sc_logic 1 signal -1 } 
@@ -49,8 +49,6 @@ set portList {
 	{ bayerPhase_read sc_in sc_lv 16 signal 4 } 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
-	{ imgBayer_num_data_valid sc_in sc_lv 3 signal -1 } 
-	{ imgBayer_fifo_cap sc_in sc_lv 3 signal -1 } 
 	{ height_ap_vld sc_in sc_logic 1 invld 2 } 
 	{ width_ap_vld sc_in sc_logic 1 invld 3 } 
 	{ bayerPhase_read_ap_vld sc_in sc_logic 1 invld 4 } 
@@ -75,8 +73,6 @@ set NewPortList {[
  	{ "name": "bayerPhase_read", "direction": "in", "datatype": "sc_lv", "bitwidth":16, "type": "signal", "bundle":{"name": "bayerPhase_read", "role": "default" }} , 
  	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
  	{ "name": "ap_rst", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "reset", "bundle":{"name": "ap_rst", "role": "default" }} , 
- 	{ "name": "imgBayer_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":3, "type": "signal", "bundle":{"name": "imgBayer_num_data_valid", "role": "default" }} , 
- 	{ "name": "imgBayer_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":3, "type": "signal", "bundle":{"name": "imgBayer_fifo_cap", "role": "default" }} , 
  	{ "name": "height_ap_vld", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "invld", "bundle":{"name": "height", "role": "ap_vld" }} , 
  	{ "name": "width_ap_vld", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "invld", "bundle":{"name": "width", "role": "ap_vld" }} , 
  	{ "name": "bayerPhase_read_ap_vld", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "invld", "bundle":{"name": "bayerPhase_read", "role": "ap_vld" }} , 
@@ -86,13 +82,13 @@ set NewPortList {[
  	{ "name": "ap_continue", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "continue", "bundle":{"name": "ap_continue", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "20", "25", "31", "32", "33", "34", "35", "36"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "18", "23", "29", "30", "31", "32", "33", "34"],
 		"CDFG" : "Debayer",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1", "real_start" : "1",
 		"Pipeline" : "Dataflow", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "1",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "65601", "EstimateLatencyMax" : "4296671258",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "65574", "EstimateLatencyMax" : "4296015888",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -103,14 +99,14 @@ set RtlHierarchyInfo {[
 		"InputProcess" : [
 			{"ID" : "1", "Name" : "DebayerG_U0"}],
 		"OutputProcess" : [
-			{"ID" : "25", "Name" : "DebayerRandBatG_U0"}],
+			{"ID" : "23", "Name" : "DebayerRandBatG_U0"}],
 		"Port" : [
-			{"Name" : "imgBayer", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "3", "DependentChanType" : "0",
+			{"Name" : "imgBayer", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "2", "DependentChanType" : "0",
 				"SubConnect" : [
 					{"ID" : "1", "SubInstance" : "DebayerG_U0", "Port" : "imgBayer"}]},
 			{"Name" : "imgRgb", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "2", "DependentChanType" : "0",
 				"SubConnect" : [
-					{"ID" : "25", "SubInstance" : "DebayerRandBatG_U0", "Port" : "imgRgb"}]},
+					{"ID" : "23", "SubInstance" : "DebayerRandBatG_U0", "Port" : "imgRgb"}]},
 			{"Name" : "height", "Type" : "Stable", "Direction" : "I"},
 			{"Name" : "width", "Type" : "Stable", "Direction" : "I"},
 			{"Name" : "bayerPhase_read", "Type" : "None", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "2", "DependentChanType" : "1"},
@@ -126,7 +122,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1", "real_start" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "53", "EstimateLatencyMax" : "4296671258",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "33", "EstimateLatencyMax" : "4296015888",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -135,16 +131,16 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "imgBayer", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "3", "DependentChanType" : "0",
+			{"Name" : "imgBayer", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "2", "DependentChanType" : "0",
 				"SubConnect" : [
 					{"ID" : "2", "SubInstance" : "grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184", "Port" : "imgBayer", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
-			{"Name" : "imgG", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["20"], "DependentChan" : "31", "DependentChanDepth" : "2", "DependentChanType" : "0",
+			{"Name" : "imgG", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["18"], "DependentChan" : "29", "DependentChanDepth" : "2", "DependentChanType" : "0",
 				"SubConnect" : [
 					{"ID" : "2", "SubInstance" : "grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184", "Port" : "imgG", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
 			{"Name" : "height", "Type" : "Stable", "Direction" : "I"},
 			{"Name" : "width", "Type" : "Stable", "Direction" : "I"},
 			{"Name" : "bayerPhase_read", "Type" : "None", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "2", "DependentChanType" : "1"},
-			{"Name" : "bayerPhase_c1", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["20"], "DependentChan" : "32", "DependentChanDepth" : "2", "DependentChanType" : "2",
+			{"Name" : "bayerPhase_c1", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["18"], "DependentChan" : "30", "DependentChanDepth" : "2", "DependentChanType" : "2",
 				"BlockSignal" : [
 					{"Name" : "bayerPhase_c1_blk_n", "Type" : "RtlSignal"}]},
 			{"Name" : "DIV1_TABLE", "Type" : "Memory", "Direction" : "I",
@@ -156,13 +152,13 @@ set RtlHierarchyInfo {[
 		"Loop" : [
 			{"Name" : "VITIS_LOOP_315_3", "PipelineType" : "no",
 				"LoopDec" : {"FSMBitwidth" : "4", "FirstState" : "ap_ST_fsm_state2", "LastState" : ["ap_ST_fsm_state4"], "QuitState" : ["ap_ST_fsm_state2"], "PreState" : ["ap_ST_fsm_state1"], "PostState" : ["ap_ST_fsm_state1"], "OneDepthLoop" : "0", "OneStateBlock": ""}}]},
-	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184", "Parent" : "1", "Child" : ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19"],
+	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184", "Parent" : "1", "Child" : ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17"],
 		"CDFG" : "DebayerG_Pipeline_VITIS_LOOP_318_4",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "23", "EstimateLatencyMax" : "65558",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "13", "EstimateLatencyMax" : "65548",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -228,7 +224,8 @@ set RtlHierarchyInfo {[
 			{"Name" : "DIV1_TABLE", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "DIV2_TABLE", "Type" : "Memory", "Direction" : "I"}],
 		"Loop" : [
-			{"Name" : "VITIS_LOOP_318_4", "PipelineType" : "NotSupport"}]},
+			{"Name" : "VITIS_LOOP_318_4", "PipelineType" : "UPC",
+				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter10", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter10", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
 	{"ID" : "3", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.DIV1_TABLE_U", "Parent" : "2"},
 	{"ID" : "4", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.DIV2_TABLE_U", "Parent" : "2"},
 	{"ID" : "5", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.linebuf_yuv_3_U", "Parent" : "2"},
@@ -244,15 +241,13 @@ set RtlHierarchyInfo {[
 	{"ID" : "15", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.mac_muladd_14s_10ns_24s_25_4_1_U61", "Parent" : "2"},
 	{"ID" : "16", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.mac_muladd_14s_10ns_24s_25_4_1_U62", "Parent" : "2"},
 	{"ID" : "17", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.flow_control_loop_pipe_sequential_init_U", "Parent" : "2"},
-	{"ID" : "18", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.frp_pipeline_valid_U", "Parent" : "2"},
-	{"ID" : "19", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerG_U0.grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184.pf_imgG_U", "Parent" : "2"},
-	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0", "Parent" : "0", "Child" : ["21"],
+	{"ID" : "18", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0", "Parent" : "0", "Child" : ["19"],
 		"CDFG" : "DebayerRatBorBatR",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1", "real_start" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "14", "EstimateLatencyMax" : "2089574",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "10", "EstimateLatencyMax" : "2085250",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -263,30 +258,30 @@ set RtlHierarchyInfo {[
 		"StartSource" : "1",
 		"StartFifo" : "start_for_DebayerRatBorBatR_U0_U",
 		"Port" : [
-			{"Name" : "imgG", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["1"], "DependentChan" : "31", "DependentChanDepth" : "2", "DependentChanType" : "0",
+			{"Name" : "imgG", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["1"], "DependentChan" : "29", "DependentChanDepth" : "2", "DependentChanType" : "0",
 				"SubConnect" : [
-					{"ID" : "21", "SubInstance" : "grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158", "Port" : "imgG", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
-			{"Name" : "imgRB", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["25"], "DependentChan" : "33", "DependentChanDepth" : "2", "DependentChanType" : "0",
+					{"ID" : "19", "SubInstance" : "grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158", "Port" : "imgG", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
+			{"Name" : "imgRB", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["23"], "DependentChan" : "31", "DependentChanDepth" : "2", "DependentChanType" : "0",
 				"SubConnect" : [
-					{"ID" : "21", "SubInstance" : "grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158", "Port" : "imgRB", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
+					{"ID" : "19", "SubInstance" : "grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158", "Port" : "imgRB", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
 			{"Name" : "height", "Type" : "Stable", "Direction" : "I"},
 			{"Name" : "width", "Type" : "Stable", "Direction" : "I"},
-			{"Name" : "bayerPhase_c1", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["1"], "DependentChan" : "32", "DependentChanDepth" : "2", "DependentChanType" : "2",
+			{"Name" : "bayerPhase_c1", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["1"], "DependentChan" : "30", "DependentChanDepth" : "2", "DependentChanType" : "2",
 				"BlockSignal" : [
 					{"Name" : "bayerPhase_c1_blk_n", "Type" : "RtlSignal"}]},
-			{"Name" : "bayerPhase_c", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["25"], "DependentChan" : "34", "DependentChanDepth" : "2", "DependentChanType" : "2",
+			{"Name" : "bayerPhase_c", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["23"], "DependentChan" : "32", "DependentChanDepth" : "2", "DependentChanType" : "2",
 				"BlockSignal" : [
 					{"Name" : "bayerPhase_c_blk_n", "Type" : "RtlSignal"}]}],
 		"Loop" : [
 			{"Name" : "VITIS_LOOP_630_1", "PipelineType" : "no",
 				"LoopDec" : {"FSMBitwidth" : "4", "FirstState" : "ap_ST_fsm_state2", "LastState" : ["ap_ST_fsm_state4"], "QuitState" : ["ap_ST_fsm_state2"], "PreState" : ["ap_ST_fsm_state1"], "PostState" : ["ap_ST_fsm_state1"], "OneDepthLoop" : "0", "OneStateBlock": ""}}]},
-	{"ID" : "21", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0.grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158", "Parent" : "20", "Child" : ["22", "23", "24"],
+	{"ID" : "19", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0.grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158", "Parent" : "18", "Child" : ["20", "21", "22"],
 		"CDFG" : "DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "10", "EstimateLatencyMax" : "1930",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "6", "EstimateLatencyMax" : "1926",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -340,17 +335,17 @@ set RtlHierarchyInfo {[
 			{"Name" : "p_0_0_09501401_i_out", "Type" : "Vld", "Direction" : "O"}],
 		"Loop" : [
 			{"Name" : "VITIS_LOOP_633_2", "PipelineType" : "UPC",
-				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter8", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter8", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
-	{"ID" : "22", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0.grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158.lineBuffer_1_U", "Parent" : "21"},
-	{"ID" : "23", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0.grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158.lineBuffer_U", "Parent" : "21"},
-	{"ID" : "24", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0.grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158.flow_control_loop_pipe_sequential_init_U", "Parent" : "21"},
-	{"ID" : "25", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0", "Parent" : "0", "Child" : ["26"],
+				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter4", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter4", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
+	{"ID" : "20", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0.grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158.lineBuffer_1_U", "Parent" : "19"},
+	{"ID" : "21", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0.grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158.lineBuffer_U", "Parent" : "19"},
+	{"ID" : "22", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRatBorBatR_U0.grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158.flow_control_loop_pipe_sequential_init_U", "Parent" : "19"},
+	{"ID" : "23", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0", "Parent" : "0", "Child" : ["24"],
 		"CDFG" : "DebayerRandBatG",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "12", "EstimateLatencyMax" : "2087412",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "9", "EstimateLatencyMax" : "2084169",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -358,30 +353,30 @@ set RtlHierarchyInfo {[
 		"InDataflowNetwork" : "1",
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
-		"StartSource" : "20",
+		"StartSource" : "18",
 		"StartFifo" : "start_for_DebayerRandBatG_U0_U",
 		"Port" : [
-			{"Name" : "imgRB", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["20"], "DependentChan" : "33", "DependentChanDepth" : "2", "DependentChanType" : "0",
+			{"Name" : "imgRB", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["18"], "DependentChan" : "31", "DependentChanDepth" : "2", "DependentChanType" : "0",
 				"SubConnect" : [
-					{"ID" : "26", "SubInstance" : "grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134", "Port" : "imgRB", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
+					{"ID" : "24", "SubInstance" : "grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134", "Port" : "imgRB", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
 			{"Name" : "imgRgb", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "2", "DependentChanType" : "0",
 				"SubConnect" : [
-					{"ID" : "26", "SubInstance" : "grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134", "Port" : "imgRgb", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
+					{"ID" : "24", "SubInstance" : "grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134", "Port" : "imgRgb", "Inst_start_state" : "3", "Inst_end_state" : "4"}]},
 			{"Name" : "height", "Type" : "Stable", "Direction" : "I"},
 			{"Name" : "width", "Type" : "Stable", "Direction" : "I"},
-			{"Name" : "bayerPhase_c", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["20"], "DependentChan" : "34", "DependentChanDepth" : "2", "DependentChanType" : "2",
+			{"Name" : "bayerPhase_c", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["18"], "DependentChan" : "32", "DependentChanDepth" : "2", "DependentChanType" : "2",
 				"BlockSignal" : [
 					{"Name" : "bayerPhase_c_blk_n", "Type" : "RtlSignal"}]}],
 		"Loop" : [
 			{"Name" : "VITIS_LOOP_878_1", "PipelineType" : "no",
 				"LoopDec" : {"FSMBitwidth" : "4", "FirstState" : "ap_ST_fsm_state2", "LastState" : ["ap_ST_fsm_state4"], "QuitState" : ["ap_ST_fsm_state2"], "PreState" : ["ap_ST_fsm_state1"], "PostState" : ["ap_ST_fsm_state1"], "OneDepthLoop" : "0", "OneStateBlock": ""}}]},
-	{"ID" : "26", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134", "Parent" : "25", "Child" : ["27", "28", "29", "30"],
+	{"ID" : "24", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134", "Parent" : "23", "Child" : ["25", "26", "27", "28"],
 		"CDFG" : "DebayerRandBatG_Pipeline_VITIS_LOOP_881_2",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "8", "EstimateLatencyMax" : "1928",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "5", "EstimateLatencyMax" : "1925",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -428,23 +423,23 @@ set RtlHierarchyInfo {[
 			{"Name" : "p_0_0_0_0_011551706_i_out", "Type" : "Vld", "Direction" : "O"}],
 		"Loop" : [
 			{"Name" : "VITIS_LOOP_881_2", "PipelineType" : "UPC",
-				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter6", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter6", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
-	{"ID" : "27", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134.lineBuffer_2_U", "Parent" : "26"},
-	{"ID" : "28", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134.lineBuffer_U", "Parent" : "26"},
-	{"ID" : "29", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134.sparsemux_7_2_10_1_1_U173", "Parent" : "26"},
-	{"ID" : "30", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134.flow_control_loop_pipe_sequential_init_U", "Parent" : "26"},
-	{"ID" : "31", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.imgG_U", "Parent" : "0"},
-	{"ID" : "32", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.bayerPhase_c1_U", "Parent" : "0"},
-	{"ID" : "33", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.imgRB_U", "Parent" : "0"},
-	{"ID" : "34", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.bayerPhase_c_U", "Parent" : "0"},
-	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.start_for_DebayerRatBorBatR_U0_U", "Parent" : "0"},
-	{"ID" : "36", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.start_for_DebayerRandBatG_U0_U", "Parent" : "0"}]}
+				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter3", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter3", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
+	{"ID" : "25", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134.lineBuffer_2_U", "Parent" : "24"},
+	{"ID" : "26", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134.lineBuffer_U", "Parent" : "24"},
+	{"ID" : "27", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134.sparsemux_7_2_10_1_1_U172", "Parent" : "24"},
+	{"ID" : "28", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.DebayerRandBatG_U0.grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134.flow_control_loop_pipe_sequential_init_U", "Parent" : "24"},
+	{"ID" : "29", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.imgG_U", "Parent" : "0"},
+	{"ID" : "30", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.bayerPhase_c1_U", "Parent" : "0"},
+	{"ID" : "31", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.imgRB_U", "Parent" : "0"},
+	{"ID" : "32", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.bayerPhase_c_U", "Parent" : "0"},
+	{"ID" : "33", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.start_for_DebayerRatBorBatR_U0_U", "Parent" : "0"},
+	{"ID" : "34", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.start_for_DebayerRandBatG_U0_U", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	Debayer {
 		imgBayer {Type I LastRead 1 FirstWrite -1}
-		imgRgb {Type O LastRead -1 FirstWrite 6}
+		imgRgb {Type O LastRead -1 FirstWrite 3}
 		height {Type I LastRead 0 FirstWrite -1}
 		width {Type I LastRead 0 FirstWrite -1}
 		bayerPhase_read {Type I LastRead 0 FirstWrite -1}
@@ -452,7 +447,7 @@ set ArgLastReadFirstWriteLatency {
 		DIV2_TABLE {Type I LastRead -1 FirstWrite -1}}
 	DebayerG {
 		imgBayer {Type I LastRead 1 FirstWrite -1}
-		imgG {Type O LastRead -1 FirstWrite 20}
+		imgG {Type O LastRead -1 FirstWrite 10}
 		height {Type I LastRead 0 FirstWrite -1}
 		width {Type I LastRead 0 FirstWrite -1}
 		bayerPhase_read {Type I LastRead 0 FirstWrite -1}
@@ -481,7 +476,7 @@ set ArgLastReadFirstWriteLatency {
 		p_lcssa50215054 {Type I LastRead 0 FirstWrite -1}
 		p_lcssa50195052 {Type I LastRead 0 FirstWrite -1}
 		loopWidth {Type I LastRead 0 FirstWrite -1}
-		imgG {Type O LastRead -1 FirstWrite 20}
+		imgG {Type O LastRead -1 FirstWrite 10}
 		empty {Type I LastRead 0 FirstWrite -1}
 		xor_r {Type I LastRead 0 FirstWrite -1}
 		cmp689 {Type I LastRead 0 FirstWrite -1}
@@ -490,31 +485,31 @@ set ArgLastReadFirstWriteLatency {
 		cmp170 {Type I LastRead 0 FirstWrite -1}
 		cmp84 {Type I LastRead 0 FirstWrite -1}
 		imgBayer {Type I LastRead 1 FirstWrite -1}
-		p_out {Type O LastRead -1 FirstWrite 19}
-		p_out1 {Type O LastRead -1 FirstWrite 19}
-		p_out2 {Type O LastRead -1 FirstWrite 19}
-		p_out3 {Type O LastRead -1 FirstWrite 19}
-		p_out4 {Type O LastRead -1 FirstWrite 19}
-		p_out5 {Type O LastRead -1 FirstWrite 19}
-		p_out6 {Type O LastRead -1 FirstWrite 19}
-		p_out7 {Type O LastRead -1 FirstWrite 19}
-		p_out8 {Type O LastRead -1 FirstWrite 19}
-		p_out9 {Type O LastRead -1 FirstWrite 19}
-		p_out10 {Type O LastRead -1 FirstWrite 19}
-		p_out11 {Type O LastRead -1 FirstWrite 19}
-		p_out12 {Type O LastRead -1 FirstWrite 19}
-		p_out13 {Type O LastRead -1 FirstWrite 19}
-		p_out14 {Type O LastRead -1 FirstWrite 19}
-		p_out15 {Type O LastRead -1 FirstWrite 19}
-		p_out16 {Type O LastRead -1 FirstWrite 19}
-		p_out17 {Type O LastRead -1 FirstWrite 19}
-		p_out18 {Type O LastRead -1 FirstWrite 19}
-		p_out19 {Type O LastRead -1 FirstWrite 19}
+		p_out {Type O LastRead -1 FirstWrite 9}
+		p_out1 {Type O LastRead -1 FirstWrite 9}
+		p_out2 {Type O LastRead -1 FirstWrite 9}
+		p_out3 {Type O LastRead -1 FirstWrite 9}
+		p_out4 {Type O LastRead -1 FirstWrite 9}
+		p_out5 {Type O LastRead -1 FirstWrite 9}
+		p_out6 {Type O LastRead -1 FirstWrite 9}
+		p_out7 {Type O LastRead -1 FirstWrite 9}
+		p_out8 {Type O LastRead -1 FirstWrite 9}
+		p_out9 {Type O LastRead -1 FirstWrite 9}
+		p_out10 {Type O LastRead -1 FirstWrite 9}
+		p_out11 {Type O LastRead -1 FirstWrite 9}
+		p_out12 {Type O LastRead -1 FirstWrite 9}
+		p_out13 {Type O LastRead -1 FirstWrite 9}
+		p_out14 {Type O LastRead -1 FirstWrite 9}
+		p_out15 {Type O LastRead -1 FirstWrite 9}
+		p_out16 {Type O LastRead -1 FirstWrite 9}
+		p_out17 {Type O LastRead -1 FirstWrite 9}
+		p_out18 {Type O LastRead -1 FirstWrite 9}
+		p_out19 {Type O LastRead -1 FirstWrite 9}
 		DIV1_TABLE {Type I LastRead -1 FirstWrite -1}
 		DIV2_TABLE {Type I LastRead -1 FirstWrite -1}}
 	DebayerRatBorBatR {
 		imgG {Type I LastRead 1 FirstWrite -1}
-		imgRB {Type O LastRead -1 FirstWrite 8}
+		imgRB {Type O LastRead -1 FirstWrite 4}
 		height {Type I LastRead 0 FirstWrite -1}
 		width {Type I LastRead 0 FirstWrite -1}
 		bayerPhase_c1 {Type I LastRead 0 FirstWrite -1}
@@ -543,25 +538,25 @@ set ArgLastReadFirstWriteLatency {
 		cmp59_i {Type I LastRead 0 FirstWrite -1}
 		imgG {Type I LastRead 1 FirstWrite -1}
 		red_i {Type I LastRead 0 FirstWrite -1}
-		imgRB {Type O LastRead -1 FirstWrite 8}
-		p_0_2_0_0_09101516_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_1_0_0_09091514_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_0_0_09081512_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_0948_114981509_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_0949_114961507_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_0950_114941505_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_2_0_0_09161504_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_1_0_0_09151502_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_0_0_09141500_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_0948_21437_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_0949_21434_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_0950_21431_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_09481407_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_09491404_i_out {Type O LastRead -1 FirstWrite 7}
-		p_0_0_09501401_i_out {Type O LastRead -1 FirstWrite 7}}
+		imgRB {Type O LastRead -1 FirstWrite 4}
+		p_0_2_0_0_09101516_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_1_0_0_09091514_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_0_0_09081512_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_0948_114981509_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_0949_114961507_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_0950_114941505_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_2_0_0_09161504_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_1_0_0_09151502_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_0_0_09141500_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_0948_21437_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_0949_21434_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_0950_21431_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_09481407_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_09491404_i_out {Type O LastRead -1 FirstWrite 3}
+		p_0_0_09501401_i_out {Type O LastRead -1 FirstWrite 3}}
 	DebayerRandBatG {
 		imgRB {Type I LastRead 1 FirstWrite -1}
-		imgRgb {Type O LastRead -1 FirstWrite 6}
+		imgRgb {Type O LastRead -1 FirstWrite 3}
 		height {Type I LastRead 0 FirstWrite -1}
 		width {Type I LastRead 0 FirstWrite -1}
 		bayerPhase_c {Type I LastRead 0 FirstWrite -1}}
@@ -585,25 +580,25 @@ set ArgLastReadFirstWriteLatency {
 		empty {Type I LastRead 0 FirstWrite -1}
 		cmp59_i {Type I LastRead 0 FirstWrite -1}
 		imgRB {Type I LastRead 1 FirstWrite -1}
-		imgRgb {Type O LastRead -1 FirstWrite 6}
-		p_0_0_01183_217801809_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_01184_217781807_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_01185_217761805_i_out {Type O LastRead -1 FirstWrite 5}
-		right_2_i_out {Type O LastRead -1 FirstWrite 5}
-		right_1_i_out {Type O LastRead -1 FirstWrite 5}
-		right_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_0116117861797_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_0116217841795_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_0116317821793_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_2_0_0_011571712_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_1_0_0_011561709_i_out {Type O LastRead -1 FirstWrite 5}
-		p_0_0_0_0_011551706_i_out {Type O LastRead -1 FirstWrite 5}}}
+		imgRgb {Type O LastRead -1 FirstWrite 3}
+		p_0_0_01183_217801809_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_01184_217781807_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_01185_217761805_i_out {Type O LastRead -1 FirstWrite 2}
+		right_2_i_out {Type O LastRead -1 FirstWrite 2}
+		right_1_i_out {Type O LastRead -1 FirstWrite 2}
+		right_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0116117861797_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0116217841795_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0116317821793_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_2_0_0_011571712_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_1_0_0_011561709_i_out {Type O LastRead -1 FirstWrite 2}
+		p_0_0_0_0_011551706_i_out {Type O LastRead -1 FirstWrite 2}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "65601", "Max" : "4296671258"}
-	, {"Name" : "Interval", "Min" : "54", "Max" : "1703963"}
+	{"Name" : "Latency", "Min" : "65574", "Max" : "4296015888"}
+	, {"Name" : "Interval", "Min" : "34", "Max" : "1048593"}
 ]}
 
 set PipelineEnableSignalInfo {[

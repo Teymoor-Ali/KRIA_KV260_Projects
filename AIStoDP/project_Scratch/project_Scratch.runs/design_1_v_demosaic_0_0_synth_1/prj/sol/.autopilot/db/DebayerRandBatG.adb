@@ -801,7 +801,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.22</m_delay>
+          <m_delay>1.83</m_delay>
           <m_topoIndex>14</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -844,7 +844,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.22</m_delay>
+          <m_delay>1.83</m_delay>
           <m_topoIndex>15</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -887,7 +887,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.22</m_delay>
+          <m_delay>1.83</m_delay>
           <m_topoIndex>16</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -3935,8 +3935,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>12</mMinLatency>
-        <mMaxLatency>2087412</mMaxLatency>
+        <mMinLatency>9</mMinLatency>
+        <mMaxLatency>2084169</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -3982,8 +3982,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>1</mMinTripCount>
         <mMaxTripCount>1081</mMaxTripCount>
-        <mMinLatency>11</mMinLatency>
-        <mMaxLatency>2087411</mMaxLatency>
+        <mMinLatency>8</mMinLatency>
+        <mMaxLatency>2084168</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -4416,11 +4416,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>1676</second>
+              <second>754</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>1908</second>
+              <second>1728</second>
             </item>
             <item>
               <first>URAM</first>

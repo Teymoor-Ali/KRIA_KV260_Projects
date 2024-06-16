@@ -6,7 +6,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="design_1_v_demosaic_0_0_v_demosaic,hls_ip_2024_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xck26-sfvc784-2LV-c,HLS_INPUT_CLOCK=3.367000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=2.457910,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=30,HLS_SYN_DSP=0,HLS_SYN_FF=11404,HLS_SYN_LUT=11871,HLS_VERSION=2024_1}" *)
+(* CORE_GENERATION_INFO="design_1_v_demosaic_0_0_v_demosaic,hls_ip_2024_1,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xck26-sfvc784-2LV-c,HLS_INPUT_CLOCK=6.734000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=4.854000,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=30,HLS_SYN_DSP=0,HLS_SYN_FF=7504,HLS_SYN_LUT=10817,HLS_VERSION=2024_1}" *)
 
 module design_1_v_demosaic_0_0_v_demosaic (
         s_axi_CTRL_AWVALID,
@@ -280,8 +280,6 @@ design_1_v_demosaic_0_0_Debayer Debayer_U0(
     .bayerPhase_read(bayer_phase_assign_channel_dout),
     .ap_clk(ap_clk),
     .ap_rst(ap_rst_n_inv),
-    .imgBayer_num_data_valid(imgBayer_num_data_valid),
-    .imgBayer_fifo_cap(imgBayer_fifo_cap),
     .height_ap_vld(1'b1),
     .width_ap_vld(1'b1),
     .bayerPhase_read_ap_vld(1'b0),
@@ -357,7 +355,7 @@ design_1_v_demosaic_0_0_fifo_w16_d2_S_x bayer_phase_assign_channel_U(
     .if_read(Debayer_U0_ap_ready)
 );
 
-design_1_v_demosaic_0_0_fifo_w10_d3_S imgBayer_U(
+design_1_v_demosaic_0_0_fifo_w10_d2_S imgBayer_U(
     .clk(ap_clk),
     .reset(ap_rst_n_inv),
     .if_read_ce(1'b1),

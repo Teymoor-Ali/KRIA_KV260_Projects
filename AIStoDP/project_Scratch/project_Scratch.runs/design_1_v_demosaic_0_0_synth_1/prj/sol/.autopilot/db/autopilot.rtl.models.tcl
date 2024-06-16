@@ -22,8 +22,6 @@ set SynModuleInfo {
       {MODELNAME design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R RTLNAME design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV2_TABLE_ROM_AUTO_1R RTLNAME design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV2_TABLE_ROM_AUTO_1R BINDTYPE storage TYPE rom IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
       {MODELNAME design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W RTLNAME design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W BINDTYPE storage TYPE ram IMPL auto LATENCY 2 ALLOW_PRAGMA 1}
-      {MODELNAME design_1_v_demosaic_0_0_frp_fifoout RTLNAME design_1_v_demosaic_0_0_frp_fifoout BINDTYPE interface TYPE internal_frp_fifoout}
-      {MODELNAME design_1_v_demosaic_0_0_frp_pipeline_valid RTLNAME design_1_v_demosaic_0_0_frp_pipeline_valid BINDTYPE interface TYPE internal_frp_validbits INSTNAME design_1_v_demosaic_0_0_frp_pipeline_valid_U}
     }
   }
   {SRCNAME DebayerG MODELNAME DebayerG RTLNAME design_1_v_demosaic_0_0_DebayerG}
@@ -56,7 +54,7 @@ set SynModuleInfo {
   {SRCNAME v_demosaic MODELNAME v_demosaic RTLNAME design_1_v_demosaic_0_0_v_demosaic IS_TOP 1
     SUBMODULES {
       {MODELNAME design_1_v_demosaic_0_0_fifo_w16_d2_S_x RTLNAME design_1_v_demosaic_0_0_fifo_w16_d2_S_x BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME bayer_phase_assign_channel_U}
-      {MODELNAME design_1_v_demosaic_0_0_fifo_w10_d3_S RTLNAME design_1_v_demosaic_0_0_fifo_w10_d3_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME imgBayer_U}
+      {MODELNAME design_1_v_demosaic_0_0_fifo_w10_d2_S RTLNAME design_1_v_demosaic_0_0_fifo_w10_d2_S BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME imgBayer_U}
       {MODELNAME design_1_v_demosaic_0_0_fifo_w30_d2_S_x RTLNAME design_1_v_demosaic_0_0_fifo_w30_d2_S_x BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME imgRgb_U}
       {MODELNAME design_1_v_demosaic_0_0_fifo_w30_d2_S_x RTLNAME design_1_v_demosaic_0_0_fifo_w30_d2_S_x BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME imgUnzip_U}
       {MODELNAME design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0 RTLNAME design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0 BINDTYPE storage TYPE fifo IMPL srl ALLOW_PRAGMA 1 INSTNAME start_for_ZipperRemoval_U0_U}

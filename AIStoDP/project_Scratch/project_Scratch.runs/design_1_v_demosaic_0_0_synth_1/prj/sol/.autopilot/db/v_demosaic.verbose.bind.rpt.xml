@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'v_demosaic'" level="0">
-<item name = "Date">Sun Jun 16 22:34:22 2024
+<item name = "Date">Sun Jun 16 23:48:27 2024
 </item>
 <item name = "Version">2024.1 (Build 5069499 on May 21 2024)</item>
 <item name = "Project">prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">3.37 ns, 2.458 ns, 0.91 ns</column>
+<column name="ap_clk">6.73 ns, 4.854 ns, 1.82 ns</column>
 </table>
 </item>
 </section>
@@ -33,9 +33,9 @@
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="grp_AXIvideo2MultiBayer_fu_140">AXIvideo2MultiBayer, ?, ?, ?, ?, ?, ?, no</column>
 <column name="bayer_phase_assign_channel_Block_entry_split_proc_fu_163">Block_entry_split_proc, 0, 0, 0 ns, 0 ns, 0, 0, no</column>
-<column name="grp_Debayer_fu_168">Debayer, 65601, 4296671258, 0.221 ms, 14.467 sec, 54, 4296671259, dataflow</column>
-<column name="grp_ZipperRemoval_fu_182">ZipperRemoval, 1, 4295426041, 3.367 ns, 14.463 sec, 1, 4295426041, no</column>
-<column name="grp_MultiPixStream2AXIvideo_fu_190">MultiPixStream2AXIvideo, 2, 2079002, 6.734 ns, 7.000 ms, 2, 2079002, no</column>
+<column name="grp_Debayer_fu_169">Debayer, 65574, 4296015888, 0.442 ms, 28.929 sec, 34, 4296015889, dataflow</column>
+<column name="grp_ZipperRemoval_fu_183">ZipperRemoval, 1, 4295360506, 6.734 ns, 28.925 sec, 1, 4295360506, no</column>
+<column name="grp_MultiPixStream2AXIvideo_fu_191">MultiPixStream2AXIvideo, 2, 2079002, 13.468 ns, 14.000 ms, 2, 2079002, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

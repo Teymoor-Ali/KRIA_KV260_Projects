@@ -2,11 +2,11 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
--- Date        : Sun Jun 16 22:34:04 2024
+-- Date        : Sun Jun 16 23:48:59 2024
 -- Host        : Tey running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim -rename_top design_1_auto_pc_1 -prefix
---               design_1_auto_pc_1_ design_1_auto_pc_0_sim_netlist.vhdl
--- Design      : design_1_auto_pc_0
+-- Command     : write_vhdl -force -mode funcsim
+--               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_sim_netlist.vhdl
+-- Design      : design_1_auto_pc_1
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
 -- Device      : xck26-sfvc784-2LV-c
@@ -50,6 +50,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_incr_cmd is
     \axlen_cnt_reg[6]_1\ : in STD_LOGIC_VECTOR ( 2 downto 0 );
     \axaddr_incr_reg[11]_1\ : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_incr_cmd : entity is "axi_protocol_converter_v2_1_31_b2s_incr_cmd";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_incr_cmd;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_incr_cmd is
@@ -1235,6 +1237,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_rd_cmd_fsm is
     m_valid_i_reg_1 : in STD_LOGIC;
     aclk : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_rd_cmd_fsm : entity is "axi_protocol_converter_v2_1_31_b2s_rd_cmd_fsm";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_rd_cmd_fsm;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_rd_cmd_fsm is
@@ -1572,6 +1576,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_simple_fifo is
     \in\ : in STD_LOGIC_VECTOR ( 7 downto 0 );
     aclk : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_simple_fifo : entity is "axi_protocol_converter_v2_1_31_b2s_simple_fifo";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_simple_fifo;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_simple_fifo is
@@ -1600,7 +1606,7 @@ architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_
   attribute SOFT_HLUTNM : string;
   attribute SOFT_HLUTNM of \axaddr_incr[11]_i_8\ : label is "soft_lutpair118";
   attribute SOFT_HLUTNM of bvalid_i_i_2 : label is "soft_lutpair118";
-  attribute SOFT_HLUTNM of \cnt_read[0]_i_1__1\ : label is "soft_lutpair119";
+  attribute SOFT_HLUTNM of \cnt_read[1]_i_1__0\ : label is "soft_lutpair119";
   attribute SOFT_HLUTNM of \cnt_read[1]_i_2\ : label is "soft_lutpair119";
   attribute srl_bus_name : string;
   attribute srl_bus_name of \memory_reg[3][0]_srl4\ : label is "inst/\gen_axilite.gen_b2s_conv.axilite_b2s/WR.b_channel_0/bid_fifo_0/memory_reg[3] ";
@@ -3105,6 +3111,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_wr_cmd_fsm is
     \FSM_sequential_state_reg[0]_1\ : in STD_LOGIC_VECTOR ( 1 downto 0 );
     aclk : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_wr_cmd_fsm : entity is "axi_protocol_converter_v2_1_31_b2s_wr_cmd_fsm";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_wr_cmd_fsm;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_wr_cmd_fsm is
@@ -3468,6 +3476,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_wrap_cmd is
     \wrap_cnt_r_reg[3]_0\ : in STD_LOGIC_VECTOR ( 2 downto 0 );
     \wrap_boundary_axaddr_r_reg[6]_0\ : in STD_LOGIC_VECTOR ( 6 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_wrap_cmd : entity is "axi_protocol_converter_v2_1_31_b2s_wrap_cmd";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_wrap_cmd;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_wrap_cmd is
@@ -5502,6 +5512,8 @@ entity design_1_auto_pc_1_axi_register_slice_v2_1_31_axic_register_slice is
     \axaddr_wrap_reg[1]\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     \m_payload_i_reg[0]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_register_slice_v2_1_31_axic_register_slice : entity is "axi_register_slice_v2_1_31_axic_register_slice";
 end design_1_auto_pc_1_axi_register_slice_v2_1_31_axic_register_slice;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_register_slice_v2_1_31_axic_register_slice is
@@ -11328,6 +11340,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_b_channel is
     m_axi_bvalid : in STD_LOGIC;
     \in\ : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_b_channel : entity is "axi_protocol_converter_v2_1_31_b2s_b_channel";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_b_channel;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_b_channel is
@@ -11672,6 +11686,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_cmd_translator is
     \wrap_boundary_axaddr_r_reg[6]\ : in STD_LOGIC_VECTOR ( 6 downto 0 );
     \axaddr_incr_reg[11]_0\ : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_cmd_translator : entity is "axi_protocol_converter_v2_1_31_b2s_cmd_translator";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_cmd_translator;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_cmd_translator is
@@ -12045,6 +12061,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_r_channel is
     \in\ : in STD_LOGIC_VECTOR ( 33 downto 0 );
     areset_d1 : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_r_channel : entity is "axi_protocol_converter_v2_1_31_b2s_r_channel";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_r_channel;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_r_channel is
@@ -12219,6 +12237,8 @@ entity design_1_auto_pc_1_axi_register_slice_v2_1_31_axi_register_slice is
     E : in STD_LOGIC_VECTOR ( 0 to 0 );
     \m_payload_i_reg[0]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_register_slice_v2_1_31_axi_register_slice : entity is "axi_register_slice_v2_1_31_axi_register_slice";
 end design_1_auto_pc_1_axi_register_slice_v2_1_31_axi_register_slice;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_register_slice_v2_1_31_axi_register_slice is
@@ -12429,6 +12449,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_ar_channel is
     \wrap_boundary_axaddr_r_reg[6]\ : in STD_LOGIC_VECTOR ( 6 downto 0 );
     \axaddr_incr_reg[9]_0\ : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_ar_channel : entity is "axi_protocol_converter_v2_1_31_b2s_ar_channel";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_ar_channel;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_ar_channel is
@@ -12652,6 +12674,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_aw_channel is
     \wrap_cnt_r_reg[1]\ : in STD_LOGIC;
     \wrap_boundary_axaddr_r_reg[6]\ : in STD_LOGIC_VECTOR ( 6 downto 0 )
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_aw_channel : entity is "axi_protocol_converter_v2_1_31_b2s_aw_channel";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_aw_channel;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s_aw_channel is
@@ -12912,6 +12936,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s is
     s_axi_arvalid : in STD_LOGIC;
     aresetn : in STD_LOGIC
   );
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s : entity is "axi_protocol_converter_v2_1_31_b2s";
 end design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s;
 
 architecture STRUCTURE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_b2s is
@@ -13551,6 +13577,8 @@ entity design_1_auto_pc_1_axi_protocol_converter_v2_1_31_axi_protocol_converter 
   attribute C_TRANSLATION_MODE of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_axi_protocol_converter : entity is 2;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_axi_protocol_converter : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_axi_protocol_converter : entity is "axi_protocol_converter_v2_1_31_axi_protocol_converter";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of design_1_auto_pc_1_axi_protocol_converter_v2_1_31_axi_protocol_converter : entity is 1;
   attribute P_AXI4 : integer;
@@ -13764,7 +13792,7 @@ entity design_1_auto_pc_1 is
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of design_1_auto_pc_1 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of design_1_auto_pc_1 : entity is "design_1_auto_pc_0,axi_protocol_converter_v2_1_31_axi_protocol_converter,{}";
+  attribute CHECK_LICENSE_TYPE of design_1_auto_pc_1 : entity is "design_1_auto_pc_1,axi_protocol_converter_v2_1_31_axi_protocol_converter,{}";
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of design_1_auto_pc_1 : entity is "yes";
   attribute X_CORE_INFO : string;
@@ -13851,7 +13879,7 @@ architecture STRUCTURE of design_1_auto_pc_1 is
   attribute X_INTERFACE_INFO : string;
   attribute X_INTERFACE_INFO of aclk : signal is "xilinx.com:signal:clock:1.0 CLK CLK";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of aclk : signal is "XIL_INTERFACENAME CLK, ASSOCIATED_BUSIF S_AXI:M_AXI, ASSOCIATED_RESET aresetn, FREQ_HZ 297003926, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of aclk : signal is "XIL_INTERFACENAME CLK, ASSOCIATED_BUSIF S_AXI:M_AXI, ASSOCIATED_RESET aresetn, FREQ_HZ 148501963, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of aresetn : signal is "xilinx.com:signal:reset:1.0 RST RST";
   attribute X_INTERFACE_PARAMETER of aresetn : signal is "XIL_INTERFACENAME RST, POLARITY ACTIVE_LOW, INSERT_VIP 0, TYPE INTERCONNECT";
   attribute X_INTERFACE_INFO of m_axi_arready : signal is "xilinx.com:interface:aximm:1.0 M_AXI ARREADY";
@@ -13861,7 +13889,7 @@ architecture STRUCTURE of design_1_auto_pc_1 is
   attribute X_INTERFACE_INFO of m_axi_bready : signal is "xilinx.com:interface:aximm:1.0 M_AXI BREADY";
   attribute X_INTERFACE_INFO of m_axi_bvalid : signal is "xilinx.com:interface:aximm:1.0 M_AXI BVALID";
   attribute X_INTERFACE_INFO of m_axi_rready : signal is "xilinx.com:interface:aximm:1.0 M_AXI RREADY";
-  attribute X_INTERFACE_PARAMETER of m_axi_rready : signal is "XIL_INTERFACENAME M_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 297003926, ID_WIDTH 0, ADDR_WIDTH 40, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 8, NUM_WRITE_OUTSTANDING 8, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, NUM_READ_THREADS 4, NUM_WRITE_THREADS 4, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of m_axi_rready : signal is "XIL_INTERFACENAME M_AXI, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 148501963, ID_WIDTH 0, ADDR_WIDTH 40, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 1, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 8, NUM_WRITE_OUTSTANDING 8, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, NUM_READ_THREADS 4, NUM_WRITE_THREADS 4, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of m_axi_rvalid : signal is "xilinx.com:interface:aximm:1.0 M_AXI RVALID";
   attribute X_INTERFACE_INFO of m_axi_wready : signal is "xilinx.com:interface:aximm:1.0 M_AXI WREADY";
   attribute X_INTERFACE_INFO of m_axi_wvalid : signal is "xilinx.com:interface:aximm:1.0 M_AXI WVALID";
@@ -13873,7 +13901,7 @@ architecture STRUCTURE of design_1_auto_pc_1 is
   attribute X_INTERFACE_INFO of s_axi_bvalid : signal is "xilinx.com:interface:aximm:1.0 S_AXI BVALID";
   attribute X_INTERFACE_INFO of s_axi_rlast : signal is "xilinx.com:interface:aximm:1.0 S_AXI RLAST";
   attribute X_INTERFACE_INFO of s_axi_rready : signal is "xilinx.com:interface:aximm:1.0 S_AXI RREADY";
-  attribute X_INTERFACE_PARAMETER of s_axi_rready : signal is "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4, FREQ_HZ 297003926, ID_WIDTH 0, ADDR_WIDTH 40, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 1, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 1, NUM_READ_OUTSTANDING 8, NUM_WRITE_OUTSTANDING 8, MAX_BURST_LENGTH 256, PHASE 0.0, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, NUM_READ_THREADS 4, NUM_WRITE_THREADS 4, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of s_axi_rready : signal is "XIL_INTERFACENAME S_AXI, DATA_WIDTH 32, PROTOCOL AXI4, FREQ_HZ 148501963, ID_WIDTH 0, ADDR_WIDTH 40, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 1, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 1, NUM_READ_OUTSTANDING 8, NUM_WRITE_OUTSTANDING 8, MAX_BURST_LENGTH 256, PHASE 0.0, CLK_DOMAIN design_1_clk_wiz_0_0_clk_out1, NUM_READ_THREADS 4, NUM_WRITE_THREADS 4, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of s_axi_rvalid : signal is "xilinx.com:interface:aximm:1.0 S_AXI RVALID";
   attribute X_INTERFACE_INFO of s_axi_wlast : signal is "xilinx.com:interface:aximm:1.0 S_AXI WLAST";
   attribute X_INTERFACE_INFO of s_axi_wready : signal is "xilinx.com:interface:aximm:1.0 S_AXI WREADY";

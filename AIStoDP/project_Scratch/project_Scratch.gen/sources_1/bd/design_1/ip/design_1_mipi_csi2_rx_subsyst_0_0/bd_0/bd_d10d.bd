@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xD788EF76F1BB98B2",
+      "boundary_crc": "0xD788EF76BB965963",
       "design_src": "SBD",
       "device": "xck26-sfvc784-2LV-c",
       "name": "bd_d10d",
@@ -51,7 +51,7 @@
             "value": "32"
           },
           "FREQ_HZ": {
-            "value": "297003926",
+            "value": "148501963",
             "value_src": "ip_prop"
           },
           "HAS_BRESP": {
@@ -167,7 +167,7 @@
             "value_src": "ip_prop"
           },
           "FREQ_HZ": {
-            "value": "297003926",
+            "value": "148501963",
             "value_src": "ip_prop"
           },
           "HAS_TKEEP": {
@@ -233,7 +233,7 @@
             "value_src": "ip_prop"
           },
           "FREQ_HZ": {
-            "value": "297003926",
+            "value": "148501963",
             "value_src": "ip_prop"
           },
           "FREQ_TOLERANCE_HZ": {
@@ -387,7 +387,7 @@
             "value_src": "ip_prop"
           },
           "FREQ_HZ": {
-            "value": "297003926",
+            "value": "148501963",
             "value_src": "ip_prop"
           },
           "FREQ_TOLERANCE_HZ": {
