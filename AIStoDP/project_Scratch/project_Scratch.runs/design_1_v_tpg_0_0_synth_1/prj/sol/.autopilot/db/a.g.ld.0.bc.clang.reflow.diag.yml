@@ -1,0 +1,2037 @@
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_axi_io.h', 
+                   Line: 85, Column: 2 }
+Function:        _ZN3hls15AXIGetBitFieldsILi30E7ap_uintILi10EEEEvNS_4axisIS1_IXT_EELm1ELm1ELm1ELh56ELb0EEEiiRT0_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<30, ap_uint<10> >(ap_uint<30>, int, int, ap_uint<10>&)'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_axi_io.h', 
+                       Line: 60, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'void hls::AXIGetBitFields<30, ap_uint<10> >(hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<10>&)'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_axi_io.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 826, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned char&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 823, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 879, Column: 7 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<30, ap_uint<10> >(hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<10>&)'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_axi_io.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned char&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 823, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 878, Column: 7 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<30, ap_uint<10> >(hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<10>&)'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_axi_io.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned char&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 823, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 877, Column: 2 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'void hls::AXIGetBitFields<30, ap_uint<10> >(hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, int, int, ap_uint<10>&)'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_axi_io.h', 
+                       Line: 83, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned char&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 823, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1195, Column: 18 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1237, Column: 18 }
+Function:        _Z19tpgPatternColorBarstthi
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternColorBars(unsigned short, unsigned short, unsigned char, int)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1236, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1371, Column: 18 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternTartanColorBars(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1370, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1399, Column: 13 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternTartanColorBars(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1370, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1439, Column: 18 }
+Function:        _Z20tpgPatternCrossHatchtttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternCrossHatch(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1438, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1553, Column: 18 }
+Function:        _Z22tpgPatternCheckerBoardtttth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPatternCheckerBoard(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1552, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1825, Column: 18 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgPRBS(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1824, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 552, Column: 18 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 553, Column: 18 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            inline
+Name:            AlwaysInline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 923, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERNS0_INS_4axisIS2_ILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'hls::Scalar<3, ap_uint<10> >::Scalar()'
+    DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                       Line: 196, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'MultiPixStream2AXIvideo(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, hls::stream<hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, unsigned short&, unsigned short&, unsigned char&, bool&, bool&, unsigned short&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 921, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERNS0_INS_4axisIS2_ILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp40
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z22tpgPatternCheckerBoardtttth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp38
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternCrossHatchtttth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp32
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Adding '''
+  - Name:            pixTartan
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp30
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z19tpgPatternColorBarstthi
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp26
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp12
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp14
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp16
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp18
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp20
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp22
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp24
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp28
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp34
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp36
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp42
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp44
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp46
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-reg2mem-ssa
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 703, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp40
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 697, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp38
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 673, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp32
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 665, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp30
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 649, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp26
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 587, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 595, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp12
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 603, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp14
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 611, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp16
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 619, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp18
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 627, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp20
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 635, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp22
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 643, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp24
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 659, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp28
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 683, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp34
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 691, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp36
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 709, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp42
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 716, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp44
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 723, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            ref.tmp46
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERNS0_INS_4axisIS2_ILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Adding '''
+  - Name:            outpix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrReason
+DebugLoc:        { File: 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_tpg_0_0/src/hls/hls_video_core.h', 
+                   Line: 198, Column: 9 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Adding '''
+  - Name:            pix
+  - String:          ''' into disaggregation list because there''s '
+  - String:          array-partition pragma applied on the struct field
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 826, Column: 18 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp46
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp44
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp42
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp40
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp38
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp36
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp34
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp32
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp30
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp28
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp26
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp24
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp22
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp20
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp18
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp16
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp14
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp12
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            ref.tmp
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 553, Column: 18 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 552, Column: 18 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            outpix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-disaggr
+Name:            DisaggrSucc
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 923, Column: 18 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERNS0_INS_4axisIS2_ILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Disaggregating variable '''
+  - Name:            pix
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1011, Column: 23 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERNS0_INS_4axisIS2_ILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1011_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1013, Column: 24 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERNS0_INS_4axisIS2_ILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1013_4
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 734, Column: 23 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_734_3
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1833, Column: 21 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1833_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1578, Column: 21 }
+Function:        _Z22tpgPatternCheckerBoardtttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1578_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1465, Column: 21 }
+Function:        _Z20tpgPatternCrossHatchtttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1465_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1396, Column: 21 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1396_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1243, Column: 21 }
+Function:        _Z19tpgPatternColorBarstthi
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1243_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1196, Column: 21 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_1196_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 869, Column: 23 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_869_1
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-infer-unroll
+Name:            ImplicitUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 871, Column: 24 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Loop '''
+  - LoopName:        VITIS_LOOP_871_2
+  - String:          ''' is marked as complete unroll implied by the pipeline pragma'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 921, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERNS0_INS_4axisIS2_ILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1011_3
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1011:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 921, Column: 0 }
+Function:        _ZL23MultiPixStream2AXIvideoRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERNS0_INS_4axisIS2_ILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtSC_RhRbSE_SC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1013_4
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1013:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          MultiPixStream2AXIvideo
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 548, Column: 0 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_734_3
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:734:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgBackground
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1824, Column: 0 }
+Function:        _Z7tpgPRBSth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1833_1
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1833:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPRBS
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1552, Column: 0 }
+Function:        _Z22tpgPatternCheckerBoardtttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1578_1
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1578:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternCheckerBoard
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1438, Column: 0 }
+Function:        _Z20tpgPatternCrossHatchtttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1465_1
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1465:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternCrossHatch
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1370, Column: 0 }
+Function:        _Z25tpgPatternTartanColorBarstttth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1396_1
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1396:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternTartanColorBars
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1236, Column: 0 }
+Function:        _Z19tpgPatternColorBarstthi
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1243_1
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1243:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternColorBars
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1194, Column: 0 }
+Function:        _Z20tpgPatternSolidBlackth
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_1196_1
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1196:21'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          tpgPatternSolidBlack
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 823, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_869_1
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:869:23'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '1'
+...
+--- !Passed
+Pass:            reflow-pragma-loop-unroll
+Name:            PragmaFullyUnroll
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 823, Column: 0 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Unrolling loop '''
+  - LoopName:        VITIS_LOOP_871_2
+  - String:          ''' ('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:871:24'
+  - String:          ') '
+  - String:          'in function '''
+  - String:          AXIvideo2MultiPixStream
+  - String:          ''' completely with a factor of '
+  - Factor:          '3'
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 548, Column: 0 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternColorBars(unsigned short, unsigned short, unsigned char, int)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1236, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 548, Column: 0 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternTartanColorBars(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1370, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 548, Column: 0 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternCrossHatch(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1438, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 548, Column: 0 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPatternCheckerBoard(unsigned short, unsigned short, unsigned short, unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1552, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-inliner
+Name:            Inline
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 548, Column: 0 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Inlining function '''
+  - Callee:          'tpgPRBS(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1824, Column: 0 }
+  - String:          ''' into '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 552, Column: 18 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          outpix
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp12
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp14
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp16
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp18
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp20
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp22
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp24
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp28
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 1439, Column: 18 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp32
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp34
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp36
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp42
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp44
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          ref.tmp46
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 325, Column: 22 }
+Function:        _ZL16v_tpgHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtS7_S7_RbS7_S7_S7_S7_RhS9_S9_S9_S9_S9_S7_S7_S7_S7_S7_S7_S7_S7_S7_S7_S9_S9_RiS6_S8_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            ovrlayYUV
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '30'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 322, Column: 22 }
+Function:        _ZL16v_tpgHlsDataFlowRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERtS7_S7_RbS7_S7_S7_S7_RhS9_S9_S9_S9_S9_S7_S7_S7_S7_S7_S7_S7_S7_S7_S7_S9_S9_RiS6_S8_
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            srcYUV
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '30'
+  - String:          '-bits'
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 837, Column: 3 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_start
+  - String:          ' '
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:837:3'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned char&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 823, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-inference
+Name:            CouldNotAnalyzeBoundsPattern
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 897, Column: 4 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          Could not analyze the loop bounds
+  - String:          ' _XLX_SEP_ '
+  - LoopName:        loop_wait_for_eol
+  - String:          ' '
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:897:4'
+  - String:          ' '
+  - Function:        'AXIvideo2MultiPixStream(hls::stream<hls::axis<ap_uint<30>, 1ul, 1ul, 1ul, (unsigned char)56, false>, 0>&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned char&, unsigned short&, unsigned short&, unsigned char&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 823, Column: 0 }
+  - String:          ' '
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 897, Column: 4 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        loop_wait_for_eol
+  - String:          '''('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:897:4'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Failure
+Pass:            reflow-occurrence-inference
+Name:            NonComputableLoopForm
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 837, Column: 3 }
+Function:        _ZL23AXIvideo2MultiPixStreamRN3hls6streamINS_4axisI7ap_uintILi30EELm1ELm1ELm1ELh56ELb0EEELi0EEERNS0_INS_6ScalarILi3ES2_ILi10EEEELi0EEERhRtSD_SC_
+Args:            
+  - String:          'Could not analyze occurrence information within '''
+  - LoopName:        loop_wait_for_start
+  - String:          '''('
+  - LoopLoc:         'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:837:3'
+  - String:          ') . Requires loop in simplify form and with single exit.'
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 723, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 716, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 709, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 691, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 683, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 659, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 643, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 635, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 627, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 619, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 611, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 603, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 595, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...
+--- !Passed
+Pass:            reflow-auto-inline-performance-driven
+Name:            AutoInlinePerf
+DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                   Line: 587, Column: 14 }
+Function:        _ZL13tpgBackgroundRN3hls6streamINS_6ScalarILi3E7ap_uintILi10EEEELi0EEERtS7_RiS7_S7_S7_S7_RhS9_S7_S7_S7_S7_S9_S9_S9_S9_S6_
+Args:            
+  - String:          'Automatically inlining function '''
+  - Callee:          'tpgPatternSolidBlack(unsigned short, unsigned char)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 1194, Column: 0 }
+  - String:          ''' to improve effectiveness of pipeline pragma in function '''
+  - Caller:          'tpgBackground(hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&, unsigned short&, unsigned short&, int&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned short&, unsigned short&, unsigned short&, unsigned short&, unsigned char&, unsigned char&, unsigned char&, unsigned char&, hls::stream<hls::Scalar<3, ap_uint<10> >, 0>&)'
+    DebugLoc:        { File: 'F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp', 
+                       Line: 548, Column: 0 }
+  - String:          ''''
+...

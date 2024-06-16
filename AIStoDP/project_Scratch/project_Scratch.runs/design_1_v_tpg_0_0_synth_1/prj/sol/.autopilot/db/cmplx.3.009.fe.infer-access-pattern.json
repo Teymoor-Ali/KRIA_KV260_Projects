@@ -1,0 +1,111 @@
+{
+  "0": {
+    "basicblocks": 8,
+    "calls": "6 1",
+    "file": "v_tpg.cpp",
+    "fileloc": 409,
+    "instructions": 94,
+    "loads": {
+      "G": 2,
+      "T": 1
+    },
+    "name": "v_tpg",
+    "stores": {
+      "G": 4
+    },
+    "total_instructions": 1563
+  },
+  "1": {
+    "basicblocks": 1,
+    "calls": "3 5 2",
+    "file": "v_tpg.cpp",
+    "fileloc": 304,
+    "instructions": 10,
+    "name": "v_tpgHlsDataFlow",
+    "total_instructions": 1468
+  },
+  "2": {
+    "basicblocks": 29,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 919,
+    "instructions": 139,
+    "loads": {
+      "G": 4,
+      "L": 8
+    },
+    "name": "MultiPixStream2AXIvideo",
+    "stores": {
+      "G": 2,
+      "L": 16
+    },
+    "total_instructions": 181
+  },
+  "3": {
+    "basicblocks": 19,
+    "calls": "6 6",
+    "file": "v_tpg.cpp",
+    "fileloc": 821,
+    "instructions": 168,
+    "loads": {
+      "L": 18
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "stores": {
+      "L": 7
+    },
+    "total_instructions": 219
+  },
+  "4": {
+    "basicblocks": 4,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1193,
+    "instructions": 18,
+    "loads": {
+      "G": 1
+    },
+    "name": "tpgPatternSolidBlack",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 18
+  },
+  "5": {
+    "basicblocks": 127,
+    "calls": "4 4 4 4 4 4 4 4 4 7 4 4 4 4 4",
+    "file": "v_tpg.cpp",
+    "fileloc": 536,
+    "instructions": 765,
+    "loads": {
+      "G": 48,
+      "L": 53
+    },
+    "name": "tpgBackground",
+    "stores": {
+      "G": 40
+    },
+    "total_instructions": 1058
+  },
+  "6": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 2,
+    "name": "reg<ap_uint<10> >",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 2
+  }
+}

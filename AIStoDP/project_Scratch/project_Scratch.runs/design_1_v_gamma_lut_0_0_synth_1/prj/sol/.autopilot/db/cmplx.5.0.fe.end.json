@@ -1,0 +1,180 @@
+{
+    "1": {
+        "name": "reg<unsigned short>",
+        "file": "x_hls_utils.h",
+        "fileloc": "222",
+        "instructions": "4",
+        "total_instructions": "4",
+        "calls": "",
+        "basicblocks": "1"
+    },
+    "2": {
+        "name": "Gamma_Pipeline_VITIS_LOOP_315_1",
+        "file": "F:\/Projects\/Vivado\/project_Scratch\/project_Scratch.runs\/design_1_v_gamma_lut_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_gamma_lut.cpp",
+        "fileloc": "315",
+        "instructions": "35",
+        "total_instructions": "35",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1",
+            "T": "3"
+        },
+        "stores": {
+            "L": "5"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "3": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_width",
+        "file": "F:\/Projects\/Vivado\/project_Scratch\/project_Scratch.runs\/design_1_v_gamma_lut_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_gamma_lut.cpp",
+        "fileloc": "166",
+        "instructions": "47",
+        "total_instructions": "47",
+        "calls": "",
+        "basicblocks": "6",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "6"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "0": {
+        "name": "v_gamma_lut",
+        "file": "F:\/Projects\/Vivado\/project_Scratch\/project_Scratch.runs\/design_1_v_gamma_lut_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_gamma_lut.cpp",
+        "fileloc": "89",
+        "instructions": "55",
+        "total_instructions": "362",
+        "calls": "5 9 4",
+        "basicblocks": "1"
+    },
+    "4": {
+        "name": "MultiPixStream2AXIvideo",
+        "file": "F:\/Projects\/Vivado\/project_Scratch\/project_Scratch.runs\/design_1_v_gamma_lut_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_gamma_lut.cpp",
+        "fileloc": "249",
+        "instructions": "28",
+        "total_instructions": "53",
+        "calls": "7",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "5": {
+        "name": "AXIvideo2MultiPixStream",
+        "file": "F:\/Projects\/Vivado\/project_Scratch\/project_Scratch.runs\/design_1_v_gamma_lut_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_gamma_lut.cpp",
+        "fileloc": "166",
+        "instructions": "47",
+        "total_instructions": "156",
+        "calls": "1 1 8 3 10",
+        "basicblocks": "4",
+        "loads": {
+            "L": "6"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "6": {
+        "name": "Gamma_Pipeline_VITIS_LOOP_327_4",
+        "file": "F:\/Projects\/Vivado\/project_Scratch\/project_Scratch.runs\/design_1_v_gamma_lut_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_gamma_lut.cpp",
+        "fileloc": "303",
+        "instructions": "31",
+        "total_instructions": "31",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "4"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "7": {
+        "name": "MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2",
+        "file": "F:\/Projects\/Vivado\/project_Scratch\/project_Scratch.runs\/design_1_v_gamma_lut_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_gamma_lut.cpp",
+        "fileloc": "245",
+        "instructions": "25",
+        "total_instructions": "25",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "8": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start",
+        "file": "F:\/Projects\/Vivado\/project_Scratch\/project_Scratch.runs\/design_1_v_gamma_lut_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_gamma_lut.cpp",
+        "fileloc": "166",
+        "instructions": "27",
+        "total_instructions": "27",
+        "calls": "",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "3"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "9": {
+        "name": "Gamma",
+        "file": "v_gamma_lut.cpp",
+        "fileloc": "292",
+        "instructions": "32",
+        "total_instructions": "98",
+        "calls": "2 6",
+        "basicblocks": "4",
+        "loads": {
+            "L": "1"
+        },
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    },
+    "10": {
+        "name": "AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol",
+        "file": "F:\/Projects\/Vivado\/project_Scratch\/project_Scratch.runs\/design_1_v_gamma_lut_0_0_synth_1\/prj\/sol\/.autopilot\/db\/v_gamma_lut.cpp",
+        "fileloc": "166",
+        "instructions": "27",
+        "total_instructions": "27",
+        "calls": "",
+        "basicblocks": "4",
+        "stores": {
+            "L": "2"
+        },
+        "loops": {
+            "L": "1"
+        }
+    }
+}

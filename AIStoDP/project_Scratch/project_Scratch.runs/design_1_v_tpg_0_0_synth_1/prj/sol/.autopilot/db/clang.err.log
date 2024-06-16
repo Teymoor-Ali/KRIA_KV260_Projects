@@ -1,0 +1,4 @@
+F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:428:33: warning: extra token before variable expression is ignored [-Wextra-tokens]
+#pragma HLS INTERFACE axis port=&s_axis_video register
+                                ^
+1 warning generated.
