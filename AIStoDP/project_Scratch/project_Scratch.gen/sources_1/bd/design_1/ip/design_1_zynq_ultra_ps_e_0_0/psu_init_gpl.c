@@ -978,30 +978,6 @@ unsigned long psu_clock_init_data(void)
 /*##################################################################### */
 
     /*
-    * Register : QSPI_REF_CTRL @ 0XFF5E0068
-
-    * Clock active signal. Switch to 0 to disable the clock
-    *  PSU_CRL_APB_QSPI_REF_CTRL_CLKACT                            0x1
-
-    * 6 bit divider
-    *  PSU_CRL_APB_QSPI_REF_CTRL_DIVISOR1                          0x1
-
-    * 6 bit divider
-    *  PSU_CRL_APB_QSPI_REF_CTRL_DIVISOR0                          0xc
-
-    * 000 = IOPLL; 010 = RPLL; 011 = DPLL; (This signal may only be toggled af
-    * ter 4 cycles of the old clock and 4 cycles of the new clock. This is not
-    *  usually an issue, but designers must be aware.)
-    *  PSU_CRL_APB_QSPI_REF_CTRL_SRCSEL                            0x0
-
-    * This register controls this reference clock
-    * (OFFSET, MASK, VALUE)      (0XFF5E0068, 0x013F3F07U ,0x01010C00U)
-    */
-	PSU_Mask_Write(CRL_APB_QSPI_REF_CTRL_OFFSET,
-		0x013F3F07U, 0x01010C00U);
-/*##################################################################### */
-
-    /*
     * Register : SDIO1_REF_CTRL @ 0XFF5E0070
 
     * Clock active signal. Switch to 0 to disable the clock
@@ -1060,30 +1036,6 @@ unsigned long psu_clock_init_data(void)
     * (OFFSET, MASK, VALUE)      (0XFF5E0078, 0x013F3F07U ,0x01010F00U)
     */
 	PSU_Mask_Write(CRL_APB_UART1_REF_CTRL_OFFSET,
-		0x013F3F07U, 0x01010F00U);
-/*##################################################################### */
-
-    /*
-    * Register : I2C1_REF_CTRL @ 0XFF5E0124
-
-    * Clock active signal. Switch to 0 to disable the clock
-    *  PSU_CRL_APB_I2C1_REF_CTRL_CLKACT                            0x1
-
-    * 6 bit divider
-    *  PSU_CRL_APB_I2C1_REF_CTRL_DIVISOR1                          0x1
-
-    * 6 bit divider
-    *  PSU_CRL_APB_I2C1_REF_CTRL_DIVISOR0                          0xf
-
-    * 000 = IOPLL; 010 = RPLL; 011 = DPLL; (This signal may only be toggled af
-    * ter 4 cycles of the old clock and 4 cycles of the new clock. This is not
-    *  usually an issue, but designers must be aware.)
-    *  PSU_CRL_APB_I2C1_REF_CTRL_SRCSEL                            0x0
-
-    * This register controls this reference clock
-    * (OFFSET, MASK, VALUE)      (0XFF5E0124, 0x013F3F07U ,0x01010F00U)
-    */
-	PSU_Mask_Write(CRL_APB_I2C1_REF_CTRL_OFFSET,
 		0x013F3F07U, 0x01010F00U);
 /*##################################################################### */
 
@@ -11562,7 +11514,7 @@ unsigned long psu_mio_init_data(void)
 
     * Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Output, qspi_sclk_out-
     *  (QSPI Clock)
-    *  PSU_IOU_SLCR_MIO_PIN_0_L0_SEL                               1
+    *  PSU_IOU_SLCR_MIO_PIN_0_L0_SEL                               0
 
     * Level 1 Mux Select 0= Level 2 Mux Output 1= Not Used
     *  PSU_IOU_SLCR_MIO_PIN_0_L1_SEL                               0
@@ -11583,9 +11535,9 @@ unsigned long psu_mio_init_data(void)
     *  PSU_IOU_SLCR_MIO_PIN_0_L3_SEL                               0
 
     * Configures MIO Pin 0 peripheral interface mapping. S
-    * (OFFSET, MASK, VALUE)      (0XFF180000, 0x000000FEU ,0x00000002U)
+    * (OFFSET, MASK, VALUE)      (0XFF180000, 0x000000FEU ,0x00000000U)
     */
-	PSU_Mask_Write(IOU_SLCR_MIO_PIN_0_OFFSET, 0x000000FEU, 0x00000002U);
+	PSU_Mask_Write(IOU_SLCR_MIO_PIN_0_OFFSET, 0x000000FEU, 0x00000000U);
 /*##################################################################### */
 
     /*
@@ -11593,7 +11545,7 @@ unsigned long psu_mio_init_data(void)
 
     * Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Input, qspi_mi_mi1- (Q
     * SPI Databus) 1= qspi, Output, qspi_so_mo1- (QSPI Databus)
-    *  PSU_IOU_SLCR_MIO_PIN_1_L0_SEL                               1
+    *  PSU_IOU_SLCR_MIO_PIN_1_L0_SEL                               0
 
     * Level 1 Mux Select 0= Level 2 Mux Output 1= Not Used
     *  PSU_IOU_SLCR_MIO_PIN_1_L1_SEL                               0
@@ -11614,9 +11566,9 @@ unsigned long psu_mio_init_data(void)
     *  PSU_IOU_SLCR_MIO_PIN_1_L3_SEL                               0
 
     * Configures MIO Pin 1 peripheral interface mapping
-    * (OFFSET, MASK, VALUE)      (0XFF180004, 0x000000FEU ,0x00000002U)
+    * (OFFSET, MASK, VALUE)      (0XFF180004, 0x000000FEU ,0x00000000U)
     */
-	PSU_Mask_Write(IOU_SLCR_MIO_PIN_1_OFFSET, 0x000000FEU, 0x00000002U);
+	PSU_Mask_Write(IOU_SLCR_MIO_PIN_1_OFFSET, 0x000000FEU, 0x00000000U);
 /*##################################################################### */
 
     /*
@@ -11624,7 +11576,7 @@ unsigned long psu_mio_init_data(void)
 
     * Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Input, qspi_mi2- (QSPI
     *  Databus) 1= qspi, Output, qspi_mo2- (QSPI Databus)
-    *  PSU_IOU_SLCR_MIO_PIN_2_L0_SEL                               1
+    *  PSU_IOU_SLCR_MIO_PIN_2_L0_SEL                               0
 
     * Level 1 Mux Select 0= Level 2 Mux Output 1= Not Used
     *  PSU_IOU_SLCR_MIO_PIN_2_L1_SEL                               0
@@ -11644,9 +11596,9 @@ unsigned long psu_mio_init_data(void)
     *  PSU_IOU_SLCR_MIO_PIN_2_L3_SEL                               0
 
     * Configures MIO Pin 2 peripheral interface mapping
-    * (OFFSET, MASK, VALUE)      (0XFF180008, 0x000000FEU ,0x00000002U)
+    * (OFFSET, MASK, VALUE)      (0XFF180008, 0x000000FEU ,0x00000000U)
     */
-	PSU_Mask_Write(IOU_SLCR_MIO_PIN_2_OFFSET, 0x000000FEU, 0x00000002U);
+	PSU_Mask_Write(IOU_SLCR_MIO_PIN_2_OFFSET, 0x000000FEU, 0x00000000U);
 /*##################################################################### */
 
     /*
@@ -11654,7 +11606,7 @@ unsigned long psu_mio_init_data(void)
 
     * Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Input, qspi_mi3- (QSPI
     *  Databus) 1= qspi, Output, qspi_mo3- (QSPI Databus)
-    *  PSU_IOU_SLCR_MIO_PIN_3_L0_SEL                               1
+    *  PSU_IOU_SLCR_MIO_PIN_3_L0_SEL                               0
 
     * Level 1 Mux Select 0= Level 2 Mux Output 1= Not Used
     *  PSU_IOU_SLCR_MIO_PIN_3_L1_SEL                               0
@@ -11675,9 +11627,9 @@ unsigned long psu_mio_init_data(void)
     *  PSU_IOU_SLCR_MIO_PIN_3_L3_SEL                               0
 
     * Configures MIO Pin 3 peripheral interface mapping
-    * (OFFSET, MASK, VALUE)      (0XFF18000C, 0x000000FEU ,0x00000002U)
+    * (OFFSET, MASK, VALUE)      (0XFF18000C, 0x000000FEU ,0x00000000U)
     */
-	PSU_Mask_Write(IOU_SLCR_MIO_PIN_3_OFFSET, 0x000000FEU, 0x00000002U);
+	PSU_Mask_Write(IOU_SLCR_MIO_PIN_3_OFFSET, 0x000000FEU, 0x00000000U);
 /*##################################################################### */
 
     /*
@@ -11685,7 +11637,7 @@ unsigned long psu_mio_init_data(void)
 
     * Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Output, qspi_mo_mo0- (
     * QSPI Databus) 1= qspi, Input, qspi_si_mi0- (QSPI Databus)
-    *  PSU_IOU_SLCR_MIO_PIN_4_L0_SEL                               1
+    *  PSU_IOU_SLCR_MIO_PIN_4_L0_SEL                               0
 
     * Level 1 Mux Select 0= Level 2 Mux Output 1= Not Used
     *  PSU_IOU_SLCR_MIO_PIN_4_L1_SEL                               0
@@ -11706,9 +11658,9 @@ unsigned long psu_mio_init_data(void)
     *  PSU_IOU_SLCR_MIO_PIN_4_L3_SEL                               0
 
     * Configures MIO Pin 4 peripheral interface mapping
-    * (OFFSET, MASK, VALUE)      (0XFF180010, 0x000000FEU ,0x00000002U)
+    * (OFFSET, MASK, VALUE)      (0XFF180010, 0x000000FEU ,0x00000000U)
     */
-	PSU_Mask_Write(IOU_SLCR_MIO_PIN_4_OFFSET, 0x000000FEU, 0x00000002U);
+	PSU_Mask_Write(IOU_SLCR_MIO_PIN_4_OFFSET, 0x000000FEU, 0x00000000U);
 /*##################################################################### */
 
     /*
@@ -11716,7 +11668,7 @@ unsigned long psu_mio_init_data(void)
 
     * Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Output, qspi_n_ss_out-
     *  (QSPI Slave Select)
-    *  PSU_IOU_SLCR_MIO_PIN_5_L0_SEL                               1
+    *  PSU_IOU_SLCR_MIO_PIN_5_L0_SEL                               0
 
     * Level 1 Mux Select 0= Level 2 Mux Output 1= Not Used
     *  PSU_IOU_SLCR_MIO_PIN_5_L1_SEL                               0
@@ -11737,9 +11689,9 @@ unsigned long psu_mio_init_data(void)
     *  PSU_IOU_SLCR_MIO_PIN_5_L3_SEL                               0
 
     * Configures MIO Pin 5 peripheral interface mapping
-    * (OFFSET, MASK, VALUE)      (0XFF180014, 0x000000FEU ,0x00000002U)
+    * (OFFSET, MASK, VALUE)      (0XFF180014, 0x000000FEU ,0x00000000U)
     */
-	PSU_Mask_Write(IOU_SLCR_MIO_PIN_5_OFFSET, 0x000000FEU, 0x00000002U);
+	PSU_Mask_Write(IOU_SLCR_MIO_PIN_5_OFFSET, 0x000000FEU, 0x00000000U);
 /*##################################################################### */
 
     /*
@@ -15915,23 +15867,6 @@ unsigned long psu_peripherals_pre_init_data(void)
 		0x013F3F07U, 0x01012302U);
 /*##################################################################### */
 
-    /*
-    * PUT QSPI IN RESET STATE
-    */
-    /*
-    * Register : RST_LPD_IOU2 @ 0XFF5E0238
-
-    * Block level reset
-    *  PSU_CRL_APB_RST_LPD_IOU2_QSPI_RESET                         1
-
-    * Software control register for the IOU block. Each bit will cause a singl
-    * erperipheral or part of the peripheral to be reset.
-    * (OFFSET, MASK, VALUE)      (0XFF5E0238, 0x00000001U ,0x00000001U)
-    */
-	PSU_Mask_Write(CRL_APB_RST_LPD_IOU2_OFFSET,
-		0x00000001U, 0x00000001U);
-/*##################################################################### */
-
 
 	return 1;
 }
@@ -16051,37 +15986,6 @@ unsigned long psu_peripherals_init_data(void)
     /*
     * QSPI
     */
-    /*
-    * Register : RST_LPD_IOU2 @ 0XFF5E0238
-
-    * Block level reset
-    *  PSU_CRL_APB_RST_LPD_IOU2_QSPI_RESET                         0
-
-    * Software control register for the IOU block. Each bit will cause a singl
-    * erperipheral or part of the peripheral to be reset.
-    * (OFFSET, MASK, VALUE)      (0XFF5E0238, 0x00000001U ,0x00000000U)
-    */
-	PSU_Mask_Write(CRL_APB_RST_LPD_IOU2_OFFSET,
-		0x00000001U, 0x00000000U);
-/*##################################################################### */
-
-    /*
-    * QSPI TAP DELAY
-    */
-    /*
-    * Register : IOU_TAPDLY_BYPASS @ 0XFF180390
-
-    * 0: Do not by pass the tap delays on the Rx clock signal of LQSPI 1: Bypa
-    * ss the Tap delay on the Rx clock signal of LQSPI
-    *  PSU_IOU_SLCR_IOU_TAPDLY_BYPASS_LQSPI_RX                     1
-
-    * IOU tap delay bypass for the LQSPI and NAND controllers
-    * (OFFSET, MASK, VALUE)      (0XFF180390, 0x00000004U ,0x00000004U)
-    */
-	PSU_Mask_Write(IOU_SLCR_IOU_TAPDLY_BYPASS_OFFSET,
-		0x00000004U, 0x00000004U);
-/*##################################################################### */
-
     /*
     * NAND
     */
@@ -16215,20 +16119,6 @@ unsigned long psu_peripherals_init_data(void)
     /*
     * I2C
     */
-    /*
-    * Register : RST_LPD_IOU2 @ 0XFF5E0238
-
-    * Block level reset
-    *  PSU_CRL_APB_RST_LPD_IOU2_I2C1_RESET                         0
-
-    * Software control register for the IOU block. Each bit will cause a singl
-    * erperipheral or part of the peripheral to be reset.
-    * (OFFSET, MASK, VALUE)      (0XFF5E0238, 0x00000400U ,0x00000000U)
-    */
-	PSU_Mask_Write(CRL_APB_RST_LPD_IOU2_OFFSET,
-		0x00000400U, 0x00000000U);
-/*##################################################################### */
-
     /*
     * SWDT
     */

@@ -52,7 +52,7 @@
 
 (* X_CORE_INFO = "v_axi4s_vid_out_v4_0_18,Vivado 2024.1" *)
 (* CHECK_LICENSE_TYPE = "design_1_v_axi4s_vid_out_0_0,v_axi4s_vid_out_v4_0_18,{}" *)
-(* CORE_GENERATION_INFO = "design_1_v_axi4s_vid_out_0_0,v_axi4s_vid_out_v4_0_18,{x_ipProduct=Vivado 2024.1,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=v_axi4s_vid_out,x_ipVersion=4.0,x_ipCoreRevision=18,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_FAMILY=zynquplus,C_PIXELS_PER_CLOCK=1,C_COMPONENTS_PER_PIXEL=3,C_S_AXIS_COMPONENT_WIDTH=10,C_NATIVE_COMPONENT_WIDTH=12,C_NATIVE_DATA_WIDTH=36,C_S_AXIS_TDATA_WIDTH=32,C_HAS_ASYNC_CLK=1,C_ADDR_WIDTH=10,C_VTG_MASTER_SLAVE=0,C_HYSTERESIS_LEVEL=12,C_SYNC_LOCK_THRESHOLD=4,C_INCLUDE_\
+(* CORE_GENERATION_INFO = "design_1_v_axi4s_vid_out_0_0,v_axi4s_vid_out_v4_0_18,{x_ipProduct=Vivado 2024.1,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=v_axi4s_vid_out,x_ipVersion=4.0,x_ipCoreRevision=18,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_FAMILY=zynquplus,C_PIXELS_PER_CLOCK=1,C_COMPONENTS_PER_PIXEL=3,C_S_AXIS_COMPONENT_WIDTH=10,C_NATIVE_COMPONENT_WIDTH=12,C_NATIVE_DATA_WIDTH=36,C_S_AXIS_TDATA_WIDTH=32,C_HAS_ASYNC_CLK=1,C_ADDR_WIDTH=11,C_VTG_MASTER_SLAVE=0,C_HYSTERESIS_LEVEL=12,C_SYNC_LOCK_THRESHOLD=4,C_INCLUDE_\
 PIXEL_REPEAT=0,C_INCLUDE_PIXEL_REMAP_420=0,C_ADDR_WIDTH_PIXEL_REMAP_420=10,C_ARBITRARY_RES_EN=0}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_v_axi4s_vid_out_0_0 (
@@ -150,7 +150,7 @@ output wire vtg_ce;
 output wire locked;
 output wire overflow;
 output wire underflow;
-output wire [10 : 0] fifo_read_level;
+output wire [11 : 0] fifo_read_level;
 output wire [31 : 0] status;
 output wire sof_state_out;
 
@@ -163,7 +163,7 @@ output wire sof_state_out;
     .C_NATIVE_DATA_WIDTH(36),
     .C_S_AXIS_TDATA_WIDTH(32),
     .C_HAS_ASYNC_CLK(1),
-    .C_ADDR_WIDTH(10),
+    .C_ADDR_WIDTH(11),
     .C_VTG_MASTER_SLAVE(0),
     .C_HYSTERESIS_LEVEL(12),
     .C_SYNC_LOCK_THRESHOLD(4),

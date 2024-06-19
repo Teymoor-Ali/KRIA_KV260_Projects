@@ -133,12 +133,6 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
     sc_core::sc_in<bool> maxihpm0_fpd_aclk;
     sc_core::sc_in<bool> maxihpm1_fpd_aclk;
     sc_core::sc_in<bool> saxihpc0_fpd_aclk;
-    sc_core::sc_in<bool> emio_i2c1_scl_i;
-    sc_core::sc_out<bool> emio_i2c1_scl_o;
-    sc_core::sc_out<bool> emio_i2c1_scl_t;
-    sc_core::sc_in<bool> emio_i2c1_sda_i;
-    sc_core::sc_out<bool> emio_i2c1_sda_o;
-    sc_core::sc_out<bool> emio_i2c1_sda_t;
     sc_core::sc_out<bool> dp_video_ref_clk;
     sc_core::sc_in<bool> dp_live_video_in_vsync;
     sc_core::sc_in<bool> dp_live_video_in_hsync;

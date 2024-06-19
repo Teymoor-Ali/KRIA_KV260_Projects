@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Sun Jun 16 23:49:08 2024
+// Date        : Sun Jun 16 23:49:07 2024
 // Host        : Tey running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_gamma_lut_0_0/design_1_v_gamma_lut_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top design_1_v_gamma_lut_0_0 -prefix
+//               design_1_v_gamma_lut_0_0_ design_1_v_gamma_lut_0_0_sim_netlist.v
 // Design      : design_1_v_gamma_lut_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -158,7 +158,7 @@ module design_1_v_gamma_lut_0_0
   (* C_S_AXI_CTRL_WSTRB_WIDTH = "4" *) 
   (* C_S_AXI_DATA_WIDTH = "32" *) 
   (* C_S_AXI_WSTRB_WIDTH = "4" *) 
-  design_1_v_gamma_lut_0_0_v_gamma_lut inst
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut inst
        (.ap_clk(ap_clk),
         .ap_rst_n(ap_rst_n),
         .interrupt(interrupt),
@@ -199,7 +199,7 @@ module design_1_v_gamma_lut_0_0
         .s_axis_video_TVALID(s_axis_video_TVALID));
 endmodule
 
-module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
    (ack_in_t_reg,
     Q,
     ap_sync_ready,
@@ -815,7 +815,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
         .D(grp_reg_unsigned_short_s_fu_221_n_7),
         .Q(cols_reg_341[9]),
         .R(1'b0));
-  design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_180
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_180
        (.D(ap_NS_fsm__0[9:8]),
         .Q({ap_CS_fsm_state9,ap_CS_fsm_state8}),
         .SR(SR),
@@ -840,7 +840,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
         .D(grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_180_n_12),
         .Q(grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_180_ap_start_reg),
         .R(SR));
-  design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132
        (.D({ap_NS_fsm__0[3],ap_NS_fsm}),
         .E(grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_n_6),
         .Q(s_axis_video_TVALID_int_regslice),
@@ -866,7 +866,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
         .D(grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_n_11),
         .Q(grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_ap_start_reg),
         .R(SR));
-  design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152
        (.D(ap_NS_fsm__0[6:5]),
         .E(grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_ap_start_reg0),
         .Q({ap_CS_fsm_state9,ap_CS_fsm_state8,ap_CS_fsm_state6}),
@@ -906,12 +906,12 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
         .D(grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_n_14),
         .Q(grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_ap_start_reg),
         .R(SR));
-  design_1_v_gamma_lut_0_0_reg_unsigned_short_s grp_reg_unsigned_short_s_fu_216
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s grp_reg_unsigned_short_s_fu_216
        (.E(grp_reg_unsigned_short_s_fu_216_ap_ce),
         .Q(d_read_reg_22),
         .ap_clk(ap_clk),
         .\d_read_reg_22_reg[10]_0 (trunc_ln170_reg_326));
-  design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9 grp_reg_unsigned_short_s_fu_221
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9 grp_reg_unsigned_short_s_fu_221
        (.E(grp_reg_unsigned_short_s_fu_216_ap_ce),
         .Q({grp_reg_unsigned_short_s_fu_221_n_6,grp_reg_unsigned_short_s_fu_221_n_7,grp_reg_unsigned_short_s_fu_221_n_8,grp_reg_unsigned_short_s_fu_221_n_9,grp_reg_unsigned_short_s_fu_221_n_10,grp_reg_unsigned_short_s_fu_221_n_11,grp_reg_unsigned_short_s_fu_221_n_12,grp_reg_unsigned_short_s_fu_221_n_13,grp_reg_unsigned_short_s_fu_221_n_14,grp_reg_unsigned_short_s_fu_221_n_15,grp_reg_unsigned_short_s_fu_221_n_16}),
         .ap_clk(ap_clk),
@@ -1126,7 +1126,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
         .I3(int_ap_start_reg),
         .I4(int_ap_start_reg_0),
         .O(ap_sync_ready));
-  design_1_v_gamma_lut_0_0_regslice_both_10 regslice_both_s_axis_video_V_data_V_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both_10 regslice_both_s_axis_video_V_data_V_U
        (.Q(s_axis_video_TVALID_int_regslice),
         .SR(SR),
         .ack_in_t_reg_0(ack_in_t_reg),
@@ -1138,7 +1138,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
         .s_axis_video_TDATA(s_axis_video_TDATA),
         .s_axis_video_TREADY_int_regslice__1(s_axis_video_TREADY_int_regslice__1),
         .s_axis_video_TVALID(s_axis_video_TVALID));
-  design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11 regslice_both_s_axis_video_V_last_V_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11 regslice_both_s_axis_video_V_last_V_U
        (.SR(SR),
         .ap_clk(ap_clk),
         .axi_last_2_reg_122(axi_last_2_reg_122),
@@ -1148,7 +1148,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
         .s_axis_video_TLAST_int_regslice(s_axis_video_TLAST_int_regslice),
         .s_axis_video_TREADY_int_regslice__1(s_axis_video_TREADY_int_regslice__1),
         .s_axis_video_TVALID(s_axis_video_TVALID));
-  design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12 regslice_both_s_axis_video_V_user_V_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12 regslice_both_s_axis_video_V_user_V_U
        (.SR(SR),
         .ap_clk(ap_clk),
         .\data_p1_reg[0]_0 (regslice_both_s_axis_video_V_user_V_U_n_6),
@@ -1381,7 +1381,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
         .R(1'b0));
 endmodule
 
-module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol
    (ap_loop_init_int,
     \ap_CS_fsm_reg[8] ,
     \ap_CS_fsm_reg[8]_0 ,
@@ -1440,7 +1440,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_e
         .D(flow_control_loop_pipe_sequential_init_U_n_11),
         .Q(eol_1_reg_114),
         .R(1'b0));
-  design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15 flow_control_loop_pipe_sequential_init_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15 flow_control_loop_pipe_sequential_init_U
        (.D(D),
         .Q(Q),
         .SR(SR),
@@ -1461,7 +1461,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_e
         .select_ln216_reg_376(select_ln216_reg_376));
 endmodule
 
-module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start
    (E,
     \ap_CS_fsm_reg[5] ,
     D,
@@ -1535,7 +1535,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_s
         .D(s_axis_video_TLAST_int_regslice),
         .Q(grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_axi_last_out),
         .R(1'b0));
-  design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14 flow_control_loop_pipe_sequential_init_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14 flow_control_loop_pipe_sequential_init_U
        (.D(D),
         .E(E),
         .Q(Q),
@@ -1558,7 +1558,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_s
         .R(1'b0));
 endmodule
 
-module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width
    (grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_eol_out,
     s_axis_video_TREADY_int_regslice__1,
     grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_ap_start_reg_reg,
@@ -2238,7 +2238,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width
         .D(flow_control_loop_pipe_sequential_init_U_n_6),
         .Q(grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_eol_out),
         .R(1'b0));
-  design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13 flow_control_loop_pipe_sequential_init_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13 flow_control_loop_pipe_sequential_init_U
        (.D(j_4_fu_201_p2),
         .E(axi_last_fu_883_out),
         .Q({Q[2],Q[0]}),
@@ -2383,7 +2383,7 @@ module design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width
         .O(\eol_reg_155_reg[0]_0 ));
 endmodule
 
-module design_1_v_gamma_lut_0_0_CTRL_s_axi
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi
    (SR,
     interrupt,
     \int_gamma_lut_0_shift0_reg[0]_0 ,
@@ -2850,7 +2850,7 @@ module design_1_v_gamma_lut_0_0_CTRL_s_axi
         .D(int_auto_restart_i_1_n_6),
         .Q(p_3_in[7]),
         .R(SR));
-  design_1_v_gamma_lut_0_0_CTRL_s_axi_ram int_gamma_lut_0
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram int_gamma_lut_0
        (.ADDRARDADDR(int_gamma_lut_0_address1),
         .ADDRBWRADDR(ADDRBWRADDR),
         .DOUTADOUT({int_gamma_lut_0_n_6,int_gamma_lut_0_n_7,int_gamma_lut_0_n_8,int_gamma_lut_0_n_9,int_gamma_lut_0_n_10,int_gamma_lut_0_n_11,int_gamma_lut_0_n_12,int_gamma_lut_0_n_13,int_gamma_lut_0_n_14,int_gamma_lut_0_n_15,int_gamma_lut_0_n_16,int_gamma_lut_0_n_17,int_gamma_lut_0_n_18,int_gamma_lut_0_n_19,int_gamma_lut_0_n_20,int_gamma_lut_0_n_21,int_gamma_lut_0_n_22,int_gamma_lut_0_n_23,int_gamma_lut_0_n_24,int_gamma_lut_0_n_25,int_gamma_lut_0_n_26,int_gamma_lut_0_n_27,int_gamma_lut_0_n_28,int_gamma_lut_0_n_29,int_gamma_lut_0_n_30,int_gamma_lut_0_n_31,int_gamma_lut_0_n_32,int_gamma_lut_0_n_33,int_gamma_lut_0_n_34,int_gamma_lut_0_n_35,int_gamma_lut_0_n_36,int_gamma_lut_0_n_37}),
@@ -2903,7 +2903,7 @@ module design_1_v_gamma_lut_0_0_CTRL_s_axi
         .D(int_gamma_lut_0_write_i_1_n_6),
         .Q(int_gamma_lut_0_write_reg_n_6),
         .R(SR));
-  design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7 int_gamma_lut_1
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7 int_gamma_lut_1
        (.ADDRARDADDR(int_gamma_lut_0_address1),
         .ADDRBWRADDR(ADDRBWRADDR),
         .D({p_0_in[31:16],p_0_in[9],p_0_in[7],p_0_in[3:0]}),
@@ -2981,7 +2981,7 @@ module design_1_v_gamma_lut_0_0_CTRL_s_axi
         .D(int_gamma_lut_1_write_i_1_n_6),
         .Q(int_gamma_lut_1_write_reg_n_6),
         .R(SR));
-  design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8 int_gamma_lut_2
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8 int_gamma_lut_2
        (.ADDRARDADDR(int_gamma_lut_0_address1),
         .ADDRBWRADDR(ADDRBWRADDR),
         .D({p_0_in[15:10],p_0_in[8],p_0_in[6:4]}),
@@ -4870,7 +4870,7 @@ module design_1_v_gamma_lut_0_0_CTRL_s_axi
         .S(SR));
 endmodule
 
-module design_1_v_gamma_lut_0_0_CTRL_s_axi_ram
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram
    (DOUTADOUT,
     DOUTBDOUT,
     ap_clk,
@@ -5164,7 +5164,7 @@ module design_1_v_gamma_lut_0_0_CTRL_s_axi_ram
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_CTRL_s_axi_ram" *) 
-module design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7
    (DOUTBDOUT,
     D,
     \rstate_reg[1] ,
@@ -5947,7 +5947,7 @@ module design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_CTRL_s_axi_ram" *) 
-module design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8
    (DOUTADOUT,
     DOUTBDOUT,
     ADDRARDADDR,
@@ -6710,7 +6710,7 @@ module design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8
         .O(mem_reg_5));
 endmodule
 
-module design_1_v_gamma_lut_0_0_Gamma
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma
    (in,
     grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90_ap_start_reg,
     ap_enable_reg_pp0_iter1,
@@ -6965,7 +6965,7 @@ module design_1_v_gamma_lut_0_0_Gamma
        (.I0(\ap_CS_fsm_reg[2]_0 ),
         .I1(start_once_reg_reg_0),
         .O(ap_sync_Gamma_U0_ap_ready));
-  design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1 grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1 grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90
        (.ADDRARDADDR(lut_1_0_address0),
         .ADDRBWRADDR(ADDRBWRADDR),
         .D(ap_NS_fsm[1]),
@@ -6993,7 +6993,7 @@ module design_1_v_gamma_lut_0_0_Gamma
         .D(grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90_n_50),
         .Q(grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90_ap_start_reg),
         .R(SR));
-  design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4 grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4 grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106
        (.D(ap_NS_fsm[3:2]),
         .E(grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106_ap_start_reg0),
         .Q({ap_CS_fsm_state4,ap_CS_fsm_state2}),
@@ -7031,21 +7031,21 @@ module design_1_v_gamma_lut_0_0_Gamma
         .D(grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106_n_18),
         .Q(grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106_ap_start_reg),
         .R(SR));
-  design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W lut_0_0_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W lut_0_0_U
        (.DINADIN(DINADIN),
         .WEA(lut_0_0_we0),
         .ap_clk(ap_clk),
         .in(in[29:20]),
         .lut_0_0_ce0(lut_0_0_ce0),
         .ram_reg_bram_0_0(lut_0_0_address0));
-  design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3 lut_1_0_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3 lut_1_0_U
        (.ADDRARDADDR(lut_1_0_address0),
         .WEA(lut_0_0_we0),
         .ap_clk(ap_clk),
         .in(in[9:0]),
         .lut_0_0_ce0(lut_0_0_ce0),
         .ram_reg_bram_0_0(ram_reg_bram_0));
-  design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4 lut_2_0_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4 lut_2_0_U
        (.WEA(lut_0_0_we0),
         .ap_clk(ap_clk),
         .in(in[19:10]),
@@ -7421,7 +7421,7 @@ module design_1_v_gamma_lut_0_0_Gamma
         .R(ap_NS_fsm13_out));
 endmodule
 
-module design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1
    (ap_enable_reg_pp0_iter1,
     D,
     ADDRBWRADDR,
@@ -7508,7 +7508,7 @@ module design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1
         .D(flow_control_loop_pipe_sequential_init_U_n_33),
         .Q(ap_enable_reg_pp0_iter1),
         .R(1'b0));
-  design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6 flow_control_loop_pipe_sequential_init_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6 flow_control_loop_pipe_sequential_init_U
        (.ADDRBWRADDR(ADDRBWRADDR),
         .D(D),
         .E(E),
@@ -7934,7 +7934,7 @@ module design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1
         .R(1'b0));
 endmodule
 
-module design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4
    (ap_enable_reg_pp0_iter1_reg_0,
     ap_enable_reg_pp0_iter2_reg_0,
     D,
@@ -8114,7 +8114,7 @@ module design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4
         .I4(Q[1]),
         .I5(ap_block_pp0_stage0_11001__0),
         .O(empty_n_reg_0));
-  design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5 flow_control_loop_pipe_sequential_init_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5 flow_control_loop_pipe_sequential_init_U
        (.D(D),
         .E(E),
         .Q(Q[1]),
@@ -8284,7 +8284,7 @@ module design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4
         .R(flow_control_loop_pipe_sequential_init_U_n_10));
 endmodule
 
-module design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W
    (in,
     ap_clk,
     lut_0_0_ce0,
@@ -8396,7 +8396,7 @@ module design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W" *) 
-module design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3
    (in,
     ap_clk,
     lut_0_0_ce0,
@@ -8508,7 +8508,7 @@ module design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W" *) 
-module design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4
    (in,
     ap_clk,
     lut_0_0_ce0,
@@ -8619,7 +8619,7 @@ module design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4
         .WEBWE({1'b0,1'b0,1'b0,1'b0}));
 endmodule
 
-module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo
    (m_axis_video_TUSER,
     m_axis_video_TLAST,
     \ap_CS_fsm_reg[2]_0 ,
@@ -8852,7 +8852,7 @@ module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo
         .D(ap_NS_fsm[3]),
         .Q(ap_CS_fsm_state4),
         .R(SR));
-  design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2 grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2 grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96
        (.D(ap_NS_fsm[2:1]),
         .E(E),
         .MultiPixStream2AXIvideo_U0_ap_start(MultiPixStream2AXIvideo_U0_ap_start),
@@ -9103,7 +9103,7 @@ module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo
         .D(\icmp_ln256_reg_195_reg[0]_1 ),
         .Q(\icmp_ln256_reg_195_reg_n_6_[0] ),
         .R(1'b0));
-  design_1_v_gamma_lut_0_0_regslice_both regslice_both_m_axis_video_V_data_V_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both regslice_both_m_axis_video_V_data_V_U
        (.D({ap_NS_fsm[3],ap_NS_fsm[0]}),
         .E(load_p2),
         .MultiPixStream2AXIvideo_U0_ap_ready(MultiPixStream2AXIvideo_U0_ap_ready),
@@ -9118,7 +9118,7 @@ module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo
         .m_axis_video_TVALID(m_axis_video_TVALID),
         .out(out),
         .\state_reg[1]_0 (ack_in_t_reg));
-  design_1_v_gamma_lut_0_0_regslice_both__parameterized1 regslice_both_m_axis_video_V_last_V_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1 regslice_both_m_axis_video_V_last_V_U
        (.\FSM_sequential_state_reg[0]_0 (ack_in_t_reg),
         .SR(SR),
         .ack_in_t_reg_0(regslice_both_m_axis_video_V_last_V_U_n_6),
@@ -9128,7 +9128,7 @@ module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo
         .grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96_m_axis_video_TLAST(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96_m_axis_video_TLAST),
         .m_axis_video_TLAST(m_axis_video_TLAST),
         .m_axis_video_TREADY(m_axis_video_TREADY));
-  design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2 regslice_both_m_axis_video_V_user_V_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2 regslice_both_m_axis_video_V_user_V_U
        (.\FSM_sequential_state_reg[0]_0 (ack_in_t_reg),
         .SR(SR),
         .ack_in_t_reg_0(regslice_both_m_axis_video_V_user_V_U_n_6),
@@ -9366,7 +9366,7 @@ module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo
         .R(1'b0));
 endmodule
 
-module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2
    (grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96_m_axis_video_TLAST,
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96_m_axis_video_TUSER,
     empty_n_reg,
@@ -9554,7 +9554,7 @@ module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_
         .I3(Q[1]),
         .I4(m_axis_video_TREADY_int_regslice),
         .O(\icmp_ln258_reg_197_reg[0]_0 ));
-  design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init flow_control_loop_pipe_sequential_init_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init flow_control_loop_pipe_sequential_init_U
        (.D(D),
         .E(j_fu_76),
         .MultiPixStream2AXIvideo_U0_ap_start(MultiPixStream2AXIvideo_U0_ap_start),
@@ -9708,7 +9708,7 @@ module design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_
         .R(1'b0));
 endmodule
 
-module design_1_v_gamma_lut_0_0_fifo_w30_d16_S
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S
    (imgGamma_empty_n,
     imgGamma_full_n,
     out,
@@ -9766,7 +9766,7 @@ module design_1_v_gamma_lut_0_0_fifo_w30_d16_S
   wire p_9_in;
   wire push;
 
-  design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1 U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1 U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg
        (.Q(addr_reg),
         .ap_clk(ap_clk),
         .in(in),
@@ -9965,7 +9965,7 @@ module design_1_v_gamma_lut_0_0_fifo_w30_d16_S
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_fifo_w30_d16_S" *) 
-module design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0
    (imgRgb_empty_n,
     imgRgb_full_n,
     \mOutPtr_reg[3]_0 ,
@@ -10023,7 +10023,7 @@ module design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0
   wire [29:0]out;
   wire push;
 
-  design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg
        (.Q(addr_reg),
         .ap_clk(ap_clk),
         .in(in),
@@ -10205,7 +10205,7 @@ module design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0
         .R(SR));
 endmodule
 
-module design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg
    (out,
     push,
     in,
@@ -10616,7 +10616,7 @@ module design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg" *) 
-module design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1
    (out,
     push,
     in,
@@ -11026,7 +11026,7 @@ module design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1
         .Q(out[9]));
 endmodule
 
-module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init
    (empty_n_reg,
     \sof_2_reg_133_reg[0] ,
     ap_block_pp0_stage0_subdone,
@@ -11525,7 +11525,7 @@ module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13
    (\axi_last_fu_88_reg[0] ,
     s_axis_video_TREADY_int_regslice__1,
     grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_ap_start_reg_reg,
@@ -12028,7 +12028,7 @@ module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14
    (E,
     \ap_CS_fsm_reg[5] ,
     grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_s_axis_video_TREADY,
@@ -12192,7 +12192,7 @@ module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15
    (ap_loop_init_int_reg_0,
     \ap_CS_fsm_reg[8] ,
     \ap_CS_fsm_reg[8]_0 ,
@@ -12379,7 +12379,7 @@ module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5
    (ap_rst_n_0,
     ap_block_pp0_stage0_11001__0,
     D,
@@ -12759,7 +12759,7 @@ module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6
    (D,
     ap_loop_init_int_reg_0,
     ap_loop_init,
@@ -13168,7 +13168,7 @@ module design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6
         .O(ap_loop_init));
 endmodule
 
-module design_1_v_gamma_lut_0_0_reg_unsigned_short_s
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s
    (Q,
     E,
     \d_read_reg_22_reg[10]_0 ,
@@ -13252,7 +13252,7 @@ module design_1_v_gamma_lut_0_0_reg_unsigned_short_s
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_reg_unsigned_short_s" *) 
-module design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9
    (Q,
     xor_ln216_fu_235_p2,
     cmp10252_fu_229_p2,
@@ -13372,7 +13372,7 @@ module design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9
         .O(\xor_ln216_reg_354[0]_i_2_n_6 ));
 endmodule
 
-module design_1_v_gamma_lut_0_0_regslice_both
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both
    (m_axis_video_TREADY_int_regslice,
     D,
     MultiPixStream2AXIvideo_U0_ap_ready,
@@ -14202,7 +14202,7 @@ module design_1_v_gamma_lut_0_0_regslice_both
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_regslice_both" *) 
-module design_1_v_gamma_lut_0_0_regslice_both_10
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both_10
    (ack_in_t_reg_0,
     Q,
     \data_p1_reg[29]_0 ,
@@ -15240,7 +15240,7 @@ module design_1_v_gamma_lut_0_0_regslice_both_10
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_regslice_both" *) 
-module design_1_v_gamma_lut_0_0_regslice_both__parameterized1
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1
    (ack_in_t_reg_0,
     data_p2,
     m_axis_video_TLAST,
@@ -15356,7 +15356,7 @@ module design_1_v_gamma_lut_0_0_regslice_both__parameterized1
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_regslice_both" *) 
-module design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11
    (s_axis_video_TLAST_int_regslice,
     \data_p1_reg[0]_0 ,
     ap_clk,
@@ -15490,7 +15490,7 @@ module design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_regslice_both" *) 
-module design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12
    (\data_p1_reg[0]_0 ,
     ap_clk,
     SR,
@@ -15608,7 +15608,7 @@ module design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_gamma_lut_0_0_regslice_both" *) 
-module design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2
    (ack_in_t_reg_0,
     data_p2,
     m_axis_video_TUSER,
@@ -15723,7 +15723,7 @@ module design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2
         .R(1'b0));
 endmodule
 
-module design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0
    (MultiPixStream2AXIvideo_U0_ap_start,
     start_for_MultiPixStream2AXIvideo_U0_full_n,
     empty_n_reg_0,
@@ -15864,7 +15864,7 @@ endmodule
 
 (* C_S_AXI_CTRL_ADDR_WIDTH = "13" *) (* C_S_AXI_CTRL_DATA_WIDTH = "32" *) (* C_S_AXI_CTRL_WSTRB_WIDTH = "4" *) 
 (* C_S_AXI_DATA_WIDTH = "32" *) (* C_S_AXI_WSTRB_WIDTH = "4" *) (* hls_module = "yes" *) 
-module design_1_v_gamma_lut_0_0_v_gamma_lut
+module design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut
    (s_axi_CTRL_AWVALID,
     s_axi_CTRL_AWREADY,
     s_axi_CTRL_AWADDR,
@@ -16055,7 +16055,7 @@ module design_1_v_gamma_lut_0_0_v_gamma_lut
   assign s_axi_CTRL_BRESP[0] = \<const0> ;
   assign s_axi_CTRL_RRESP[1] = \<const0> ;
   assign s_axi_CTRL_RRESP[0] = \<const0> ;
-  design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream AXIvideo2MultiPixStream_U0
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream AXIvideo2MultiPixStream_U0
        (.Q(AXIvideo2MultiPixStream_U0_n_7),
         .SR(ap_rst_n_inv),
         .ack_in_t_reg(s_axis_video_TREADY),
@@ -16078,7 +16078,7 @@ module design_1_v_gamma_lut_0_0_v_gamma_lut
         .s_axis_video_TVALID(s_axis_video_TVALID),
         .\trunc_ln170_reg_326_reg[10]_0 (height),
         .\trunc_ln171_reg_331_reg[10]_0 (width));
-  design_1_v_gamma_lut_0_0_CTRL_s_axi CTRL_s_axi_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi CTRL_s_axi_U
        (.ADDRBWRADDR(Gamma_U0_gamma_lut_2_address0),
         .D(sub_i_i_fu_132_p2),
         .DINADIN(gamma_lut_0_q0),
@@ -16127,7 +16127,7 @@ module design_1_v_gamma_lut_0_0_v_gamma_lut
         .start_once_reg(start_once_reg));
   GND GND
        (.G(\<const0> ));
-  design_1_v_gamma_lut_0_0_Gamma Gamma_U0
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma Gamma_U0
        (.ADDRBWRADDR(Gamma_U0_gamma_lut_2_address0),
         .D(width),
         .DINADIN(gamma_lut_0_q0),
@@ -16167,7 +16167,7 @@ module design_1_v_gamma_lut_0_0_v_gamma_lut
         .start_once_reg(start_once_reg),
         .start_once_reg_reg_0(ap_sync_reg_Gamma_U0_ap_ready_reg_n_6),
         .\trunc_ln312_reg_162_reg[10]_0 (height));
-  design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo MultiPixStream2AXIvideo_U0
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo MultiPixStream2AXIvideo_U0
        (.D(sub_i_i_fu_132_p2),
         .E(MultiPixStream2AXIvideo_U0_n_12),
         .MultiPixStream2AXIvideo_U0_ap_ready(MultiPixStream2AXIvideo_U0_ap_ready),
@@ -16211,7 +16211,7 @@ module design_1_v_gamma_lut_0_0_v_gamma_lut
         .D(ap_sync_Gamma_U0_ap_ready),
         .Q(ap_sync_reg_Gamma_U0_ap_ready_reg_n_6),
         .R(ap_sync_reg_Gamma_U0_ap_ready));
-  design_1_v_gamma_lut_0_0_fifo_w30_d16_S imgGamma_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S imgGamma_U
        (.E(MultiPixStream2AXIvideo_U0_n_12),
         .SR(ap_rst_n_inv),
         .ap_clk(ap_clk),
@@ -16225,7 +16225,7 @@ module design_1_v_gamma_lut_0_0_v_gamma_lut
         .p_6_in(p_6_in),
         .p_9_in(p_9_in),
         .push(push_0));
-  design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 imgRgb_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 imgRgb_U
        (.E(Gamma_U0_n_44),
         .SR(ap_rst_n_inv),
         .\addr_reg[0]_0 (Gamma_U0_n_43),
@@ -16240,7 +16240,7 @@ module design_1_v_gamma_lut_0_0_v_gamma_lut
         .\mOutPtr_reg[3]_0 (imgRgb_U_n_8),
         .out(imgRgb_dout),
         .push(push));
-  design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0 start_for_MultiPixStream2AXIvideo_U0_U
+  design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0 start_for_MultiPixStream2AXIvideo_U0_U
        (.MultiPixStream2AXIvideo_U0_ap_ready(MultiPixStream2AXIvideo_U0_ap_ready),
         .MultiPixStream2AXIvideo_U0_ap_start(MultiPixStream2AXIvideo_U0_ap_start),
         .SR(ap_rst_n_inv),

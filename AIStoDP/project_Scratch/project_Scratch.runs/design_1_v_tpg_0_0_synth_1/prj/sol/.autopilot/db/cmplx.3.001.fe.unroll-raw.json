@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 8,
-    "calls": "9 8",
+    "calls": "1 6",
     "file": "v_tpg.cpp",
     "fileloc": 409,
     "instructions": 81,
@@ -16,116 +16,15 @@
     "total_instructions": 2224
   },
   "1": {
-    "basicblocks": 12,
-    "calls": "",
-    "file": "v_tpg.cpp",
-    "fileloc": 1823,
-    "instructions": 86,
-    "loads": {
-      "G": 3,
-      "L": 2
-    },
-    "name": "tpgPRBS",
-    "stores": {
-      "G": 3,
-      "L": 5
-    },
-    "total_instructions": 86
-  },
-  "10": {
-    "basicblocks": 35,
-    "calls": "",
-    "file": "v_tpg.cpp",
-    "fileloc": 1369,
-    "instructions": 159,
-    "loads": {
-      "G": 23
-    },
-    "name": "tpgPatternTartanColorBars",
-    "stores": {
-      "G": 10,
-      "L": 3
-    },
-    "total_instructions": 159
-  },
-  "11": {
     "basicblocks": 1,
     "calls": "",
     "file": "x_hls_utils.h",
     "fileloc": 222,
-    "instructions": 2,
-    "name": "reg<ap_uint<10> >",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 2
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
   },
-  "12": {
-    "basicblocks": 47,
-    "calls": "9 9",
-    "file": "v_tpg.cpp",
-    "fileloc": 821,
-    "instructions": 379,
-    "loads": {
-      "L": 28
-    },
-    "name": "AXIvideo2MultiPixStream",
-    "stores": {
-      "L": 9
-    },
-    "total_instructions": 381
-  },
-  "2": {
-    "basicblocks": 36,
-    "calls": "",
-    "file": "v_tpg.cpp",
-    "fileloc": 1551,
-    "instructions": 156,
-    "loads": {
-      "G": 23
-    },
-    "name": "tpgPatternCheckerBoard",
-    "stores": {
-      "G": 10,
-      "L": 3
-    },
-    "total_instructions": 156
-  },
-  "3": {
-    "basicblocks": 44,
-    "calls": "11",
-    "file": "v_tpg.cpp",
-    "fileloc": 1437,
-    "instructions": 148,
-    "loads": {
-      "G": 9,
-      "L": 3
-    },
-    "name": "tpgPatternCrossHatch",
-    "stores": {
-      "G": 11,
-      "L": 6
-    },
-    "total_instructions": 150
-  },
-  "4": {
-    "basicblocks": 42,
-    "calls": "6 6 6 6 6 6 6 6 7 6 10 3 6 6 2 1 6 6 6",
-    "file": "v_tpg.cpp",
-    "fileloc": 536,
-    "instructions": 500,
-    "loads": {
-      "G": 2,
-      "L": 84
-    },
-    "name": "tpgBackground",
-    "stores": {
-      "G": 1,
-      "L": 66
-    },
-    "total_instructions": 1556
-  },
-  "5": {
+  "10": {
     "basicblocks": 45,
     "calls": "",
     "file": "v_tpg.cpp",
@@ -142,22 +41,36 @@
     },
     "total_instructions": 175
   },
-  "6": {
-    "basicblocks": 10,
+  "11": {
+    "basicblocks": 12,
     "calls": "",
     "file": "v_tpg.cpp",
-    "fileloc": 1193,
-    "instructions": 29,
+    "fileloc": 1823,
+    "instructions": 86,
     "loads": {
-      "G": 1
+      "G": 3,
+      "L": 2
     },
-    "name": "tpgPatternSolidBlack",
+    "name": "tpgPRBS",
     "stores": {
-      "L": 3
+      "G": 3,
+      "L": 5
     },
-    "total_instructions": 29
+    "total_instructions": 86
   },
-  "7": {
+  "12": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 2,
+    "name": "reg<ap_uint<10> >",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 2
+  },
+  "2": {
     "basicblocks": 24,
     "calls": "",
     "file": "v_tpg.cpp",
@@ -173,22 +86,109 @@
     },
     "total_instructions": 99
   },
-  "8": {
+  "3": {
+    "basicblocks": 44,
+    "calls": "12",
+    "file": "v_tpg.cpp",
+    "fileloc": 1437,
+    "instructions": 148,
+    "loads": {
+      "G": 9,
+      "L": 3
+    },
+    "name": "tpgPatternCrossHatch",
+    "stores": {
+      "G": 11,
+      "L": 6
+    },
+    "total_instructions": 150
+  },
+  "4": {
+    "basicblocks": 36,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1551,
+    "instructions": 156,
+    "loads": {
+      "G": 23
+    },
+    "name": "tpgPatternCheckerBoard",
+    "stores": {
+      "G": 10,
+      "L": 3
+    },
+    "total_instructions": 156
+  },
+  "5": {
+    "basicblocks": 10,
+    "calls": "",
+    "file": "v_tpg.cpp",
+    "fileloc": 1193,
+    "instructions": 29,
+    "loads": {
+      "G": 1
+    },
+    "name": "tpgPatternSolidBlack",
+    "stores": {
+      "L": 3
+    },
+    "total_instructions": 29
+  },
+  "6": {
     "basicblocks": 1,
-    "calls": "12 4 5",
+    "calls": "7 8 10",
     "file": "v_tpg.cpp",
     "fileloc": 304,
     "instructions": 30,
     "name": "v_tpgHlsDataFlow",
     "total_instructions": 2142
   },
+  "7": {
+    "basicblocks": 47,
+    "calls": "1 1",
+    "file": "v_tpg.cpp",
+    "fileloc": 821,
+    "instructions": 379,
+    "loads": {
+      "L": 28
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 381
+  },
+  "8": {
+    "basicblocks": 42,
+    "calls": "5 5 5 5 5 5 5 5 2 5 9 3 5 5 4 11 5 5 5",
+    "file": "v_tpg.cpp",
+    "fileloc": 536,
+    "instructions": 500,
+    "loads": {
+      "G": 2,
+      "L": 84
+    },
+    "name": "tpgBackground",
+    "stores": {
+      "G": 1,
+      "L": 66
+    },
+    "total_instructions": 1556
+  },
   "9": {
-    "basicblocks": 1,
+    "basicblocks": 35,
     "calls": "",
-    "file": "x_hls_utils.h",
-    "fileloc": 222,
-    "instructions": 1,
-    "name": "reg<unsigned short>",
-    "total_instructions": 1
+    "file": "v_tpg.cpp",
+    "fileloc": 1369,
+    "instructions": 159,
+    "loads": {
+      "G": 23
+    },
+    "name": "tpgPatternTartanColorBars",
+    "stores": {
+      "G": 10,
+      "L": 3
+    },
+    "total_instructions": 159
   }
 }

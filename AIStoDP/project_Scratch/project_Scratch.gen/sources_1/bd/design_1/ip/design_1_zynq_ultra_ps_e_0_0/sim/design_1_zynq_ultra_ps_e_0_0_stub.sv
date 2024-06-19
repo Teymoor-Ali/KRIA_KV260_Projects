@@ -186,12 +186,6 @@ module design_1_zynq_ultra_ps_e_0_0 (
   input bit_as_bool saxigp0_rready,
   input bit [3 : 0] saxigp0_awqos,
   input bit [3 : 0] saxigp0_arqos,
-  input bit_as_bool emio_i2c1_scl_i,
-  output bit_as_bool emio_i2c1_scl_o,
-  output bit_as_bool emio_i2c1_scl_t,
-  input bit_as_bool emio_i2c1_sda_i,
-  output bit_as_bool emio_i2c1_sda_o,
-  output bit_as_bool emio_i2c1_sda_t,
   output bit_as_bool dp_video_ref_clk,
   input bit_as_bool dp_live_video_in_vsync,
   input bit_as_bool dp_live_video_in_hsync,
@@ -216,7 +210,7 @@ endmodule
 
 `ifdef XCELIUM
 (* XMSC_MODULE_EXPORT *)
-module design_1_zynq_ultra_ps_e_0_0 (maxihpm0_fpd_aclk,maxigp0_awid,maxigp0_awaddr,maxigp0_awlen,maxigp0_awsize,maxigp0_awburst,maxigp0_awlock,maxigp0_awcache,maxigp0_awprot,maxigp0_awvalid,maxigp0_awuser,maxigp0_awready,maxigp0_wdata,maxigp0_wstrb,maxigp0_wlast,maxigp0_wvalid,maxigp0_wready,maxigp0_bid,maxigp0_bresp,maxigp0_bvalid,maxigp0_bready,maxigp0_arid,maxigp0_araddr,maxigp0_arlen,maxigp0_arsize,maxigp0_arburst,maxigp0_arlock,maxigp0_arcache,maxigp0_arprot,maxigp0_arvalid,maxigp0_aruser,maxigp0_arready,maxigp0_rid,maxigp0_rdata,maxigp0_rresp,maxigp0_rlast,maxigp0_rvalid,maxigp0_rready,maxigp0_awqos,maxigp0_arqos,maxihpm1_fpd_aclk,maxigp1_awid,maxigp1_awaddr,maxigp1_awlen,maxigp1_awsize,maxigp1_awburst,maxigp1_awlock,maxigp1_awcache,maxigp1_awprot,maxigp1_awvalid,maxigp1_awuser,maxigp1_awready,maxigp1_wdata,maxigp1_wstrb,maxigp1_wlast,maxigp1_wvalid,maxigp1_wready,maxigp1_bid,maxigp1_bresp,maxigp1_bvalid,maxigp1_bready,maxigp1_arid,maxigp1_araddr,maxigp1_arlen,maxigp1_arsize,maxigp1_arburst,maxigp1_arlock,maxigp1_arcache,maxigp1_arprot,maxigp1_arvalid,maxigp1_aruser,maxigp1_arready,maxigp1_rid,maxigp1_rdata,maxigp1_rresp,maxigp1_rlast,maxigp1_rvalid,maxigp1_rready,maxigp1_awqos,maxigp1_arqos,saxihpc0_fpd_aclk,saxigp0_aruser,saxigp0_awuser,saxigp0_awid,saxigp0_awaddr,saxigp0_awlen,saxigp0_awsize,saxigp0_awburst,saxigp0_awlock,saxigp0_awcache,saxigp0_awprot,saxigp0_awvalid,saxigp0_awready,saxigp0_wdata,saxigp0_wstrb,saxigp0_wlast,saxigp0_wvalid,saxigp0_wready,saxigp0_bid,saxigp0_bresp,saxigp0_bvalid,saxigp0_bready,saxigp0_arid,saxigp0_araddr,saxigp0_arlen,saxigp0_arsize,saxigp0_arburst,saxigp0_arlock,saxigp0_arcache,saxigp0_arprot,saxigp0_arvalid,saxigp0_arready,saxigp0_rid,saxigp0_rdata,saxigp0_rresp,saxigp0_rlast,saxigp0_rvalid,saxigp0_rready,saxigp0_awqos,saxigp0_arqos,emio_i2c1_scl_i,emio_i2c1_scl_o,emio_i2c1_scl_t,emio_i2c1_sda_i,emio_i2c1_sda_o,emio_i2c1_sda_t,dp_video_ref_clk,dp_live_video_in_vsync,dp_live_video_in_hsync,dp_live_video_in_de,dp_live_video_in_pixel1,dp_video_in_clk,dp_video_out_hsync,dp_video_out_vsync,dp_video_out_pixel1,dp_live_gfx_alpha_in,dp_live_gfx_pixel1_in,dp_external_custom_event1,dp_external_custom_event2,dp_external_vsync_event,dp_live_video_de_out,pl_ps_irq0,pl_resetn0,pl_clk0)
+module design_1_zynq_ultra_ps_e_0_0 (maxihpm0_fpd_aclk,maxigp0_awid,maxigp0_awaddr,maxigp0_awlen,maxigp0_awsize,maxigp0_awburst,maxigp0_awlock,maxigp0_awcache,maxigp0_awprot,maxigp0_awvalid,maxigp0_awuser,maxigp0_awready,maxigp0_wdata,maxigp0_wstrb,maxigp0_wlast,maxigp0_wvalid,maxigp0_wready,maxigp0_bid,maxigp0_bresp,maxigp0_bvalid,maxigp0_bready,maxigp0_arid,maxigp0_araddr,maxigp0_arlen,maxigp0_arsize,maxigp0_arburst,maxigp0_arlock,maxigp0_arcache,maxigp0_arprot,maxigp0_arvalid,maxigp0_aruser,maxigp0_arready,maxigp0_rid,maxigp0_rdata,maxigp0_rresp,maxigp0_rlast,maxigp0_rvalid,maxigp0_rready,maxigp0_awqos,maxigp0_arqos,maxihpm1_fpd_aclk,maxigp1_awid,maxigp1_awaddr,maxigp1_awlen,maxigp1_awsize,maxigp1_awburst,maxigp1_awlock,maxigp1_awcache,maxigp1_awprot,maxigp1_awvalid,maxigp1_awuser,maxigp1_awready,maxigp1_wdata,maxigp1_wstrb,maxigp1_wlast,maxigp1_wvalid,maxigp1_wready,maxigp1_bid,maxigp1_bresp,maxigp1_bvalid,maxigp1_bready,maxigp1_arid,maxigp1_araddr,maxigp1_arlen,maxigp1_arsize,maxigp1_arburst,maxigp1_arlock,maxigp1_arcache,maxigp1_arprot,maxigp1_arvalid,maxigp1_aruser,maxigp1_arready,maxigp1_rid,maxigp1_rdata,maxigp1_rresp,maxigp1_rlast,maxigp1_rvalid,maxigp1_rready,maxigp1_awqos,maxigp1_arqos,saxihpc0_fpd_aclk,saxigp0_aruser,saxigp0_awuser,saxigp0_awid,saxigp0_awaddr,saxigp0_awlen,saxigp0_awsize,saxigp0_awburst,saxigp0_awlock,saxigp0_awcache,saxigp0_awprot,saxigp0_awvalid,saxigp0_awready,saxigp0_wdata,saxigp0_wstrb,saxigp0_wlast,saxigp0_wvalid,saxigp0_wready,saxigp0_bid,saxigp0_bresp,saxigp0_bvalid,saxigp0_bready,saxigp0_arid,saxigp0_araddr,saxigp0_arlen,saxigp0_arsize,saxigp0_arburst,saxigp0_arlock,saxigp0_arcache,saxigp0_arprot,saxigp0_arvalid,saxigp0_arready,saxigp0_rid,saxigp0_rdata,saxigp0_rresp,saxigp0_rlast,saxigp0_rvalid,saxigp0_rready,saxigp0_awqos,saxigp0_arqos,dp_video_ref_clk,dp_live_video_in_vsync,dp_live_video_in_hsync,dp_live_video_in_de,dp_live_video_in_pixel1,dp_video_in_clk,dp_video_out_hsync,dp_video_out_vsync,dp_video_out_pixel1,dp_live_gfx_alpha_in,dp_live_gfx_pixel1_in,dp_external_custom_event1,dp_external_custom_event2,dp_external_vsync_event,dp_live_video_de_out,pl_ps_irq0,pl_resetn0,pl_clk0)
 (* integer foreign = "SystemC";
 *);
   input bit maxihpm0_fpd_aclk;
@@ -339,12 +333,6 @@ module design_1_zynq_ultra_ps_e_0_0 (maxihpm0_fpd_aclk,maxigp0_awid,maxigp0_awad
   input bit saxigp0_rready;
   input bit [3 : 0] saxigp0_awqos;
   input bit [3 : 0] saxigp0_arqos;
-  input bit emio_i2c1_scl_i;
-  output wire emio_i2c1_scl_o;
-  output wire emio_i2c1_scl_t;
-  input bit emio_i2c1_sda_i;
-  output wire emio_i2c1_sda_o;
-  output wire emio_i2c1_sda_t;
   output wire dp_video_ref_clk;
   input bit dp_live_video_in_vsync;
   input bit dp_live_video_in_hsync;

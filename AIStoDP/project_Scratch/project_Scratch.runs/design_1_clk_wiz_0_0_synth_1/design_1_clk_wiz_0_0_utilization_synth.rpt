@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date         : Sun Jun 16 23:47:53 2024
+| Date         : Mon Jun 17 19:57:38 2024
 | Host         : Tey running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_clk_wiz_0_0_utilization_synth.rpt -pb design_1_clk_wiz_0_0_utilization_synth.pb
 | Design       : design_1_clk_wiz_0_0
@@ -97,7 +97,7 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +------------+------+-------+------------+-----------+-------+
 |  Site Type | Used | Fixed | Prohibited | Available | Util% |
 +------------+------+-------+------------+-----------+-------+
-| Bonded IOB |    1 |     0 |          0 |       189 |  0.53 |
+| Bonded IOB |    0 |     0 |          0 |       189 |  0.00 |
 +------------+------+-------+------------+-----------+-------+
 
 
@@ -160,8 +160,6 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | BUFGCE     |    2 |               Clock |
 | MMCME4_ADV |    1 |               Clock |
 | LUT1       |    1 |                 CLB |
-| INBUF      |    1 |                 I/O |
-| IBUFCTRL   |    1 |              Others |
 | BUFGCE_DIV |    1 |               Clock |
 +------------+------+---------------------+
 

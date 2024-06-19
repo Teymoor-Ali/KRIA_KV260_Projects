@@ -178,12 +178,6 @@ saxigp0_rvalid,
 saxigp0_rready, 
 saxigp0_awqos, 
 saxigp0_arqos, 
-emio_i2c1_scl_i, 
-emio_i2c1_scl_o, 
-emio_i2c1_scl_t, 
-emio_i2c1_sda_i, 
-emio_i2c1_sda_o, 
-emio_i2c1_sda_t, 
 dp_video_ref_clk, 
 dp_live_video_in_vsync, 
 dp_live_video_in_hsync, 
@@ -323,12 +317,6 @@ output saxigp0_rvalid;
 input saxigp0_rready;
 input [3 : 0] saxigp0_awqos;
 input [3 : 0] saxigp0_arqos;
-input emio_i2c1_scl_i;
-output emio_i2c1_scl_o;
-output emio_i2c1_scl_t;
-input emio_i2c1_sda_i;
-output emio_i2c1_sda_o;
-output emio_i2c1_sda_t;
 output dp_video_ref_clk;
 input dp_live_video_in_vsync;
 input dp_live_video_in_hsync;

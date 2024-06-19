@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_981_2'
 ================================================================
-* Date:           Sun Jun 16 23:48:12 2024
+* Date:           Mon Jun 17 21:37:58 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -184,7 +184,7 @@ The critical path consists of the following:
  <State 3>: 2.968ns
 The critical path consists of the following:
 	fifo read operation ('ovrlayYUV_read', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1008->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:399) on port 'ovrlayYUV' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1008->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:399) [56]  (2.044 ns)
-	'sparsemux' operation 10 bit ('tmp', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1008->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:399) [67]  (0.427 ns)
+	'sparsemux' operation 11 bit ('axi.data', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1029->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:399) [65]  (0.427 ns)
 	axis write operation ('write_ln1035', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1035->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:399) on port 'm_axis_video_V_data_V' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:1035->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:399) [72]  (0.497 ns)
 
  <State 4>: 0.000ns

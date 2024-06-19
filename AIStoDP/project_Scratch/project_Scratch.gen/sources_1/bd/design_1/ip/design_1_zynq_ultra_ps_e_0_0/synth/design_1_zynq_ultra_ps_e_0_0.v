@@ -177,12 +177,6 @@ module design_1_zynq_ultra_ps_e_0_0 (
   saxigp0_rready,
   saxigp0_awqos,
   saxigp0_arqos,
-  emio_i2c1_scl_i,
-  emio_i2c1_scl_o,
-  emio_i2c1_scl_t,
-  emio_i2c1_sda_i,
-  emio_i2c1_sda_o,
-  emio_i2c1_sda_t,
   dp_video_ref_clk,
   dp_live_video_in_vsync,
   dp_live_video_in_hsync,
@@ -452,18 +446,6 @@ input wire [3 : 0] saxigp0_awqos;
 UM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:interface:aximm:1.0 S_AXI_HPC0_FPD ARQOS" *)
 input wire [3 : 0] saxigp0_arqos;
-(* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1 SCL_I" *)
-input wire emio_i2c1_scl_i;
-(* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1 SCL_O" *)
-output wire emio_i2c1_scl_o;
-(* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1 SCL_T" *)
-output wire emio_i2c1_scl_t;
-(* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1 SDA_I" *)
-input wire emio_i2c1_sda_i;
-(* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1 SDA_O" *)
-output wire emio_i2c1_sda_o;
-(* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1 SDA_T" *)
-output wire emio_i2c1_sda_t;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DP_VID_REF_CLK, FREQ_HZ 300000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_dp_video_ref_clk, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 DP_VID_REF_CLK CLK" *)
 output wire dp_video_ref_clk;
@@ -1311,12 +1293,12 @@ output wire pl_clk0;
     .emio_i2c0_sda_i(1'B0),
     .emio_i2c0_sda_o(),
     .emio_i2c0_sda_t(),
-    .emio_i2c1_scl_i(emio_i2c1_scl_i),
-    .emio_i2c1_scl_o(emio_i2c1_scl_o),
-    .emio_i2c1_scl_t(emio_i2c1_scl_t),
-    .emio_i2c1_sda_i(emio_i2c1_sda_i),
-    .emio_i2c1_sda_o(emio_i2c1_sda_o),
-    .emio_i2c1_sda_t(emio_i2c1_sda_t),
+    .emio_i2c1_scl_i(1'B0),
+    .emio_i2c1_scl_o(),
+    .emio_i2c1_scl_t(),
+    .emio_i2c1_sda_i(1'B0),
+    .emio_i2c1_sda_o(),
+    .emio_i2c1_sda_t(),
     .emio_uart0_txd(),
     .emio_uart0_rxd(1'B0),
     .emio_uart0_ctsn(1'B0),

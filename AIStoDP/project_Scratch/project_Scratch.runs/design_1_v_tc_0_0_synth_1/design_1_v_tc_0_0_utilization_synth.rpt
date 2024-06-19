@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-| Date         : Sun Jun 16 23:48:09 2024
+| Date         : Mon Jun 17 19:26:07 2024
 | Host         : Tey running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_v_tc_0_0_utilization_synth.rpt -pb design_1_v_tc_0_0_utilization_synth.pb
 | Design       : design_1_v_tc_0_0
@@ -64,8 +64,8 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 243   |          Yes |         Set |            - |
-| 3000  |          Yes |       Reset |            - |
+| 259   |          Yes |         Set |            - |
+| 2984  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -159,10 +159,10 @@ Warning! For any ECO changes, please run place_design if there are unplaced inst
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     | 3000 |            Register |
+| FDRE     | 2984 |            Register |
 | LUT3     |  583 |                 CLB |
 | LUT6     |  420 |                 CLB |
-| FDSE     |  243 |            Register |
+| FDSE     |  259 |            Register |
 | MUXF7    |  160 |                 CLB |
 | LUT5     |  139 |                 CLB |
 | LUT4     |  112 |                 CLB |

@@ -33,40 +33,40 @@
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
                 <row id="0" col0="v_tpg" col1="v_tpg.cpp:409" col2="8509" col3="1562" col4="1563" col5="1124" col6="1133">
-                    <row id="13" col0="reg&lt;unsigned short&gt;" col1="x_hls_utils.h:222" col2="1" col3="1" col4="1" col5="1" col6="4"/>
-                    <row id="7" col0="v_tpgHlsDataFlow" col1="v_tpg.cpp:304" col2="8423" col3="1481" col4="1468" col5="1017" col6="965">
-                        <row id="1" col0="AXIvideo2MultiPixStream" col1="v_tpg.cpp:821" col2="620" col3="213" col4="219" col5="150" col6="135">
-                            <row id="2" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
-                            <row id="13" col0="reg&lt;unsigned short&gt;" col1="x_hls_utils.h:222" col2="2" col2_disp="   2 (2 calls)" col3="2" col3_disp="   2 (2 calls)" col4="2" col4_disp="   2 (2 calls)" col5="2" col5_disp="   2 (2 calls)" col6="8" col6_disp="   8 (2 calls)"/>
-                            <row id="15" col0="AXIGetBitFields&lt;30, ap_uint&lt;10&gt; &gt;" col1="hls_axi_io.h:83" col2="222" col2_disp=" 222 (3 calls)" col3="" col4="" col5="" col6="">
-                                <row id="5" col0="AXIGetBitFields&lt;30, ap_uint&lt;10&gt; &gt;" col1="hls_axi_io.h:60" col2="204" col2_disp=" 204 (3 calls)" col3="" col4="" col5="" col6=""/>
+                    <row id="4" col0="reg&lt;unsigned short&gt;" col1="x_hls_utils.h:222" col2="1" col3="1" col4="1" col5="1" col6="4"/>
+                    <row id="13" col0="v_tpgHlsDataFlow" col1="v_tpg.cpp:304" col2="8423" col3="1481" col4="1468" col5="1017" col6="965">
+                        <row id="12" col0="AXIvideo2MultiPixStream" col1="v_tpg.cpp:821" col2="620" col3="213" col4="219" col5="150" col6="135">
+                            <row id="7" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
+                            <row id="4" col0="reg&lt;unsigned short&gt;" col1="x_hls_utils.h:222" col2="2" col2_disp="   2 (2 calls)" col3="2" col3_disp="   2 (2 calls)" col4="2" col4_disp="   2 (2 calls)" col5="2" col5_disp="   2 (2 calls)" col6="8" col6_disp="   8 (2 calls)"/>
+                            <row id="5" col0="AXIGetBitFields&lt;30, ap_uint&lt;10&gt; &gt;" col1="hls_axi_io.h:83" col2="222" col2_disp=" 222 (3 calls)" col3="" col4="" col5="" col6="">
+                                <row id="11" col0="AXIGetBitFields&lt;30, ap_uint&lt;10&gt; &gt;" col1="hls_axi_io.h:60" col2="204" col2_disp=" 204 (3 calls)" col3="" col4="" col5="" col6=""/>
                             </row>
                         </row>
-                        <row id="3" col0="tpgBackground" col1="v_tpg.cpp:536" col2="6854" col3="1104" col4="1058" col5="704" col6="697">
-                            <row id="2" col0="Scalar" col1="hls_video_core.h:196" col2="10" col2_disp="  10 (2 calls)" col3="" col4="" col5="" col6=""/>
-                            <row id="8" col0="tpgPatternSolidBlack" col1="v_tpg.cpp:1193" col2="1932" col2_disp="1,932 (14 calls)" col3="294" col3_disp=" 294 (14 calls)" col4="252" col4_disp=" 252 (14 calls)" col5="" col6="">
-                                <row id="2" col0="Scalar" col1="hls_video_core.h:196" col2="70" col2_disp="  70 (14 calls)" col3="" col4="" col5="" col6=""/>
+                        <row id="2" col0="tpgBackground" col1="v_tpg.cpp:536" col2="6854" col3="1104" col4="1058" col5="704" col6="697">
+                            <row id="7" col0="Scalar" col1="hls_video_core.h:196" col2="10" col2_disp="  10 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="14" col0="tpgPatternSolidBlack" col1="v_tpg.cpp:1193" col2="1932" col2_disp="1,932 (14 calls)" col3="294" col3_disp=" 294 (14 calls)" col4="252" col4_disp=" 252 (14 calls)" col5="" col6="">
+                                <row id="7" col0="Scalar" col1="hls_video_core.h:196" col2="70" col2_disp="  70 (14 calls)" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="11" col0="tpgPatternColorBars" col1="v_tpg.cpp:1235" col2="754" col3="" col4="" col5="" col6="">
-                                <row id="2" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
+                            <row id="9" col0="tpgPatternColorBars" col1="v_tpg.cpp:1235" col2="754" col3="" col4="" col5="" col6="">
+                                <row id="7" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="14" col0="tpgPatternTartanColorBars" col1="v_tpg.cpp:1369" col2="638" col3="" col4="" col5="" col6="">
-                                <row id="2" col0="Scalar" col1="hls_video_core.h:196" col2="10" col2_disp="  10 (2 calls)" col3="" col4="" col5="" col6=""/>
+                            <row id="8" col0="tpgPatternTartanColorBars" col1="v_tpg.cpp:1369" col2="638" col3="" col4="" col5="" col6="">
+                                <row id="7" col0="Scalar" col1="hls_video_core.h:196" col2="10" col2_disp="  10 (2 calls)" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="4" col0="tpgPatternCrossHatch" col1="v_tpg.cpp:1437" col2="781" col3="" col4="" col5="" col6="">
-                                <row id="2" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
-                                <row id="6" col0="reg&lt;ap_uint&lt;10&gt; &gt;" col1="x_hls_utils.h:222" col2="3" col3="" col4="" col5="" col6=""/>
+                            <row id="6" col0="tpgPatternCrossHatch" col1="v_tpg.cpp:1437" col2="781" col3="" col4="" col5="" col6="">
+                                <row id="7" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
+                                <row id="1" col0="reg&lt;ap_uint&lt;10&gt; &gt;" col1="x_hls_utils.h:222" col2="3" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="9" col0="tpgPatternCheckerBoard" col1="v_tpg.cpp:1551" col2="648" col3="" col4="" col5="" col6="">
-                                <row id="2" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
+                            <row id="10" col0="tpgPatternCheckerBoard" col1="v_tpg.cpp:1551" col2="648" col3="" col4="" col5="" col6="">
+                                <row id="7" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="10" col0="tpgPRBS" col1="v_tpg.cpp:1823" col2="1767" col3="" col4="" col5="" col6="">
-                                <row id="2" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
+                            <row id="15" col0="tpgPRBS" col1="v_tpg.cpp:1823" col2="1767" col3="" col4="" col5="" col6="">
+                                <row id="7" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
                             </row>
-                            <row id="6" col0="reg&lt;ap_uint&lt;10&gt; &gt;" col1="x_hls_utils.h:222" col2="" col3="2" col4="2" col5="2" col6="5"/>
+                            <row id="1" col0="reg&lt;ap_uint&lt;10&gt; &gt;" col1="x_hls_utils.h:222" col2="" col3="2" col4="2" col5="2" col6="5"/>
                         </row>
-                        <row id="12" col0="MultiPixStream2AXIvideo" col1="v_tpg.cpp:919" col2="845" col3="134" col4="181" col5="153" col6="121">
-                            <row id="2" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
+                        <row id="3" col0="MultiPixStream2AXIvideo" col1="v_tpg.cpp:919" col2="845" col3="134" col4="181" col5="153" col6="121">
+                            <row id="7" col0="Scalar" col1="hls_video_core.h:196" col2="5" col3="" col4="" col5="" col6=""/>
                         </row>
                     </row>
                 </row>

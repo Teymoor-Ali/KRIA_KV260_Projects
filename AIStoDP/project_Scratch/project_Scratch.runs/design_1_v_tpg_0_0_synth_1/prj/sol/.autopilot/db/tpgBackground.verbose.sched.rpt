@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'tpgBackground'
 ================================================================
-* Date:           Sun Jun 16 23:48:11 2024
+* Date:           Mon Jun 17 21:37:58 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -208,7 +208,7 @@ The critical path consists of the following:
  <State 2>: 1.280ns
 The critical path consists of the following:
 	'load' operation 16 bit ('y') on local variable 'y', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:549 [126]  (0.000 ns)
-	'add' operation 16 bit ('add_ln563', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:563) [128]  (0.853 ns)
+	'icmp' operation 1 bit ('icmp_ln563', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:563) [127]  (0.853 ns)
 	'store' operation 0 bit ('store_ln549', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:549) of variable 'add_ln563', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:563 on local variable 'y', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/prj/sol/.autopilot/db/v_tpg.cpp:549 [143]  (0.427 ns)
 
  <State 3>: 2.365ns

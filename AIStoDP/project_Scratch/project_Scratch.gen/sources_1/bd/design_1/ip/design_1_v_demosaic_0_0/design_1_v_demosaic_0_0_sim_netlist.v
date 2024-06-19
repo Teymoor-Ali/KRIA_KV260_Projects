@@ -2,10 +2,10 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Sun Jun 16 23:50:02 2024
+// Date        : Sun Jun 16 23:50:01 2024
 // Host        : Tey running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/design_1_v_demosaic_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top design_1_v_demosaic_0_0 -prefix
+//               design_1_v_demosaic_0_0_ design_1_v_demosaic_0_0_sim_netlist.v
 // Design      : design_1_v_demosaic_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -176,7 +176,7 @@ module design_1_v_demosaic_0_0
   (* C_S_AXI_CTRL_WSTRB_WIDTH = "4" *) 
   (* C_S_AXI_DATA_WIDTH = "32" *) 
   (* C_S_AXI_WSTRB_WIDTH = "4" *) 
-  design_1_v_demosaic_0_0_v_demosaic inst
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic inst
        (.ap_clk(ap_clk),
         .ap_rst_n(ap_rst_n),
         .interrupt(interrupt),
@@ -217,7 +217,7 @@ module design_1_v_demosaic_0_0
         .s_axis_video_TVALID(s_axis_video_TVALID));
 endmodule
 
-module design_1_v_demosaic_0_0_AXIvideo2MultiBayer
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer
    (ack_in_t_reg,
     E,
     push,
@@ -701,7 +701,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer
         .D(grp_reg_unsigned_short_s_fu_225_n_6),
         .Q(cols_reg_345[9]),
         .R(1'b0));
-  design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184
        (.D(ap_NS_fsm__0[9:8]),
         .E(grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184_n_6),
         .Q({ap_CS_fsm_state9,ap_CS_fsm_state8,ap_CS_fsm_state3}),
@@ -727,7 +727,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer
         .D(grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184_n_10),
         .Q(grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184_ap_start_reg),
         .R(ap_rst_n_inv));
-  design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136
        (.D({ap_NS_fsm__0[3],ap_NS_fsm}),
         .E(grp_reg_unsigned_short_s_fu_220_ap_ce),
         .Q(s_axis_video_TVALID_int_regslice),
@@ -752,7 +752,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer
         .D(grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_n_10),
         .Q(grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_ap_start_reg),
         .R(ap_rst_n_inv));
-  design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156
        (.D({grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_n_10,ap_NS_fsm__0[5]}),
         .E(E),
         .Q({ap_CS_fsm_state9,ap_CS_fsm_state8,ap_CS_fsm_state6,ap_CS_fsm_state5}),
@@ -791,12 +791,12 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer
         .D(grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_n_12),
         .Q(grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_ap_start_reg),
         .R(ap_rst_n_inv));
-  design_1_v_demosaic_0_0_reg_unsigned_short_s grp_reg_unsigned_short_s_fu_220
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s grp_reg_unsigned_short_s_fu_220
        (.E(grp_reg_unsigned_short_s_fu_220_ap_ce),
         .Q(d_read_reg_22),
         .ap_clk(ap_clk),
         .\d_read_reg_22_reg[10]_0 (trunc_ln145_reg_330));
-  design_1_v_demosaic_0_0_reg_unsigned_short_s_21 grp_reg_unsigned_short_s_fu_225
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s_21 grp_reg_unsigned_short_s_fu_225
        (.E(grp_reg_unsigned_short_s_fu_220_ap_ce),
         .Q({grp_reg_unsigned_short_s_fu_225_n_5,grp_reg_unsigned_short_s_fu_225_n_6,grp_reg_unsigned_short_s_fu_225_n_7,grp_reg_unsigned_short_s_fu_225_n_8,grp_reg_unsigned_short_s_fu_225_n_9,grp_reg_unsigned_short_s_fu_225_n_10,grp_reg_unsigned_short_s_fu_225_n_11,grp_reg_unsigned_short_s_fu_225_n_12,grp_reg_unsigned_short_s_fu_225_n_13,grp_reg_unsigned_short_s_fu_225_n_14,grp_reg_unsigned_short_s_fu_225_n_15}),
         .ap_clk(ap_clk),
@@ -1010,7 +1010,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer
         .I4(ap_start),
         .I5(ap_done_reg),
         .O(ap_sync_ready));
-  design_1_v_demosaic_0_0_regslice_both regslice_both_s_axis_video_V_data_V_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both regslice_both_s_axis_video_V_data_V_U
        (.Q(s_axis_video_TVALID_int_regslice),
         .ack_in_t_reg_0(ack_in_t_reg),
         .ack_in_t_reg_1(grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_n_8),
@@ -1019,14 +1019,14 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer
         .\data_p1_reg[9]_0 ({regslice_both_s_axis_video_V_data_V_U_n_7,regslice_both_s_axis_video_V_data_V_U_n_8,regslice_both_s_axis_video_V_data_V_U_n_9,regslice_both_s_axis_video_V_data_V_U_n_10,regslice_both_s_axis_video_V_data_V_U_n_11,regslice_both_s_axis_video_V_data_V_U_n_12,regslice_both_s_axis_video_V_data_V_U_n_13,regslice_both_s_axis_video_V_data_V_U_n_14,regslice_both_s_axis_video_V_data_V_U_n_15,regslice_both_s_axis_video_V_data_V_U_n_16}),
         .s_axis_video_TDATA(s_axis_video_TDATA),
         .s_axis_video_TVALID(s_axis_video_TVALID));
-  design_1_v_demosaic_0_0_regslice_both__parameterized1_22 regslice_both_s_axis_video_V_last_V_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_22 regslice_both_s_axis_video_V_last_V_U
        (.ap_clk(ap_clk),
         .ap_rst_n_inv(ap_rst_n_inv),
         .\data_p1_reg[0]_0 (grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_n_8),
         .s_axis_video_TLAST(s_axis_video_TLAST),
         .s_axis_video_TLAST_int_regslice(s_axis_video_TLAST_int_regslice),
         .s_axis_video_TVALID(s_axis_video_TVALID));
-  design_1_v_demosaic_0_0_regslice_both__parameterized1_23 regslice_both_s_axis_video_V_user_V_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_23 regslice_both_s_axis_video_V_user_V_U
        (.ap_clk(ap_clk),
         .ap_rst_n_inv(ap_rst_n_inv),
         .\data_p1_reg[0]_0 (regslice_both_s_axis_video_V_user_V_U_n_5),
@@ -1259,7 +1259,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer
         .R(1'b0));
 endmodule
 
-module design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol
    (ap_loop_init_int,
     E,
     grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184_s_axis_video_TREADY,
@@ -1321,7 +1321,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol
         .D(flow_control_loop_pipe_sequential_init_U_n_11),
         .Q(eol_1_reg_110),
         .R(1'b0));
-  design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26 flow_control_loop_pipe_sequential_init_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26 flow_control_loop_pipe_sequential_init_U
        (.D(D),
         .E(E),
         .Q(Q),
@@ -1343,7 +1343,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol
         .select_ln188_reg_380(select_ln188_reg_380));
 endmodule
 
-module design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start
    (grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_s_axis_video_TREADY,
     \ap_CS_fsm_reg[2] ,
     D,
@@ -1413,7 +1413,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start
         .D(s_axis_video_TLAST_int_regslice),
         .Q(grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_axi_last_out),
         .R(1'b0));
-  design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25 flow_control_loop_pipe_sequential_init_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25 flow_control_loop_pipe_sequential_init_U
        (.D(D),
         .E(E),
         .Q(Q),
@@ -1434,7 +1434,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start
         .R(1'b0));
 endmodule
 
-module design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width
    (grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_eol_out,
     E,
     push,
@@ -1752,7 +1752,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width
         .D(flow_control_loop_pipe_sequential_init_U_n_5),
         .Q(grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_eol_out),
         .R(1'b0));
-  design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24 flow_control_loop_pipe_sequential_init_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24 flow_control_loop_pipe_sequential_init_U
        (.D(p_0_in),
         .E(E),
         .Q({Q[3],Q[1:0]}),
@@ -1894,7 +1894,7 @@ module design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width
         .O(\eol_reg_155_reg[0]_0 ));
 endmodule
 
-module design_1_v_demosaic_0_0_Block_entry_split_proc
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Block_entry_split_proc
    (ap_done_reg,
     ap_return_preg,
     ap_done_reg_reg_0,
@@ -2056,7 +2056,7 @@ module design_1_v_demosaic_0_0_Block_entry_split_proc
         .R(ap_rst_n_inv));
 endmodule
 
-module design_1_v_demosaic_0_0_CTRL_s_axi
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_CTRL_s_axi
    (interrupt,
     S,
     Q,
@@ -4727,7 +4727,7 @@ module design_1_v_demosaic_0_0_CTRL_s_axi
         .R(1'b0));
 endmodule
 
-module design_1_v_demosaic_0_0_Debayer
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Debayer
    (DOUTBDOUT,
     ap_rst_n_inv,
     Q,
@@ -5106,7 +5106,7 @@ module design_1_v_demosaic_0_0_Debayer
   wire [0:0]\y_fu_74_reg[15] ;
   wire [15:0]\zext_ln274_reg_531_reg[15] ;
 
-  design_1_v_demosaic_0_0_DebayerG DebayerG_U0
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG DebayerG_U0
        (.CO(\y_fu_74_reg[15] ),
         .D(D),
         .DOUTBDOUT(DOUTBDOUT),
@@ -5172,7 +5172,7 @@ module design_1_v_demosaic_0_0_Debayer
         .start_once_reg_reg_0(start_once_reg_reg_0),
         .\y_fu_74_reg[16]_0 (start_for_DebayerRatBorBatR_U0_U_n_8),
         .\zext_ln274_reg_531_reg[15]_0 (\zext_ln274_reg_531_reg[15] ));
-  design_1_v_demosaic_0_0_DebayerRandBatG DebayerRandBatG_U0
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG DebayerRandBatG_U0
        (.D({\loopHeight_reg_377_reg[10] ,\loopHeight_reg_441_reg[10] [1:0]}),
         .DebayerRandBatG_U0_ap_start(DebayerRandBatG_U0_ap_start),
         .DebayerRatBorBatR_U0_ap_start(DebayerRatBorBatR_U0_ap_start),
@@ -5250,7 +5250,7 @@ module design_1_v_demosaic_0_0_Debayer
         .\trunc_ln870_1_i_reg_392_reg[14]_0 (p_0_in),
         .\x_phase_reg_387_reg[0]_0 (bayerPhase_c_U_n_7),
         .\y_fu_64_reg[10]_0 (\y_fu_64_reg[10] ));
-  design_1_v_demosaic_0_0_DebayerRatBorBatR DebayerRatBorBatR_U0
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR DebayerRatBorBatR_U0
        (.CO(CO),
         .D(bayerPhase_c1_dout),
         .DI(DI),
@@ -5322,7 +5322,7 @@ module design_1_v_demosaic_0_0_Debayer
         .start_once_reg(start_once_reg),
         .start_once_reg_0(start_once_reg_8),
         .\y_fu_68_reg[10]_0 (\y_fu_68_reg[10] ));
-  design_1_v_demosaic_0_0_fifo_w16_d2_S bayerPhase_c1_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S bayerPhase_c1_U
        (.D(D),
         .DebayerRatBorBatR_U0_bayerPhase_c_write(DebayerRatBorBatR_U0_bayerPhase_c_write),
         .\SRL_SIG_reg[0][15] (DebayerG_U0_n_16),
@@ -5331,7 +5331,7 @@ module design_1_v_demosaic_0_0_Debayer
         .ap_clk(ap_clk),
         .bayerPhase_c1_empty_n(bayerPhase_c1_empty_n),
         .bayerPhase_c1_full_n(bayerPhase_c1_full_n));
-  design_1_v_demosaic_0_0_fifo_w16_d2_S_4 bayerPhase_c_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_4 bayerPhase_c_U
        (.D(bayerPhase_c1_dout),
         .DebayerRandBatG_U0_ap_start(DebayerRandBatG_U0_ap_start),
         .DebayerRatBorBatR_U0_bayerPhase_c_write(DebayerRatBorBatR_U0_bayerPhase_c_write),
@@ -5344,7 +5344,7 @@ module design_1_v_demosaic_0_0_Debayer
         .\mOutPtr_reg[1]_0 (DebayerRandBatG_U0_n_40),
         .\mOutPtr_reg[2]_0 (DebayerRandBatG_U0_n_5),
         .push(push_3));
-  design_1_v_demosaic_0_0_fifo_w30_d2_S imgG_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S imgG_U
        (.D(DebayerG_U0_imgG_din),
         .E(DebayerRatBorBatR_U0_n_86),
         .Q(\SRL_SIG_reg[1]_1 ),
@@ -5410,7 +5410,7 @@ module design_1_v_demosaic_0_0_Debayer
         .p_9_in(p_9_in_7),
         .push(push_0),
         .q1(\grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/lineBuffer_q1 ));
-  design_1_v_demosaic_0_0_fifo_w30_d2_S_5 imgRB_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_5 imgRB_U
        (.D(DebayerRatBorBatR_U0_imgRB_din),
         .E(DebayerRandBatG_U0_n_38),
         .Q({imgRB_U_n_8,imgRB_U_n_9,imgRB_U_n_10,imgRB_U_n_11,imgRB_U_n_12,imgRB_U_n_13,imgRB_U_n_14,imgRB_U_n_15,imgRB_U_n_16,imgRB_U_n_17,imgRB_U_n_18,imgRB_U_n_19,imgRB_U_n_20,imgRB_U_n_21,imgRB_U_n_22,imgRB_U_n_23,imgRB_U_n_24,imgRB_U_n_25,imgRB_U_n_26,imgRB_U_n_27,imgRB_U_n_28,imgRB_U_n_29,imgRB_U_n_30,imgRB_U_n_31,imgRB_U_n_32,imgRB_U_n_33,imgRB_U_n_34,imgRB_U_n_35,imgRB_U_n_36,imgRB_U_n_37}),
@@ -5458,7 +5458,7 @@ module design_1_v_demosaic_0_0_Debayer
         .p_6_in(p_6_in_1),
         .p_9_in(p_9_in_2),
         .q1(\grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134/lineBuffer_q1 ));
-  design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0 start_for_DebayerRandBatG_U0_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0 start_for_DebayerRandBatG_U0_U
        (.DebayerRandBatG_U0_ap_start(DebayerRandBatG_U0_ap_start),
         .E(DebayerRandBatG_U0_n_43),
         .ap_clk(ap_clk),
@@ -5466,7 +5466,7 @@ module design_1_v_demosaic_0_0_Debayer
         .p_6_in(p_6_in),
         .p_9_in(p_9_in),
         .start_for_DebayerRandBatG_U0_full_n(start_for_DebayerRandBatG_U0_full_n));
-  design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0 start_for_DebayerRatBorBatR_U0_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0 start_for_DebayerRatBorBatR_U0_U
        (.DebayerRandBatG_U0_ap_start(DebayerRandBatG_U0_ap_start),
         .DebayerRatBorBatR_U0_ap_start(DebayerRatBorBatR_U0_ap_start),
         .Debayer_U0_ap_idle(Debayer_U0_ap_idle),
@@ -5495,7 +5495,7 @@ module design_1_v_demosaic_0_0_Debayer
         .R(ap_rst_n_inv));
 endmodule
 
-module design_1_v_demosaic_0_0_DebayerG
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG
    (DOUTBDOUT,
     ap_rst_n_0,
     \ap_CS_fsm_reg[0]_0 ,
@@ -6255,7 +6255,7 @@ module design_1_v_demosaic_0_0_DebayerG
         .D(cmp84_fu_357_p2),
         .Q(\cmp84_reg_666_reg[0]_0 ),
         .R(1'b0));
-  design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184
        (.D(grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_p_out),
         .DOUTBDOUT(DOUTBDOUT),
         .E(p_lcssa51965203_fu_1420),
@@ -9777,7 +9777,7 @@ module design_1_v_demosaic_0_0_DebayerG
         .R(1'b0));
 endmodule
 
-module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
    (DOUTBDOUT,
     ap_rst_n_0,
     ap_done_cache,
@@ -12892,7 +12892,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
   wire [7:4]\NLW_var_quant_reg_4153_reg[9]_i_95_CO_UNCONNECTED ;
   wire [7:5]\NLW_var_quant_reg_4153_reg[9]_i_95_O_UNCONNECTED ;
 
-  design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R DIV1_TABLE_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R DIV1_TABLE_U
        (.A({DIV1_TABLE_U_n_39,DIV1_TABLE_U_n_40,DIV1_TABLE_U_n_41,DIV1_TABLE_U_n_42,DIV1_TABLE_U_n_43,DIV1_TABLE_U_n_44,DIV1_TABLE_U_n_45,DIV1_TABLE_U_n_46,DIV1_TABLE_U_n_47,DIV1_TABLE_U_n_48,p_0_out}),
         .B(zext_ln494_fu_3133_p1),
         .CEP(ap_block_pp0_stage0_subdone),
@@ -18627,7 +18627,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .D(linebuf_yuv_3_U_n_45),
         .Q(zext_ln451_fu_1452_p1[10]),
         .R(1'b0));
-  design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13 flow_control_loop_pipe_sequential_init_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13 flow_control_loop_pipe_sequential_init_U
        (.ADDRBWRADDR({flow_control_loop_pipe_sequential_init_U_n_166,flow_control_loop_pipe_sequential_init_U_n_167,flow_control_loop_pipe_sequential_init_U_n_168,flow_control_loop_pipe_sequential_init_U_n_169,flow_control_loop_pipe_sequential_init_U_n_170,flow_control_loop_pipe_sequential_init_U_n_171,flow_control_loop_pipe_sequential_init_U_n_172,flow_control_loop_pipe_sequential_init_U_n_173,flow_control_loop_pipe_sequential_init_U_n_174,flow_control_loop_pipe_sequential_init_U_n_175,flow_control_loop_pipe_sequential_init_U_n_176}),
         .CEP(ap_block_pp0_stage0_subdone),
         .CO(icmp_ln318_fu_958_p2),
@@ -19237,7 +19237,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .D(\icmp_ln439_reg_3865_pp0_iter8_reg_reg[0]_srl9_n_5 ),
         .Q(icmp_ln439_reg_3865_pp0_iter9_reg),
         .R(1'b0));
-  design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W linebuf_yuv_1_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W linebuf_yuv_1_U
        (.D({flow_control_loop_pipe_sequential_init_U_n_166,flow_control_loop_pipe_sequential_init_U_n_167,flow_control_loop_pipe_sequential_init_U_n_168,flow_control_loop_pipe_sequential_init_U_n_169,flow_control_loop_pipe_sequential_init_U_n_170,flow_control_loop_pipe_sequential_init_U_n_171,flow_control_loop_pipe_sequential_init_U_n_172,flow_control_loop_pipe_sequential_init_U_n_173,flow_control_loop_pipe_sequential_init_U_n_174,flow_control_loop_pipe_sequential_init_U_n_175,flow_control_loop_pipe_sequential_init_U_n_176}),
         .DINADIN(PixBufVal_fu_1265_p3),
         .Q(linebuf_yuv_addr_reg_3817),
@@ -19334,7 +19334,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .D(flow_control_loop_pipe_sequential_init_U_n_167),
         .Q(linebuf_yuv_addr_reg_3817[9]),
         .R(1'b0));
-  design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14 linebuf_yuv_2_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14 linebuf_yuv_2_U
        (.ADDRBWRADDR({flow_control_loop_pipe_sequential_init_U_n_166,flow_control_loop_pipe_sequential_init_U_n_167,flow_control_loop_pipe_sequential_init_U_n_168,flow_control_loop_pipe_sequential_init_U_n_169,flow_control_loop_pipe_sequential_init_U_n_170,flow_control_loop_pipe_sequential_init_U_n_171,flow_control_loop_pipe_sequential_init_U_n_172,flow_control_loop_pipe_sequential_init_U_n_173,flow_control_loop_pipe_sequential_init_U_n_174,flow_control_loop_pipe_sequential_init_U_n_175,flow_control_loop_pipe_sequential_init_U_n_176}),
         .D({linebuf_yuv_2_U_n_15,linebuf_yuv_2_U_n_16,linebuf_yuv_2_U_n_17,linebuf_yuv_2_U_n_18,linebuf_yuv_2_U_n_19,linebuf_yuv_2_U_n_20,linebuf_yuv_2_U_n_21,linebuf_yuv_2_U_n_22,linebuf_yuv_2_U_n_23,linebuf_yuv_2_U_n_24}),
         .DINADIN(select_ln403_2_fu_1281_p3),
@@ -19358,7 +19358,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .ram_reg_bram_0_2(select_ln403_1_fu_1273_p3),
         .ram_reg_bram_0_3(\icmp_ln318_reg_3809_pp0_iter8_reg_reg[0]__0_1 ),
         .ram_reg_bram_0_4(DOUTBDOUT));
-  design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15 linebuf_yuv_3_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15 linebuf_yuv_3_U
        (.ADDRBWRADDR({flow_control_loop_pipe_sequential_init_U_n_166,flow_control_loop_pipe_sequential_init_U_n_167,flow_control_loop_pipe_sequential_init_U_n_168,flow_control_loop_pipe_sequential_init_U_n_169,flow_control_loop_pipe_sequential_init_U_n_170,flow_control_loop_pipe_sequential_init_U_n_171,flow_control_loop_pipe_sequential_init_U_n_172,flow_control_loop_pipe_sequential_init_U_n_173,flow_control_loop_pipe_sequential_init_U_n_174,flow_control_loop_pipe_sequential_init_U_n_175,flow_control_loop_pipe_sequential_init_U_n_176}),
         .D({linebuf_yuv_3_U_n_15,linebuf_yuv_3_U_n_16,linebuf_yuv_3_U_n_17,linebuf_yuv_3_U_n_18,linebuf_yuv_3_U_n_19,linebuf_yuv_3_U_n_20,linebuf_yuv_3_U_n_21,linebuf_yuv_3_U_n_22,linebuf_yuv_3_U_n_23,linebuf_yuv_3_U_n_24}),
         .DINADIN(select_ln403_2_fu_1281_p3),
@@ -19381,7 +19381,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .ram_reg_bram_0_2({linebuf_yuv_3_U_n_35,linebuf_yuv_3_U_n_36,linebuf_yuv_3_U_n_37,linebuf_yuv_3_U_n_38,linebuf_yuv_3_U_n_39,linebuf_yuv_3_U_n_40,linebuf_yuv_3_U_n_41,linebuf_yuv_3_U_n_42,linebuf_yuv_3_U_n_43,linebuf_yuv_3_U_n_44}),
         .ram_reg_bram_0_3({linebuf_yuv_3_U_n_45,linebuf_yuv_3_U_n_46,linebuf_yuv_3_U_n_47,linebuf_yuv_3_U_n_48,linebuf_yuv_3_U_n_49,linebuf_yuv_3_U_n_50,linebuf_yuv_3_U_n_51,linebuf_yuv_3_U_n_52,linebuf_yuv_3_U_n_53,linebuf_yuv_3_U_n_54}),
         .ram_reg_bram_0_4({linebuf_yuv_3_U_n_55,linebuf_yuv_3_U_n_56,linebuf_yuv_3_U_n_57,linebuf_yuv_3_U_n_58,linebuf_yuv_3_U_n_59,linebuf_yuv_3_U_n_60,linebuf_yuv_3_U_n_61,linebuf_yuv_3_U_n_62,linebuf_yuv_3_U_n_63,linebuf_yuv_3_U_n_64}));
-  design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16 linebuf_yuv_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16 linebuf_yuv_U
        (.ADDRBWRADDR({flow_control_loop_pipe_sequential_init_U_n_166,flow_control_loop_pipe_sequential_init_U_n_167,flow_control_loop_pipe_sequential_init_U_n_168,flow_control_loop_pipe_sequential_init_U_n_169,flow_control_loop_pipe_sequential_init_U_n_170,flow_control_loop_pipe_sequential_init_U_n_171,flow_control_loop_pipe_sequential_init_U_n_172,flow_control_loop_pipe_sequential_init_U_n_173,flow_control_loop_pipe_sequential_init_U_n_174,flow_control_loop_pipe_sequential_init_U_n_175,flow_control_loop_pipe_sequential_init_U_n_176}),
         .CEP(ap_block_pp0_stage0_subdone),
         .D({linebuf_yuv_U_n_18,linebuf_yuv_U_n_19,linebuf_yuv_U_n_20,linebuf_yuv_U_n_21,linebuf_yuv_U_n_22,linebuf_yuv_U_n_23,linebuf_yuv_U_n_24,linebuf_yuv_U_n_25,linebuf_yuv_U_n_26,linebuf_yuv_U_n_27}),
@@ -19610,7 +19610,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .I4(\ap_CS_fsm_reg[1] [2]),
         .I5(imgBayer_empty_n),
         .O(\cmp84_reg_666_reg[0] ));
-  design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1 mac_muladd_14s_10ns_24s_25_4_1_U61
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1 mac_muladd_14s_10ns_24s_25_4_1_U61
        (.B(ave_3_reg_4085_pp0_iter4_reg),
         .CEP(ap_block_pp0_stage0_subdone),
         .D(g_fu_3416_p2),
@@ -19625,7 +19625,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .\icmp_ln318_reg_3809_pp0_iter8_reg_reg[0]__0_1 (ap_enable_reg_pp0_iter10_reg_0),
         .icmp_ln328_reg_3813(icmp_ln328_reg_3813),
         .imgBayer_empty_n(imgBayer_empty_n));
-  design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17 mac_muladd_14s_10ns_24s_25_4_1_U62
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17 mac_muladd_14s_10ns_24s_25_4_1_U62
        (.B(ave_reg_4028_pp0_iter4_reg),
         .CEP(ap_block_pp0_stage0_subdone),
         .DSP_ALU_INST({mul_18s_9ns_18_1_1_U55_n_5,mul_18s_9ns_18_1_1_U55_n_6,mul_18s_9ns_18_1_1_U55_n_7,mul_18s_9ns_18_1_1_U55_n_8,mul_18s_9ns_18_1_1_U55_n_9,mul_18s_9ns_18_1_1_U55_n_10,mul_18s_9ns_18_1_1_U55_n_11,mul_18s_9ns_18_1_1_U55_n_12,mul_18s_9ns_18_1_1_U55_n_13,mul_18s_9ns_18_1_1_U55_n_14}),
@@ -19900,19 +19900,19 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .D(mean_fu_1974_p3[9]),
         .Q(mean_reg_4090[9]),
         .R(1'b0));
-  design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1 mul_14s_10ns_24_1_1_U59
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1 mul_14s_10ns_24_1_1_U59
        (.A(ave_1_reg_4055_pp0_iter5_reg),
         .CEP(ap_block_pp0_stage0_subdone),
         .DSP_ALU_INST(lshr_ln501_1_reg_4228_reg__0),
         .P({mul_14s_10ns_24_1_1_U59_n_5,mul_14s_10ns_24_1_1_U59_n_6,mul_14s_10ns_24_1_1_U59_n_7,mul_14s_10ns_24_1_1_U59_n_8,mul_14s_10ns_24_1_1_U59_n_9,mul_14s_10ns_24_1_1_U59_n_10,mul_14s_10ns_24_1_1_U59_n_11,mul_14s_10ns_24_1_1_U59_n_12,mul_14s_10ns_24_1_1_U59_n_13,mul_14s_10ns_24_1_1_U59_n_14,mul_14s_10ns_24_1_1_U59_n_15,mul_14s_10ns_24_1_1_U59_n_16,mul_14s_10ns_24_1_1_U59_n_17,mul_14s_10ns_24_1_1_U59_n_18,mul_14s_10ns_24_1_1_U59_n_19,mul_14s_10ns_24_1_1_U59_n_20,mul_14s_10ns_24_1_1_U59_n_21,mul_14s_10ns_24_1_1_U59_n_22,mul_14s_10ns_24_1_1_U59_n_23,mul_14s_10ns_24_1_1_U59_n_24,mul_14s_10ns_24_1_1_U59_n_25,mul_14s_10ns_24_1_1_U59_n_26,mul_14s_10ns_24_1_1_U59_n_27,mul_14s_10ns_24_1_1_U59_n_28}),
         .ap_clk(ap_clk));
-  design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18 mul_14s_10ns_24_1_1_U60
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18 mul_14s_10ns_24_1_1_U60
        (.A(ave_2_reg_4070_pp0_iter5_reg),
         .CEP(ap_block_pp0_stage0_subdone),
         .DSP_ALU_INST(lshr_ln501_2_reg_4233_reg__0),
         .P({mul_14s_10ns_24_1_1_U60_n_5,mul_14s_10ns_24_1_1_U60_n_6,mul_14s_10ns_24_1_1_U60_n_7,mul_14s_10ns_24_1_1_U60_n_8,mul_14s_10ns_24_1_1_U60_n_9,mul_14s_10ns_24_1_1_U60_n_10,mul_14s_10ns_24_1_1_U60_n_11,mul_14s_10ns_24_1_1_U60_n_12,mul_14s_10ns_24_1_1_U60_n_13,mul_14s_10ns_24_1_1_U60_n_14,mul_14s_10ns_24_1_1_U60_n_15,mul_14s_10ns_24_1_1_U60_n_16,mul_14s_10ns_24_1_1_U60_n_17,mul_14s_10ns_24_1_1_U60_n_18,mul_14s_10ns_24_1_1_U60_n_19,mul_14s_10ns_24_1_1_U60_n_20,mul_14s_10ns_24_1_1_U60_n_21,mul_14s_10ns_24_1_1_U60_n_22,mul_14s_10ns_24_1_1_U60_n_23,mul_14s_10ns_24_1_1_U60_n_24,mul_14s_10ns_24_1_1_U60_n_25,mul_14s_10ns_24_1_1_U60_n_26,mul_14s_10ns_24_1_1_U60_n_27,mul_14s_10ns_24_1_1_U60_n_28}),
         .ap_clk(ap_clk));
-  design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1 mul_18s_9ns_18_1_1_U55
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1 mul_18s_9ns_18_1_1_U55
        (.A({DIV1_TABLE_U_n_39,DIV1_TABLE_U_n_40,DIV1_TABLE_U_n_41,DIV1_TABLE_U_n_42,DIV1_TABLE_U_n_43,DIV1_TABLE_U_n_44,DIV1_TABLE_U_n_45,DIV1_TABLE_U_n_46,DIV1_TABLE_U_n_47,DIV1_TABLE_U_n_48,p_0_out}),
         .B(zext_ln494_fu_3133_p1),
         .CEA2(DIV2_TABLE_ce0_local),
@@ -19934,7 +19934,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .q0_reg_7(mul_18s_9ns_18_1_1_U55_n_23),
         .q0_reg_8(mul_18s_9ns_18_1_1_U55_n_24),
         .q0_reg_9(mul_18s_9ns_18_1_1_U55_n_25));
-  design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19 mul_18s_9ns_18_1_1_U58
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19 mul_18s_9ns_18_1_1_U58
        (.A({DIV1_TABLE_U_n_39,DIV1_TABLE_U_n_40,DIV1_TABLE_U_n_41,DIV1_TABLE_U_n_42,DIV1_TABLE_U_n_43,DIV1_TABLE_U_n_44,DIV1_TABLE_U_n_45,DIV1_TABLE_U_n_46,DIV1_TABLE_U_n_47,DIV1_TABLE_U_n_48,p_0_out}),
         .CEA2(DIV2_TABLE_ce0_local),
         .CEP(ap_block_pp0_stage0_subdone),
@@ -33780,7 +33780,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
         .R(1'b0));
 endmodule
 
-module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R
    (DOUTADOUT,
     B,
     q0_reg_0,
@@ -34869,7 +34869,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM
         .O(DIV1_TABLE_ce0_local));
 endmodule
 
-module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W
    (ram_reg_bram_0_0,
     linebuf_yuv_1_we0_local,
     ram_reg_bram_0_1,
@@ -35604,7 +35604,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W" *) 
-module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14
    (DOUTBDOUT,
     D,
     ram_reg_bram_0_0,
@@ -36128,7 +36128,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W" *) 
-module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15
    (ram_reg_bram_0_0,
     D,
     ram_reg_bram_0_1,
@@ -36739,7 +36739,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W" *) 
-module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16
    (ram_reg_bram_0_0,
     linebuf_yuv_1_ce1_local,
     WEA,
@@ -37426,7 +37426,7 @@ module design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_
         .O(DINADIN[1]));
 endmodule
 
-module design_1_v_demosaic_0_0_DebayerRandBatG
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG
    (\ap_CS_fsm_reg[0]_0 ,
     cmp59_i_reg_465,
     q1,
@@ -37884,7 +37884,7 @@ module design_1_v_demosaic_0_0_DebayerRandBatG
         .D(cmp59_i_fu_272_p2),
         .Q(cmp59_i_reg_465),
         .R(1'b0));
-  design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134
        (.D({ap_NS_fsm[3],ap_NS_fsm[1]}),
         .E(E),
         .Q(p_0_0_0_0_011551704_lcssa1748_i_load_reg_400),
@@ -39986,7 +39986,7 @@ module design_1_v_demosaic_0_0_DebayerRandBatG
         .R(\ap_CS_fsm_reg[0]_0 ));
 endmodule
 
-module design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2
    (ap_block_pp0_stage0_subdone,
     ap_loop_exit_ready_pp0_iter2_reg,
     ap_done_cache,
@@ -45147,7 +45147,7 @@ module design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2
         .I2(imgRB_empty_n),
         .I3(push_2),
         .O(p_6_in));
-  design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10 flow_control_loop_pipe_sequential_init_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10 flow_control_loop_pipe_sequential_init_U
        (.CO(icmp_ln891_fu_600_p2),
         .D({flow_control_loop_pipe_sequential_init_U_n_9,flow_control_loop_pipe_sequential_init_U_n_10,flow_control_loop_pipe_sequential_init_U_n_11,flow_control_loop_pipe_sequential_init_U_n_12,flow_control_loop_pipe_sequential_init_U_n_13,flow_control_loop_pipe_sequential_init_U_n_14,flow_control_loop_pipe_sequential_init_U_n_15,flow_control_loop_pipe_sequential_init_U_n_16,flow_control_loop_pipe_sequential_init_U_n_17,flow_control_loop_pipe_sequential_init_U_n_18}),
         .E(ap_block_pp0_stage0_subdone),
@@ -45305,7 +45305,7 @@ module design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2
         .D(icmp_ln891_fu_600_p2),
         .Q(icmp_ln891_reg_1968),
         .R(1'b0));
-  design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11 lineBuffer_2_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11 lineBuffer_2_U
        (.D({lineBuffer_2_U_n_45,lineBuffer_2_U_n_46,lineBuffer_2_U_n_47,lineBuffer_2_U_n_48,lineBuffer_2_U_n_49,lineBuffer_2_U_n_50}),
         .E(ap_block_pp0_stage0_subdone),
         .Q(p_0_0_0116317821793_i_fu_160),
@@ -45412,7 +45412,7 @@ module design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2
         .D(lineBuffer_2_address1[9]),
         .Q(lineBuffer_addr_reg_1972[9]),
         .R(1'b0));
-  design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12 lineBuffer_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12 lineBuffer_U
        (.D({lineBuffer_U_n_5,lineBuffer_U_n_6,lineBuffer_U_n_7,lineBuffer_U_n_8,lineBuffer_U_n_9,lineBuffer_U_n_10,lineBuffer_U_n_11,lineBuffer_U_n_12,lineBuffer_U_n_13,lineBuffer_U_n_14}),
         .E(ap_block_pp0_stage0_subdone),
         .Q({\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[9] ,\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[8] ,\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[7] ,\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[6] ,\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[5] ,\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[4] ,\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[3] ,\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[2] ,\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[1] ,\p_0_0_0_0_011551706_i_fu_196_reg_n_5_[0] }),
@@ -48652,7 +48652,7 @@ module design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2
         .R(flow_control_loop_pipe_sequential_init_U_n_7));
 endmodule
 
-module design_1_v_demosaic_0_0_DebayerRatBorBatR
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR
    (DebayerRatBorBatR_U0_bayerPhase_c_write,
     Q,
     cmp59_i_reg_545,
@@ -49134,7 +49134,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR
         .D(CO),
         .Q(cmp59_i_reg_545),
         .R(1'b0));
-  design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158
        (.D({ap_NS_fsm[3],ap_NS_fsm[1]}),
         .E(p_0_1_0_0_09151501_lcssa1538_i_fu_1000),
         .Q({ap_CS_fsm_state4,ap_CS_fsm_state3}),
@@ -51637,7 +51637,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR
         .R(DebayerRatBorBatR_U0_bayerPhase_c_write));
 endmodule
 
-module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2
    (E,
     D,
     q1,
@@ -55360,7 +55360,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2
         .I2(enable_fu_1416_p2_carry_i_18_n_5),
         .I3(icmp_ln799_fu_1504_p2_carry_i_24_n_5),
         .O(enable_fu_1416_p2_carry_i_9_n_5));
-  design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8 flow_control_loop_pipe_sequential_init_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8 flow_control_loop_pipe_sequential_init_U
        (.D(D),
         .DI({flow_control_loop_pipe_sequential_init_U_n_173,flow_control_loop_pipe_sequential_init_U_n_174,flow_control_loop_pipe_sequential_init_U_n_175,flow_control_loop_pipe_sequential_init_U_n_176,flow_control_loop_pipe_sequential_init_U_n_177,flow_control_loop_pipe_sequential_init_U_n_178}),
         .E(p_0_0_09481407_i_fu_268),
@@ -56306,7 +56306,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2
         .D(icmp_ln800_fu_1526_p2),
         .Q(icmp_ln800_reg_2332),
         .R(1'b0));
-  design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W lineBuffer_1_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W lineBuffer_1_U
        (.D({lineBuffer_1_U_n_5,lineBuffer_1_U_n_6,lineBuffer_1_U_n_7,lineBuffer_1_U_n_8,lineBuffer_1_U_n_9,lineBuffer_1_U_n_10,lineBuffer_1_U_n_11,lineBuffer_1_U_n_12,lineBuffer_1_U_n_13,lineBuffer_1_U_n_14}),
         .Q({\p_0_0_09481407_i_fu_268_reg_n_5_[9] ,\p_0_0_09481407_i_fu_268_reg_n_5_[8] ,\p_0_0_09481407_i_fu_268_reg_n_5_[7] ,\p_0_0_09481407_i_fu_268_reg_n_5_[6] ,\p_0_0_09481407_i_fu_268_reg_n_5_[5] ,\p_0_0_09481407_i_fu_268_reg_n_5_[4] ,\p_0_0_09481407_i_fu_268_reg_n_5_[3] ,\p_0_0_09481407_i_fu_268_reg_n_5_[2] ,\p_0_0_09481407_i_fu_268_reg_n_5_[1] ,\p_0_0_09481407_i_fu_268_reg_n_5_[0] }),
         .address1({lineBuffer_1_address1[10],flow_control_loop_pipe_sequential_init_U_n_163,lineBuffer_1_address1[8],flow_control_loop_pipe_sequential_init_U_n_165,flow_control_loop_pipe_sequential_init_U_n_166,flow_control_loop_pipe_sequential_init_U_n_167,flow_control_loop_pipe_sequential_init_U_n_168,flow_control_loop_pipe_sequential_init_U_n_169,flow_control_loop_pipe_sequential_init_U_n_170,flow_control_loop_pipe_sequential_init_U_n_171,lineBuffer_1_address1[0]}),
@@ -56391,7 +56391,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2
         .D(flow_control_loop_pipe_sequential_init_U_n_163),
         .Q(lineBuffer_addr_reg_2158[9]),
         .R(1'b0));
-  design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9 lineBuffer_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9 lineBuffer_U
        (.D({lineBuffer_U_n_8,lineBuffer_U_n_9,lineBuffer_U_n_10,lineBuffer_U_n_11,lineBuffer_U_n_12,lineBuffer_U_n_13,lineBuffer_U_n_14,lineBuffer_U_n_15,lineBuffer_U_n_16,lineBuffer_U_n_17}),
         .Q(p_0_0_0950_114941505_i_fu_236),
         .\SRL_SIG_reg[0]_0 (\SRL_SIG_reg[0]_0 ),
@@ -60966,7 +60966,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2
         .R(flow_control_loop_pipe_sequential_init_U_n_8));
 endmodule
 
-module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W
    (D,
     q1,
     \icmp_ln633_reg_2150_reg[0] ,
@@ -61523,7 +61523,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineB
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W" *) 
-module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11
    (ram_reg_bram_0_0,
     q1,
     ram_reg_bram_0_1,
@@ -62122,7 +62122,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineB
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W" *) 
-module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12
    (D,
     q1,
     ram_reg_bram_1_0,
@@ -63296,7 +63296,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineB
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W" *) 
-module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9
    (ce1,
     ap_block_pp0_stage0_subdone,
     ap_condition_268,
@@ -64212,7 +64212,7 @@ module design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineB
         .O(d0[21]));
 endmodule
 
-module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo
    (m_axis_video_TUSER,
     m_axis_video_TLAST,
     \icmp_ln228_reg_199_reg[0]_0 ,
@@ -64437,7 +64437,7 @@ module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo
         .D(ap_NS_fsm[3]),
         .Q(ap_CS_fsm_state4),
         .R(ap_rst_n_inv));
-  design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100
        (.D(ap_NS_fsm[2:1]),
         .E(load_p2),
         .MultiPixStream2AXIvideo_U0_ap_start(MultiPixStream2AXIvideo_U0_ap_start),
@@ -64677,7 +64677,7 @@ module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo
         .D(\icmp_ln228_reg_199_reg[0]_1 ),
         .Q(\icmp_ln228_reg_199_reg[0]_0 ),
         .R(1'b0));
-  design_1_v_demosaic_0_0_regslice_both__parameterized2 regslice_both_m_axis_video_V_data_V_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized2 regslice_both_m_axis_video_V_data_V_U
        (.D({ap_NS_fsm[3],ap_NS_fsm[0]}),
         .E(load_p2),
         .MultiPixStream2AXIvideo_U0_ap_start(MultiPixStream2AXIvideo_U0_ap_start),
@@ -64695,7 +64695,7 @@ module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo
         .m_axis_video_TREADY_0(m_axis_video_TREADY_0),
         .m_axis_video_TREADY_int_regslice(m_axis_video_TREADY_int_regslice),
         .m_axis_video_TVALID(m_axis_video_TVALID));
-  design_1_v_demosaic_0_0_regslice_both__parameterized1 regslice_both_m_axis_video_V_last_V_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1 regslice_both_m_axis_video_V_last_V_U
        (.E(load_p2),
         .ack_in_t_reg_0(regslice_both_m_axis_video_V_last_V_U_n_5),
         .ap_clk(ap_clk),
@@ -64705,7 +64705,7 @@ module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo
         .grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100_m_axis_video_TLAST(grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100_m_axis_video_TLAST),
         .m_axis_video_TLAST(m_axis_video_TLAST),
         .m_axis_video_TREADY(m_axis_video_TREADY));
-  design_1_v_demosaic_0_0_regslice_both__parameterized1_2 regslice_both_m_axis_video_V_user_V_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_2 regslice_both_m_axis_video_V_user_V_U
        (.E(load_p2),
         .ack_in_t_reg_0(regslice_both_m_axis_video_V_user_V_U_n_5),
         .ap_clk(ap_clk),
@@ -64949,7 +64949,7 @@ module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo
         .R(1'b0));
 endmodule
 
-module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2
    (grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100_m_axis_video_TLAST,
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100_m_axis_video_TUSER,
     \sof_reg_88_reg[0] ,
@@ -65114,7 +65114,7 @@ module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2
         .I3(ap_enable_reg_pp0_iter1),
         .I4(\icmp_ln230_reg_197_reg_n_5_[0] ),
         .O(E));
-  design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3 flow_control_loop_pipe_sequential_init_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3 flow_control_loop_pipe_sequential_init_U
        (.D(D),
         .E(j_fu_76),
         .MultiPixStream2AXIvideo_U0_ap_start(MultiPixStream2AXIvideo_U0_ap_start),
@@ -65266,7 +65266,7 @@ module design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2
         .R(1'b0));
 endmodule
 
-module design_1_v_demosaic_0_0_ZipperRemoval
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval
    (Q,
     start_once_reg,
     full_n,
@@ -65616,7 +65616,7 @@ module design_1_v_demosaic_0_0_ZipperRemoval
         .I2(Debayer_U0_ap_start),
         .I3(empty_n_reg),
         .O(full_n));
-  design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 grp_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2_fu_104
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 grp_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2_fu_104
        (.D({ap_NS_fsm[3],ap_NS_fsm[1]}),
         .E(p_0_0_0483_1_lcssa679_fu_600),
         .Q(zext_ln1148_1_fu_521_p1),
@@ -66665,7 +66665,7 @@ module design_1_v_demosaic_0_0_ZipperRemoval
         .R(\loopWidth_reg_281[16]_i_1_n_5 ));
 endmodule
 
-module design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2
    (Q,
     \p_0_0_0480_1667_load_reg_749_reg[9]_0 ,
     \p_0_0_0482_1663_load_reg_733_reg[9]_0 ,
@@ -68055,7 +68055,7 @@ module design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2
         .D(conv3_i_i79670_fu_613_p3[9]),
         .Q(\conv3_i_i188669_reg_767_reg[9]_0 [9]),
         .R(1'b0));
-  design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init flow_control_loop_pipe_sequential_init_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init flow_control_loop_pipe_sequential_init_U
        (.CO(icmp_ln1101_fu_217_p2),
         .D(D),
         .DI({flow_control_loop_pipe_sequential_init_U_n_66,flow_control_loop_pipe_sequential_init_U_n_67,flow_control_loop_pipe_sequential_init_U_n_68,flow_control_loop_pipe_sequential_init_U_n_69,flow_control_loop_pipe_sequential_init_U_n_70,flow_control_loop_pipe_sequential_init_U_n_71,flow_control_loop_pipe_sequential_init_U_n_72,flow_control_loop_pipe_sequential_init_U_n_73}),
@@ -69161,7 +69161,7 @@ module design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2
         .R(flow_control_loop_pipe_sequential_init_U_n_9));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w10_d2_S
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S
    (imgBayer_empty_n,
     imgBayer_full_n,
     \SRL_SIG_reg[1][9] ,
@@ -69244,7 +69244,7 @@ module design_1_v_demosaic_0_0_fifo_w10_d2_S
   wire \mOutPtr[2]_i_2__3_n_5 ;
   wire push;
 
-  design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg U_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg U_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg
        (.D(D),
         .DOUTBDOUT(DOUTBDOUT),
         .Q(Q),
@@ -69368,7 +69368,7 @@ module design_1_v_demosaic_0_0_fifo_w10_d2_S
         .R(ap_rst_n_inv));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg
    (\SRL_SIG_reg[1][9]_0 ,
     Q,
     \SRL_SIG_reg[0][9]_0 ,
@@ -69730,7 +69730,7 @@ module design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg
         .O(imgBayer_dout[2]));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w16_d2_S
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S
    (bayerPhase_c1_empty_n,
     bayerPhase_c1_full_n,
     \SRL_SIG_reg[1][15] ,
@@ -69770,7 +69770,7 @@ module design_1_v_demosaic_0_0_fifo_w16_d2_S
   wire p_9_in;
   wire push;
 
-  design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7 U_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7 U_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg
        (.D(D),
         .E(push),
         .\SRL_SIG_reg[0][0]_0 (\addr_reg_n_5_[0] ),
@@ -69911,7 +69911,7 @@ module design_1_v_demosaic_0_0_fifo_w16_d2_S
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_fifo_w16_d2_S" *) 
-module design_1_v_demosaic_0_0_fifo_w16_d2_S_4
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_4
    (bayerPhase_c_empty_n,
     bayerPhase_c_full_n,
     \SRL_SIG_reg[1][0] ,
@@ -69962,7 +69962,7 @@ module design_1_v_demosaic_0_0_fifo_w16_d2_S_4
   wire p_9_in;
   wire push;
 
-  design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg U_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg U_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg
        (.D(D),
         .\SRL_SIG_reg[1][0]_0 (\SRL_SIG_reg[1][0] ),
         .\SRL_SIG_reg[1][15]_0 (\SRL_SIG_reg[1][15] ),
@@ -70104,7 +70104,7 @@ module design_1_v_demosaic_0_0_fifo_w16_d2_S_4
         .R(full_n_reg_0));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg
    (\SRL_SIG_reg[1][0]_0 ,
     \SRL_SIG_reg[1][15]_0 ,
     push,
@@ -70480,7 +70480,7 @@ module design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg" *) 
-module design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7
    (E,
     \SRL_SIG_reg[1][15]_0 ,
     \SRL_SIG_reg[0][15]_0 ,
@@ -70864,7 +70864,7 @@ module design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7
         .O(\SRL_SIG_reg[1][15]_0 [0]));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w16_d2_S_x
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x
    (Debayer_U0_ap_start,
     Block_entry_split_proc_U0_ap_continue,
     \SRL_SIG_reg[1][15] ,
@@ -70917,7 +70917,7 @@ module design_1_v_demosaic_0_0_fifo_w16_d2_S_x
   wire p_9_in;
   wire push;
 
-  design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg U_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg U_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg
        (.Block_entry_split_proc_U0_ap_continue(Block_entry_split_proc_U0_ap_continue),
         .D(D),
         .\SRL_SIG_reg[0][15]_0 (\SRL_SIG_reg[0][15] ),
@@ -71047,7 +71047,7 @@ module design_1_v_demosaic_0_0_fifo_w16_d2_S_x
         .R(ap_rst_n_inv));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg
    (push,
     \SRL_SIG_reg[1][15]_0 ,
     Block_entry_split_proc_U0_ap_continue,
@@ -71409,7 +71409,7 @@ module design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg
         .O(\SRL_SIG_reg[1][15]_0 [0]));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w30_d2_S
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S
    (imgG_empty_n,
     imgG_full_n,
     \SRL_SIG_reg[1][19] ,
@@ -71615,7 +71615,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S
   wire push;
   wire [29:0]q1;
 
-  design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6 U_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6 U_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg
        (.D(\SRL_SIG_reg[0]_0 ),
         .Q(Q),
         .\SRL_SIG_reg[0][0]_0 (\SRL_SIG_reg[0][0] ),
@@ -71778,7 +71778,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_fifo_w30_d2_S" *) 
-module design_1_v_demosaic_0_0_fifo_w30_d2_S_5
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_5
    (imgRB_empty_n,
     imgRB_full_n,
     \SRL_SIG_reg[1][29] ,
@@ -71930,7 +71930,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_5
   wire p_9_in;
   wire [29:0]q1;
 
-  design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg U_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg U_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg
        (.D(D),
         .Q(Q),
         .\SRL_SIG_reg[0][29]_0 (\SRL_SIG_reg[0][29] ),
@@ -72073,7 +72073,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_5
         .R(\mOutPtr_reg[0]_0 ));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg
    (\SRL_SIG_reg[1][29]_0 ,
     Q,
     \SRL_SIG_reg[0][29]_0 ,
@@ -73096,7 +73096,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg" *) 
-module design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6
    (\SRL_SIG_reg[1][19]_0 ,
     Q,
     D,
@@ -74178,7 +74178,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6
         .O(d0[21]));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w30_d2_S_x
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x
    (imgRgb_empty_n,
     imgRgb_full_n,
     \addr_reg[0]_0 ,
@@ -74255,7 +74255,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_x
   wire p_9_in;
   wire push;
 
-  design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1 U_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1 U_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg
        (.D(D),
         .Q(Q),
         .\SRL_SIG_reg[0][10]_0 (\SRL_SIG_reg[0][10] ),
@@ -74374,7 +74374,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_x
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_fifo_w30_d2_S_x" *) 
-module design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0
    (imgUnzip_empty_n,
     imgUnzip_full_n,
     \SRL_SIG_reg[1][29] ,
@@ -74421,7 +74421,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0
   wire \mOutPtr[2]_i_2__6_n_5 ;
   wire push;
 
-  design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg U_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg U_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg
        (.D(D),
         .Q(Q),
         .\SRL_SIG_reg[0][29]_0 (\SRL_SIG_reg[0][29] ),
@@ -74533,7 +74533,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0
         .R(ap_rst_n_inv));
 endmodule
 
-module design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg
    (\SRL_SIG_reg[1][29]_0 ,
     Q,
     \SRL_SIG_reg[0][29]_0 ,
@@ -75160,7 +75160,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg" *) 
-module design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1
    (D,
     Q,
     push,
@@ -75570,7 +75570,7 @@ module design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1
         .R(1'b0));
 endmodule
 
-module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init
    (D,
     \icmp_ln1159_reg_729_pp0_iter2_reg_reg[0] ,
     E,
@@ -76851,7 +76851,7 @@ module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10
    (ap_done_cache,
     \cmp161_i_reg_1984_reg[0] ,
     SR,
@@ -78694,7 +78694,7 @@ module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13
    (ap_done_cache,
     ap_rst_n_0,
     E,
@@ -81530,7 +81530,7 @@ module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24
    (\axi_last_fu_88_reg[0] ,
     grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_ap_start_reg_reg,
     E,
@@ -82172,7 +82172,7 @@ module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25
    (\ap_CS_fsm_reg[2] ,
     grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_s_axis_video_TREADY,
     D,
@@ -82309,7 +82309,7 @@ module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26
    (ap_loop_init_int_reg_0,
     E,
     grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184_s_axis_video_TREADY,
@@ -82509,7 +82509,7 @@ module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3
    (\sof_reg_88_reg[0] ,
     \sof_2_reg_133_reg[0] ,
     E,
@@ -83037,7 +83037,7 @@ module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init" *) 
-module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8
    (\cmp161_i_reg_2170_reg[0] ,
     D,
     SR,
@@ -85196,7 +85196,7 @@ module design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8
         .O(grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158_ap_start_reg_reg));
 endmodule
 
-module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1
    (CEP,
     D,
     ap_clk,
@@ -85241,7 +85241,7 @@ module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1
   wire icmp_ln328_reg_3813;
   wire imgBayer_empty_n;
 
-  design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20 design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20 design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U
        (.B(B),
         .CEB1(CEP),
         .D(D),
@@ -85259,7 +85259,7 @@ module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1" *) 
-module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17
    (P,
     CEP,
     ap_clk,
@@ -85280,7 +85280,7 @@ module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17
   wire [24:0]P;
   wire ap_clk;
 
-  design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0 design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0 design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U
        (.B(B),
         .CEP(CEP),
         .DSP_ALU_INST(DSP_ALU_INST),
@@ -85289,7 +85289,7 @@ module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17
         .ap_clk(ap_clk));
 endmodule
 
-module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0
    (P,
     CEP,
     ap_clk,
@@ -85409,7 +85409,7 @@ module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0" *) 
-module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20
    (CEB1,
     D,
     ap_clk,
@@ -86285,7 +86285,7 @@ module design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20
         .XOROUT(NLW_p_reg_reg_XOROUT_UNCONNECTED[7:0]));
 endmodule
 
-module design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1
    (P,
     CEP,
     ap_clk,
@@ -86404,7 +86404,7 @@ module design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1" *) 
-module design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18
    (P,
     CEP,
     ap_clk,
@@ -86522,7 +86522,7 @@ module design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18
         .XOROUT(NLW_tmp_product_XOROUT_UNCONNECTED[7:0]));
 endmodule
 
-module design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1
    (P,
     q0_reg,
     q0_reg_0,
@@ -86908,7 +86908,7 @@ module design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1" *) 
-module design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19
    (P,
     CEA2,
     q0_reg,
@@ -89752,7 +89752,7 @@ module design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19
         .XOROUT(NLW_tmp_product_XOROUT_UNCONNECTED[7:0]));
 endmodule
 
-module design_1_v_demosaic_0_0_reg_unsigned_short_s
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s
    (Q,
     E,
     \d_read_reg_22_reg[10]_0 ,
@@ -89836,7 +89836,7 @@ module design_1_v_demosaic_0_0_reg_unsigned_short_s
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_reg_unsigned_short_s" *) 
-module design_1_v_demosaic_0_0_reg_unsigned_short_s_21
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s_21
    (Q,
     xor_ln188_fu_239_p2,
     cmp10251_fu_233_p2,
@@ -89956,7 +89956,7 @@ module design_1_v_demosaic_0_0_reg_unsigned_short_s_21
         .O(\xor_ln188_reg_358[0]_i_2_n_5 ));
 endmodule
 
-module design_1_v_demosaic_0_0_regslice_both
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both
    (ack_in_t_reg_0,
     Q,
     \data_p1_reg[9]_0 ,
@@ -90305,7 +90305,7 @@ module design_1_v_demosaic_0_0_regslice_both
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_regslice_both" *) 
-module design_1_v_demosaic_0_0_regslice_both__parameterized1
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1
    (ack_in_t_reg_0,
     data_p2,
     m_axis_video_TLAST,
@@ -90421,7 +90421,7 @@ module design_1_v_demosaic_0_0_regslice_both__parameterized1
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_regslice_both" *) 
-module design_1_v_demosaic_0_0_regslice_both__parameterized1_2
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_2
    (ack_in_t_reg_0,
     data_p2,
     m_axis_video_TUSER,
@@ -90537,7 +90537,7 @@ module design_1_v_demosaic_0_0_regslice_both__parameterized1_2
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_regslice_both" *) 
-module design_1_v_demosaic_0_0_regslice_both__parameterized1_22
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_22
    (s_axis_video_TLAST_int_regslice,
     ap_clk,
     ap_rst_n_inv,
@@ -90655,7 +90655,7 @@ module design_1_v_demosaic_0_0_regslice_both__parameterized1_22
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_regslice_both" *) 
-module design_1_v_demosaic_0_0_regslice_both__parameterized1_23
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_23
    (\data_p1_reg[0]_0 ,
     ap_clk,
     ap_rst_n_inv,
@@ -90773,7 +90773,7 @@ module design_1_v_demosaic_0_0_regslice_both__parameterized1_23
 endmodule
 
 (* ORIG_REF_NAME = "design_1_v_demosaic_0_0_regslice_both" *) 
-module design_1_v_demosaic_0_0_regslice_both__parameterized2
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized2
    (m_axis_video_TREADY_int_regslice,
     D,
     empty_n_reg,
@@ -91678,7 +91678,7 @@ module design_1_v_demosaic_0_0_regslice_both__parameterized2
         .S(ap_rst_n_inv));
 endmodule
 
-module design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0
    (DebayerRandBatG_U0_ap_start,
     start_for_DebayerRandBatG_U0_full_n,
     full_n_reg_0,
@@ -91769,7 +91769,7 @@ module design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0
         .R(full_n_reg_0));
 endmodule
 
-module design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0
    (DebayerRatBorBatR_U0_ap_start,
     start_for_DebayerRatBorBatR_U0_full_n,
     Debayer_U0_ap_idle,
@@ -91938,7 +91938,7 @@ module design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0
         .R(\mOutPtr_reg[0]_0 ));
 endmodule
 
-module design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0
    (MultiPixStream2AXIvideo_U0_ap_start,
     start_for_MultiPixStream2AXIvideo_U0_full_n,
     empty_n_reg_0,
@@ -92085,7 +92085,7 @@ module design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0
         .R(ap_rst_n_inv));
 endmodule
 
-module design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0
    (ZipperRemoval_U0_ap_start,
     start_for_ZipperRemoval_U0_full_n,
     ap_idle,
@@ -92244,7 +92244,7 @@ endmodule
 
 (* C_S_AXI_CTRL_ADDR_WIDTH = "6" *) (* C_S_AXI_CTRL_DATA_WIDTH = "32" *) (* C_S_AXI_CTRL_WSTRB_WIDTH = "4" *) 
 (* C_S_AXI_DATA_WIDTH = "32" *) (* C_S_AXI_WSTRB_WIDTH = "4" *) (* hls_module = "yes" *) 
-module design_1_v_demosaic_0_0_v_demosaic
+module design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic
    (s_axi_CTRL_AWVALID,
     s_axi_CTRL_AWREADY,
     s_axi_CTRL_AWADDR,
@@ -92529,7 +92529,7 @@ module design_1_v_demosaic_0_0_v_demosaic
   assign s_axi_CTRL_RDATA[15:0] = \^s_axi_CTRL_RDATA [15:0];
   assign s_axi_CTRL_RRESP[1] = \<const0> ;
   assign s_axi_CTRL_RRESP[0] = \<const0> ;
-  design_1_v_demosaic_0_0_AXIvideo2MultiBayer AXIvideo2MultiBayer_U0
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer AXIvideo2MultiBayer_U0
        (.E(AXIvideo2MultiBayer_U0_n_6),
         .Q(AXIvideo2MultiBayer_U0_n_8),
         .ack_in_t_reg(s_axis_video_TREADY),
@@ -92553,7 +92553,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .s_axis_video_TVALID(s_axis_video_TVALID),
         .\trunc_ln145_reg_330_reg[10]_0 (height[10:0]),
         .\trunc_ln146_reg_335_reg[10]_0 (width[10:0]));
-  design_1_v_demosaic_0_0_Block_entry_split_proc Block_entry_split_proc_U0
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Block_entry_split_proc Block_entry_split_proc_U0
        (.Q(bayer_phase),
         .ap_clk(ap_clk),
         .ap_done_reg(ap_done_reg),
@@ -92561,7 +92561,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .ap_return_preg(ap_return_preg),
         .\ap_return_preg_reg[15]_0 (CTRL_s_axi_U_n_135),
         .ap_rst_n_inv(ap_rst_n_inv));
-  design_1_v_demosaic_0_0_CTRL_s_axi CTRL_s_axi_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_CTRL_s_axi CTRL_s_axi_U
        (.Block_entry_split_proc_U0_ap_continue(Block_entry_split_proc_U0_ap_continue),
         .CO(\DebayerRatBorBatR_U0/cmp59_i_fu_297_p2 ),
         .D({\DebayerRatBorBatR_U0/loopHeight_fu_203_p2 ,loopHeight_fu_172_p2[1:0]}),
@@ -92623,7 +92623,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .s_axi_CTRL_WDATA(s_axi_CTRL_WDATA[15:0]),
         .s_axi_CTRL_WSTRB(s_axi_CTRL_WSTRB[1:0]),
         .s_axi_CTRL_WVALID(s_axi_CTRL_WVALID));
-  design_1_v_demosaic_0_0_Debayer Debayer_U0
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Debayer Debayer_U0
        (.CO(\DebayerRatBorBatR_U0/cmp59_i_fu_297_p2 ),
         .D(bayer_phase_assign_channel_dout),
         .DI({Debayer_U0_n_33,Debayer_U0_n_34,Debayer_U0_n_35,Debayer_U0_n_36,Debayer_U0_n_37}),
@@ -92687,7 +92687,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .\zext_ln274_reg_531_reg[15] (height));
   GND GND
        (.G(\<const0> ));
-  design_1_v_demosaic_0_0_MultiPixStream2AXIvideo MultiPixStream2AXIvideo_U0
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo MultiPixStream2AXIvideo_U0
        (.D(loopWidth_fu_178_p2[0]),
         .E(MultiPixStream2AXIvideo_U0_n_12),
         .MultiPixStream2AXIvideo_U0_ap_start(MultiPixStream2AXIvideo_U0_ap_start),
@@ -92715,7 +92715,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .push(push_1),
         .\sub_i_i_reg_194_reg[11]_0 ({CTRL_s_axi_U_n_30,CTRL_s_axi_U_n_31,CTRL_s_axi_U_n_32}),
         .\trunc_ln221_reg_184_reg[10]_0 (height[10:0]));
-  design_1_v_demosaic_0_0_ZipperRemoval ZipperRemoval_U0
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval ZipperRemoval_U0
        (.D(\SRL_SIG_reg[0]_5 ),
         .Debayer_U0_ap_start(Debayer_U0_ap_start),
         .E(ZipperRemoval_U0_n_15),
@@ -92761,7 +92761,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .D(ap_sync_Block_entry_split_proc_U0_ap_ready),
         .Q(ap_sync_reg_Block_entry_split_proc_U0_ap_ready_reg_n_5),
         .R(AXIvideo2MultiBayer_U0_n_9));
-  design_1_v_demosaic_0_0_fifo_w16_d2_S_x bayer_phase_assign_channel_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x bayer_phase_assign_channel_U
        (.Block_entry_split_proc_U0_ap_continue(Block_entry_split_proc_U0_ap_continue),
         .D(Block_entry_split_proc_U0_ap_return),
         .Debayer_U0_ap_ready(Debayer_U0_ap_ready),
@@ -92774,7 +92774,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .ap_start(ap_start),
         .\mOutPtr_reg[0]_0 (\DebayerG_U0/icmp_ln315_fu_286_p2 ),
         .\mOutPtr_reg[0]_1 (\DebayerG_U0/ap_CS_fsm_state2 ));
-  design_1_v_demosaic_0_0_fifo_w10_d2_S imgBayer_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S imgBayer_U
        (.D(AXIvideo2MultiBayer_U0_imgBayer_din),
         .DOUTBDOUT(\DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/linebuf_yuv_q1 ),
         .E(AXIvideo2MultiBayer_U0_n_6),
@@ -92799,7 +92799,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .imgBayer_empty_n(imgBayer_empty_n),
         .imgBayer_full_n(imgBayer_full_n),
         .push(push));
-  design_1_v_demosaic_0_0_fifo_w30_d2_S_x imgRgb_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x imgRgb_U
        (.D(\SRL_SIG_reg[0]_5 ),
         .E(ZipperRemoval_U0_n_15),
         .Q(\SRL_SIG_reg[1]_4 ),
@@ -92822,7 +92822,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .imgRgb_full_n(imgRgb_full_n),
         .p_9_in(p_9_in),
         .push(push_0));
-  design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0 imgUnzip_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0 imgUnzip_U
        (.D(ZipperRemoval_U0_imgUnzip_din),
         .E(MultiPixStream2AXIvideo_U0_n_12),
         .Q(\SRL_SIG_reg[1]_7 ),
@@ -92835,7 +92835,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .imgUnzip_full_n(imgUnzip_full_n),
         .load_p2(\regslice_both_m_axis_video_V_data_V_U/load_p2 ),
         .push(push_1));
-  design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0 start_for_MultiPixStream2AXIvideo_U0_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0 start_for_MultiPixStream2AXIvideo_U0_U
        (.Debayer_U0_ap_idle(Debayer_U0_ap_idle),
         .Debayer_U0_ap_start(Debayer_U0_ap_start),
         .MultiPixStream2AXIvideo_U0_ap_start(MultiPixStream2AXIvideo_U0_ap_start),
@@ -92851,7 +92851,7 @@ module design_1_v_demosaic_0_0_v_demosaic
         .int_ap_idle_reg_0(ap_sync_reg_Block_entry_split_proc_U0_ap_ready_reg_n_5),
         .start_for_MultiPixStream2AXIvideo_U0_full_n(start_for_MultiPixStream2AXIvideo_U0_full_n),
         .start_once_reg(start_once_reg));
-  design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0 start_for_ZipperRemoval_U0_U
+  design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0 start_for_ZipperRemoval_U0_U
        (.Debayer_U0_ap_start(Debayer_U0_ap_start),
         .Q(AXIvideo2MultiBayer_U0_n_8),
         .ZipperRemoval_U0_ap_start(ZipperRemoval_U0_ap_start),

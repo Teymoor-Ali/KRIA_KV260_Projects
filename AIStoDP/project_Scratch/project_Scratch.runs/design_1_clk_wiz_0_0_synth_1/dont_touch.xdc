@@ -16,6 +16,10 @@ set_property KEEP_HIERARCHY SOFT [get_cells inst -quiet] -quiet
 # XDC: The top module name and the constraint reference have the same name: 'design_1_clk_wiz_0_0'. Do not add the DONT_TOUCH constraint.
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells inst -quiet] -quiet
 
+# XDC: f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_late.xdc
+# XDC: The top module name and the constraint reference have the same name: 'design_1_clk_wiz_0_0'. Do not add the DONT_TOUCH constraint.
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells inst -quiet] -quiet
+
 # IP: F:/Projects/Vivado/project_Scratch/project_Scratch.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xci
 # IP: The module: 'design_1_clk_wiz_0_0' is the root of the design. Do not add the DONT_TOUCH constraint.
 
@@ -28,5 +32,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells inst -quiet] -quiet
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells inst -quiet] -quiet
 
 # XDC: f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc
+# XDC: The top module name and the constraint reference have the same name: 'design_1_clk_wiz_0_0'. Do not add the DONT_TOUCH constraint.
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells inst -quiet] -quiet
+
+# XDC: f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_late.xdc
 # XDC: The top module name and the constraint reference have the same name: 'design_1_clk_wiz_0_0'. Do not add the DONT_TOUCH constraint.
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells inst -quiet] -quiet

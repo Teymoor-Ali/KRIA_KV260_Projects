@@ -2,7 +2,7 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Sun Jun 16 23:47:53 2024
+// Date        : Mon Jun 17 19:57:38 2024
 // Host        : Tey running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.v
@@ -28,7 +28,7 @@ module design_1_clk_wiz_0_0
   output locked;
   input clk_in1;
 
-  (* IBUF_LOW_PWR *) wire clk_in1;
+  wire clk_in1;
   wire clk_out1;
   wire clk_out2;
   wire clk_out3;
@@ -59,7 +59,6 @@ module design_1_clk_wiz_0_0_clk_wiz
   input clk_in1;
 
   wire clk_in1;
-  wire clk_in1_design_1_clk_wiz_0_0;
   wire clk_out1;
   wire clk_out1_design_1_clk_wiz_0_0;
   wire clk_out2;
@@ -102,15 +101,6 @@ module design_1_clk_wiz_0_0_clk_wiz
         .CLR(1'b0),
         .I(clk_out1_design_1_clk_wiz_0_0),
         .O(clk_out3));
-  (* BOX_TYPE = "PRIMITIVE" *) 
-  (* CAPACITANCE = "DONT_CARE" *) 
-  (* IBUF_DELAY_VALUE = "0" *) 
-  (* IFD_DELAY_VALUE = "AUTO" *) 
-  IBUF #(
-    .IOSTANDARD("DEFAULT")) 
-    clkin1_ibuf
-       (.I(clk_in1),
-        .O(clk_in1_design_1_clk_wiz_0_0));
   (* BOX_TYPE = "PRIMITIVE" *) 
   (* XILINX_LEGACY_PRIM = "BUFG" *) 
   (* XILINX_TRANSFORM_PINMAP = "VCC:CE" *) 
@@ -192,7 +182,7 @@ module design_1_clk_wiz_0_0_clk_wiz
         .CLKFBOUT(NLW_mmcme4_adv_inst_CLKFBOUT_UNCONNECTED),
         .CLKFBOUTB(NLW_mmcme4_adv_inst_CLKFBOUTB_UNCONNECTED),
         .CLKFBSTOPPED(NLW_mmcme4_adv_inst_CLKFBSTOPPED_UNCONNECTED),
-        .CLKIN1(clk_in1_design_1_clk_wiz_0_0),
+        .CLKIN1(clk_in1),
         .CLKIN2(1'b0),
         .CLKINSEL(1'b1),
         .CLKINSTOPPED(NLW_mmcme4_adv_inst_CLKINSTOPPED_UNCONNECTED),

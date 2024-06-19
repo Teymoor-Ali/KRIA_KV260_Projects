@@ -2,10 +2,10 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
--- Date        : Sun Jun 16 23:49:08 2024
+-- Date        : Sun Jun 16 23:49:07 2024
 -- Host        : Tey running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_gamma_lut_0_0/design_1_v_gamma_lut_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_v_gamma_lut_0_0 -prefix
+--               design_1_v_gamma_lut_0_0_ design_1_v_gamma_lut_0_0_sim_netlist.vhdl
 -- Design      : design_1_v_gamma_lut_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -15,7 +15,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_CTRL_s_axi_ram is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram is
   port (
     DOUTADOUT : out STD_LOGIC_VECTOR ( 31 downto 0 );
     DOUTBDOUT : out STD_LOGIC_VECTOR ( 19 downto 0 );
@@ -33,9 +33,9 @@ entity design_1_v_gamma_lut_0_0_CTRL_s_axi_ram is
     wstate : in STD_LOGIC_VECTOR ( 1 downto 0 );
     p_29_in : in STD_LOGIC
   );
-end design_1_v_gamma_lut_0_0_CTRL_s_axi_ram;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_CTRL_s_axi_ram is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram is
   signal int_gamma_lut_0_be1 : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal int_gamma_lut_0_ce1 : STD_LOGIC;
   signal mem_reg_n_106 : STD_LOGIC;
@@ -358,7 +358,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7 is
   port (
     DOUTBDOUT : out STD_LOGIC_VECTOR ( 19 downto 0 );
     D : out STD_LOGIC_VECTOR ( 21 downto 0 );
@@ -408,10 +408,10 @@ entity design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7 is
     p_29_in : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7 : entity is "design_1_v_gamma_lut_0_0_CTRL_s_axi_ram";
-end design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7 : entity is "design_1_v_gamma_lut_0_0_CTRL_s_axi_ram";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7 is
   signal int_gamma_lut_1_be1 : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal int_gamma_lut_1_ce1 : STD_LOGIC;
   signal mem_reg_n_100 : STD_LOGIC;
@@ -1272,7 +1272,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8 is
   port (
     DOUTADOUT : out STD_LOGIC_VECTOR ( 15 downto 0 );
     DOUTBDOUT : out STD_LOGIC_VECTOR ( 19 downto 0 );
@@ -1319,10 +1319,10 @@ entity design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8 is
     wstate : in STD_LOGIC_VECTOR ( 1 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8 : entity is "design_1_v_gamma_lut_0_0_CTRL_s_axi_ram";
-end design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8 : entity is "design_1_v_gamma_lut_0_0_CTRL_s_axi_ram";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8 is
   signal \^addrardaddr\ : STD_LOGIC_VECTOR ( 8 downto 0 );
   signal \^ar_hs__0\ : STD_LOGIC;
   signal int_gamma_lut_2_be1 : STD_LOGIC_VECTOR ( 3 downto 0 );
@@ -2164,7 +2164,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W is
   port (
     \in\ : out STD_LOGIC_VECTOR ( 9 downto 0 );
     ap_clk : in STD_LOGIC;
@@ -2173,9 +2173,9 @@ entity design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W is
     DINADIN : in STD_LOGIC_VECTOR ( 9 downto 0 );
     WEA : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W is
   signal NLW_ram_reg_bram_0_CASDOUTA_UNCONNECTED : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal NLW_ram_reg_bram_0_CASDOUTB_UNCONNECTED : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal NLW_ram_reg_bram_0_CASDOUTPA_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -2288,7 +2288,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3 is
   port (
     \in\ : out STD_LOGIC_VECTOR ( 9 downto 0 );
     ap_clk : in STD_LOGIC;
@@ -2298,10 +2298,10 @@ entity design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3 is
     WEA : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3 : entity is "design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W";
-end design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3 : entity is "design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3 is
   signal NLW_ram_reg_bram_0_CASDOUTA_UNCONNECTED : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal NLW_ram_reg_bram_0_CASDOUTB_UNCONNECTED : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal NLW_ram_reg_bram_0_CASDOUTPA_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -2414,7 +2414,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4 is
   port (
     \in\ : out STD_LOGIC_VECTOR ( 9 downto 0 );
     ap_clk : in STD_LOGIC;
@@ -2424,10 +2424,10 @@ entity design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4 is
     WEA : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4 : entity is "design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W";
-end design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4 : entity is "design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4 is
   signal NLW_ram_reg_bram_0_CASDOUTA_UNCONNECTED : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal NLW_ram_reg_bram_0_CASDOUTB_UNCONNECTED : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal NLW_ram_reg_bram_0_CASDOUTPA_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -2540,7 +2540,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg is
   port (
     \out\ : out STD_LOGIC_VECTOR ( 29 downto 0 );
     push : in STD_LOGIC;
@@ -2548,9 +2548,9 @@ entity design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg is
     Q : in STD_LOGIC_VECTOR ( 3 downto 0 );
     ap_clk : in STD_LOGIC
   );
-end design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg is
   attribute srl_bus_name : string;
   attribute srl_bus_name of \SRL_SIG_reg[15][0]_srl16\ : label is "inst/\imgRgb_U/U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg/SRL_SIG_reg[15] ";
   attribute srl_name : string;
@@ -3039,7 +3039,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1 is
   port (
     \out\ : out STD_LOGIC_VECTOR ( 29 downto 0 );
     push : in STD_LOGIC;
@@ -3048,10 +3048,10 @@ entity design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1 is
     ap_clk : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1 : entity is "design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg";
-end design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1 : entity is "design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1 is
   attribute srl_bus_name : string;
   attribute srl_bus_name of \SRL_SIG_reg[15][0]_srl16\ : label is "inst/\imgGamma_U/U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg/SRL_SIG_reg[15] ";
   attribute srl_name : string;
@@ -3540,7 +3540,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init is
   port (
     empty_n_reg : out STD_LOGIC;
     \sof_2_reg_133_reg[0]\ : out STD_LOGIC;
@@ -3574,9 +3574,9 @@ entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init is
     \j_fu_76_reg[10]\ : in STD_LOGIC_VECTOR ( 10 downto 0 );
     \icmp_ln258_reg_197_reg[0]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
-end design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init is
   signal \^ap_block_pp0_stage0_subdone\ : STD_LOGIC;
   signal ap_done_cache : STD_LOGIC;
   signal \ap_done_cache_i_1__0_n_6\ : STD_LOGIC;
@@ -4111,7 +4111,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13 is
   port (
     \axi_last_fu_88_reg[0]\ : out STD_LOGIC;
     \s_axis_video_TREADY_int_regslice__1\ : out STD_LOGIC;
@@ -4147,10 +4147,10 @@ entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13 is
     \ap_CS_fsm_reg[5]_1\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13 is
   signal \ap_CS_fsm[6]_i_10_n_6\ : STD_LOGIC;
   signal \ap_CS_fsm[6]_i_11_n_6\ : STD_LOGIC;
   signal \ap_CS_fsm[6]_i_4_n_6\ : STD_LOGIC;
@@ -4684,7 +4684,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14 is
   port (
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
     \ap_CS_fsm_reg[5]\ : out STD_LOGIC;
@@ -4702,10 +4702,10 @@ entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14 is
     ap_rst_n : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14 is
   signal ap_done_cache : STD_LOGIC;
   signal \ap_done_cache_i_1__1_n_6\ : STD_LOGIC;
   signal ap_loop_init_int : STD_LOGIC;
@@ -4865,7 +4865,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15 is
   port (
     ap_loop_init_int_reg_0 : out STD_LOGIC;
     \ap_CS_fsm_reg[8]\ : out STD_LOGIC;
@@ -4887,10 +4887,10 @@ entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15 is
     select_ln216_reg_376 : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15 is
   signal \ap_CS_fsm[9]_i_2_n_6\ : STD_LOGIC;
   signal ap_done_cache : STD_LOGIC;
   signal \ap_done_cache_i_1__2_n_6\ : STD_LOGIC;
@@ -5066,7 +5066,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5 is
   port (
     ap_rst_n_0 : out STD_LOGIC;
     \ap_block_pp0_stage0_11001__0\ : out STD_LOGIC;
@@ -5093,10 +5093,10 @@ entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5 is
     \x_fu_58[10]_i_4_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5 is
   signal \^ap_block_pp0_stage0_11001__0\ : STD_LOGIC;
   signal ap_done_cache : STD_LOGIC;
   signal ap_done_cache_i_1_n_6 : STD_LOGIC;
@@ -5507,7 +5507,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6 is
   port (
     D : out STD_LOGIC_VECTOR ( 0 to 0 );
     ap_loop_init_int_reg_0 : out STD_LOGIC_VECTOR ( 10 downto 0 );
@@ -5532,10 +5532,10 @@ entity design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6 is
     grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90_ap_start_reg_reg_3 : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6 : entity is "design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6 is
   signal \^addrbwraddr\ : STD_LOGIC_VECTOR ( 8 downto 0 );
   signal ap_done_cache : STD_LOGIC;
   signal \ap_done_cache_i_1__4_n_6\ : STD_LOGIC;
@@ -6002,16 +6002,16 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_reg_unsigned_short_s is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s is
   port (
     Q : out STD_LOGIC_VECTOR ( 10 downto 0 );
     E : in STD_LOGIC_VECTOR ( 0 to 0 );
     \d_read_reg_22_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 );
     ap_clk : in STD_LOGIC
   );
-end design_1_v_gamma_lut_0_0_reg_unsigned_short_s;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_reg_unsigned_short_s is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s is
 begin
 \d_read_reg_22_reg[0]\: unisim.vcomponents.FDRE
      port map (
@@ -6106,7 +6106,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9 is
   port (
     Q : out STD_LOGIC_VECTOR ( 10 downto 0 );
     xor_ln216_fu_235_p2 : out STD_LOGIC;
@@ -6116,10 +6116,10 @@ entity design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9 is
     ap_clk : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9 : entity is "design_1_v_gamma_lut_0_0_reg_unsigned_short_s";
-end design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9 : entity is "design_1_v_gamma_lut_0_0_reg_unsigned_short_s";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9 is
   signal \^q\ : STD_LOGIC_VECTOR ( 10 downto 0 );
   signal \xor_ln216_reg_354[0]_i_2_n_6\ : STD_LOGIC;
 begin
@@ -6256,7 +6256,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_regslice_both is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both is
   port (
     m_axis_video_TREADY_int_regslice : out STD_LOGIC;
     D : out STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -6273,9 +6273,9 @@ entity design_1_v_gamma_lut_0_0_regslice_both is
     \out\ : in STD_LOGIC_VECTOR ( 29 downto 0 );
     E : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end design_1_v_gamma_lut_0_0_regslice_both;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_regslice_both is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both is
   signal \ack_in_t_i_1__2_n_6\ : STD_LOGIC;
   signal \data_p1[0]_i_1_n_6\ : STD_LOGIC;
   signal \data_p1[10]_i_1_n_6\ : STD_LOGIC;
@@ -7317,7 +7317,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_regslice_both_10 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both_10 is
   port (
     ack_in_t_reg_0 : out STD_LOGIC;
     Q : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -7332,10 +7332,10 @@ entity design_1_v_gamma_lut_0_0_regslice_both_10 is
     s_axis_video_TDATA : in STD_LOGIC_VECTOR ( 29 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_regslice_both_10 : entity is "design_1_v_gamma_lut_0_0_regslice_both";
-end design_1_v_gamma_lut_0_0_regslice_both_10;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both_10 : entity is "design_1_v_gamma_lut_0_0_regslice_both";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both_10;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_regslice_both_10 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both_10 is
   signal \^q\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal ack_in_t_i_1_n_6 : STD_LOGIC;
   signal \^ack_in_t_reg_0\ : STD_LOGIC;
@@ -8680,7 +8680,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \design_1_v_gamma_lut_0_0_regslice_both__parameterized1\ is
+entity \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1\ is
   port (
     ack_in_t_reg_0 : out STD_LOGIC;
     data_p2 : out STD_LOGIC;
@@ -8693,10 +8693,10 @@ entity \design_1_v_gamma_lut_0_0_regslice_both__parameterized1\ is
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96_m_axis_video_TLAST : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \design_1_v_gamma_lut_0_0_regslice_both__parameterized1\ : entity is "design_1_v_gamma_lut_0_0_regslice_both";
-end \design_1_v_gamma_lut_0_0_regslice_both__parameterized1\;
+  attribute ORIG_REF_NAME of \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1\ : entity is "design_1_v_gamma_lut_0_0_regslice_both";
+end \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1\;
 
-architecture STRUCTURE of \design_1_v_gamma_lut_0_0_regslice_both__parameterized1\ is
+architecture STRUCTURE of \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1\ is
   signal \ack_in_t_i_1__4_n_6\ : STD_LOGIC;
   signal \^ack_in_t_reg_0\ : STD_LOGIC;
   signal \data_p1[0]_i_1__4_n_6\ : STD_LOGIC;
@@ -8819,7 +8819,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\ is
+entity \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\ is
   port (
     s_axis_video_TLAST_int_regslice : out STD_LOGIC;
     \data_p1_reg[0]_0\ : out STD_LOGIC;
@@ -8832,10 +8832,10 @@ entity \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\ is
     s_axis_video_TLAST : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\ : entity is "design_1_v_gamma_lut_0_0_regslice_both";
-end \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\;
+  attribute ORIG_REF_NAME of \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\ : entity is "design_1_v_gamma_lut_0_0_regslice_both";
+end \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\;
 
-architecture STRUCTURE of \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\ is
+architecture STRUCTURE of \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\ is
   signal \ack_in_t_i_1__1_n_6\ : STD_LOGIC;
   signal ack_in_t_reg_n_6 : STD_LOGIC;
   signal \data_p1[0]_i_1__2_n_6\ : STD_LOGIC;
@@ -8978,7 +8978,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\ is
+entity \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\ is
   port (
     \data_p1_reg[0]_0\ : out STD_LOGIC;
     ap_clk : in STD_LOGIC;
@@ -8988,10 +8988,10 @@ entity \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\ is
     s_axis_video_TUSER : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\ : entity is "design_1_v_gamma_lut_0_0_regslice_both";
-end \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\;
+  attribute ORIG_REF_NAME of \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\ : entity is "design_1_v_gamma_lut_0_0_regslice_both";
+end \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\;
 
-architecture STRUCTURE of \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\ is
+architecture STRUCTURE of \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\ is
   signal \ack_in_t_i_1__0_n_6\ : STD_LOGIC;
   signal ack_in_t_reg_n_6 : STD_LOGIC;
   signal \data_p1[0]_i_1__1_n_6\ : STD_LOGIC;
@@ -9124,7 +9124,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\ is
+entity \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\ is
   port (
     ack_in_t_reg_0 : out STD_LOGIC;
     data_p2 : out STD_LOGIC;
@@ -9137,10 +9137,10 @@ entity \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\ is
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96_m_axis_video_TUSER : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\ : entity is "design_1_v_gamma_lut_0_0_regslice_both";
-end \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\;
+  attribute ORIG_REF_NAME of \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\ : entity is "design_1_v_gamma_lut_0_0_regslice_both";
+end \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\;
 
-architecture STRUCTURE of \design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\ is
+architecture STRUCTURE of \design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\ is
   signal \ack_in_t_i_1__3_n_6\ : STD_LOGIC;
   signal \^ack_in_t_reg_0\ : STD_LOGIC;
   signal \data_p1[0]_i_1__3_n_6\ : STD_LOGIC;
@@ -9263,7 +9263,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0 is
   port (
     MultiPixStream2AXIvideo_U0_ap_start : out STD_LOGIC;
     start_for_MultiPixStream2AXIvideo_U0_full_n : out STD_LOGIC;
@@ -9276,9 +9276,9 @@ entity design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0 is
     \mOutPtr_reg[0]_0\ : in STD_LOGIC;
     \trunc_ln250_reg_185_reg[10]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0 is
   signal \^multipixstream2axivideo_u0_ap_start\ : STD_LOGIC;
   signal \empty_n_i_1__1_n_6\ : STD_LOGIC;
   signal \full_n_i_1__1_n_6\ : STD_LOGIC;
@@ -9428,7 +9428,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol is
   port (
     ap_loop_init_int : out STD_LOGIC;
     \ap_CS_fsm_reg[8]\ : out STD_LOGIC;
@@ -9447,9 +9447,9 @@ entity design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_e
     axi_last_4_loc_fu_82 : in STD_LOGIC;
     select_ln216_reg_376 : in STD_LOGIC
   );
-end design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol is
   signal eol_1_reg_114 : STD_LOGIC;
   signal flow_control_loop_pipe_sequential_init_U_n_11 : STD_LOGIC;
 begin
@@ -9461,7 +9461,7 @@ begin
       Q => eol_1_reg_114,
       R => '0'
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_15
      port map (
       D(1 downto 0) => D(1 downto 0),
       Q(1 downto 0) => Q(1 downto 0),
@@ -9487,7 +9487,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start is
   port (
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
     \ap_CS_fsm_reg[5]\ : out STD_LOGIC;
@@ -9507,9 +9507,9 @@ entity design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_s
     axi_last_4_loc_fu_82 : in STD_LOGIC;
     axi_last_2_reg_122 : in STD_LOGIC
   );
-end design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start is
   signal grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_axi_last_out : STD_LOGIC;
   signal grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_s_axis_video_TREADY : STD_LOGIC;
   signal sof_reg_83 : STD_LOGIC;
@@ -9537,7 +9537,7 @@ begin
       Q => grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_axi_last_out,
       R => '0'
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_14
      port map (
       D(1 downto 0) => D(1 downto 0),
       E(0) => E(0),
@@ -9567,7 +9567,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width is
   port (
     grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_eol_out : out STD_LOGIC;
     \s_axis_video_TREADY_int_regslice__1\ : out STD_LOGIC;
@@ -9601,9 +9601,9 @@ entity design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width is
     \axi_data_2_fu_74_reg[29]\ : in STD_LOGIC_VECTOR ( 29 downto 0 );
     \axi_data_fu_84_reg[29]_1\ : in STD_LOGIC_VECTOR ( 29 downto 0 )
   );
-end design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width is
   signal ap_enable_reg_pp0_iter1 : STD_LOGIC;
   signal \^axi_data_fu_84_reg[29]_0\ : STD_LOGIC_VECTOR ( 29 downto 0 );
   signal axi_last_fu_883_out : STD_LOGIC;
@@ -10381,7 +10381,7 @@ ap_enable_reg_pp0_iter1_reg: unisim.vcomponents.FDRE
       Q => \^grp_axivideo2multipixstream_pipeline_loop_width_fu_152_eol_out\,
       R => '0'
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_13
      port map (
       D(10 downto 0) => j_4_fu_201_p2(10 downto 0),
       E(0) => axi_last_fu_883_out,
@@ -10583,7 +10583,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_CTRL_s_axi is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi is
   port (
     SR : out STD_LOGIC_VECTOR ( 0 to 0 );
     interrupt : out STD_LOGIC;
@@ -10632,9 +10632,9 @@ entity design_1_v_gamma_lut_0_0_CTRL_s_axi is
     MultiPixStream2AXIvideo_U0_ap_ready : in STD_LOGIC;
     s_axi_CTRL_AWADDR : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
-end design_1_v_gamma_lut_0_0_CTRL_s_axi;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_CTRL_s_axi is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi is
   signal \^q\ : STD_LOGIC_VECTOR ( 10 downto 0 );
   signal \^sr\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal ap_idle : STD_LOGIC;
@@ -11126,7 +11126,7 @@ int_auto_restart_reg: unisim.vcomponents.FDRE
       Q => p_3_in(7),
       R => \^sr\(0)
     );
-int_gamma_lut_0: entity work.design_1_v_gamma_lut_0_0_CTRL_s_axi_ram
+int_gamma_lut_0: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram
      port map (
       ADDRARDADDR(8 downto 0) => int_gamma_lut_0_address1(8 downto 0),
       ADDRBWRADDR(8 downto 0) => ADDRBWRADDR(8 downto 0),
@@ -11224,7 +11224,7 @@ int_gamma_lut_0_write_reg: unisim.vcomponents.FDRE
       Q => int_gamma_lut_0_write_reg_n_6,
       R => \^sr\(0)
     );
-int_gamma_lut_1: entity work.design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7
+int_gamma_lut_1: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_7
      port map (
       ADDRARDADDR(8 downto 0) => int_gamma_lut_0_address1(8 downto 0),
       ADDRBWRADDR(8 downto 0) => ADDRBWRADDR(8 downto 0),
@@ -11354,7 +11354,7 @@ int_gamma_lut_1_write_reg: unisim.vcomponents.FDRE
       Q => int_gamma_lut_1_write_reg_n_6,
       R => \^sr\(0)
     );
-int_gamma_lut_2: entity work.design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8
+int_gamma_lut_2: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi_ram_8
      port map (
       ADDRARDADDR(8 downto 0) => int_gamma_lut_0_address1(8 downto 0),
       ADDRBWRADDR(8 downto 0) => ADDRBWRADDR(8 downto 0),
@@ -13890,7 +13890,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1 is
   port (
     ap_enable_reg_pp0_iter1 : out STD_LOGIC;
     D : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -13912,9 +13912,9 @@ entity design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1 is
     ap_rst_n : in STD_LOGIC;
     grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90_ap_start_reg_reg_0 : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1 is
   signal \^addrbwraddr\ : STD_LOGIC_VECTOR ( 8 downto 0 );
   signal Gamma_U0_gamma_lut_2_address0 : STD_LOGIC_VECTOR ( 0 to 0 );
   signal add_ln315_fu_146_p2 : STD_LOGIC_VECTOR ( 10 downto 0 );
@@ -13981,7 +13981,7 @@ ap_enable_reg_pp0_iter1_reg: unisim.vcomponents.FDRE
       Q => \^ap_enable_reg_pp0_iter1\,
       R => '0'
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_6
      port map (
       ADDRBWRADDR(8 downto 0) => \^addrbwraddr\(8 downto 0),
       D(0) => D(0),
@@ -14541,7 +14541,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4 is
   port (
     ap_enable_reg_pp0_iter1_reg_0 : out STD_LOGIC;
     ap_enable_reg_pp0_iter2_reg_0 : out STD_LOGIC;
@@ -14573,9 +14573,9 @@ entity design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4 is
     ap_enable_reg_pp0_iter1 : in STD_LOGIC;
     \x_fu_58[10]_i_4\ : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
-end design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4 is
   signal \ap_block_pp0_stage0_11001__0\ : STD_LOGIC;
   signal \^ap_enable_reg_pp0_iter1_reg_0\ : STD_LOGIC;
   signal \^ap_enable_reg_pp0_iter1_reg_1\ : STD_LOGIC;
@@ -14699,7 +14699,7 @@ empty_n_i_1: unisim.vcomponents.LUT6
       I5 => \ap_block_pp0_stage0_11001__0\,
       O => empty_n_reg_0
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init_5
      port map (
       D(1 downto 0) => D(1 downto 0),
       E(0) => E(0),
@@ -14933,7 +14933,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2 is
   port (
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96_m_axis_video_TLAST : out STD_LOGIC;
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96_m_axis_video_TUSER : out STD_LOGIC;
@@ -14968,9 +14968,9 @@ entity design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_
     \data_p2_reg[0]_0\ : in STD_LOGIC;
     data_p2_0 : in STD_LOGIC
   );
-end design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2 is
   signal \^ack_in_t_reg\ : STD_LOGIC;
   signal ap_block_pp0_stage0_subdone : STD_LOGIC;
   signal ap_enable_reg_pp0_iter1 : STD_LOGIC;
@@ -15090,7 +15090,7 @@ ap_loop_exit_ready_pp0_iter1_reg_reg: unisim.vcomponents.FDRE
       I4 => m_axis_video_TREADY_int_regslice,
       O => \icmp_ln258_reg_197_reg[0]_0\(0)
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_flow_control_loop_pipe_sequential_init
      port map (
       D(1 downto 0) => D(1 downto 0),
       E(0) => j_fu_76,
@@ -15302,7 +15302,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_fifo_w30_d16_S is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S is
   port (
     imgGamma_empty_n : out STD_LOGIC;
     imgGamma_full_n : out STD_LOGIC;
@@ -15318,9 +15318,9 @@ entity design_1_v_gamma_lut_0_0_fifo_w30_d16_S is
     \in\ : in STD_LOGIC_VECTOR ( 29 downto 0 );
     E : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end design_1_v_gamma_lut_0_0_fifo_w30_d16_S;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_fifo_w30_d16_S is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S is
   signal \addr[0]_i_1__0_n_6\ : STD_LOGIC;
   signal \addr[1]_i_1__0_n_6\ : STD_LOGIC;
   signal \addr[2]_i_1__0_n_6\ : STD_LOGIC;
@@ -15351,7 +15351,7 @@ architecture STRUCTURE of design_1_v_gamma_lut_0_0_fifo_w30_d16_S is
 begin
   imgGamma_empty_n <= \^imggamma_empty_n\;
   imgGamma_full_n <= \^imggamma_full_n\;
-U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg: entity work.design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1
+U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg_1
      port map (
       Q(3 downto 0) => addr_reg(3 downto 0),
       ap_clk => ap_clk,
@@ -15612,7 +15612,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 is
   port (
     imgRgb_empty_n : out STD_LOGIC;
     imgRgb_full_n : out STD_LOGIC;
@@ -15630,10 +15630,10 @@ entity design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 is
     \addr_reg[0]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 : entity is "design_1_v_gamma_lut_0_0_fifo_w30_d16_S";
-end design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0;
+  attribute ORIG_REF_NAME of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 : entity is "design_1_v_gamma_lut_0_0_fifo_w30_d16_S";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 is
   signal \addr[0]_i_1_n_6\ : STD_LOGIC;
   signal \addr[1]_i_1_n_6\ : STD_LOGIC;
   signal \addr[2]_i_1_n_6\ : STD_LOGIC;
@@ -15661,7 +15661,7 @@ architecture STRUCTURE of design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0 is
 begin
   imgRgb_empty_n <= \^imgrgb_empty_n\;
   imgRgb_full_n <= \^imgrgb_full_n\;
-U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg: entity work.design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg
+U_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_ShiftReg
      port map (
       Q(3 downto 0) => addr_reg(3 downto 0),
       ap_clk => ap_clk,
@@ -15900,7 +15900,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream is
   port (
     ack_in_t_reg : out STD_LOGIC;
     Q : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -15925,9 +15925,9 @@ entity design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream is
     \trunc_ln171_reg_331_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 );
     \trunc_ln170_reg_326_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
-end design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream is
   signal \^q\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal and_ln216_reg_365 : STD_LOGIC;
   signal \and_ln216_reg_365[0]_i_1_n_6\ : STD_LOGIC;
@@ -16640,7 +16640,7 @@ ap_sync_reg_AXIvideo2MultiPixStream_U0_ap_ready_i_2: unisim.vcomponents.LUT3
       Q => cols_reg_341(9),
       R => '0'
     );
-grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_180: entity work.design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol
+grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_180: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol
      port map (
       D(1 downto 0) => \ap_NS_fsm__0\(9 downto 8),
       Q(1) => ap_CS_fsm_state9,
@@ -16671,7 +16671,7 @@ grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_180_ap_start_reg_reg: 
       Q => grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_eol_fu_180_ap_start_reg,
       R => SR(0)
     );
-grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132: entity work.design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start
+grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start
      port map (
       D(1) => \ap_NS_fsm__0\(3),
       D(0) => ap_NS_fsm(2),
@@ -16708,7 +16708,7 @@ grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_ap_start_reg_reg
       Q => grp_AXIvideo2MultiPixStream_Pipeline_loop_wait_for_start_fu_132_ap_start_reg,
       R => SR(0)
     );
-grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152: entity work.design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width
+grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream_Pipeline_loop_width
      port map (
       D(1 downto 0) => \ap_NS_fsm__0\(6 downto 5),
       E(0) => grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_ap_start_reg0,
@@ -16784,14 +16784,14 @@ grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_ap_start_reg_reg: unisim.
       Q => grp_AXIvideo2MultiPixStream_Pipeline_loop_width_fu_152_ap_start_reg,
       R => SR(0)
     );
-grp_reg_unsigned_short_s_fu_216: entity work.design_1_v_gamma_lut_0_0_reg_unsigned_short_s
+grp_reg_unsigned_short_s_fu_216: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s
      port map (
       E(0) => grp_reg_unsigned_short_s_fu_216_ap_ce,
       Q(10 downto 0) => d_read_reg_22(10 downto 0),
       ap_clk => ap_clk,
       \d_read_reg_22_reg[10]_0\(10 downto 0) => trunc_ln170_reg_326(10 downto 0)
     );
-grp_reg_unsigned_short_s_fu_221: entity work.design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9
+grp_reg_unsigned_short_s_fu_221: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_reg_unsigned_short_s_9
      port map (
       E(0) => grp_reg_unsigned_short_s_fu_216_ap_ce,
       Q(10) => grp_reg_unsigned_short_s_fu_221_n_6,
@@ -17083,7 +17083,7 @@ int_ap_start_i_2: unisim.vcomponents.LUT5
       I4 => int_ap_start_reg_0,
       O => ap_sync_ready
     );
-regslice_both_s_axis_video_V_data_V_U: entity work.design_1_v_gamma_lut_0_0_regslice_both_10
+regslice_both_s_axis_video_V_data_V_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both_10
      port map (
       Q(0) => s_axis_video_TVALID_int_regslice,
       SR(0) => SR(0),
@@ -17126,7 +17126,7 @@ regslice_both_s_axis_video_V_data_V_U: entity work.design_1_v_gamma_lut_0_0_regs
       \s_axis_video_TREADY_int_regslice__1\ => \s_axis_video_TREADY_int_regslice__1\,
       s_axis_video_TVALID => s_axis_video_TVALID
     );
-regslice_both_s_axis_video_V_last_V_U: entity work.\design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\
+regslice_both_s_axis_video_V_last_V_U: entity work.\design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_11\
      port map (
       SR(0) => SR(0),
       ap_clk => ap_clk,
@@ -17138,7 +17138,7 @@ regslice_both_s_axis_video_V_last_V_U: entity work.\design_1_v_gamma_lut_0_0_reg
       \s_axis_video_TREADY_int_regslice__1\ => \s_axis_video_TREADY_int_regslice__1\,
       s_axis_video_TVALID => s_axis_video_TVALID
     );
-regslice_both_s_axis_video_V_user_V_U: entity work.\design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\
+regslice_both_s_axis_video_V_user_V_U: entity work.\design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_12\
      port map (
       SR(0) => SR(0),
       ap_clk => ap_clk,
@@ -17451,7 +17451,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_Gamma is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma is
   port (
     \in\ : out STD_LOGIC_VECTOR ( 29 downto 0 );
     grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90_ap_start_reg : out STD_LOGIC;
@@ -17493,9 +17493,9 @@ entity design_1_v_gamma_lut_0_0_Gamma is
     D : in STD_LOGIC_VECTOR ( 10 downto 0 );
     \trunc_ln312_reg_162_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
-end design_1_v_gamma_lut_0_0_Gamma;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_Gamma is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma is
   signal \^q\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal \ap_CS_fsm[0]_i_1__1_n_6\ : STD_LOGIC;
   signal \ap_CS_fsm[0]_i_3_n_6\ : STD_LOGIC;
@@ -17688,7 +17688,7 @@ ap_sync_reg_Gamma_U0_ap_ready_i_1: unisim.vcomponents.LUT2
       I1 => start_once_reg_reg_0,
       O => ap_sync_Gamma_U0_ap_ready
     );
-grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90: entity work.design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1
+grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_315_1
      port map (
       ADDRARDADDR(9 downto 0) => lut_1_0_address0(9 downto 0),
       ADDRBWRADDR(8 downto 0) => ADDRBWRADDR(8 downto 0),
@@ -17723,7 +17723,7 @@ grp_Gamma_Pipeline_VITIS_LOOP_315_1_fu_90_ap_start_reg_reg: unisim.vcomponents.F
       Q => \^grp_gamma_pipeline_vitis_loop_315_1_fu_90_ap_start_reg\,
       R => SR(0)
     );
-grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106: entity work.design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4
+grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_Pipeline_VITIS_LOOP_327_4
      port map (
       D(1 downto 0) => ap_NS_fsm(3 downto 2),
       E(0) => grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106_ap_start_reg0,
@@ -17767,7 +17767,7 @@ grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106_ap_start_reg_reg: unisim.vcomponents.
       Q => grp_Gamma_Pipeline_VITIS_LOOP_327_4_fu_106_ap_start_reg,
       R => SR(0)
     );
-lut_0_0_U: entity work.design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W
+lut_0_0_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W
      port map (
       DINADIN(9 downto 0) => DINADIN(9 downto 0),
       WEA(0) => lut_0_0_we0,
@@ -17776,7 +17776,7 @@ lut_0_0_U: entity work.design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W
       lut_0_0_ce0 => lut_0_0_ce0,
       ram_reg_bram_0_0(9 downto 0) => lut_0_0_address0(9 downto 0)
     );
-lut_1_0_U: entity work.design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3
+lut_1_0_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3
      port map (
       ADDRARDADDR(9 downto 0) => lut_1_0_address0(9 downto 0),
       WEA(0) => lut_0_0_we0,
@@ -17785,7 +17785,7 @@ lut_1_0_U: entity work.design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_3
       lut_0_0_ce0 => lut_0_0_ce0,
       ram_reg_bram_0_0(9 downto 0) => ram_reg_bram_0(9 downto 0)
     );
-lut_2_0_U: entity work.design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4
+lut_2_0_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma_lut_0_0_RAM_AUTO_1R1W_4
      port map (
       WEA(0) => lut_0_0_we0,
       ap_clk => ap_clk,
@@ -18284,7 +18284,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo is
   port (
     m_axis_video_TUSER : out STD_LOGIC_VECTOR ( 0 to 0 );
     m_axis_video_TLAST : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -18314,9 +18314,9 @@ entity design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo is
     \trunc_ln250_reg_185_reg[10]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     \trunc_ln249_reg_180_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
-end design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo;
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo is
   signal \^ack_in_t_reg\ : STD_LOGIC;
   signal and_ln256_reg_203 : STD_LOGIC;
   signal \and_ln256_reg_203[0]_i_1_n_6\ : STD_LOGIC;
@@ -18519,7 +18519,7 @@ begin
       Q => ap_CS_fsm_state4,
       R => SR(0)
     );
-grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96: entity work.design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2
+grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2
      port map (
       D(1 downto 0) => ap_NS_fsm(2 downto 1),
       E(0) => E(0),
@@ -18844,7 +18844,7 @@ grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2_fu_96_ap_start_reg_reg: un
       Q => \icmp_ln256_reg_195_reg_n_6_[0]\,
       R => '0'
     );
-regslice_both_m_axis_video_V_data_V_U: entity work.design_1_v_gamma_lut_0_0_regslice_both
+regslice_both_m_axis_video_V_data_V_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both
      port map (
       D(1) => ap_NS_fsm(3),
       D(0) => ap_NS_fsm(0),
@@ -18864,7 +18864,7 @@ regslice_both_m_axis_video_V_data_V_U: entity work.design_1_v_gamma_lut_0_0_regs
       \out\(29 downto 0) => \out\(29 downto 0),
       \state_reg[1]_0\ => \^ack_in_t_reg\
     );
-regslice_both_m_axis_video_V_last_V_U: entity work.\design_1_v_gamma_lut_0_0_regslice_both__parameterized1\
+regslice_both_m_axis_video_V_last_V_U: entity work.\design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1\
      port map (
       \FSM_sequential_state_reg[0]_0\ => \^ack_in_t_reg\,
       SR(0) => SR(0),
@@ -18876,7 +18876,7 @@ regslice_both_m_axis_video_V_last_V_U: entity work.\design_1_v_gamma_lut_0_0_reg
       m_axis_video_TLAST(0) => m_axis_video_TLAST(0),
       m_axis_video_TREADY => m_axis_video_TREADY
     );
-regslice_both_m_axis_video_V_user_V_U: entity work.\design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\
+regslice_both_m_axis_video_V_user_V_U: entity work.\design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_regslice_both__parameterized1_2\
      port map (
       \FSM_sequential_state_reg[0]_0\ => \^ack_in_t_reg\,
       SR(0) => SR(0),
@@ -19203,7 +19203,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_gamma_lut_0_0_v_gamma_lut is
+entity design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut is
   port (
     s_axi_CTRL_AWVALID : in STD_LOGIC;
     s_axi_CTRL_AWREADY : out STD_LOGIC;
@@ -19245,20 +19245,20 @@ entity design_1_v_gamma_lut_0_0_v_gamma_lut is
     m_axis_video_TREADY : in STD_LOGIC
   );
   attribute C_S_AXI_CTRL_ADDR_WIDTH : integer;
-  attribute C_S_AXI_CTRL_ADDR_WIDTH of design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 13;
+  attribute C_S_AXI_CTRL_ADDR_WIDTH of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 13;
   attribute C_S_AXI_CTRL_DATA_WIDTH : integer;
-  attribute C_S_AXI_CTRL_DATA_WIDTH of design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 32;
+  attribute C_S_AXI_CTRL_DATA_WIDTH of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 32;
   attribute C_S_AXI_CTRL_WSTRB_WIDTH : integer;
-  attribute C_S_AXI_CTRL_WSTRB_WIDTH of design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 4;
+  attribute C_S_AXI_CTRL_WSTRB_WIDTH of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 4;
   attribute C_S_AXI_DATA_WIDTH : integer;
-  attribute C_S_AXI_DATA_WIDTH of design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 32;
+  attribute C_S_AXI_DATA_WIDTH of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 32;
   attribute C_S_AXI_WSTRB_WIDTH : integer;
-  attribute C_S_AXI_WSTRB_WIDTH of design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 4;
+  attribute C_S_AXI_WSTRB_WIDTH of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut : entity is 4;
   attribute hls_module : string;
-  attribute hls_module of design_1_v_gamma_lut_0_0_v_gamma_lut : entity is "yes";
-end design_1_v_gamma_lut_0_0_v_gamma_lut;
+  attribute hls_module of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut : entity is "yes";
+end design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut;
 
-architecture STRUCTURE of design_1_v_gamma_lut_0_0_v_gamma_lut is
+architecture STRUCTURE of design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut is
   signal \<const0>\ : STD_LOGIC;
   signal AXIvideo2MultiPixStream_U0_imgRgb_din : STD_LOGIC_VECTOR ( 29 downto 0 );
   signal AXIvideo2MultiPixStream_U0_n_10 : STD_LOGIC;
@@ -19345,7 +19345,7 @@ begin
   s_axi_CTRL_BRESP(0) <= \<const0>\;
   s_axi_CTRL_RRESP(1) <= \<const0>\;
   s_axi_CTRL_RRESP(0) <= \<const0>\;
-AXIvideo2MultiPixStream_U0: entity work.design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
+AXIvideo2MultiPixStream_U0: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_AXIvideo2MultiPixStream
      port map (
       Q(0) => AXIvideo2MultiPixStream_U0_n_7,
       SR(0) => ap_rst_n_inv,
@@ -19370,7 +19370,7 @@ AXIvideo2MultiPixStream_U0: entity work.design_1_v_gamma_lut_0_0_AXIvideo2MultiP
       \trunc_ln170_reg_326_reg[10]_0\(10 downto 0) => height(10 downto 0),
       \trunc_ln171_reg_331_reg[10]_0\(10 downto 0) => width(10 downto 0)
     );
-CTRL_s_axi_U: entity work.design_1_v_gamma_lut_0_0_CTRL_s_axi
+CTRL_s_axi_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_CTRL_s_axi
      port map (
       ADDRBWRADDR(8 downto 0) => Gamma_U0_gamma_lut_2_address0(9 downto 1),
       D(0) => sub_i_i_fu_132_p2(0),
@@ -19432,7 +19432,7 @@ GND: unisim.vcomponents.GND
      port map (
       G => \<const0>\
     );
-Gamma_U0: entity work.design_1_v_gamma_lut_0_0_Gamma
+Gamma_U0: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_Gamma
      port map (
       ADDRBWRADDR(8 downto 0) => Gamma_U0_gamma_lut_2_address0(9 downto 1),
       D(10 downto 0) => width(10 downto 0),
@@ -19474,7 +19474,7 @@ Gamma_U0: entity work.design_1_v_gamma_lut_0_0_Gamma
       start_once_reg_reg_0 => ap_sync_reg_Gamma_U0_ap_ready_reg_n_6,
       \trunc_ln312_reg_162_reg[10]_0\(10 downto 0) => height(10 downto 0)
     );
-MultiPixStream2AXIvideo_U0: entity work.design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo
+MultiPixStream2AXIvideo_U0: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_MultiPixStream2AXIvideo
      port map (
       D(0) => sub_i_i_fu_132_p2(0),
       E(0) => MultiPixStream2AXIvideo_U0_n_12,
@@ -19536,7 +19536,7 @@ ap_sync_reg_Gamma_U0_ap_ready_reg: unisim.vcomponents.FDRE
       Q => ap_sync_reg_Gamma_U0_ap_ready_reg_n_6,
       R => ap_sync_reg_Gamma_U0_ap_ready
     );
-imgGamma_U: entity work.design_1_v_gamma_lut_0_0_fifo_w30_d16_S
+imgGamma_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S
      port map (
       E(0) => MultiPixStream2AXIvideo_U0_n_12,
       SR(0) => ap_rst_n_inv,
@@ -19552,7 +19552,7 @@ imgGamma_U: entity work.design_1_v_gamma_lut_0_0_fifo_w30_d16_S
       p_9_in => p_9_in,
       push => push_0
     );
-imgRgb_U: entity work.design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0
+imgRgb_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0
      port map (
       E(0) => Gamma_U0_n_44,
       SR(0) => ap_rst_n_inv,
@@ -19569,7 +19569,7 @@ imgRgb_U: entity work.design_1_v_gamma_lut_0_0_fifo_w30_d16_S_0
       \out\(29 downto 0) => imgRgb_dout(29 downto 0),
       push => push
     );
-start_for_MultiPixStream2AXIvideo_U0_U: entity work.design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0
+start_for_MultiPixStream2AXIvideo_U0_U: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_start_for_MultiPixStream2AXIvideo_U0
      port map (
       MultiPixStream2AXIvideo_U0_ap_ready => MultiPixStream2AXIvideo_U0_ap_ready,
       MultiPixStream2AXIvideo_U0_ap_start => MultiPixStream2AXIvideo_U0_ap_start,
@@ -19733,7 +19733,7 @@ VCC: unisim.vcomponents.VCC
      port map (
       P => \<const1>\
     );
-inst: entity work.design_1_v_gamma_lut_0_0_v_gamma_lut
+inst: entity work.design_1_v_gamma_lut_0_0_design_1_v_gamma_lut_0_0_v_gamma_lut
      port map (
       ap_clk => ap_clk,
       ap_rst_n => ap_rst_n,

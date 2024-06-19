@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 8,
-    "calls": "4 5",
+    "calls": "3 2",
     "file": "v_tpg.cpp",
     "fileloc": 409,
     "instructions": 164,
@@ -16,38 +16,6 @@
     "total_instructions": 1133
   },
   "1": {
-    "basicblocks": 153,
-    "calls": "6",
-    "file": "v_tpg.cpp",
-    "fileloc": 536,
-    "instructions": 692,
-    "loads": {
-      "G": 62,
-      "L": 2
-    },
-    "name": "tpgBackground",
-    "stores": {
-      "G": 40,
-      "L": 1
-    },
-    "total_instructions": 697
-  },
-  "2": {
-    "basicblocks": 17,
-    "calls": "4 4",
-    "file": "v_tpg.cpp",
-    "fileloc": 821,
-    "instructions": 127,
-    "loads": {
-      "L": 7
-    },
-    "name": "AXIvideo2MultiPixStream",
-    "stores": {
-      "L": 1
-    },
-    "total_instructions": 135
-  },
-  "3": {
     "basicblocks": 27,
     "calls": "",
     "file": "v_tpg.cpp",
@@ -64,7 +32,16 @@
     },
     "total_instructions": 121
   },
-  "4": {
+  "2": {
+    "basicblocks": 1,
+    "calls": "5 4 1",
+    "file": "v_tpg.cpp",
+    "fileloc": 304,
+    "instructions": 12,
+    "name": "v_tpgHlsDataFlow",
+    "total_instructions": 965
+  },
+  "3": {
     "basicblocks": 1,
     "calls": "",
     "file": "x_hls_utils.h",
@@ -73,14 +50,37 @@
     "name": "reg<unsigned short>",
     "total_instructions": 4
   },
-  "5": {
-    "basicblocks": 1,
-    "calls": "2 1 3",
+  "4": {
+    "basicblocks": 153,
+    "calls": "6",
     "file": "v_tpg.cpp",
-    "fileloc": 304,
-    "instructions": 12,
-    "name": "v_tpgHlsDataFlow",
-    "total_instructions": 965
+    "fileloc": 536,
+    "instructions": 692,
+    "loads": {
+      "G": 62,
+      "L": 2
+    },
+    "name": "tpgBackground",
+    "stores": {
+      "G": 40,
+      "L": 1
+    },
+    "total_instructions": 697
+  },
+  "5": {
+    "basicblocks": 17,
+    "calls": "3 3",
+    "file": "v_tpg.cpp",
+    "fileloc": 821,
+    "instructions": 127,
+    "loads": {
+      "L": 7
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "stores": {
+      "L": 1
+    },
+    "total_instructions": 135
   },
   "6": {
     "basicblocks": 1,

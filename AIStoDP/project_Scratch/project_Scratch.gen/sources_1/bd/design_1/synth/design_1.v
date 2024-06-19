@@ -2,7 +2,7 @@
 //Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-//Date        : Sun Jun 16 23:46:07 2024
+//Date        : Mon Jun 17 21:36:30 2024
 //Host        : Tey running 64-bit major release  (build 9200)
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -12,22 +12,10 @@
 
 (* CORE_GENERATION_INFO = "design_1,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=design_1,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=30,numReposBlks=21,numNonXlnxBlks=0,numHierBlks=9,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_board_cnt=3,da_clkrst_cnt=6,da_zynq_ultra_ps_e_cnt=1,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "design_1.hwdef" *) 
 module design_1
-   (IIC_1_0_scl_i,
-    IIC_1_0_scl_o,
-    IIC_1_0_scl_t,
-    IIC_1_0_sda_i,
-    IIC_1_0_sda_o,
-    IIC_1_0_sda_t,
-    som240_1_connector_mipi_csi_isp_clk_n,
+   (som240_1_connector_mipi_csi_isp_clk_n,
     som240_1_connector_mipi_csi_isp_clk_p,
     som240_1_connector_mipi_csi_isp_data_n,
     som240_1_connector_mipi_csi_isp_data_p);
-  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1_0 SCL_I" *) input IIC_1_0_scl_i;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1_0 SCL_O" *) output IIC_1_0_scl_o;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1_0 SCL_T" *) output IIC_1_0_scl_t;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1_0 SDA_I" *) input IIC_1_0_sda_i;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1_0 SDA_O" *) output IIC_1_0_sda_o;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:iic:1.0 IIC_1_0 SDA_T" *) output IIC_1_0_sda_t;
   (* X_INTERFACE_INFO = "xilinx.com:interface:mipi_phy:1.0 som240_1_connector_mipi_csi_isp CLK_N" *) input som240_1_connector_mipi_csi_isp_clk_n;
   (* X_INTERFACE_INFO = "xilinx.com:interface:mipi_phy:1.0 som240_1_connector_mipi_csi_isp CLK_P" *) input som240_1_connector_mipi_csi_isp_clk_p;
   (* X_INTERFACE_INFO = "xilinx.com:interface:mipi_phy:1.0 som240_1_connector_mipi_csi_isp DATA_N" *) input [3:0]som240_1_connector_mipi_csi_isp_data_n;
@@ -256,12 +244,6 @@ module design_1
   wire [0:0]v_tpg_0_m_axis_video_TUSER;
   wire v_tpg_0_m_axis_video_TVALID;
   wire [0:0]xlconstant_0_dout;
-  wire zynq_ultra_ps_e_0_IIC_1_SCL_I;
-  wire zynq_ultra_ps_e_0_IIC_1_SCL_O;
-  wire zynq_ultra_ps_e_0_IIC_1_SCL_T;
-  wire zynq_ultra_ps_e_0_IIC_1_SDA_I;
-  wire zynq_ultra_ps_e_0_IIC_1_SDA_O;
-  wire zynq_ultra_ps_e_0_IIC_1_SDA_T;
   wire [39:0]zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARADDR;
   wire [1:0]zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARBURST;
   wire [3:0]zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARCACHE;
@@ -340,16 +322,10 @@ module design_1
   wire [0:0]zynq_ultra_ps_e_0_pl_resetn0;
   wire zynq_ultra_ps_e_0_pl_resetn1;
 
-  assign IIC_1_0_scl_o = zynq_ultra_ps_e_0_IIC_1_SCL_O;
-  assign IIC_1_0_scl_t = zynq_ultra_ps_e_0_IIC_1_SCL_T;
-  assign IIC_1_0_sda_o = zynq_ultra_ps_e_0_IIC_1_SDA_O;
-  assign IIC_1_0_sda_t = zynq_ultra_ps_e_0_IIC_1_SDA_T;
   assign som240_1_connector_mipi_csi_isp_1_CLK_N = som240_1_connector_mipi_csi_isp_clk_n;
   assign som240_1_connector_mipi_csi_isp_1_CLK_P = som240_1_connector_mipi_csi_isp_clk_p;
   assign som240_1_connector_mipi_csi_isp_1_DATA_N = som240_1_connector_mipi_csi_isp_data_n[3:0];
   assign som240_1_connector_mipi_csi_isp_1_DATA_P = som240_1_connector_mipi_csi_isp_data_p[3:0];
-  assign zynq_ultra_ps_e_0_IIC_1_SCL_I = IIC_1_0_scl_i;
-  assign zynq_ultra_ps_e_0_IIC_1_SDA_I = IIC_1_0_sda_i;
   design_1_axi_interconnect_0_0 axi_interconnect_0
        (.ACLK(clk_wiz_0_clk_out3),
         .ARESETN(proc_sys_reset_0_peripheral_aresetn),
@@ -938,12 +914,6 @@ module design_1
         .dp_live_video_in_pixel1(v_axi4s_vid_out_0_vid_data),
         .dp_live_video_in_vsync(v_axi4s_vid_out_0_vid_vsync),
         .dp_video_in_clk(clk_wiz_0_clk_out1),
-        .emio_i2c1_scl_i(zynq_ultra_ps_e_0_IIC_1_SCL_I),
-        .emio_i2c1_scl_o(zynq_ultra_ps_e_0_IIC_1_SCL_O),
-        .emio_i2c1_scl_t(zynq_ultra_ps_e_0_IIC_1_SCL_T),
-        .emio_i2c1_sda_i(zynq_ultra_ps_e_0_IIC_1_SDA_I),
-        .emio_i2c1_sda_o(zynq_ultra_ps_e_0_IIC_1_SDA_O),
-        .emio_i2c1_sda_t(zynq_ultra_ps_e_0_IIC_1_SDA_T),
         .maxigp0_araddr(zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARADDR),
         .maxigp0_arburst(zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARBURST),
         .maxigp0_arcache(zynq_ultra_ps_e_0_M_AXI_HPM0_FPD_ARCACHE),

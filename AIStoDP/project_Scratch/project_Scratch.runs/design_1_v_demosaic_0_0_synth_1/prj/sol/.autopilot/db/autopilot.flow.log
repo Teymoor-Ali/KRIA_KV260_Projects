@@ -1,4 +1,4 @@
-INFO-FLOW: Workspace F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol opened at Sun Jun 16 23:47:09 +0100 2024
+INFO-FLOW: Workspace F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol opened at Mon Jun 17 21:37:01 +0100 2024
 Execute       send_msg_by_id INFO @200-1505@%s%s default  vivado 
 INFO: [HLS 200-1505] Using default flow_target 'vivado'
 Execute     set_part xck26-sfvc784-2lv-c 
@@ -8,7 +8,7 @@ DBG:HLSDevice: Trying to load device library: F:/Tools/Xilinx-2024.1/Vitis_HLS/2
 DBG:HLSDevice: first parts/arch.xml in RDI_DATADIR: F:/Tools/Xilinx-2024.1/Vivado/2024.1/data/parts/arch.xml
 DBG:HLSDevice: init success
 INFO: [HLS 200-1611] Setting target device to 'xck26-sfvc784-2LV-c'
-Command       create_platform done; 1.771 sec.
+Command       create_platform done; 1.519 sec.
 Execute       source F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/common/technology/xilinx/common/xilinx.gen 
 Execute         source F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/common/technology/xilinx/interface/plb46.gen 
 Execute         source F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/common/technology/xilinx/interface/axi4.gen 
@@ -23,7 +23,7 @@ Execute         source F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/common/technology
 Execute         source F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/common/technology/xilinx/DSP48/dsp48.gen 
 Execute       ap_part_info -name xck26-sfvc784-2LV-c -data info 
 Execute       config_compile -quiet -complex-mul-dsp=0 
-Command     set_part done; 1.921 sec.
+Command     set_part done; 1.628 sec.
 Execute     add_files -cflags  -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src  f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/v_demosaic_config.h 
 INFO: [HLS 200-1510] Running: add_files -cflags  -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src  f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/v_demosaic_config.h 
 INFO: [HLS 200-10] Adding design file 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/v_demosaic_config.h' to the project
@@ -66,6 +66,7 @@ INFO: [HLS 200-10] Adding design file 'f:/Projects/Vivado/project_Scratch/projec
 Execute     add_files -cflags  -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src  f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls/hls_video_imgbase.h 
 INFO: [HLS 200-1510] Running: add_files -cflags  -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src  f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls/hls_video_imgbase.h 
 INFO: [HLS 200-10] Adding design file 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls/hls_video_imgbase.h' to the project
+Command     add_files done; 0.529 sec.
 Execute     add_files -cflags  -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src  f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls/hls_video_imgproc.h 
 INFO: [HLS 200-1510] Running: add_files -cflags  -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls -I f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src  f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls/hls_video_imgproc.h 
 INFO: [HLS 200-10] Adding design file 'f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls/hls_video_imgproc.h' to the project
@@ -96,7 +97,7 @@ Execute     csynth_design
 INFO: [HLS 200-1510] Running: csynth_design 
 INFO-FLOW: Running SLX 'csynth' proc: ::SLX::run_csynth
 Execute       elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 -from_csynth_design=1 
-INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.113 seconds; current allocated memory: 227.281 MB.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.094 seconds; current allocated memory: 227.406 MB.
 Execute         set_directive_top v_demosaic -name=v_demosaic 
 Execute         source F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/huddle.tcl 
 Execute         source F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/json2huddle.tcl 
@@ -108,30 +109,30 @@ Execute         ap_part_info -name xck26-sfvc784-2LV-c -data info
 INFO-FLOW: Running: GCC PP 39
 INFO-FLOW: Source preprocessing
 INFO-FLOW: run_clang exec: F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp -foptimization-record-file=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info --sysroot F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt -fhls -fno-exceptions -insert-hls-directive=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/all.directive.json -E -If:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls -If:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=6.734 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-mingw32 -fno-threadsafe-statics -fno-use-cxa-atexit -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/common/technology/autopilot -I F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -I /usr/include/x86_64-linux-gnu -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp {-hls-platform-db-name=F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_288.000000_DSP_1248.000000_FF_234240.000000_LUT_117120.000000_SLICE_14640.000000_URAM_64.000000 -device-name-info=xck26-sfvc784-2LV-c > F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp.clang.out.log 2> F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp.clang.err.log
-INFO-FLOW: Done: GCC PP 39 time: 2.7 seconds per iteration
+INFO-FLOW: Done: GCC PP 39 time: 2.2 seconds per iteration
 INFO-FLOW: Source syntax check for synthesis
 INFO-FLOW: run_clang exec: F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fsyntax-only -fhls -target fpga64-xilinx-linux-gnu F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp {-hls-platform-db-name=F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_288.000000_DSP_1248.000000_FF_234240.000000_LUT_117120.000000_SLICE_14640.000000_URAM_64.000000 -device-name-info=xck26-sfvc784-2LV-c > F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/clang.out.log 2> F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/clang.err.log
 WARNING: [HLS 207-5540] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:102:23)
 WARNING: [HLS 207-5540] 'Ap_stable' in '#pragma HLS INTERFACE' is deprecated, use 'Stable Pragma' instead (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:104:23)
 Execute         clang_tidy xilinx-systemc-detector -desc systemc-detector F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp std=gnu++14 -target fpga  -directive=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/.systemc_flag 
 INFO-FLOW: exec F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-systemc-detector -import-directive=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/.systemc_flag -fix-errors F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command         clang_tidy done; 3.754 sec.
+Command         clang_tidy done; 3.58 sec.
 INFO-FLOW: Running: clang-tidy CDT preprocess 39
 Execute         clang_tidy xilinx-directive2pragma -desc directive2pragma F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp std=gnu++14 -target fpga  -directive=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/all.directive.json 
 INFO-FLOW: exec F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -header-filter=.* --checks=-*,xilinx-directive2pragma -import-directive=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/all.directive.json -fix-errors F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0
-Command         clang_tidy done; 4.178 sec.
-INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 4.2 seconds per iteration
+Command         clang_tidy done; 3.936 sec.
+INFO-FLOW: Done: clang-tidy CDT preprocess 39 time: 3.9 seconds per iteration
 INFO-FLOW: Calling xilinx-label-all-loops ... 
 INFO-FLOW: Calling xilinx-aggregate-on-hls-vector ... 
 Execute         clang_tidy -errorcheck -desc loop-label xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp std=gnu++14 -target fpga  
 INFO-FLOW: run_clang exec: F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang-tidy -export-fixes=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp.clang-tidy.loop-label.diag.yml -header-filter=.* --checks=-*,xilinx-label-all-loops,xilinx-aggregate-on-hls-vector,,xilinx-warn-mayneed-no-ctor-attribute -fix-errors F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 > F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp.clang-tidy.loop-label.out.log 2> F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp.clang-tidy.loop-label.err.log
 Execute           source F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/tps/tcl/tcllib1.11.1/yaml/yaml.tcl 
-Command         clang_tidy done; 11.552 sec.
+Command         clang_tidy done; 9.939 sec.
 INFO-FLOW: run_clang exec: F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/xilinx-dataflow-lawyer -export-fixes=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp.xilinx-dataflow-lawyer.diag.yml F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp -- -std=gnu++14 -target fpga -fhls -ferror-limit=0 -fstrict-dataflow > F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp.xilinx-dataflow-lawyer.out.log 2> F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp.xilinx-dataflow-lawyer.err.log
 Execute         ap_part_info -name xck26-sfvc784-2LV-c -data info 
 INFO-FLOW: compiling source code to llvm bc
 INFO-FLOW: run_clang exec: F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/clang -foptimization-record-file=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp.clang.diag.yml -mllvm -pass-remarks-missed=reflow|pasta|unroll -mllvm -pass-remarks=reflow|pasta|unroll|inline -fno-limit-debug-info -fhls -flto -fno-exceptions -Wno-error=c++11-narrowing -hls-emit-hint-scope F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp -If:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src/hls -If:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/src -fno-math-errno -c -emit-llvm -mllvm -disable-llvm-optzns -Werror=implicit-function-declaration -Werror=implicit-hls-streams -Werror=return-type -Wpragmas -Wunused-parameter -Wdump-hls-pragmas -Wno-error=dump-hls-pragmas -hls-clock-period=6.734 -fno-threadsafe-statics -fno-use-cxa-atexit -std=gnu++14 -target fpga64-xilinx-linux-gnu -D__VITIS_HLS__ -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/common/technology/autopilot -I F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h -D__DSP48E2__ -g -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.bc {-hls-platform-db-name=F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1\common/technology\xilinx/common/platform.db} -hls-platform-name=zynquplus_medium -device-resource-info=BRAM_288.000000_DSP_1248.000000_FF_234240.000000_LUT_117120.000000_SLICE_14640.000000_URAM_64.000000 -device-name-info=xck26-sfvc784-2LV-c > F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp.clang.out.log 2> F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.pp.0.cpp.clang.err.log
-INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5 seconds. CPU system time: 0 seconds. Elapsed time: 34.894 seconds; current allocated memory: 247.332 MB.
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 30.958 seconds; current allocated memory: 247.395 MB.
 INFO-FLOW: Linking Debug ...
 INFO-FLOW: Linking dut bc code.
 Execute         run_link_or_opt -out F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.0.bc -args  "F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.g.bc"  
@@ -146,13 +147,13 @@ INFO-FLOW: Linking math bc lib
 Execute         run_link_or_opt -out F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.2.m1.bc -args F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.1.lower.bc -only-needed F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/lib/libhlsm_39.bc F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/lib/libhlsmc++_39.bc 
 INFO-FLOW: run_clang exec: F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.1.lower.bc -only-needed F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/lib/libhlsm_39.bc F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/lib/libhlsmc++_39.bc -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.2.m1.bc > F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.out.log 2> F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.2.m1.bc.llvm-link.err.log
 INFO-FLOW: 
-Command         run_link_or_opt done; 1.766 sec.
+Command         run_link_or_opt done; 1.695 sec.
 Execute         run_link_or_opt -opt -out F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.3.fpc.bc -args F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=v_demosaic -reflow-float-conversion 
 INFO-FLOW: run_clang exec: F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/opt -pass-remarks-missed=reflow|pasta|unroll -pass-remarks=reflow|pasta|unroll|inline -pass-remarks-output=F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.3.fpc.bc.opt.diag.yml F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.2.m1.bc -reflow-globaldce -hls-top-function-name=v_demosaic -reflow-float-conversion -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.3.fpc.bc > F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.3.fpc.bc.opt.out.log 2> F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.3.fpc.bc.opt.err.log
 INFO-FLOW: 
 INFO-FLOW: Running: gen_design_size_report post-opt
 INFO-FLOW: Done: gen_design_size_report post-opt time: 0 seconds per iteration
-Command         run_link_or_opt done; 0.903 sec.
+Command         run_link_or_opt done; 0.767 sec.
 Execute         run_link_or_opt -out F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.4.m2.bc -args F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.3.fpc.bc -only-needed F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/lib/libfloatconversion_39.bc 
 INFO-FLOW: run_clang exec: F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/tools/clang-3.9-csynth/bin/llvm-link F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.3.fpc.bc -only-needed F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/win64/lib/libfloatconversion_39.bc -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.4.m2.bc > F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.out.log 2> F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.ld.4.m2.bc.llvm-link.err.log
 INFO-FLOW: 
@@ -490,20 +491,20 @@ INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at F:/Proj
 INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1091:30 
 INFO: [HLS 214-376] automatically set the pipeline for Loop< unknown> at F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1092:30 
 INFO-FLOW: DBG:PUTS: copy_raw_kernel_xml ap_link_39: kernel.xml not generated: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/kernel.internal.xml
-INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 31.431 seconds; current allocated memory: 250.594 MB.
-INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 250.633 MB.
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 3 seconds. CPU system time: 0 seconds. Elapsed time: 31.333 seconds; current allocated memory: 250.750 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 250.961 MB.
 Execute         opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 Execute           cleanup_all_models 
 INFO: [HLS 200-10] Starting code transformations ...
 INFO-FLOW: Running Standard Transforms...
 Execute           transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -mem2reg -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top v_demosaic -deadargelim -mem2reg -instcombine -dce -presyn-prepare -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -promote-dbg-pointer -norm-name F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.0.bc -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.1.bc -f -phase std-opt 
-INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 257.512 MB.
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 257.887 MB.
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO-FLOW: Checking Synthesizability 1/2..
 Execute           transform -hls -syn-check -check-rec-only -scalarrepl -norm-name -dce -mem2reg -instcombine -directive-preproc -mem2reg -dse -dce -dce -pag -array-normalize -instcombine -dce -array-seg-normalize -instcombine -dce -data-pack -instcombine -dce -inst-simplify -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -resolve-double-ptr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -directive-preproc -mem2reg -dse -dce -globaldce F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.1.bc -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.2.prechk.bc -f 
 INFO-FLOW: Checking Synthesizability 2/2..
 Execute           transform -syn-check F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.2.prechk.bc -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.2.bc -f -phase syn-check 
-INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.098 seconds; current allocated memory: 262.656 MB.
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.099 seconds; current allocated memory: 262.777 MB.
 INFO-FLOW: Compiler optimizing ...
 INFO-FLOW: Share syncheck's 1.bc for syn flow: copy F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.g.1.bc to F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.o.1.bc
 INFO-FLOW: Presyn 1...
@@ -539,7 +540,7 @@ INFO: [XFORM 203-712] Applying dataflow to function 'v_demosaic' (F:/Projects/Vi
 	 'Debayer'
 	 'ZipperRemoval'
 	 'MultiPixStream2AXIvideo'.
-Command           transform done; 1.862 sec.
+Command           transform done; 1.888 sec.
 INFO-FLOW: Presyn 2...
 Execute           transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin2 -bitwidthmin2 -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -barrier -norm-name F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.o.1.tmp.bc -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.o.2.bc -f -phase presyn 
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1089:33) to (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1089:33) in function 'ZipperRemoval'... converting 3 basic blocks.
@@ -549,8 +550,8 @@ INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (F:/Projects/V
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1129:51) to (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1159:17) in function 'ZipperRemoval'... converting 4 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1009:27) to (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:1052:27) in function 'DebayerRandBatG'... converting 7 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:439:65) to (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:585:27) in function 'DebayerG'... converting 4 basic blocks.
-Command           transform done; 0.208 sec.
-INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.073 seconds; current allocated memory: 291.160 MB.
+Command           transform done; 0.214 sec.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 2.105 seconds; current allocated memory: 291.422 MB.
 Execute           transform -hls -auto-function-inline -globaldce -ptrArgReplace -mem2reg -dce -reset-lda -loop-simplify -indvars -aggr-aa -licm -loop-dep -loop-bound -licm -loop-simplify -loop-sink-hoist -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg-lite -loop-simplify -array-burst -promote-global-argument -dce -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -array-flatten -dce -instcombine -check-doubleptr -loop-rot -constprop -inst-simplify -cfgopt -simplifycfg-lite -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -deadargelim -dce -canonicalize-dataflow -dce -deadargelim -globaldce -mem2reg -bram-byte-enable -inst-simplify -inst-rectify -instcombine -adce -deadargelim -load-elim -read-loop-dep -loop-simplify -loop-extract-inner -directive-preproc -bitwidthmin2 -bitwidthmin2 -read-loop-dep -interface-preproc -directive-preproc -interface-gen -bram-byte-enable-spec-prop -mul2addshift -deadargelim -inst-simplify -dce -mem2reg -instcombine -gvn -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg-lite -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -complex-op-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -float-op-raise -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg-lite -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg-lite -loop-simplify -mergereturn -inst-simplify -inst-rectify -globaldce -dce -load-elim -bitop-lower -float-op-raise -fma-raise -loop-rewind -pointer-simplify -dce -cfgopt -dce -loop-bound -loop-dep -read-loop-dep -dce -dyn-mem-reuse -dce -recurrence-min -dce -share-scalar-alloca -deadargelim -dce -check-stream -norm-name -legalize -inst-clarity -bitwidth -dce -validate-dataflow -dump-loop-dep-to-ir -check-all-ssdm -dump-complexity-metric F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.o.2.bc -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
 WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'linebuf_yuv.3' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:283).
 WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'linebuf_yuv.2' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:283).
@@ -569,14 +570,14 @@ WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'lineBuffer
 WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'lineBuffer_1.i' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:862).
 WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'lineBuffer.i' (F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:862).
 Execute             auto_get_db
-Command           transform done; 1.686 sec.
+Command           transform done; 1.668 sec.
 INFO-FLOW: Building ssdm...
 Execute           transform -hls -cdfg-build F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.o.3.bc -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
-Command           transform done; 0.136 sec.
-INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.823 seconds; current allocated memory: 439.020 MB.
+Command           transform done; 0.146 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 1.815 seconds; current allocated memory: 439.066 MB.
 INFO-FLOW: Finish building internal data model.
-Command         opt_and_import_c done; 4.102 sec.
-Command       elaborate done; 70.451 sec.
+Command         opt_and_import_c done; 4.121 sec.
+Command       elaborate done; 66.434 sec.
 Execute       ap_eval exec zip -j F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/dut.hcp $dbDir/a.o.3.bc $dbDir/${topname}.rtl_wrap.cfg.tcl $dbDir/apatb_${topname}.cpp $dbDir/apatb_${topname}_util.cpp $dbDir/apatb_${topname}_ir.ll $dbDir/mapper_${topname}.cpp $dbDir/top-io-fe.xml $dbDir/kernel.internal.xml $workdir/../hls.app 
 Execute       autosyn -from_csynth_design=1 
 INFO: [HLS 200-10] Starting hardware synthesis ...
@@ -741,7 +742,7 @@ Execute         set_default_model Block_entry.split_proc
 Execute         schedule -model Block_entry.split_proc 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.193 seconds; current allocated memory: 443.738 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.204 seconds; current allocated memory: 443.613 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/Block_entry_split_proc.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -755,7 +756,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 444.828 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.064 seconds; current allocated memory: 444.703 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/Block_entry_split_proc.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -771,7 +772,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function 'reg<unsigned short>'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, function 'reg<unsigned short>'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 445.688 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.085 seconds; current allocated memory: 445.703 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/reg_unsigned_short_s.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -785,7 +786,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 446.008 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.071 seconds; current allocated memory: 445.980 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/reg_unsigned_short_s.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -801,7 +802,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'loop_wait_for_start'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'loop_wait_for_start'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.086 seconds; current allocated memory: 446.516 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.095 seconds; current allocated memory: 446.262 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer_Pipeline_loop_wait_for_start.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -815,7 +816,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.068 seconds; current allocated memory: 446.586 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 446.336 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer_Pipeline_loop_wait_for_start.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -831,7 +832,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'loop_width'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'loop_width'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.097 seconds; current allocated memory: 446.965 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.103 seconds; current allocated memory: 446.793 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer_Pipeline_loop_width.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -845,7 +846,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.065 seconds; current allocated memory: 447.121 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.073 seconds; current allocated memory: 447.305 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer_Pipeline_loop_width.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -861,7 +862,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'loop_wait_for_eol'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 1, loop 'loop_wait_for_eol'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.096 seconds; current allocated memory: 447.281 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.106 seconds; current allocated memory: 447.355 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -875,7 +876,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 447.348 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 447.363 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -889,7 +890,7 @@ Execute         set_default_model AXIvideo2MultiBayer
 Execute         schedule -model AXIvideo2MultiBayer 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 447.430 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 447.715 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -903,7 +904,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 447.520 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 447.906 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -921,8 +922,8 @@ INFO: [HLS 200-486] Changing DSP latency (root=add_ln504) to 3 in order to utili
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_318_4'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 11, loop 'VITIS_LOOP_318_4'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.398 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.449 seconds; current allocated memory: 456.578 MB.
+Command         schedule done; 0.412 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.465 seconds; current allocated memory: 457.312 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerG_Pipeline_VITIS_LOOP_318_4.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -936,7 +937,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.146 seconds; current allocated memory: 456.645 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.158 seconds; current allocated memory: 457.371 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerG_Pipeline_VITIS_LOOP_318_4.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -950,7 +951,7 @@ Execute         set_default_model DebayerG
 Execute         schedule -model DebayerG 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.179 seconds; current allocated memory: 456.656 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.19 seconds; current allocated memory: 457.391 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerG.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -964,7 +965,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.072 seconds; current allocated memory: 456.656 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 457.391 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerG.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -980,8 +981,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_633_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 5, loop 'VITIS_LOOP_633_2'
 INFO: [SCHED 204-11] Finished scheduling.
-Command         schedule done; 0.186 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.246 seconds; current allocated memory: 458.223 MB.
+Command         schedule done; 0.201 sec.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.263 seconds; current allocated memory: 458.234 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -995,7 +996,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.122 seconds; current allocated memory: 458.230 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.123 seconds; current allocated memory: 458.246 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1009,7 +1010,7 @@ Execute         set_default_model DebayerRatBorBatR
 Execute         schedule -model DebayerRatBorBatR 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.144 seconds; current allocated memory: 458.238 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.145 seconds; current allocated memory: 458.316 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRatBorBatR.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1023,7 +1024,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 458.316 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.085 seconds; current allocated memory: 458.367 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRatBorBatR.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1040,7 +1041,7 @@ INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_881_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_881_2'
 INFO: [SCHED 204-11] Finished scheduling.
 Command         schedule done; 0.168 sec.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.222 seconds; current allocated memory: 460.590 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.225 seconds; current allocated memory: 460.391 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRandBatG_Pipeline_VITIS_LOOP_881_2.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1054,7 +1055,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 460.762 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.119 seconds; current allocated memory: 460.488 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRandBatG_Pipeline_VITIS_LOOP_881_2.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1068,7 +1069,7 @@ Execute         set_default_model DebayerRandBatG
 Execute         schedule -model DebayerRandBatG 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.125 seconds; current allocated memory: 461.156 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.143 seconds; current allocated memory: 460.922 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRandBatG.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1082,7 +1083,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 461.156 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 460.984 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRandBatG.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1096,7 +1097,7 @@ Execute         set_default_model Debayer
 Execute         schedule -model Debayer 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.081 seconds; current allocated memory: 461.328 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.088 seconds; current allocated memory: 461.223 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/Debayer.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1110,7 +1111,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.073 seconds; current allocated memory: 461.355 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 461.367 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/Debayer.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1126,7 +1127,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_1101_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 4, loop 'VITIS_LOOP_1101_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.143 seconds; current allocated memory: 461.887 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.151 seconds; current allocated memory: 461.727 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/ZipperRemoval_Pipeline_VITIS_LOOP_1101_2.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1140,7 +1141,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.088 seconds; current allocated memory: 462.332 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.092 seconds; current allocated memory: 461.879 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/ZipperRemoval_Pipeline_VITIS_LOOP_1101_2.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1154,7 +1155,7 @@ Execute         set_default_model ZipperRemoval
 Execute         schedule -model ZipperRemoval 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 462.375 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.103 seconds; current allocated memory: 462.051 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/ZipperRemoval.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1168,7 +1169,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.084 seconds; current allocated memory: 462.801 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.084 seconds; current allocated memory: 462.320 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/ZipperRemoval.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1184,7 +1185,7 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_230_2'.
 INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 2, loop 'VITIS_LOOP_230_2'
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 463.199 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.155 seconds; current allocated memory: 462.609 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1198,7 +1199,8 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.083 seconds; current allocated memory: 463.473 MB.
+Command         bind done; 0.102 sec.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.133 seconds; current allocated memory: 462.961 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1212,7 +1214,7 @@ Execute         set_default_model MultiPixStream2AXIvideo
 Execute         schedule -model MultiPixStream2AXIvideo 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 463.516 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.132 seconds; current allocated memory: 463.008 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/MultiPixStream2AXIvideo.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1226,7 +1228,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.078 seconds; current allocated memory: 463.652 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.123 seconds; current allocated memory: 463.129 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/MultiPixStream2AXIvideo.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1240,7 +1242,7 @@ Execute         set_default_model v_demosaic
 Execute         schedule -model v_demosaic 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 463.723 MB.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.105 seconds; current allocated memory: 463.227 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.verbose.sched.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1254,7 +1256,7 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.082 seconds; current allocated memory: 464.074 MB.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.095 seconds; current allocated memory: 463.344 MB.
 Execute         syn_report -verbosereport -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.verbose.bind.rpt 
 Execute           list_part -family xck26-sfvc784-2LV-c 
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
@@ -1287,7 +1289,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'Block_entry_split_proc'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model Block_entry.split_proc -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/Block_entry_split_proc.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'Block_entry_split_proc'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 465.297 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.115 seconds; current allocated memory: 464.668 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl Block_entry.split_proc -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_Block_entry_split_proc 
 Execute         gen_rtl Block_entry.split_proc -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_Block_entry_split_proc 
@@ -1312,7 +1314,7 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute         create_rtl_model reg<unsigned short> -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/reg_unsigned_short_s.compgen.tcl 
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'reg_unsigned_short_s' pipeline 'reg<unsigned short>' pipeline type 'function pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'reg_unsigned_short_s'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.104 seconds; current allocated memory: 466.266 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.135 seconds; current allocated memory: 465.828 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl reg<unsigned short> -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_reg_unsigned_short_s 
 Execute         gen_rtl reg<unsigned short> -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_reg_unsigned_short_s 
@@ -1336,7 +1338,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiBayer_Pipeline_lo
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model AXIvideo2MultiBayer_Pipeline_loop_wait_for_start -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer_Pipeline_loop_wait_for_start.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiBayer_Pipeline_loop_wait_for_start'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.102 seconds; current allocated memory: 466.727 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.116 seconds; current allocated memory: 466.562 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl AXIvideo2MultiBayer_Pipeline_loop_wait_for_start -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start 
 Execute         gen_rtl AXIvideo2MultiBayer_Pipeline_loop_wait_for_start -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start 
@@ -1361,7 +1363,7 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute         create_rtl_model AXIvideo2MultiBayer_Pipeline_loop_width -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer_Pipeline_loop_width.compgen.tcl 
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'AXIvideo2MultiBayer_Pipeline_loop_width' pipeline 'loop_width' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiBayer_Pipeline_loop_width'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.108 seconds; current allocated memory: 467.578 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.147 seconds; current allocated memory: 467.281 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl AXIvideo2MultiBayer_Pipeline_loop_width -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width 
 Execute         gen_rtl AXIvideo2MultiBayer_Pipeline_loop_width -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width 
@@ -1385,7 +1387,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiBayer_Pipeline_lo
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.115 seconds; current allocated memory: 468.211 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 467.859 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol 
 Execute         gen_rtl AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol 
@@ -1409,7 +1411,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'AXIvideo2MultiBayer'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model AXIvideo2MultiBayer -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/AXIvideo2MultiBayer.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'AXIvideo2MultiBayer'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.122 seconds; current allocated memory: 469.914 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.181 seconds; current allocated memory: 469.219 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl AXIvideo2MultiBayer -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_AXIvideo2MultiBayer 
 Execute         gen_rtl AXIvideo2MultiBayer -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_AXIvideo2MultiBayer 
@@ -1441,8 +1443,8 @@ INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerG_Pipeline_VITIS_L
 INFO: [RTMG 210-279] Implementing memory 'design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R' using auto ROMs.
 INFO: [RTMG 210-279] Implementing memory 'design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV2_TABLE_ROM_AUTO_1R' using auto ROMs.
 INFO: [RTMG 210-278] Implementing memory 'design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W' using auto RAMs.
-Command         create_rtl_model done; 0.389 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.513 seconds; current allocated memory: 476.223 MB.
+Command         create_rtl_model done; 0.263 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.428 seconds; current allocated memory: 475.621 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl DebayerG_Pipeline_VITIS_LOOP_318_4 -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 
 Execute         gen_rtl DebayerG_Pipeline_VITIS_LOOP_318_4 -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 
@@ -1459,6 +1461,7 @@ Execute           list_part -family xck26-sfvc784-2LV-c
 Execute             ap_family_info -name xck26-sfvc784-2LV-c -data names 
 Execute             ap_part_info -quiet -name xck26-sfvc784-2LV-c -data family 
 Execute         db_write -model DebayerG_Pipeline_VITIS_LOOP_318_4 -f -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerG_Pipeline_VITIS_LOOP_318_4.adb 
+Command         db_write done; 0.112 sec.
 Execute         db_write -model DebayerG_Pipeline_VITIS_LOOP_318_4 -bindview -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/design.bindinfo.xml 
 Execute         gen_tb_info DebayerG_Pipeline_VITIS_LOOP_318_4 -p F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerG_Pipeline_VITIS_LOOP_318_4 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -1466,7 +1469,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'DebayerG'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model DebayerG -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerG.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerG'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.65 seconds; current allocated memory: 485.676 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.83 seconds; current allocated memory: 485.703 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl DebayerG -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_DebayerG 
 Execute         gen_rtl DebayerG -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_DebayerG 
@@ -1492,7 +1495,8 @@ Execute         create_rtl_model DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 -to
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2' pipeline 'VITIS_LOOP_633_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2'.
 INFO: [RTMG 210-278] Implementing memory 'design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W' using auto RAMs.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.216 seconds; current allocated memory: 487.871 MB.
+Command         create_rtl_model done; 0.109 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.284 seconds; current allocated memory: 487.656 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 
 Execute         gen_rtl DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 
@@ -1516,7 +1520,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'DebayerRatBorBatR'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model DebayerRatBorBatR -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRatBorBatR.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerRatBorBatR'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.376 seconds; current allocated memory: 493.762 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.467 seconds; current allocated memory: 493.391 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl DebayerRatBorBatR -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_DebayerRatBorBatR 
 Execute         gen_rtl DebayerRatBorBatR -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_DebayerRatBorBatR 
@@ -1542,7 +1546,7 @@ Execute         create_rtl_model DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 -top_
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'DebayerRandBatG_Pipeline_VITIS_LOOP_881_2' pipeline 'VITIS_LOOP_881_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Generating core module 'sparsemux_7_2_10_1_1': 1 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerRandBatG_Pipeline_VITIS_LOOP_881_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.208 seconds; current allocated memory: 496.457 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.257 seconds; current allocated memory: 496.039 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 
 Execute         gen_rtl DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 
@@ -1566,7 +1570,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'DebayerRandBatG'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model DebayerRandBatG -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/DebayerRandBatG.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'DebayerRandBatG'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.37 seconds; current allocated memory: 501.688 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.454 seconds; current allocated memory: 501.676 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl DebayerRandBatG -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_DebayerRandBatG 
 Execute         gen_rtl DebayerRandBatG -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_DebayerRandBatG 
@@ -1596,7 +1600,8 @@ INFO: [RTMG 210-285] Implementing FIFO 'imgRB_U(design_1_v_demosaic_0_0_fifo_w30
 INFO: [RTMG 210-285] Implementing FIFO 'bayerPhase_c_U(design_1_v_demosaic_0_0_fifo_w16_d2_S)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'start_for_DebayerRatBorBatR_U0_U(design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'start_for_DebayerRandBatG_U0_U(design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0)' using Shift Registers.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.229 seconds; current allocated memory: 503.441 MB.
+Command         create_rtl_model done; 0.133 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.3 seconds; current allocated memory: 503.617 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl Debayer -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_Debayer 
 Execute         gen_rtl Debayer -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_Debayer 
@@ -1621,7 +1626,7 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute         create_rtl_model ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/ZipperRemoval_Pipeline_VITIS_LOOP_1101_2.compgen.tcl 
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'ZipperRemoval_Pipeline_VITIS_LOOP_1101_2' pipeline 'VITIS_LOOP_1101_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'ZipperRemoval_Pipeline_VITIS_LOOP_1101_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.147 seconds; current allocated memory: 504.277 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.198 seconds; current allocated memory: 504.434 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 
 Execute         gen_rtl ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 
@@ -1645,7 +1650,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'ZipperRemoval'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model ZipperRemoval -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/ZipperRemoval.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'ZipperRemoval'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.197 seconds; current allocated memory: 506.770 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.248 seconds; current allocated memory: 506.949 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl ZipperRemoval -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_ZipperRemoval 
 Execute         gen_rtl ZipperRemoval -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_ZipperRemoval 
@@ -1670,7 +1675,7 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 Execute         create_rtl_model MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2.compgen.tcl 
 INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2' pipeline 'VITIS_LOOP_230_2' pipeline type 'loop pipeline'
 INFO: [RTGEN 206-100] Finished creating RTL model for 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.133 seconds; current allocated memory: 507.812 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.178 seconds; current allocated memory: 508.227 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 
 Execute         gen_rtl MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 
@@ -1694,7 +1699,7 @@ INFO: [HLS 200-10] -- Generating RTL for module 'MultiPixStream2AXIvideo'
 INFO: [HLS 200-10] ----------------------------------------------------------------
 Execute         create_rtl_model MultiPixStream2AXIvideo -top_prefix design_1_v_demosaic_0_0_ -sub_prefix design_1_v_demosaic_0_0_ -mg_file F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/MultiPixStream2AXIvideo.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'MultiPixStream2AXIvideo'.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.136 seconds; current allocated memory: 508.852 MB.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.162 seconds; current allocated memory: 509.035 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl MultiPixStream2AXIvideo -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_MultiPixStream2AXIvideo 
 Execute         gen_rtl MultiPixStream2AXIvideo -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_MultiPixStream2AXIvideo 
@@ -1746,8 +1751,8 @@ INFO: [RTMG 210-285] Implementing FIFO 'imgRgb_U(design_1_v_demosaic_0_0_fifo_w3
 INFO: [RTMG 210-285] Implementing FIFO 'imgUnzip_U(design_1_v_demosaic_0_0_fifo_w30_d2_S_x)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'start_for_ZipperRemoval_U0_U(design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0)' using Shift Registers.
 INFO: [RTMG 210-285] Implementing FIFO 'start_for_MultiPixStream2AXIvideo_U0_U(design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0)' using Shift Registers.
-Command         create_rtl_model done; 0.434 sec.
-INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.551 seconds; current allocated memory: 510.289 MB.
+Command         create_rtl_model done; 0.534 sec.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.675 seconds; current allocated memory: 510.426 MB.
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.rtl_wrap.cfg.tcl 
 Execute         gen_rtl v_demosaic -istop -style xilinx -f -lang vhdl -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/vhdl/design_1_v_demosaic_0_0_v_demosaic 
 Execute         gen_rtl v_demosaic -istop -style xilinx -f -lang vlog -o F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/syn/verilog/design_1_v_demosaic_0_0_v_demosaic 
@@ -2099,7 +2104,7 @@ Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/d
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/MultiPixStream2AXIvideo.compgen.tcl 
 Execute         source F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.compgen.tcl 
 Execute           source ./design_1_v_demosaic_0_0_CTRL.slave.tcl 
-INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.73 seconds; current allocated memory: 513.449 MB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.91 seconds; current allocated memory: 513.211 MB.
 INFO-FLOW: DBG:PROC: ::HLSREPORTS::create_csynth_xml bind_info_var='bind_info' RtlSubPrefix='design_1_v_demosaic_0_0_' outfile=''
 INFO-FLOW: Running: create_csynth_xml read xml data
 INFO-FLOW: Done: create_csynth_xml read xml data time: 0 seconds per iteration
@@ -2215,15 +2220,15 @@ INFO-FLOW: Running: gen_csynth_sec_pragma
 INFO-FLOW: Done: gen_csynth_sec_pragma time: 0.4 seconds per iteration
 INFO-FLOW: DBG:PUTS:      update_csynth_reports wrote xml
 INFO-FLOW: DBG:PUTS:      update_csynth_reports appended to csynth rpt file
-INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 2.262 seconds; current allocated memory: 527.855 MB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 2.795 seconds; current allocated memory: 527.984 MB.
 INFO: [VHDL 208-304] Generating VHDL RTL for v_demosaic with prefix design_1_v_demosaic_0_0_.
 INFO: [VLOG 209-307] Generating Verilog RTL for v_demosaic with prefix design_1_v_demosaic_0_0_.
 Execute         syn_report -model v_demosaic -printsummary 
 INFO: [HLS 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
 INFO: [HLS 200-789] **** Estimated Fmax: 206.02 MHz
-Command       autosyn done; 12.114 sec.
-Command     csynth_design done; 82.737 sec.
-INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:01:22; Allocated memory: 302.551 MB.
+Command       autosyn done; 14.349 sec.
+Command     csynth_design done; 80.942 sec.
+INFO: [HLS 200-2161] Finished Command csynth_design Elapsed time: 00:01:20; Allocated memory: 302.273 MB.
 Execute     export_design -format ip_catalog 
 INFO: [HLS 200-1510] Running: export_design -format ip_catalog 
 Execute       config_export -format=ip_catalog 
@@ -2399,6 +2404,6 @@ INFO-FLOW: DBG:PUTS:     IP package: exec F:/Projects/Vivado/project_Scratch/pro
 INFO-FLOW: DBG:PUTS:     IP package: success F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/impl/ip/pack.bat
 Execute       send_msg_by_id INFO @200-802@%s prj/sol/impl/export.zip 
 INFO: [HLS 200-802] Generated output file prj/sol/impl/export.zip
-Command     export_design done; 15.607 sec.
-INFO: [HLS 200-2161] Finished Command export_design Elapsed time: 00:00:15; Allocated memory: 5.750 MB.
+Command     export_design done; 16.429 sec.
+INFO: [HLS 200-2161] Finished Command export_design Elapsed time: 00:00:16; Allocated memory: 5.160 MB.
 Execute     cleanup_all 

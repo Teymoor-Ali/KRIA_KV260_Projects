@@ -2,7 +2,7 @@
 // Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
-// Date        : Sun Jun 16 23:47:58 2024
+// Date        : Mon Jun 17 19:25:58 2024
 // Host        : Tey running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0_stub.v
@@ -21,7 +21,7 @@ module design_1_v_axi4s_vid_out_0_0(aclk, aclken, aresetn, s_axis_video_tdata,
   vid_vblank, vid_hblank, vid_field_id, vid_data, vtg_vsync, vtg_hsync, vtg_vblank, vtg_hblank, 
   vtg_active_video, vtg_field_id, vtg_ce, locked, overflow, underflow, fifo_read_level, status, 
   sof_state_out)
-/* synthesis syn_black_box black_box_pad_pin="aclken,aresetn,s_axis_video_tdata[31:0],s_axis_video_tvalid,s_axis_video_tready,s_axis_video_tuser,s_axis_video_tlast,fid,vid_io_out_ce,vid_io_out_reset,vid_active_video,vid_vsync,vid_hsync,vid_vblank,vid_hblank,vid_field_id,vid_data[35:0],vtg_vsync,vtg_hsync,vtg_vblank,vtg_hblank,vtg_active_video,vtg_field_id,vtg_ce,locked,overflow,underflow,fifo_read_level[10:0],status[31:0],sof_state_out" */
+/* synthesis syn_black_box black_box_pad_pin="aclken,aresetn,s_axis_video_tdata[31:0],s_axis_video_tvalid,s_axis_video_tready,s_axis_video_tuser,s_axis_video_tlast,fid,vid_io_out_ce,vid_io_out_reset,vid_active_video,vid_vsync,vid_hsync,vid_vblank,vid_hblank,vid_field_id,vid_data[35:0],vtg_vsync,vtg_hsync,vtg_vblank,vtg_hblank,vtg_active_video,vtg_field_id,vtg_ce,locked,overflow,underflow,fifo_read_level[11:0],status[31:0],sof_state_out" */
 /* synthesis syn_force_seq_prim="aclk" */
 /* synthesis syn_force_seq_prim="vid_io_out_clk" */;
   input aclk /* synthesis syn_isclock = 1 */;
@@ -53,7 +53,7 @@ module design_1_v_axi4s_vid_out_0_0(aclk, aclken, aresetn, s_axis_video_tdata,
   output locked;
   output overflow;
   output underflow;
-  output [10:0]fifo_read_level;
+  output [11:0]fifo_read_level;
   output [31:0]status;
   output sof_state_out;
 endmodule

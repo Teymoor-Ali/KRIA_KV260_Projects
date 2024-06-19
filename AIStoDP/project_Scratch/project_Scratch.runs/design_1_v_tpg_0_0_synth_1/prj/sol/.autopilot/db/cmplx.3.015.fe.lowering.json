@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 8,
-    "calls": "4 5",
+    "calls": "3 2",
     "file": "v_tpg.cpp",
     "fileloc": 409,
     "instructions": 163,
@@ -17,7 +17,7 @@
   },
   "1": {
     "basicblocks": 153,
-    "calls": "3",
+    "calls": "5",
     "file": "v_tpg.cpp",
     "fileloc": 536,
     "instructions": 664,
@@ -32,6 +32,24 @@
     "total_instructions": 698
   },
   "2": {
+    "basicblocks": 1,
+    "calls": "6 1 4",
+    "file": "v_tpg.cpp",
+    "fileloc": 304,
+    "instructions": 12,
+    "name": "v_tpgHlsDataFlow",
+    "total_instructions": 952
+  },
+  "3": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
+  },
+  "4": {
     "basicblocks": 27,
     "calls": "",
     "file": "v_tpg.cpp",
@@ -47,7 +65,7 @@
     },
     "total_instructions": 127
   },
-  "3": {
+  "5": {
     "basicblocks": 1,
     "calls": "",
     "file": "x_hls_utils.h",
@@ -59,27 +77,9 @@
     },
     "total_instructions": 2
   },
-  "4": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "x_hls_utils.h",
-    "fileloc": 222,
-    "instructions": 1,
-    "name": "reg<unsigned short>",
-    "total_instructions": 1
-  },
-  "5": {
-    "basicblocks": 1,
-    "calls": "6 1 2",
-    "file": "v_tpg.cpp",
-    "fileloc": 304,
-    "instructions": 12,
-    "name": "v_tpgHlsDataFlow",
-    "total_instructions": 952
-  },
   "6": {
     "basicblocks": 17,
-    "calls": "4 4",
+    "calls": "3 3",
     "file": "v_tpg.cpp",
     "fileloc": 821,
     "instructions": 100,

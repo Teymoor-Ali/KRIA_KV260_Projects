@@ -2,7 +2,7 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
--- Date        : Sun Jun 16 23:47:58 2024
+-- Date        : Mon Jun 17 19:25:58 2024
 -- Host        : Tey running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
 --               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_axi4s_vid_out_0_0/design_1_v_axi4s_vid_out_0_0_stub.vhdl
@@ -44,7 +44,7 @@ entity design_1_v_axi4s_vid_out_0_0 is
     locked : out STD_LOGIC;
     overflow : out STD_LOGIC;
     underflow : out STD_LOGIC;
-    fifo_read_level : out STD_LOGIC_VECTOR ( 10 downto 0 );
+    fifo_read_level : out STD_LOGIC_VECTOR ( 11 downto 0 );
     status : out STD_LOGIC_VECTOR ( 31 downto 0 );
     sof_state_out : out STD_LOGIC
   );
@@ -55,7 +55,7 @@ architecture stub of design_1_v_axi4s_vid_out_0_0 is
 attribute syn_black_box : boolean;
 attribute black_box_pad_pin : string;
 attribute syn_black_box of stub : architecture is true;
-attribute black_box_pad_pin of stub : architecture is "aclk,aclken,aresetn,s_axis_video_tdata[31:0],s_axis_video_tvalid,s_axis_video_tready,s_axis_video_tuser,s_axis_video_tlast,fid,vid_io_out_clk,vid_io_out_ce,vid_io_out_reset,vid_active_video,vid_vsync,vid_hsync,vid_vblank,vid_hblank,vid_field_id,vid_data[35:0],vtg_vsync,vtg_hsync,vtg_vblank,vtg_hblank,vtg_active_video,vtg_field_id,vtg_ce,locked,overflow,underflow,fifo_read_level[10:0],status[31:0],sof_state_out";
+attribute black_box_pad_pin of stub : architecture is "aclk,aclken,aresetn,s_axis_video_tdata[31:0],s_axis_video_tvalid,s_axis_video_tready,s_axis_video_tuser,s_axis_video_tlast,fid,vid_io_out_clk,vid_io_out_ce,vid_io_out_reset,vid_active_video,vid_vsync,vid_hsync,vid_vblank,vid_hblank,vid_field_id,vid_data[35:0],vtg_vsync,vtg_hsync,vtg_vblank,vtg_hblank,vtg_active_video,vtg_field_id,vtg_ce,locked,overflow,underflow,fifo_read_level[11:0],status[31:0],sof_state_out";
 attribute X_CORE_INFO : string;
 attribute X_CORE_INFO of stub : architecture is "v_axi4s_vid_out_v4_0_18,Vivado 2024.1";
 begin

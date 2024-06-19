@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Sun Jun 16 23:46:55 2024
-# Process ID: 8852
+# Start of session at: Mon Jun 17 21:36:48 2024
+# Process ID: 31040
 # Current directory: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1
 # Command line: vivado.exe -log design_1_v_tpg_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_v_tpg_0_0.tcl
 # Log file: F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_tpg_0_0_synth_1/design_1_v_tpg_0_0.vds
@@ -19,6 +19,6 @@
 # Host memory       :68621 MB
 # Swap memory       :62277 MB
 # Total Virtual     :130898 MB
-# Available Virtual :76910 MB
+# Available Virtual :84400 MB
 #-----------------------------------------------------------
 source design_1_v_tpg_0_0.tcl -notrace

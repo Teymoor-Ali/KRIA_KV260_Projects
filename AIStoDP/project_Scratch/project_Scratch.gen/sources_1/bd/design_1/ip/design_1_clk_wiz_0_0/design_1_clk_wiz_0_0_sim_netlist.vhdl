@@ -2,7 +2,7 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
--- Date        : Sun Jun 16 23:47:53 2024
+-- Date        : Mon Jun 17 19:57:38 2024
 -- Host        : Tey running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.vhdl
@@ -27,7 +27,6 @@ entity design_1_clk_wiz_0_0_clk_wiz is
 end design_1_clk_wiz_0_0_clk_wiz;
 
 architecture STRUCTURE of design_1_clk_wiz_0_0_clk_wiz is
-  signal clk_in1_design_1_clk_wiz_0_0 : STD_LOGIC;
   signal clk_out1_design_1_clk_wiz_0_0 : STD_LOGIC;
   signal clk_out2_design_1_clk_wiz_0_0 : STD_LOGIC;
   signal reset_high : STD_LOGIC;
@@ -51,13 +50,6 @@ architecture STRUCTURE of design_1_clk_wiz_0_0_clk_wiz is
   signal NLW_mmcme4_adv_inst_DO_UNCONNECTED : STD_LOGIC_VECTOR ( 15 downto 0 );
   attribute BOX_TYPE : string;
   attribute BOX_TYPE of BUFGCE_DIV_CLK3_inst : label is "PRIMITIVE";
-  attribute BOX_TYPE of clkin1_ibuf : label is "PRIMITIVE";
-  attribute CAPACITANCE : string;
-  attribute CAPACITANCE of clkin1_ibuf : label is "DONT_CARE";
-  attribute IBUF_DELAY_VALUE : string;
-  attribute IBUF_DELAY_VALUE of clkin1_ibuf : label is "0";
-  attribute IFD_DELAY_VALUE : string;
-  attribute IFD_DELAY_VALUE of clkin1_ibuf : label is "AUTO";
   attribute BOX_TYPE of clkout1_buf : label is "PRIMITIVE";
   attribute XILINX_LEGACY_PRIM : string;
   attribute XILINX_LEGACY_PRIM of clkout1_buf : label is "BUFG";
@@ -86,14 +78,6 @@ BUFGCE_DIV_CLK3_inst: unisim.vcomponents.BUFGCE_DIV
       CLR => '0',
       I => clk_out1_design_1_clk_wiz_0_0,
       O => clk_out3
-    );
-clkin1_ibuf: unisim.vcomponents.IBUF
-    generic map(
-      IOSTANDARD => "DEFAULT"
-    )
-        port map (
-      I => clk_in1,
-      O => clk_in1_design_1_clk_wiz_0_0
     );
 clkout1_buf: unisim.vcomponents.BUFGCE
     generic map(
@@ -176,7 +160,7 @@ mmcme4_adv_inst: unisim.vcomponents.MMCME4_ADV
       CLKFBOUT => NLW_mmcme4_adv_inst_CLKFBOUT_UNCONNECTED,
       CLKFBOUTB => NLW_mmcme4_adv_inst_CLKFBOUTB_UNCONNECTED,
       CLKFBSTOPPED => NLW_mmcme4_adv_inst_CLKFBSTOPPED_UNCONNECTED,
-      CLKIN1 => clk_in1_design_1_clk_wiz_0_0,
+      CLKIN1 => clk_in1,
       CLKIN2 => '0',
       CLKINSEL => '1',
       CLKINSTOPPED => NLW_mmcme4_adv_inst_CLKINSTOPPED_UNCONNECTED,

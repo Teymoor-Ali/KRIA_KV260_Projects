@@ -33,18 +33,18 @@
             <header size="7" col0="Function" col1="Location" col2="Compile/Link" col3="Unroll/Inline" col4="Array/Struct" col5="Performance" col6="HW Transforms"/>
             <rows>
                 <row id="0" col0="v_gamma_lut" col1="v_gamma_lut.cpp:89" col2="1715" col3="427" col4="495" col5="407" col6="375">
-                    <row id="2" col0="AXIvideo2MultiPixStream" col1="v_gamma_lut.cpp:159" col2="421" col3="203" col4="210" col5="145" col6="130">
-                        <row id="3" col0="Scalar" col1="hls_video_core.h:195" col2="5" col3="" col4="" col5="" col6=""/>
-                        <row id="1" col0="reg&lt;unsigned short&gt;" col1="x_hls_utils.h:222" col2="2" col2_disp="   2 (2 calls)" col3="2" col3_disp="  2 (2 calls)" col4="2" col4_disp="  2 (2 calls)" col5="2" col5_disp="  2 (2 calls)" col6="8" col6_disp="  8 (2 calls)"/>
-                        <row id="4" col0="AXIGetBitFields&lt;30, ap_uint&lt;10&gt; &gt;" col1="hls_axi_io.h:83" col2="74" col3="" col4="" col5="" col6="">
-                            <row id="7" col0="AXIGetBitFields&lt;30, ap_uint&lt;10&gt; &gt;" col1="hls_axi_io.h:60" col2="68" col3="" col4="" col5="" col6=""/>
+                    <row id="6" col0="AXIvideo2MultiPixStream" col1="v_gamma_lut.cpp:159" col2="421" col3="203" col4="210" col5="145" col6="130">
+                        <row id="7" col0="Scalar" col1="hls_video_core.h:195" col2="5" col3="" col4="" col5="" col6=""/>
+                        <row id="2" col0="reg&lt;unsigned short&gt;" col1="x_hls_utils.h:222" col2="2" col2_disp="   2 (2 calls)" col3="2" col3_disp="  2 (2 calls)" col4="2" col4_disp="  2 (2 calls)" col5="2" col5_disp="  2 (2 calls)" col6="8" col6_disp="  8 (2 calls)"/>
+                        <row id="1" col0="AXIGetBitFields&lt;30, ap_uint&lt;10&gt; &gt;" col1="hls_axi_io.h:83" col2="74" col3="" col4="" col5="" col6="">
+                            <row id="5" col0="AXIGetBitFields&lt;30, ap_uint&lt;10&gt; &gt;" col1="hls_axi_io.h:60" col2="68" col3="" col4="" col5="" col6=""/>
                         </row>
                     </row>
-                    <row id="5" col0="Gamma" col1="v_gamma_lut.cpp:292" col2="300" col3="93" col4="104" col5="102" col6="105">
-                        <row id="3" col0="Scalar" col1="hls_video_core.h:195" col2="10" col2_disp="  10 (2 calls)" col3="" col4="" col5="" col6=""/>
+                    <row id="4" col0="Gamma" col1="v_gamma_lut.cpp:292" col2="300" col3="93" col4="104" col5="102" col6="105">
+                        <row id="7" col0="Scalar" col1="hls_video_core.h:195" col2="10" col2_disp="  10 (2 calls)" col3="" col4="" col5="" col6=""/>
                     </row>
-                    <row id="6" col0="MultiPixStream2AXIvideo" col1="v_gamma_lut.cpp:236" col2="928" col3="81" col4="126" col5="105" col6="74">
-                        <row id="3" col0="Scalar" col1="hls_video_core.h:195" col2="5" col3="" col4="" col5="" col6=""/>
+                    <row id="3" col0="MultiPixStream2AXIvideo" col1="v_gamma_lut.cpp:236" col2="928" col3="81" col4="126" col5="105" col6="74">
+                        <row id="7" col0="Scalar" col1="hls_video_core.h:195" col2="5" col3="" col4="" col5="" col6=""/>
                     </row>
                 </row>
             </rows>

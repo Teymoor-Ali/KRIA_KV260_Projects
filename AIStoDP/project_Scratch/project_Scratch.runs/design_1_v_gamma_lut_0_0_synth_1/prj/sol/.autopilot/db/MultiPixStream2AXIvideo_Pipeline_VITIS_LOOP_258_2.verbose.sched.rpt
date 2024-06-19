@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_258_2'
 ================================================================
-* Date:           Sun Jun 16 23:48:00 2024
+* Date:           Mon Jun 17 21:37:45 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -123,7 +123,7 @@ Target clock period: 6.734ns, clock uncertainty: 1.818ns.
 The critical path consists of the following:
 	'store' operation 0 bit ('store_ln258', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:258) of constant 0 on local variable 'j', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:258 [19]  (0.427 ns)
 	'load' operation 11 bit ('j', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:258) on local variable 'j', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:258 [23]  (0.000 ns)
-	'add' operation 11 bit ('j', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:258) [26]  (0.798 ns)
+	'icmp' operation 1 bit ('icmp_ln258', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:258) [24]  (0.798 ns)
 	'store' operation 0 bit ('store_ln258', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:258) of variable 'j', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:258 on local variable 'j', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_gamma_lut_0_0_synth_1/prj/sol/.autopilot/db/v_gamma_lut.cpp:258 [36]  (0.427 ns)
 
  <State 2>: 2.541ns

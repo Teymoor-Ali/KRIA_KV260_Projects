@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'DebayerG_Pipeline_VITIS_LOOP_318_4'
 ================================================================
-* Date:           Sun Jun 16 23:48:24 2024
+* Date:           Mon Jun 17 21:38:11 2024
 
 * Version:        2024.1 (Build 5069499 on May 21 2024)
 * Project:        prj
@@ -775,10 +775,10 @@ The critical path consists of the following:
  <State 4>: 4.381ns
 The critical path consists of the following:
 	'select' operation 13 bit ('mean', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:472) [361]  (0.303 ns)
-	'sub' operation 13 bit ('sub_ln477', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:477) [410]  (0.820 ns)
-	'sub' operation 12 bit ('sub_ln61_12', F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\bits/std_abs.h:61->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:477) [412]  (0.809 ns)
-	'select' operation 12 bit ('select_ln61_4', F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\bits/std_abs.h:61->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:477) [414]  (0.000 ns)
-	'add' operation 13 bit ('add_ln477_1', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:477) [436]  (0.809 ns)
+	'sub' operation 13 bit ('sub_ln477_3', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:477) [428]  (0.820 ns)
+	'sub' operation 12 bit ('sub_ln61_15', F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\bits/std_abs.h:61->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:477) [430]  (0.809 ns)
+	'select' operation 12 bit ('select_ln61_7', F:/Tools/Xilinx-2024.1/Vitis_HLS/2024.1/tps/mingw/8.3.0/win64.o/nt\lib\gcc\x86_64-w64-mingw32\8.3.0\include\c++\bits/std_abs.h:61->F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:477) [432]  (0.000 ns)
+	'add' operation 13 bit ('add_ln477', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:477) [434]  (0.809 ns)
 	'add' operation 14 bit ('add_ln477_2', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:477) [438]  (0.820 ns)
 	'add' operation 13 bit ('add_ln492_3', F:/Projects/Vivado/project_Scratch/project_Scratch.runs/design_1_v_demosaic_0_0_synth_1/prj/sol/.autopilot/db/v_demosaic.cpp:492) [541]  (0.820 ns)
 

@@ -2,10 +2,10 @@
 -- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
--- Date        : Sun Jun 16 23:50:03 2024
+-- Date        : Sun Jun 16 23:50:01 2024
 -- Host        : Tey running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               f:/Projects/Vivado/project_Scratch/project_Scratch.gen/sources_1/bd/design_1/ip/design_1_v_demosaic_0_0/design_1_v_demosaic_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_v_demosaic_0_0 -prefix
+--               design_1_v_demosaic_0_0_ design_1_v_demosaic_0_0_sim_netlist.vhdl
 -- Design      : design_1_v_demosaic_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -15,7 +15,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_Block_entry_split_proc is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Block_entry_split_proc is
   port (
     ap_done_reg : out STD_LOGIC;
     ap_return_preg : out STD_LOGIC_VECTOR ( 15 downto 0 );
@@ -25,9 +25,9 @@ entity design_1_v_demosaic_0_0_Block_entry_split_proc is
     \ap_return_preg_reg[15]_0\ : in STD_LOGIC;
     Q : in STD_LOGIC_VECTOR ( 15 downto 0 )
   );
-end design_1_v_demosaic_0_0_Block_entry_split_proc;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Block_entry_split_proc;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_Block_entry_split_proc is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Block_entry_split_proc is
 begin
 ap_done_reg_reg: unisim.vcomponents.FDRE
     generic map(
@@ -221,7 +221,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_CTRL_s_axi is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_CTRL_s_axi is
   port (
     interrupt : out STD_LOGIC;
     S : out STD_LOGIC_VECTOR ( 7 downto 0 );
@@ -285,9 +285,9 @@ entity design_1_v_demosaic_0_0_CTRL_s_axi is
     \int_isr_reg[0]_0\ : in STD_LOGIC;
     s_axi_CTRL_AWADDR : in STD_LOGIC_VECTOR ( 3 downto 0 )
   );
-end design_1_v_demosaic_0_0_CTRL_s_axi;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_CTRL_s_axi;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_CTRL_s_axi is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_CTRL_s_axi is
   signal \FSM_onehot_rstate[1]_i_1_n_5\ : STD_LOGIC;
   signal \FSM_onehot_rstate[2]_i_1_n_5\ : STD_LOGIC;
   signal \^fsm_onehot_rstate_reg[1]_0\ : STD_LOGIC;
@@ -3687,7 +3687,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R is
   port (
     DOUTADOUT : out STD_LOGIC_VECTOR ( 7 downto 0 );
     B : out STD_LOGIC_VECTOR ( 8 downto 0 );
@@ -3785,9 +3785,9 @@ entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM
     DSP_A_B_DATA_INST_11 : in STD_LOGIC;
     DSP_A_B_DATA_INST_12 : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R is
   signal \^b\ : STD_LOGIC_VECTOR ( 8 downto 0 );
   signal DIV1_TABLE_ce0_local : STD_LOGIC;
   signal \^doutadout\ : STD_LOGIC_VECTOR ( 7 downto 0 );
@@ -4795,7 +4795,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W is
   port (
     ram_reg_bram_0_0 : out STD_LOGIC_VECTOR ( 9 downto 0 );
     linebuf_yuv_1_we0_local : out STD_LOGIC;
@@ -4828,9 +4828,9 @@ entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_
     \empty_155_reg_713_reg[9]\ : in STD_LOGIC_VECTOR ( 9 downto 0 );
     \empty_157_reg_733_reg[9]\ : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
-end design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W is
   signal \^linebuf_yuv_1_we0_local\ : STD_LOGIC;
   signal \^ram_reg_bram_0_0\ : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal NLW_ram_reg_bram_0_CASOUTDBITERR_UNCONNECTED : STD_LOGIC;
@@ -5686,7 +5686,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14 is
   port (
     DOUTBDOUT : out STD_LOGIC_VECTOR ( 9 downto 0 );
     D : out STD_LOGIC_VECTOR ( 9 downto 0 );
@@ -5713,10 +5713,10 @@ entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_
     \empty_159_reg_752_reg[9]\ : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14 : entity is "design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W";
-end design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14 : entity is "design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14 is
   signal \^doutbdout\ : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal NLW_ram_reg_bram_0_CASOUTDBITERR_UNCONNECTED : STD_LOGIC;
   signal NLW_ram_reg_bram_0_CASOUTSBITERR_UNCONNECTED : STD_LOGIC;
@@ -6317,7 +6317,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15 is
   port (
     ram_reg_bram_0_0 : out STD_LOGIC_VECTOR ( 9 downto 0 );
     D : out STD_LOGIC_VECTOR ( 9 downto 0 );
@@ -6343,10 +6343,10 @@ entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_
     \empty_162_reg_771_reg[9]\ : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15 : entity is "design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W";
-end design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15 : entity is "design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15 is
   signal \^ram_reg_bram_0_0\ : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal NLW_ram_reg_bram_0_CASOUTDBITERR_UNCONNECTED : STD_LOGIC;
   signal NLW_ram_reg_bram_0_CASOUTSBITERR_UNCONNECTED : STD_LOGIC;
@@ -7067,7 +7067,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16 is
   port (
     ram_reg_bram_0_0 : out STD_LOGIC_VECTOR ( 9 downto 0 );
     linebuf_yuv_1_ce1_local : out STD_LOGIC;
@@ -7104,10 +7104,10 @@ entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_
     \empty_152_reg_694_reg[9]\ : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16 : entity is "design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W";
-end design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16 : entity is "design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16 is
   signal \^wea\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal \^ap_enable_reg_pp0_iter10_reg\ : STD_LOGIC;
   signal grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_imgBayer_read : STD_LOGIC;
@@ -7890,7 +7890,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W is
   port (
     D : out STD_LOGIC_VECTOR ( 9 downto 0 );
     q1 : out STD_LOGIC_VECTOR ( 29 downto 0 );
@@ -7911,9 +7911,9 @@ entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineB
     d0 : in STD_LOGIC_VECTOR ( 29 downto 0 );
     ap_condition_268 : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W is
   signal lineBuffer_1_we0_local : STD_LOGIC;
   signal \^q1\ : STD_LOGIC_VECTOR ( 29 downto 0 );
   signal NLW_ram_reg_bram_0_CASOUTDBITERR_UNCONNECTED : STD_LOGIC;
@@ -8546,7 +8546,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11 is
   port (
     ram_reg_bram_0_0 : out STD_LOGIC;
     q1 : out STD_LOGIC_VECTOR ( 29 downto 0 );
@@ -8590,10 +8590,10 @@ entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineB
     ap_condition_219 : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11 : entity is "design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W";
-end design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11 : entity is "design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11 is
   signal \^q1\ : STD_LOGIC_VECTOR ( 29 downto 0 );
   signal \ram_reg_bram_0_i_1__6_n_5\ : STD_LOGIC;
   signal NLW_ram_reg_bram_0_CASOUTDBITERR_UNCONNECTED : STD_LOGIC;
@@ -9202,7 +9202,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12 is
   port (
     D : out STD_LOGIC_VECTOR ( 9 downto 0 );
     q1 : out STD_LOGIC_VECTOR ( 29 downto 0 );
@@ -9242,10 +9242,10 @@ entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineB
     ram_reg_bram_1_8 : in STD_LOGIC_VECTOR ( 29 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12 : entity is "design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W";
-end design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12 : entity is "design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12 is
   signal \^e\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal \^ap_condition_219\ : STD_LOGIC;
   signal \^ce1\ : STD_LOGIC;
@@ -10637,7 +10637,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9 is
   port (
     ce1 : out STD_LOGIC;
     ap_block_pp0_stage0_subdone : out STD_LOGIC;
@@ -10671,10 +10671,10 @@ entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineB
     ram_reg_bram_1_4 : in STD_LOGIC_VECTOR ( 29 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9 : entity is "design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W";
-end design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9 : entity is "design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9 is
   signal \^ap_block_pp0_stage0_subdone\ : STD_LOGIC;
   signal \^ap_condition_268\ : STD_LOGIC;
   signal \^ce1\ : STD_LOGIC;
@@ -11737,7 +11737,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg is
   port (
     \SRL_SIG_reg[1][9]_0\ : out STD_LOGIC;
     Q : out STD_LOGIC_VECTOR ( 9 downto 0 );
@@ -11759,9 +11759,9 @@ entity design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg is
     D : in STD_LOGIC_VECTOR ( 9 downto 0 );
     ap_clk : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg is
   signal \^q\ : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal \^srl_sig_reg[0][9]_0\ : STD_LOGIC_VECTOR ( 9 downto 0 );
   attribute SOFT_HLUTNM : string;
@@ -12173,7 +12173,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg is
   port (
     \SRL_SIG_reg[1][0]_0\ : out STD_LOGIC;
     \SRL_SIG_reg[1][15]_0\ : out STD_LOGIC_VECTOR ( 14 downto 0 );
@@ -12182,9 +12182,9 @@ entity design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg is
     ap_clk : in STD_LOGIC;
     \x_phase_reg_387_reg[0]\ : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg is
   signal \SRL_SIG_reg_n_5_[0][0]\ : STD_LOGIC;
   signal \SRL_SIG_reg_n_5_[0][10]\ : STD_LOGIC;
   signal \SRL_SIG_reg_n_5_[0][11]\ : STD_LOGIC;
@@ -12656,7 +12656,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7 is
   port (
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
     \SRL_SIG_reg[1][15]_0\ : out STD_LOGIC_VECTOR ( 15 downto 0 );
@@ -12667,10 +12667,10 @@ entity design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7 is
     \SRL_SIG_reg[0][0]_0\ : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7 : entity is "design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg";
-end design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7 : entity is "design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7 is
   signal \^e\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal \SRL_SIG_reg_n_5_[0][0]\ : STD_LOGIC;
   signal \SRL_SIG_reg_n_5_[0][10]\ : STD_LOGIC;
@@ -13153,7 +13153,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg is
   port (
     push : out STD_LOGIC;
     \SRL_SIG_reg[1][15]_0\ : out STD_LOGIC_VECTOR ( 15 downto 0 );
@@ -13165,9 +13165,9 @@ entity design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg is
     ap_clk : in STD_LOGIC;
     addr : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg is
   signal \SRL_SIG_reg[0]_0\ : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal \SRL_SIG_reg[1]_1\ : STD_LOGIC_VECTOR ( 15 downto 0 );
   signal \^push\ : STD_LOGIC;
@@ -13622,7 +13622,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg is
   port (
     \SRL_SIG_reg[1][29]_0\ : out STD_LOGIC;
     Q : out STD_LOGIC_VECTOR ( 29 downto 0 );
@@ -13664,9 +13664,9 @@ entity design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg is
     D : in STD_LOGIC_VECTOR ( 29 downto 0 );
     ap_clk : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg is
   signal \^q\ : STD_LOGIC_VECTOR ( 29 downto 0 );
   signal \^srl_sig_reg[0][29]_0\ : STD_LOGIC_VECTOR ( 29 downto 0 );
   attribute SOFT_HLUTNM : string;
@@ -14878,7 +14878,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6 is
   port (
     \SRL_SIG_reg[1][19]_0\ : out STD_LOGIC;
     Q : out STD_LOGIC_VECTOR ( 29 downto 0 );
@@ -14941,10 +14941,10 @@ entity design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6 is
     \SRL_SIG_reg[0][0]_0\ : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6 : entity is "design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg";
-end design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6 : entity is "design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6 is
   signal \^d\ : STD_LOGIC_VECTOR ( 29 downto 0 );
   signal \^q\ : STD_LOGIC_VECTOR ( 29 downto 0 );
   attribute SOFT_HLUTNM : string;
@@ -16156,7 +16156,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg is
   port (
     \SRL_SIG_reg[1][29]_0\ : out STD_LOGIC_VECTOR ( 29 downto 0 );
     Q : out STD_LOGIC_VECTOR ( 29 downto 0 );
@@ -16166,9 +16166,9 @@ entity design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg is
     D : in STD_LOGIC_VECTOR ( 29 downto 0 );
     ap_clk : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg is
   signal \^q\ : STD_LOGIC_VECTOR ( 29 downto 0 );
   signal \^srl_sig_reg[0][29]_0\ : STD_LOGIC_VECTOR ( 29 downto 0 );
   attribute SOFT_HLUTNM : string;
@@ -16990,7 +16990,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1 is
   port (
     D : out STD_LOGIC_VECTOR ( 29 downto 0 );
     Q : out STD_LOGIC_VECTOR ( 29 downto 0 );
@@ -17009,10 +17009,10 @@ entity design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1 is
     \SRL_SIG_reg[0][10]_0\ : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1 : entity is "design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg";
-end design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1 : entity is "design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1 is
   signal \^d\ : STD_LOGIC_VECTOR ( 29 downto 0 );
 begin
   D(29 downto 0) <= \^d\(29 downto 0);
@@ -17501,7 +17501,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init is
   port (
     D : out STD_LOGIC_VECTOR ( 1 downto 0 );
     \icmp_ln1159_reg_729_pp0_iter2_reg_reg[0]\ : out STD_LOGIC;
@@ -17553,9 +17553,9 @@ entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init is
     \icmp_ln1101_reg_721_reg[0]_0\ : in STD_LOGIC_VECTOR ( 16 downto 0 );
     icmp_ln1107_fu_229_p2_carry : in STD_LOGIC_VECTOR ( 15 downto 0 )
   );
-end design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init is
   signal ap_done_cache : STD_LOGIC;
   signal \ap_done_cache_i_1__3_n_5\ : STD_LOGIC;
   signal ap_loop_init_int : STD_LOGIC;
@@ -19087,7 +19087,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10 is
   port (
     ap_done_cache : out STD_LOGIC;
     \cmp161_i_reg_1984_reg[0]\ : out STD_LOGIC;
@@ -19185,10 +19185,10 @@ entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10 is
     \p_0_0_0_0_011551706_i_fu_196_reg[0]\ : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10 is
   signal \^ap_done_cache\ : STD_LOGIC;
   signal ap_loop_init_int : STD_LOGIC;
   signal \ap_loop_init_int_i_1__1_n_5\ : STD_LOGIC;
@@ -21304,7 +21304,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13 is
   port (
     ap_done_cache : out STD_LOGIC;
     ap_rst_n_0 : out STD_LOGIC;
@@ -21415,10 +21415,10 @@ entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13 is
     clear : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13 is
   signal \^addrbwraddr\ : STD_LOGIC_VECTOR ( 10 downto 0 );
   signal \^co\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal \ap_NS_fsm1__0\ : STD_LOGIC;
@@ -24846,7 +24846,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24 is
   port (
     \axi_last_fu_88_reg[0]\ : out STD_LOGIC;
     grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_ap_start_reg_reg : out STD_LOGIC;
@@ -24886,10 +24886,10 @@ entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24 is
     grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_ap_start_reg_reg_0 : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24 is
   signal \ap_CS_fsm[6]_i_2_n_5\ : STD_LOGIC;
   signal ap_done_cache : STD_LOGIC;
   signal \ap_done_cache_i_1__1_n_5\ : STD_LOGIC;
@@ -25595,7 +25595,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25 is
   port (
     \ap_CS_fsm_reg[2]\ : out STD_LOGIC;
     grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_s_axis_video_TREADY : out STD_LOGIC;
@@ -25611,10 +25611,10 @@ entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25 is
     \d_read_reg_22_reg[0]\ : in STD_LOGIC_VECTOR ( 2 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25 is
   signal ap_done_cache : STD_LOGIC;
   signal \ap_done_cache_i_1__0_n_5\ : STD_LOGIC;
   signal ap_loop_init_int : STD_LOGIC;
@@ -25747,7 +25747,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26 is
   port (
     ap_loop_init_int_reg_0 : out STD_LOGIC;
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -25770,10 +25770,10 @@ entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26 is
     axi_last_4_loc_fu_86 : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26 is
   signal ap_block_state1_pp0_stage0_iter0 : STD_LOGIC;
   signal ap_done_cache : STD_LOGIC;
   signal \ap_done_cache_i_1__2_n_5\ : STD_LOGIC;
@@ -25962,7 +25962,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3 is
   port (
     \sof_reg_88_reg[0]\ : out STD_LOGIC;
     \sof_2_reg_133_reg[0]\ : out STD_LOGIC;
@@ -25996,10 +25996,10 @@ entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3 is
     \axi_last_reg_201_reg[0]\ : in STD_LOGIC_VECTOR ( 11 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3 is
   signal ap_NS_fsm1 : STD_LOGIC;
   signal ap_done_cache : STD_LOGIC;
   signal \ap_done_cache_i_1__4_n_5\ : STD_LOGIC;
@@ -26573,7 +26573,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8 is
   port (
     \cmp161_i_reg_2170_reg[0]\ : out STD_LOGIC;
     D : out STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -26678,10 +26678,10 @@ entity design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8 is
     \icmp_ln772_reg_2189_pp0_iter2_reg_reg[0]__0_0\ : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
-end design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8 : entity is "design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8 is
   signal ap_done_cache : STD_LOGIC;
   signal ap_done_cache_i_1_n_5 : STD_LOGIC;
   signal ap_loop_init_int : STD_LOGIC;
@@ -29166,7 +29166,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0 is
   port (
     P : out STD_LOGIC_VECTOR ( 24 downto 0 );
     CEP : in STD_LOGIC;
@@ -29175,9 +29175,9 @@ entity design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0 is
     DSP_ALU_INST : in STD_LOGIC_VECTOR ( 9 downto 0 );
     DSP_ALU_INST_0 : in STD_LOGIC_VECTOR ( 23 downto 0 )
   );
-end design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0 is
   signal NLW_p_reg_reg_CARRYCASCOUT_UNCONNECTED : STD_LOGIC;
   signal NLW_p_reg_reg_MULTSIGNOUT_UNCONNECTED : STD_LOGIC;
   signal NLW_p_reg_reg_OVERFLOW_UNCONNECTED : STD_LOGIC;
@@ -29314,7 +29314,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20 is
   port (
     CEB1 : out STD_LOGIC;
     D : out STD_LOGIC_VECTOR ( 15 downto 0 );
@@ -29332,10 +29332,10 @@ entity design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20 is
     Q : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20 : entity is "design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0";
-end design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20 : entity is "design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20 is
   signal \^ceb1\ : STD_LOGIC;
   signal add_ln504_2_fu_3338_p2 : STD_LOGIC_VECTOR ( 24 downto 0 );
   signal \g_reg_4263[15]_i_10_n_5\ : STD_LOGIC;
@@ -30618,7 +30618,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1 is
   port (
     P : out STD_LOGIC_VECTOR ( 23 downto 0 );
     CEP : in STD_LOGIC;
@@ -30626,9 +30626,9 @@ entity design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1 is
     DSP_ALU_INST : in STD_LOGIC_VECTOR ( 9 downto 0 );
     A : in STD_LOGIC_VECTOR ( 13 downto 0 )
   );
-end design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1 is
   signal tmp_product_n_86 : STD_LOGIC;
   signal NLW_tmp_product_CARRYCASCOUT_UNCONNECTED : STD_LOGIC;
   signal NLW_tmp_product_MULTSIGNOUT_UNCONNECTED : STD_LOGIC;
@@ -30757,7 +30757,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18 is
   port (
     P : out STD_LOGIC_VECTOR ( 23 downto 0 );
     CEP : in STD_LOGIC;
@@ -30766,10 +30766,10 @@ entity design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18 is
     A : in STD_LOGIC_VECTOR ( 13 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18 : entity is "design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1";
-end design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18 : entity is "design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18 is
   signal tmp_product_n_86 : STD_LOGIC;
   signal NLW_tmp_product_CARRYCASCOUT_UNCONNECTED : STD_LOGIC;
   signal NLW_tmp_product_MULTSIGNOUT_UNCONNECTED : STD_LOGIC;
@@ -30898,7 +30898,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1 is
   port (
     P : out STD_LOGIC_VECTOR ( 9 downto 0 );
     q0_reg : out STD_LOGIC;
@@ -30922,9 +30922,9 @@ entity design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1 is
     A : in STD_LOGIC_VECTOR ( 17 downto 0 );
     O : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
-end design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1 is
   signal g0_b8_n_5 : STD_LOGIC;
   signal g0_b9_n_5 : STD_LOGIC;
   signal g1_b8_n_5 : STD_LOGIC;
@@ -31352,7 +31352,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19 is
   port (
     P : out STD_LOGIC_VECTOR ( 9 downto 0 );
     CEA2 : out STD_LOGIC;
@@ -31423,10 +31423,10 @@ entity design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19 is
     lshr_ln501_1_reg_4228_reg_i_36 : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19 : entity is "design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1";
-end design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19 : entity is "design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19 is
   signal \^cea2\ : STD_LOGIC;
   signal g0_b0_n_5 : STD_LOGIC;
   signal g0_b1_n_5 : STD_LOGIC;
@@ -34863,16 +34863,16 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_reg_unsigned_short_s is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s is
   port (
     Q : out STD_LOGIC_VECTOR ( 10 downto 0 );
     E : in STD_LOGIC_VECTOR ( 0 to 0 );
     \d_read_reg_22_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 );
     ap_clk : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_reg_unsigned_short_s;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_reg_unsigned_short_s is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s is
 begin
 \d_read_reg_22_reg[0]\: unisim.vcomponents.FDRE
      port map (
@@ -34967,7 +34967,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_reg_unsigned_short_s_21 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s_21 is
   port (
     Q : out STD_LOGIC_VECTOR ( 10 downto 0 );
     xor_ln188_fu_239_p2 : out STD_LOGIC;
@@ -34977,10 +34977,10 @@ entity design_1_v_demosaic_0_0_reg_unsigned_short_s_21 is
     ap_clk : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_reg_unsigned_short_s_21 : entity is "design_1_v_demosaic_0_0_reg_unsigned_short_s";
-end design_1_v_demosaic_0_0_reg_unsigned_short_s_21;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s_21 : entity is "design_1_v_demosaic_0_0_reg_unsigned_short_s";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s_21;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_reg_unsigned_short_s_21 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s_21 is
   signal \^q\ : STD_LOGIC_VECTOR ( 10 downto 0 );
   signal \xor_ln188_reg_358[0]_i_2_n_5\ : STD_LOGIC;
 begin
@@ -35117,7 +35117,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_regslice_both is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both is
   port (
     ack_in_t_reg_0 : out STD_LOGIC;
     Q : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -35128,9 +35128,9 @@ entity design_1_v_demosaic_0_0_regslice_both is
     ack_in_t_reg_1 : in STD_LOGIC;
     s_axis_video_TDATA : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
-end design_1_v_demosaic_0_0_regslice_both;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_regslice_both is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both is
   signal \^q\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal ack_in_t_i_1_n_5 : STD_LOGIC;
   signal \^ack_in_t_reg_0\ : STD_LOGIC;
@@ -35563,7 +35563,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \design_1_v_demosaic_0_0_regslice_both__parameterized1\ is
+entity \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1\ is
   port (
     ack_in_t_reg_0 : out STD_LOGIC;
     data_p2 : out STD_LOGIC;
@@ -35576,10 +35576,10 @@ entity \design_1_v_demosaic_0_0_regslice_both__parameterized1\ is
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100_m_axis_video_TLAST : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_regslice_both__parameterized1\ : entity is "design_1_v_demosaic_0_0_regslice_both";
-end \design_1_v_demosaic_0_0_regslice_both__parameterized1\;
+  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1\ : entity is "design_1_v_demosaic_0_0_regslice_both";
+end \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1\;
 
-architecture STRUCTURE of \design_1_v_demosaic_0_0_regslice_both__parameterized1\ is
+architecture STRUCTURE of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1\ is
   signal \ack_in_t_i_1__4_n_5\ : STD_LOGIC;
   signal \^ack_in_t_reg_0\ : STD_LOGIC;
   signal \data_p1[0]_i_1__4_n_5\ : STD_LOGIC;
@@ -35702,7 +35702,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \design_1_v_demosaic_0_0_regslice_both__parameterized1_2\ is
+entity \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_2\ is
   port (
     ack_in_t_reg_0 : out STD_LOGIC;
     data_p2 : out STD_LOGIC;
@@ -35715,10 +35715,10 @@ entity \design_1_v_demosaic_0_0_regslice_both__parameterized1_2\ is
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100_m_axis_video_TUSER : in STD_LOGIC
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_regslice_both__parameterized1_2\ : entity is "design_1_v_demosaic_0_0_regslice_both";
-end \design_1_v_demosaic_0_0_regslice_both__parameterized1_2\;
+  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_2\ : entity is "design_1_v_demosaic_0_0_regslice_both";
+end \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_2\;
 
-architecture STRUCTURE of \design_1_v_demosaic_0_0_regslice_both__parameterized1_2\ is
+architecture STRUCTURE of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_2\ is
   signal \ack_in_t_i_1__3_n_5\ : STD_LOGIC;
   signal \^ack_in_t_reg_0\ : STD_LOGIC;
   signal \data_p1[0]_i_1__3_n_5\ : STD_LOGIC;
@@ -35841,7 +35841,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \design_1_v_demosaic_0_0_regslice_both__parameterized1_22\ is
+entity \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_22\ is
   port (
     s_axis_video_TLAST_int_regslice : out STD_LOGIC;
     ap_clk : in STD_LOGIC;
@@ -35851,10 +35851,10 @@ entity \design_1_v_demosaic_0_0_regslice_both__parameterized1_22\ is
     s_axis_video_TLAST : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_regslice_both__parameterized1_22\ : entity is "design_1_v_demosaic_0_0_regslice_both";
-end \design_1_v_demosaic_0_0_regslice_both__parameterized1_22\;
+  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_22\ : entity is "design_1_v_demosaic_0_0_regslice_both";
+end \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_22\;
 
-architecture STRUCTURE of \design_1_v_demosaic_0_0_regslice_both__parameterized1_22\ is
+architecture STRUCTURE of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_22\ is
   signal \ack_in_t_i_1__1_n_5\ : STD_LOGIC;
   signal ack_in_t_reg_n_5 : STD_LOGIC;
   signal \data_p1[0]_i_1__2_n_5\ : STD_LOGIC;
@@ -35987,7 +35987,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \design_1_v_demosaic_0_0_regslice_both__parameterized1_23\ is
+entity \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_23\ is
   port (
     \data_p1_reg[0]_0\ : out STD_LOGIC;
     ap_clk : in STD_LOGIC;
@@ -35997,10 +35997,10 @@ entity \design_1_v_demosaic_0_0_regslice_both__parameterized1_23\ is
     s_axis_video_TUSER : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_regslice_both__parameterized1_23\ : entity is "design_1_v_demosaic_0_0_regslice_both";
-end \design_1_v_demosaic_0_0_regslice_both__parameterized1_23\;
+  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_23\ : entity is "design_1_v_demosaic_0_0_regslice_both";
+end \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_23\;
 
-architecture STRUCTURE of \design_1_v_demosaic_0_0_regslice_both__parameterized1_23\ is
+architecture STRUCTURE of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_23\ is
   signal \ack_in_t_i_1__0_n_5\ : STD_LOGIC;
   signal ack_in_t_reg_n_5 : STD_LOGIC;
   signal \data_p1[0]_i_1__1_n_5\ : STD_LOGIC;
@@ -36133,7 +36133,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity \design_1_v_demosaic_0_0_regslice_both__parameterized2\ is
+entity \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized2\ is
   port (
     m_axis_video_TREADY_int_regslice : out STD_LOGIC;
     D : out STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -36154,10 +36154,10 @@ entity \design_1_v_demosaic_0_0_regslice_both__parameterized2\ is
     \data_p2_reg[29]_0\ : in STD_LOGIC_VECTOR ( 29 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_regslice_both__parameterized2\ : entity is "design_1_v_demosaic_0_0_regslice_both";
-end \design_1_v_demosaic_0_0_regslice_both__parameterized2\;
+  attribute ORIG_REF_NAME of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized2\ : entity is "design_1_v_demosaic_0_0_regslice_both";
+end \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized2\;
 
-architecture STRUCTURE of \design_1_v_demosaic_0_0_regslice_both__parameterized2\ is
+architecture STRUCTURE of \design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized2\ is
   signal \ack_in_t_i_1__2_n_5\ : STD_LOGIC;
   signal \data_p1[0]_i_1_n_5\ : STD_LOGIC;
   signal \data_p1[10]_i_1_n_5\ : STD_LOGIC;
@@ -37269,7 +37269,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0 is
   port (
     DebayerRandBatG_U0_ap_start : out STD_LOGIC;
     start_for_DebayerRandBatG_U0_full_n : out STD_LOGIC;
@@ -37279,9 +37279,9 @@ entity design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0 is
     p_6_in : in STD_LOGIC;
     E : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0 is
   signal \^debayerrandbatg_u0_ap_start\ : STD_LOGIC;
   signal \empty_n_i_1__2_n_5\ : STD_LOGIC;
   signal \full_n_i_1__2_n_5\ : STD_LOGIC;
@@ -37380,7 +37380,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0 is
   port (
     DebayerRatBorBatR_U0_ap_start : out STD_LOGIC;
     start_for_DebayerRatBorBatR_U0_full_n : out STD_LOGIC;
@@ -37401,9 +37401,9 @@ entity design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0 is
     DebayerRandBatG_U0_ap_start : in STD_LOGIC;
     Q : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0 is
   signal \^debayerratborbatr_u0_ap_start\ : STD_LOGIC;
   signal \empty_n_i_1__1_n_5\ : STD_LOGIC;
   signal \full_n_i_1__1_n_5\ : STD_LOGIC;
@@ -37564,7 +37564,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0 is
   port (
     MultiPixStream2AXIvideo_U0_ap_start : out STD_LOGIC;
     start_for_MultiPixStream2AXIvideo_U0_full_n : out STD_LOGIC;
@@ -37582,9 +37582,9 @@ entity design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0 is
     empty_n_reg_2 : in STD_LOGIC;
     full_n_reg_0 : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0 is
   signal \^multipixstream2axivideo_u0_ap_start\ : STD_LOGIC;
   signal \empty_n_i_1__10_n_5\ : STD_LOGIC;
   signal \full_n_i_1__10_n_5\ : STD_LOGIC;
@@ -37724,7 +37724,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0 is
   port (
     ZipperRemoval_U0_ap_start : out STD_LOGIC;
     start_for_ZipperRemoval_U0_full_n : out STD_LOGIC;
@@ -37744,9 +37744,9 @@ entity design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0 is
     start_once_reg : in STD_LOGIC;
     full_n : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0 is
   signal \^zipperremoval_u0_ap_start\ : STD_LOGIC;
   signal \empty_n_i_1__8_n_5\ : STD_LOGIC;
   signal \^empty_n_reg_0\ : STD_LOGIC;
@@ -37895,7 +37895,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol is
   port (
     ap_loop_init_int : out STD_LOGIC;
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -37915,9 +37915,9 @@ entity design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol is
     select_ln188_reg_380 : in STD_LOGIC;
     axi_last_4_loc_fu_86 : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol is
   signal eol_1_reg_110 : STD_LOGIC;
   signal flow_control_loop_pipe_sequential_init_U_n_11 : STD_LOGIC;
 begin
@@ -37929,7 +37929,7 @@ begin
       Q => eol_1_reg_110,
       R => '0'
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_26
      port map (
       D(1 downto 0) => D(1 downto 0),
       E(0) => E(0),
@@ -37956,7 +37956,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start is
   port (
     grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_s_axis_video_TREADY : out STD_LOGIC;
     \ap_CS_fsm_reg[2]\ : out STD_LOGIC;
@@ -37975,9 +37975,9 @@ entity design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start 
     axi_last_4_loc_fu_86 : in STD_LOGIC;
     axi_last_2_reg_126 : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start is
   signal grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_axi_last_out : STD_LOGIC;
   signal \^grp_axivideo2multibayer_pipeline_loop_wait_for_start_fu_136_s_axis_video_tready\ : STD_LOGIC;
   signal sof_reg_79 : STD_LOGIC;
@@ -38006,7 +38006,7 @@ begin
       Q => grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_axi_last_out,
       R => '0'
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_25
      port map (
       D(1 downto 0) => D(1 downto 0),
       E(0) => E(0),
@@ -38034,7 +38034,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width is
   port (
     grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_eol_out : out STD_LOGIC;
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -38067,9 +38067,9 @@ entity design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width is
     grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184_ap_start_reg : in STD_LOGIC;
     ap_loop_init_int : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width is
   signal ap_enable_reg_pp0_iter1 : STD_LOGIC;
   signal \^axi_data_fu_84_reg[9]_0\ : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal axi_last_fu_883_out : STD_LOGIC;
@@ -38368,7 +38368,7 @@ ap_enable_reg_pp0_iter1_reg: unisim.vcomponents.FDRE
       Q => \^grp_axivideo2multibayer_pipeline_loop_width_fu_156_eol_out\,
       R => '0'
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_24
      port map (
       D(9 downto 0) => p_0_in(9 downto 0),
       E(0) => E(0),
@@ -38564,7 +38564,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 is
   port (
     ap_block_pp0_stage0_subdone : out STD_LOGIC;
     ap_loop_exit_ready_pp0_iter2_reg : out STD_LOGIC;
@@ -38664,9 +38664,9 @@ entity design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 is
     SR : in STD_LOGIC_VECTOR ( 0 to 0 );
     d0 : in STD_LOGIC_VECTOR ( 29 downto 0 )
   );
-end design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2 is
   signal LineBufVal_4_fu_876_p4 : STD_LOGIC_VECTOR ( 29 downto 0 );
   signal \SRL_SIG[0][19]_i_2_n_5\ : STD_LOGIC;
   signal add_ln1033_fu_1278_p2 : STD_LOGIC_VECTOR ( 10 downto 0 );
@@ -45294,7 +45294,7 @@ empty_n_i_2: unisim.vcomponents.LUT4
       I3 => push_2,
       O => p_6_in
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_10
      port map (
       CO(0) => icmp_ln891_fu_600_p2,
       D(9) => flow_control_loop_pipe_sequential_init_U_n_9,
@@ -45589,7 +45589,7 @@ flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_fl
       Q => icmp_ln891_reg_1968,
       R => '0'
     );
-lineBuffer_2_U: entity work.design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11
+lineBuffer_2_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_11
      port map (
       D(5) => lineBuffer_2_U_n_45,
       D(4) => lineBuffer_2_U_n_46,
@@ -45734,7 +45734,7 @@ lineBuffer_2_U: entity work.design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_V
       Q => lineBuffer_addr_reg_1972(9),
       R => '0'
     );
-lineBuffer_U: entity work.design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12
+lineBuffer_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_12
      port map (
       D(9) => lineBuffer_U_n_5,
       D(8) => lineBuffer_U_n_6,
@@ -50368,7 +50368,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 is
   port (
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
     D : out STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -50460,9 +50460,9 @@ entity design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 is
     push_2 : in STD_LOGIC;
     d0 : in STD_LOGIC_VECTOR ( 29 downto 0 )
   );
-end design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2 is
   signal CH_fu_1620_p3 : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal CH_reg_2367 : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal CV_fu_1790_p2 : STD_LOGIC_VECTOR ( 11 downto 0 );
@@ -54943,7 +54943,7 @@ enable_fu_1416_p2_carry_i_9: unisim.vcomponents.LUT4
       I3 => icmp_ln799_fu_1504_p2_carry_i_24_n_5,
       O => enable_fu_1416_p2_carry_i_9_n_5
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_8
      port map (
       D(1 downto 0) => D(1 downto 0),
       DI(5) => flow_control_loop_pipe_sequential_init_U_n_173,
@@ -56402,7 +56402,7 @@ icmp_ln800_fu_1526_p2_carry_i_9: unisim.vcomponents.LUT4
       Q => icmp_ln800_reg_2332,
       R => '0'
     );
-lineBuffer_1_U: entity work.design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W
+lineBuffer_1_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W
      port map (
       D(9) => lineBuffer_1_U_n_5,
       D(8) => lineBuffer_1_U_n_6,
@@ -56557,7 +56557,7 @@ lineBuffer_1_U: entity work.design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_V
       Q => lineBuffer_addr_reg_2158(9),
       R => '0'
     );
-lineBuffer_U: entity work.design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9
+lineBuffer_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_lineBuffer_1_RAM_AUTO_1R1W_9
      port map (
       D(9) => lineBuffer_U_n_8,
       D(8) => lineBuffer_U_n_9,
@@ -62951,7 +62951,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 is
   port (
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100_m_axis_video_TLAST : out STD_LOGIC;
     grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100_m_axis_video_TUSER : out STD_LOGIC;
@@ -62982,9 +62982,9 @@ entity design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2
     \data_p2_reg[0]_0\ : in STD_LOGIC;
     data_p2_0 : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2 is
   signal \^e\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal ap_block_pp0_stage0_subdone : STD_LOGIC;
   signal ap_enable_reg_pp0_iter1 : STD_LOGIC;
@@ -63089,7 +63089,7 @@ ap_loop_exit_ready_pp0_iter1_reg_reg: unisim.vcomponents.FDRE
       I4 => \icmp_ln230_reg_197_reg_n_5_[0]\,
       O => \^e\(0)
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_3
      port map (
       D(1 downto 0) => D(1 downto 0),
       E(0) => j_fu_76,
@@ -63299,7 +63299,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 is
   port (
     Q : out STD_LOGIC_VECTOR ( 9 downto 0 );
     \p_0_0_0480_1667_load_reg_749_reg[9]_0\ : out STD_LOGIC_VECTOR ( 9 downto 0 );
@@ -63339,9 +63339,9 @@ entity design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 is
     \add_ln1147_1_fu_494_p2__1_carry__0_0\ : in STD_LOGIC_VECTOR ( 9 downto 0 );
     push_0 : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2 is
   signal \^q\ : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal add_ln1147_1_fu_494_p2 : STD_LOGIC_VECTOR ( 11 downto 2 );
   signal \add_ln1147_1_fu_494_p2__1_carry__0_i_1_n_5\ : STD_LOGIC;
@@ -65093,7 +65093,7 @@ ap_loop_exit_ready_pp0_iter2_reg_reg: unisim.vcomponents.FDRE
       Q => \conv3_i_i188669_reg_767_reg[9]_0\(9),
       R => '0'
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init
      port map (
       CO(0) => icmp_ln1101_fu_217_p2,
       D(1 downto 0) => D(1 downto 0),
@@ -66717,7 +66717,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w10_d2_S is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S is
   port (
     imgBayer_empty_n : out STD_LOGIC;
     imgBayer_full_n : out STD_LOGIC;
@@ -66744,9 +66744,9 @@ entity design_1_v_demosaic_0_0_fifo_w10_d2_S is
     E : in STD_LOGIC_VECTOR ( 0 to 0 );
     D : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
-end design_1_v_demosaic_0_0_fifo_w10_d2_S;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w10_d2_S is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S is
   signal \^addr\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal \addr[0]_i_1__0_n_5\ : STD_LOGIC;
   signal \addr[0]_i_2__4_n_5\ : STD_LOGIC;
@@ -66767,7 +66767,7 @@ begin
   addr(0) <= \^addr\(0);
   imgBayer_empty_n <= \^imgbayer_empty_n\;
   imgBayer_full_n <= \^imgbayer_full_n\;
-U_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg
+U_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S_ShiftReg
      port map (
       D(9 downto 0) => D(9 downto 0),
       DOUTBDOUT(9 downto 0) => DOUTBDOUT(9 downto 0),
@@ -66927,7 +66927,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w16_d2_S is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S is
   port (
     bayerPhase_c1_empty_n : out STD_LOGIC;
     bayerPhase_c1_full_n : out STD_LOGIC;
@@ -66938,9 +66938,9 @@ entity design_1_v_demosaic_0_0_fifo_w16_d2_S is
     \SRL_SIG_reg[0][15]\ : in STD_LOGIC;
     D : in STD_LOGIC_VECTOR ( 15 downto 0 )
   );
-end design_1_v_demosaic_0_0_fifo_w16_d2_S;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w16_d2_S is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S is
   signal \addr15_in__0\ : STD_LOGIC;
   signal \addr[0]_i_1_n_5\ : STD_LOGIC;
   signal \addr_reg_n_5_[0]\ : STD_LOGIC;
@@ -66964,7 +66964,7 @@ architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w16_d2_S is
 begin
   bayerPhase_c1_empty_n <= \^bayerphase_c1_empty_n\;
   bayerPhase_c1_full_n <= \^bayerphase_c1_full_n\;
-U_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7
+U_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg_7
      port map (
       D(15 downto 0) => D(15 downto 0),
       E(0) => push,
@@ -67149,7 +67149,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w16_d2_S_4 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_4 is
   port (
     bayerPhase_c_empty_n : out STD_LOGIC;
     bayerPhase_c_full_n : out STD_LOGIC;
@@ -67165,10 +67165,10 @@ entity design_1_v_demosaic_0_0_fifo_w16_d2_S_4 is
     D : in STD_LOGIC_VECTOR ( 15 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_fifo_w16_d2_S_4 : entity is "design_1_v_demosaic_0_0_fifo_w16_d2_S";
-end design_1_v_demosaic_0_0_fifo_w16_d2_S_4;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_4 : entity is "design_1_v_demosaic_0_0_fifo_w16_d2_S";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_4;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w16_d2_S_4 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_4 is
   signal \addr15_in__2\ : STD_LOGIC;
   signal \addr[0]_i_1_n_5\ : STD_LOGIC;
   signal \addr_reg_n_5_[0]\ : STD_LOGIC;
@@ -67191,7 +67191,7 @@ architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w16_d2_S_4 is
 begin
   bayerPhase_c_empty_n <= \^bayerphase_c_empty_n\;
   bayerPhase_c_full_n <= \^bayerphase_c_full_n\;
-U_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg
+U_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_ShiftReg
      port map (
       D(15 downto 0) => D(15 downto 0),
       \SRL_SIG_reg[1][0]_0\ => \SRL_SIG_reg[1][0]\,
@@ -67378,7 +67378,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w16_d2_S_x is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x is
   port (
     Debayer_U0_ap_start : out STD_LOGIC;
     Block_entry_split_proc_U0_ap_continue : out STD_LOGIC;
@@ -67393,9 +67393,9 @@ entity design_1_v_demosaic_0_0_fifo_w16_d2_S_x is
     Debayer_U0_ap_ready : in STD_LOGIC;
     D : in STD_LOGIC_VECTOR ( 15 downto 0 )
   );
-end design_1_v_demosaic_0_0_fifo_w16_d2_S_x;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w16_d2_S_x is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x is
   signal \^block_entry_split_proc_u0_ap_continue\ : STD_LOGIC;
   signal \^debayer_u0_ap_start\ : STD_LOGIC;
   signal addr : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -67418,7 +67418,7 @@ architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w16_d2_S_x is
 begin
   Block_entry_split_proc_U0_ap_continue <= \^block_entry_split_proc_u0_ap_continue\;
   Debayer_U0_ap_start <= \^debayer_u0_ap_start\;
-U_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg: entity work.design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg
+U_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x_ShiftReg
      port map (
       Block_entry_split_proc_U0_ap_continue => \^block_entry_split_proc_u0_ap_continue\,
       D(15 downto 0) => D(15 downto 0),
@@ -67592,7 +67592,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w30_d2_S is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S is
   port (
     imgG_empty_n : out STD_LOGIC;
     imgG_full_n : out STD_LOGIC;
@@ -67660,9 +67660,9 @@ entity design_1_v_demosaic_0_0_fifo_w30_d2_S is
     \SRL_SIG_reg[0][1]\ : in STD_LOGIC;
     \SRL_SIG_reg[0][0]\ : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_fifo_w30_d2_S;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w30_d2_S is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S is
   signal addr15_in : STD_LOGIC;
   signal \addr[0]_i_1_n_5\ : STD_LOGIC;
   signal \^addr_reg[0]_0\ : STD_LOGIC;
@@ -67683,7 +67683,7 @@ begin
   \addr_reg[0]_0\ <= \^addr_reg[0]_0\;
   imgG_empty_n <= \^imgg_empty_n\;
   imgG_full_n <= \^imgg_full_n\;
-U_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6
+U_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg_6
      port map (
       D(29 downto 0) => \SRL_SIG_reg[0]_0\(29 downto 0),
       Q(29 downto 0) => Q(29 downto 0),
@@ -67881,7 +67881,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w30_d2_S_5 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_5 is
   port (
     imgRB_empty_n : out STD_LOGIC;
     imgRB_full_n : out STD_LOGIC;
@@ -67932,10 +67932,10 @@ entity design_1_v_demosaic_0_0_fifo_w30_d2_S_5 is
     D : in STD_LOGIC_VECTOR ( 29 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_fifo_w30_d2_S_5 : entity is "design_1_v_demosaic_0_0_fifo_w30_d2_S";
-end design_1_v_demosaic_0_0_fifo_w30_d2_S_5;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_5 : entity is "design_1_v_demosaic_0_0_fifo_w30_d2_S";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_5;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w30_d2_S_5 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_5 is
   signal \addr15_in__1\ : STD_LOGIC;
   signal \addr[0]_i_1_n_5\ : STD_LOGIC;
   signal \^addr_reg[0]_0\ : STD_LOGIC;
@@ -67956,7 +67956,7 @@ begin
   \addr_reg[0]_0\ <= \^addr_reg[0]_0\;
   imgRB_empty_n <= \^imgrb_empty_n\;
   imgRB_full_n <= \^imgrb_full_n\;
-U_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg
+U_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_ShiftReg
      port map (
       D(29 downto 0) => D(29 downto 0),
       Q(29 downto 0) => Q(29 downto 0),
@@ -68135,7 +68135,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w30_d2_S_x is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x is
   port (
     imgRgb_empty_n : out STD_LOGIC;
     imgRgb_full_n : out STD_LOGIC;
@@ -68160,9 +68160,9 @@ entity design_1_v_demosaic_0_0_fifo_w30_d2_S_x is
     \SRL_SIG_reg[0][11]\ : in STD_LOGIC;
     \SRL_SIG_reg[0][10]\ : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_fifo_w30_d2_S_x;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w30_d2_S_x is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x is
   signal \addr[0]_i_1__1_n_5\ : STD_LOGIC;
   signal \addr[0]_i_3_n_5\ : STD_LOGIC;
   signal \^addr_reg[0]_0\ : STD_LOGIC;
@@ -68183,7 +68183,7 @@ begin
   \addr_reg[0]_0\ <= \^addr_reg[0]_0\;
   imgRgb_empty_n <= \^imgrgb_empty_n\;
   imgRgb_full_n <= \^imgrgb_full_n\;
-U_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1
+U_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg_1
      port map (
       D(29 downto 0) => D(29 downto 0),
       Q(29 downto 0) => Q(29 downto 0),
@@ -68337,7 +68337,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0 is
   port (
     imgUnzip_empty_n : out STD_LOGIC;
     imgUnzip_full_n : out STD_LOGIC;
@@ -68353,10 +68353,10 @@ entity design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0 is
     D : in STD_LOGIC_VECTOR ( 29 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0 : entity is "design_1_v_demosaic_0_0_fifo_w30_d2_S_x";
-end design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0 : entity is "design_1_v_demosaic_0_0_fifo_w30_d2_S_x";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0 is
   signal \addr[0]_i_1__2_n_5\ : STD_LOGIC;
   signal \addr[0]_i_2__5_n_5\ : STD_LOGIC;
   signal \^addr_reg[0]_0\ : STD_LOGIC;
@@ -68377,7 +68377,7 @@ begin
   \addr_reg[0]_0\ <= \^addr_reg[0]_0\;
   imgUnzip_empty_n <= \^imgunzip_empty_n\;
   imgUnzip_full_n <= \^imgunzip_full_n\;
-U_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg
+U_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_ShiftReg
      port map (
       D(29 downto 0) => D(29 downto 0),
       Q(29 downto 0) => Q(29 downto 0),
@@ -68525,7 +68525,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1 is
   port (
     CEP : out STD_LOGIC;
     D : out STD_LOGIC_VECTOR ( 15 downto 0 );
@@ -68542,11 +68542,11 @@ entity design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1 is
     \g_reg_4263_reg[15]_i_11\ : in STD_LOGIC_VECTOR ( 24 downto 0 );
     Q : in STD_LOGIC_VECTOR ( 9 downto 0 )
   );
-end design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1 is
 begin
-design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U: entity work.design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20
+design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_20
      port map (
       B(13 downto 0) => B(13 downto 0),
       CEB1 => CEP,
@@ -68568,7 +68568,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17 is
   port (
     P : out STD_LOGIC_VECTOR ( 24 downto 0 );
     CEP : in STD_LOGIC;
@@ -68578,12 +68578,12 @@ entity design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17 is
     DSP_ALU_INST_0 : in STD_LOGIC_VECTOR ( 23 downto 0 )
   );
   attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17 : entity is "design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1";
-end design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17;
+  attribute ORIG_REF_NAME of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17 : entity is "design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17 is
 begin
-design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U: entity work.design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0
+design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_DSP48_0
      port map (
       B(13 downto 0) => B(13 downto 0),
       CEP => CEP,
@@ -68597,7 +68597,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_AXIvideo2MultiBayer is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer is
   port (
     ack_in_t_reg : out STD_LOGIC;
     E : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -68623,9 +68623,9 @@ entity design_1_v_demosaic_0_0_AXIvideo2MultiBayer is
     \trunc_ln146_reg_335_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 );
     \trunc_ln145_reg_330_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
-end design_1_v_demosaic_0_0_AXIvideo2MultiBayer;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_AXIvideo2MultiBayer is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer is
   signal \^q\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal and_ln188_reg_369 : STD_LOGIC;
   signal \and_ln188_reg_369[0]_i_1_n_5\ : STD_LOGIC;
@@ -69166,7 +69166,7 @@ ap_sync_reg_AXIvideo2MultiBayer_U0_ap_ready_i_2: unisim.vcomponents.LUT3
       Q => cols_reg_345(9),
       R => '0'
     );
-grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184: entity work.design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol
+grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol
      port map (
       D(1 downto 0) => \ap_NS_fsm__0\(9 downto 8),
       E(0) => grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184_n_6,
@@ -69199,7 +69199,7 @@ grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184_ap_start_reg_reg: unis
       Q => grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_eol_fu_184_ap_start_reg,
       R => ap_rst_n_inv
     );
-grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136: entity work.design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start
+grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start
      port map (
       D(1) => \ap_NS_fsm__0\(3),
       D(0) => ap_NS_fsm(2),
@@ -69233,7 +69233,7 @@ grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_ap_start_reg_reg: un
       Q => grp_AXIvideo2MultiBayer_Pipeline_loop_wait_for_start_fu_136_ap_start_reg,
       R => ap_rst_n_inv
     );
-grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156: entity work.design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width
+grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer_Pipeline_loop_width
      port map (
       D(1) => grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_n_10,
       D(0) => \ap_NS_fsm__0\(5),
@@ -69290,14 +69290,14 @@ grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_ap_start_reg_reg: unisim.vcom
       Q => grp_AXIvideo2MultiBayer_Pipeline_loop_width_fu_156_ap_start_reg,
       R => ap_rst_n_inv
     );
-grp_reg_unsigned_short_s_fu_220: entity work.design_1_v_demosaic_0_0_reg_unsigned_short_s
+grp_reg_unsigned_short_s_fu_220: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s
      port map (
       E(0) => grp_reg_unsigned_short_s_fu_220_ap_ce,
       Q(10 downto 0) => d_read_reg_22(10 downto 0),
       ap_clk => ap_clk,
       \d_read_reg_22_reg[10]_0\(10 downto 0) => trunc_ln145_reg_330(10 downto 0)
     );
-grp_reg_unsigned_short_s_fu_225: entity work.design_1_v_demosaic_0_0_reg_unsigned_short_s_21
+grp_reg_unsigned_short_s_fu_225: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_reg_unsigned_short_s_21
      port map (
       E(0) => grp_reg_unsigned_short_s_fu_220_ap_ce,
       Q(10) => grp_reg_unsigned_short_s_fu_225_n_5,
@@ -69590,7 +69590,7 @@ int_ap_start_i_2: unisim.vcomponents.LUT6
       I5 => ap_done_reg,
       O => \^ap_sync_ready\
     );
-regslice_both_s_axis_video_V_data_V_U: entity work.design_1_v_demosaic_0_0_regslice_both
+regslice_both_s_axis_video_V_data_V_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both
      port map (
       Q(0) => s_axis_video_TVALID_int_regslice,
       ack_in_t_reg_0 => ack_in_t_reg,
@@ -69610,7 +69610,7 @@ regslice_both_s_axis_video_V_data_V_U: entity work.design_1_v_demosaic_0_0_regsl
       s_axis_video_TDATA(9 downto 0) => s_axis_video_TDATA(9 downto 0),
       s_axis_video_TVALID => s_axis_video_TVALID
     );
-regslice_both_s_axis_video_V_last_V_U: entity work.\design_1_v_demosaic_0_0_regslice_both__parameterized1_22\
+regslice_both_s_axis_video_V_last_V_U: entity work.\design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_22\
      port map (
       ap_clk => ap_clk,
       ap_rst_n_inv => ap_rst_n_inv,
@@ -69619,7 +69619,7 @@ regslice_both_s_axis_video_V_last_V_U: entity work.\design_1_v_demosaic_0_0_regs
       s_axis_video_TLAST_int_regslice => s_axis_video_TLAST_int_regslice,
       s_axis_video_TVALID => s_axis_video_TVALID
     );
-regslice_both_s_axis_video_V_user_V_U: entity work.\design_1_v_demosaic_0_0_regslice_both__parameterized1_23\
+regslice_both_s_axis_video_V_user_V_U: entity work.\design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_23\
      port map (
       ap_clk => ap_clk,
       ap_rst_n_inv => ap_rst_n_inv,
@@ -69932,7 +69932,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 is
   port (
     DOUTBDOUT : out STD_LOGIC_VECTOR ( 9 downto 0 );
     ap_rst_n_0 : out STD_LOGIC;
@@ -70041,9 +70041,9 @@ entity design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 is
     \SRL_SIG_reg[0][19]\ : in STD_LOGIC;
     cmp689_reg_681 : in STD_LOGIC
   );
-end design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4 is
   signal DIV1_TABLE_U_n_39 : STD_LOGIC;
   signal DIV1_TABLE_U_n_40 : STD_LOGIC;
   signal DIV1_TABLE_U_n_41 : STD_LOGIC;
@@ -73796,7 +73796,7 @@ begin
   ap_rst_n_0 <= \^ap_rst_n_0\;
   \icmp_ln328_reg_3813_reg[0]_0\ <= \^icmp_ln328_reg_3813_reg[0]_0\;
   icmp_ln439_reg_3865_pp0_iter9_reg <= \^icmp_ln439_reg_3865_pp0_iter9_reg\;
-DIV1_TABLE_U: entity work.design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R
+DIV1_TABLE_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_DIV1_TABLE_ROM_AUTO_1R
      port map (
       A(17) => DIV1_TABLE_U_n_39,
       A(16) => DIV1_TABLE_U_n_40,
@@ -81700,7 +81700,7 @@ ap_loop_exit_ready_pp0_iter8_reg_reg_srl8: unisim.vcomponents.SRL16E
       Q => zext_ln451_fu_1452_p1(10),
       R => '0'
     );
-flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13
+flow_control_loop_pipe_sequential_init_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_flow_control_loop_pipe_sequential_init_13
      port map (
       ADDRBWRADDR(10) => flow_control_loop_pipe_sequential_init_U_n_166,
       ADDRBWRADDR(9) => flow_control_loop_pipe_sequential_init_U_n_167,
@@ -82636,7 +82636,7 @@ g0_b0_i_9: unisim.vcomponents.LUT6
       Q => \^icmp_ln439_reg_3865_pp0_iter9_reg\,
       R => '0'
     );
-linebuf_yuv_1_U: entity work.design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W
+linebuf_yuv_1_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W
      port map (
       D(10) => flow_control_loop_pipe_sequential_init_U_n_166,
       D(9) => flow_control_loop_pipe_sequential_init_U_n_167,
@@ -82812,7 +82812,7 @@ linebuf_yuv_1_U: entity work.design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOO
       Q => linebuf_yuv_addr_reg_3817(9),
       R => '0'
     );
-linebuf_yuv_2_U: entity work.design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14
+linebuf_yuv_2_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_14
      port map (
       ADDRBWRADDR(10) => flow_control_loop_pipe_sequential_init_U_n_166,
       ADDRBWRADDR(9) => flow_control_loop_pipe_sequential_init_U_n_167,
@@ -82875,7 +82875,7 @@ linebuf_yuv_2_U: entity work.design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOO
       ram_reg_bram_0_3 => \icmp_ln318_reg_3809_pp0_iter8_reg_reg[0]__0_1\,
       ram_reg_bram_0_4(9 downto 0) => \^doutbdout\(9 downto 0)
     );
-linebuf_yuv_3_U: entity work.design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15
+linebuf_yuv_3_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_15
      port map (
       ADDRBWRADDR(10) => flow_control_loop_pipe_sequential_init_U_n_166,
       ADDRBWRADDR(9) => flow_control_loop_pipe_sequential_init_U_n_167,
@@ -82973,7 +82973,7 @@ linebuf_yuv_3_U: entity work.design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOO
       ram_reg_bram_0_4(1) => linebuf_yuv_3_U_n_63,
       ram_reg_bram_0_4(0) => linebuf_yuv_3_U_n_64
     );
-linebuf_yuv_U: entity work.design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16
+linebuf_yuv_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4_linebuf_yuv_3_RAM_AUTO_1R1W_16
      port map (
       ADDRBWRADDR(10) => flow_control_loop_pipe_sequential_init_U_n_166,
       ADDRBWRADDR(9) => flow_control_loop_pipe_sequential_init_U_n_167,
@@ -83334,7 +83334,7 @@ lshr_ln501_2_reg_4233_reg: unisim.vcomponents.DSP48E2
       I5 => imgBayer_empty_n,
       O => \cmp84_reg_666_reg[0]\
     );
-mac_muladd_14s_10ns_24s_25_4_1_U61: entity work.design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1
+mac_muladd_14s_10ns_24s_25_4_1_U61: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1
      port map (
       B(13 downto 0) => ave_3_reg_4085_pp0_iter4_reg(13 downto 0),
       CEP => ap_block_pp0_stage0_subdone,
@@ -83407,7 +83407,7 @@ mac_muladd_14s_10ns_24s_25_4_1_U61: entity work.design_1_v_demosaic_0_0_mac_mula
       icmp_ln328_reg_3813 => icmp_ln328_reg_3813,
       imgBayer_empty_n => imgBayer_empty_n
     );
-mac_muladd_14s_10ns_24s_25_4_1_U62: entity work.design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17
+mac_muladd_14s_10ns_24s_25_4_1_U62: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mac_muladd_14s_10ns_24s_25_4_1_17
      port map (
       B(13 downto 0) => ave_reg_4028_pp0_iter4_reg(13 downto 0),
       CEP => ap_block_pp0_stage0_subdone,
@@ -83818,7 +83818,7 @@ mac_muladd_14s_10ns_24s_25_4_1_U62: entity work.design_1_v_demosaic_0_0_mac_mula
       Q => mean_reg_4090(9),
       R => '0'
     );
-mul_14s_10ns_24_1_1_U59: entity work.design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1
+mul_14s_10ns_24_1_1_U59: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1
      port map (
       A(13 downto 0) => ave_1_reg_4055_pp0_iter5_reg(13 downto 0),
       CEP => ap_block_pp0_stage0_subdone,
@@ -83849,7 +83849,7 @@ mul_14s_10ns_24_1_1_U59: entity work.design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1
       P(0) => mul_14s_10ns_24_1_1_U59_n_28,
       ap_clk => ap_clk
     );
-mul_14s_10ns_24_1_1_U60: entity work.design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18
+mul_14s_10ns_24_1_1_U60: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1_18
      port map (
       A(13 downto 0) => ave_2_reg_4070_pp0_iter5_reg(13 downto 0),
       CEP => ap_block_pp0_stage0_subdone,
@@ -83880,7 +83880,7 @@ mul_14s_10ns_24_1_1_U60: entity work.design_1_v_demosaic_0_0_mul_14s_10ns_24_1_1
       P(0) => mul_14s_10ns_24_1_1_U60_n_28,
       ap_clk => ap_clk
     );
-mul_18s_9ns_18_1_1_U55: entity work.design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1
+mul_18s_9ns_18_1_1_U55: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1
      port map (
       A(17) => DIV1_TABLE_U_n_39,
       A(16) => DIV1_TABLE_U_n_40,
@@ -83930,7 +83930,7 @@ mul_18s_9ns_18_1_1_U55: entity work.design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1
       q0_reg_8 => mul_18s_9ns_18_1_1_U55_n_24,
       q0_reg_9 => mul_18s_9ns_18_1_1_U55_n_25
     );
-mul_18s_9ns_18_1_1_U58: entity work.design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19
+mul_18s_9ns_18_1_1_U58: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_mul_18s_9ns_18_1_1_19
      port map (
       A(17) => DIV1_TABLE_U_n_39,
       A(16) => DIV1_TABLE_U_n_40,
@@ -102731,7 +102731,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerRandBatG is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG is
   port (
     \ap_CS_fsm_reg[0]_0\ : out STD_LOGIC;
     cmp59_i_reg_465 : out STD_LOGIC;
@@ -102811,9 +102811,9 @@ entity design_1_v_demosaic_0_0_DebayerRandBatG is
     \loopWidth_reg_382_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 );
     \trunc_ln870_1_i_reg_392_reg[14]_0\ : in STD_LOGIC_VECTOR ( 14 downto 0 )
   );
-end design_1_v_demosaic_0_0_DebayerRandBatG;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerRandBatG is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG is
   signal \ap_CS_fsm[2]_i_1__4_n_5\ : STD_LOGIC;
   signal \ap_CS_fsm[2]_i_3__0_n_5\ : STD_LOGIC;
   signal \ap_CS_fsm[2]_i_4__0_n_5\ : STD_LOGIC;
@@ -103122,7 +103122,7 @@ cmp59_i_fu_272_p2_carry_i_7: unisim.vcomponents.LUT2
       Q => \^cmp59_i_reg_465\,
       R => '0'
     );
-grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134: entity work.design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2
+grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2
      port map (
       D(1) => ap_NS_fsm(3),
       D(0) => ap_NS_fsm(1),
@@ -105900,7 +105900,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerRatBorBatR is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR is
   port (
     DebayerRatBorBatR_U0_bayerPhase_c_write : out STD_LOGIC;
     Q : out STD_LOGIC_VECTOR ( 10 downto 0 );
@@ -105974,9 +105974,9 @@ entity design_1_v_demosaic_0_0_DebayerRatBorBatR is
     \loopHeight_reg_441_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 );
     \loopWidth_reg_446_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
-end design_1_v_demosaic_0_0_DebayerRatBorBatR;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerRatBorBatR is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR is
   signal \^debayerratborbatr_u0_bayerphase_c_write\ : STD_LOGIC;
   signal \^q\ : STD_LOGIC_VECTOR ( 10 downto 0 );
   signal \ap_CS_fsm[2]_i_2_n_5\ : STD_LOGIC;
@@ -106335,7 +106335,7 @@ begin
       Q => \^cmp59_i_reg_545\,
       R => '0'
     );
-grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158: entity work.design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2
+grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2
      port map (
       D(1) => ap_NS_fsm(3),
       D(0) => ap_NS_fsm(1),
@@ -109644,7 +109644,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_MultiPixStream2AXIvideo is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo is
   port (
     m_axis_video_TUSER : out STD_LOGIC_VECTOR ( 0 to 0 );
     m_axis_video_TLAST : out STD_LOGIC_VECTOR ( 0 to 0 );
@@ -109674,9 +109674,9 @@ entity design_1_v_demosaic_0_0_MultiPixStream2AXIvideo is
     \data_p2_reg[29]\ : in STD_LOGIC_VECTOR ( 29 downto 0 );
     \trunc_ln221_reg_184_reg[10]_0\ : in STD_LOGIC_VECTOR ( 10 downto 0 )
   );
-end design_1_v_demosaic_0_0_MultiPixStream2AXIvideo;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_MultiPixStream2AXIvideo is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo is
   signal and_ln228_reg_207 : STD_LOGIC;
   signal \and_ln228_reg_207[0]_i_1_n_5\ : STD_LOGIC;
   signal \ap_CS_fsm[3]_i_2_n_5\ : STD_LOGIC;
@@ -109870,7 +109870,7 @@ begin
       Q => ap_CS_fsm_state4,
       R => ap_rst_n_inv
     );
-grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100: entity work.design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2
+grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2
      port map (
       D(1 downto 0) => ap_NS_fsm(2 downto 1),
       E(0) => \^load_p2\,
@@ -110182,7 +110182,7 @@ grp_MultiPixStream2AXIvideo_Pipeline_VITIS_LOOP_230_2_fu_100_ap_start_reg_reg: u
       Q => \^icmp_ln228_reg_199_reg[0]_0\,
       R => '0'
     );
-regslice_both_m_axis_video_V_data_V_U: entity work.\design_1_v_demosaic_0_0_regslice_both__parameterized2\
+regslice_both_m_axis_video_V_data_V_U: entity work.\design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized2\
      port map (
       D(1) => ap_NS_fsm(3),
       D(0) => ap_NS_fsm(0),
@@ -110205,7 +110205,7 @@ regslice_both_m_axis_video_V_data_V_U: entity work.\design_1_v_demosaic_0_0_regs
       m_axis_video_TREADY_int_regslice => m_axis_video_TREADY_int_regslice,
       m_axis_video_TVALID => m_axis_video_TVALID
     );
-regslice_both_m_axis_video_V_last_V_U: entity work.\design_1_v_demosaic_0_0_regslice_both__parameterized1\
+regslice_both_m_axis_video_V_last_V_U: entity work.\design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1\
      port map (
       E(0) => \^load_p2\,
       ack_in_t_reg_0 => regslice_both_m_axis_video_V_last_V_U_n_5,
@@ -110217,7 +110217,7 @@ regslice_both_m_axis_video_V_last_V_U: entity work.\design_1_v_demosaic_0_0_regs
       m_axis_video_TLAST(0) => m_axis_video_TLAST(0),
       m_axis_video_TREADY => m_axis_video_TREADY
     );
-regslice_both_m_axis_video_V_user_V_U: entity work.\design_1_v_demosaic_0_0_regslice_both__parameterized1_2\
+regslice_both_m_axis_video_V_user_V_U: entity work.\design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_regslice_both__parameterized1_2\
      port map (
       E(0) => \^load_p2\,
       ack_in_t_reg_0 => regslice_both_m_axis_video_V_user_V_U_n_5,
@@ -110553,7 +110553,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_ZipperRemoval is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval is
   port (
     Q : out STD_LOGIC_VECTOR ( 3 downto 0 );
     start_once_reg : out STD_LOGIC;
@@ -110585,9 +110585,9 @@ entity design_1_v_demosaic_0_0_ZipperRemoval is
     push_0 : in STD_LOGIC;
     \loopWidth_reg_281_reg[16]_0\ : in STD_LOGIC_VECTOR ( 16 downto 0 )
   );
-end design_1_v_demosaic_0_0_ZipperRemoval;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_ZipperRemoval is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval is
   signal \^q\ : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal \ap_CS_fsm[2]_i_2__1_n_5\ : STD_LOGIC;
   signal \ap_CS_fsm[2]_i_3__1_n_5\ : STD_LOGIC;
@@ -110935,7 +110935,7 @@ begin
       I3 => empty_n_reg,
       O => full_n
     );
-grp_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2_fu_104: entity work.design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2
+grp_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2_fu_104: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval_Pipeline_VITIS_LOOP_1101_2
      port map (
       D(1) => ap_NS_fsm(3),
       D(0) => ap_NS_fsm(1),
@@ -112369,7 +112369,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_DebayerG is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG is
   port (
     DOUTBDOUT : out STD_LOGIC_VECTOR ( 9 downto 0 );
     ap_rst_n_0 : out STD_LOGIC;
@@ -112437,9 +112437,9 @@ entity design_1_v_demosaic_0_0_DebayerG is
     \loopHeight_reg_536_reg[16]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     \loopWidth_reg_541_reg[16]_0\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-end design_1_v_demosaic_0_0_DebayerG;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_DebayerG is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG is
   signal \^co\ : STD_LOGIC_VECTOR ( 0 to 0 );
   signal \^debayer_u0_ap_ready\ : STD_LOGIC;
   signal \^q\ : STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -113159,7 +113159,7 @@ cmp84_fu_357_p2_carry_i_9: unisim.vcomponents.LUT4
       Q => \^cmp84_reg_666_reg[0]_0\,
       R => '0'
     );
-grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184: entity work.design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
+grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG_Pipeline_VITIS_LOOP_318_4
      port map (
       D(9 downto 0) => grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184_p_out(9 downto 0),
       DOUTBDOUT(9 downto 0) => DOUTBDOUT(9 downto 0),
@@ -117964,7 +117964,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_Debayer is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Debayer is
   port (
     DOUTBDOUT : out STD_LOGIC_VECTOR ( 9 downto 0 );
     ap_rst_n_inv : out STD_LOGIC;
@@ -118028,9 +118028,9 @@ entity design_1_v_demosaic_0_0_Debayer is
     \loopHeight_reg_377_reg[10]\ : in STD_LOGIC_VECTOR ( 8 downto 0 );
     \loopWidth_reg_382_reg[10]\ : in STD_LOGIC_VECTOR ( 8 downto 0 )
   );
-end design_1_v_demosaic_0_0_Debayer;
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Debayer;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_Debayer is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Debayer is
   signal DebayerG_U0_imgG_din : STD_LOGIC_VECTOR ( 19 downto 10 );
   signal DebayerG_U0_n_16 : STD_LOGIC;
   signal DebayerG_U0_n_19 : STD_LOGIC;
@@ -118229,7 +118229,7 @@ architecture STRUCTURE of design_1_v_demosaic_0_0_Debayer is
 begin
   ap_rst_n_inv <= \^ap_rst_n_inv\;
   start_once_reg_reg_0 <= \^start_once_reg_reg_0\;
-DebayerG_U0: entity work.design_1_v_demosaic_0_0_DebayerG
+DebayerG_U0: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerG
      port map (
       CO(0) => \y_fu_74_reg[15]\(0),
       D(15 downto 0) => D(15 downto 0),
@@ -118298,7 +118298,7 @@ DebayerG_U0: entity work.design_1_v_demosaic_0_0_DebayerG
       \y_fu_74_reg[16]_0\ => start_for_DebayerRatBorBatR_U0_U_n_8,
       \zext_ln274_reg_531_reg[15]_0\(15 downto 0) => \zext_ln274_reg_531_reg[15]\(15 downto 0)
     );
-DebayerRandBatG_U0: entity work.design_1_v_demosaic_0_0_DebayerRandBatG
+DebayerRandBatG_U0: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRandBatG
      port map (
       D(10 downto 2) => \loopHeight_reg_377_reg[10]\(8 downto 0),
       D(1 downto 0) => \loopHeight_reg_441_reg[10]\(1 downto 0),
@@ -118439,7 +118439,7 @@ DebayerRandBatG_U0: entity work.design_1_v_demosaic_0_0_DebayerRandBatG
       \x_phase_reg_387_reg[0]_0\ => bayerPhase_c_U_n_7,
       \y_fu_64_reg[10]_0\(10 downto 0) => \y_fu_64_reg[10]\(10 downto 0)
     );
-DebayerRatBorBatR_U0: entity work.design_1_v_demosaic_0_0_DebayerRatBorBatR
+DebayerRatBorBatR_U0: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_DebayerRatBorBatR
      port map (
       CO(0) => CO(0),
       D(15 downto 0) => bayerPhase_c1_dout(15 downto 0),
@@ -118513,7 +118513,7 @@ DebayerRatBorBatR_U0: entity work.design_1_v_demosaic_0_0_DebayerRatBorBatR
       start_once_reg_0 => start_once_reg_8,
       \y_fu_68_reg[10]_0\(0) => \y_fu_68_reg[10]\(0)
     );
-bayerPhase_c1_U: entity work.design_1_v_demosaic_0_0_fifo_w16_d2_S
+bayerPhase_c1_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S
      port map (
       D(15 downto 0) => D(15 downto 0),
       DebayerRatBorBatR_U0_bayerPhase_c_write => DebayerRatBorBatR_U0_bayerPhase_c_write,
@@ -118524,7 +118524,7 @@ bayerPhase_c1_U: entity work.design_1_v_demosaic_0_0_fifo_w16_d2_S
       bayerPhase_c1_empty_n => bayerPhase_c1_empty_n,
       bayerPhase_c1_full_n => bayerPhase_c1_full_n
     );
-bayerPhase_c_U: entity work.design_1_v_demosaic_0_0_fifo_w16_d2_S_4
+bayerPhase_c_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_4
      port map (
       D(15 downto 0) => bayerPhase_c1_dout(15 downto 0),
       DebayerRandBatG_U0_ap_start => DebayerRandBatG_U0_ap_start,
@@ -118539,7 +118539,7 @@ bayerPhase_c_U: entity work.design_1_v_demosaic_0_0_fifo_w16_d2_S_4
       \mOutPtr_reg[2]_0\ => DebayerRandBatG_U0_n_5,
       push => push_3
     );
-imgG_U: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S
+imgG_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S
      port map (
       D(9 downto 0) => DebayerG_U0_imgG_din(19 downto 10),
       E(0) => DebayerRatBorBatR_U0_n_86,
@@ -118607,7 +118607,7 @@ imgG_U: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S
       push => push_0,
       q1(29 downto 0) => \grp_DebayerRatBorBatR_Pipeline_VITIS_LOOP_633_2_fu_158/lineBuffer_q1\(29 downto 0)
     );
-imgRB_U: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_5
+imgRB_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_5
      port map (
       D(29 downto 0) => DebayerRatBorBatR_U0_imgRB_din(29 downto 0),
       E(0) => DebayerRandBatG_U0_n_38,
@@ -118715,7 +118715,7 @@ imgRB_U: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_5
       p_9_in => p_9_in_2,
       q1(29 downto 0) => \grp_DebayerRandBatG_Pipeline_VITIS_LOOP_881_2_fu_134/lineBuffer_q1\(29 downto 0)
     );
-start_for_DebayerRandBatG_U0_U: entity work.design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0
+start_for_DebayerRandBatG_U0_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRandBatG_U0
      port map (
       DebayerRandBatG_U0_ap_start => DebayerRandBatG_U0_ap_start,
       E(0) => DebayerRandBatG_U0_n_43,
@@ -118725,7 +118725,7 @@ start_for_DebayerRandBatG_U0_U: entity work.design_1_v_demosaic_0_0_start_for_De
       p_9_in => p_9_in,
       start_for_DebayerRandBatG_U0_full_n => start_for_DebayerRandBatG_U0_full_n
     );
-start_for_DebayerRatBorBatR_U0_U: entity work.design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0
+start_for_DebayerRatBorBatR_U0_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_DebayerRatBorBatR_U0
      port map (
       DebayerRandBatG_U0_ap_start => DebayerRandBatG_U0_ap_start,
       DebayerRatBorBatR_U0_ap_start => DebayerRatBorBatR_U0_ap_start,
@@ -118762,7 +118762,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
-entity design_1_v_demosaic_0_0_v_demosaic is
+entity design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic is
   port (
     s_axi_CTRL_AWVALID : in STD_LOGIC;
     s_axi_CTRL_AWREADY : out STD_LOGIC;
@@ -118804,20 +118804,20 @@ entity design_1_v_demosaic_0_0_v_demosaic is
     m_axis_video_TREADY : in STD_LOGIC
   );
   attribute C_S_AXI_CTRL_ADDR_WIDTH : integer;
-  attribute C_S_AXI_CTRL_ADDR_WIDTH of design_1_v_demosaic_0_0_v_demosaic : entity is 6;
+  attribute C_S_AXI_CTRL_ADDR_WIDTH of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic : entity is 6;
   attribute C_S_AXI_CTRL_DATA_WIDTH : integer;
-  attribute C_S_AXI_CTRL_DATA_WIDTH of design_1_v_demosaic_0_0_v_demosaic : entity is 32;
+  attribute C_S_AXI_CTRL_DATA_WIDTH of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic : entity is 32;
   attribute C_S_AXI_CTRL_WSTRB_WIDTH : integer;
-  attribute C_S_AXI_CTRL_WSTRB_WIDTH of design_1_v_demosaic_0_0_v_demosaic : entity is 4;
+  attribute C_S_AXI_CTRL_WSTRB_WIDTH of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic : entity is 4;
   attribute C_S_AXI_DATA_WIDTH : integer;
-  attribute C_S_AXI_DATA_WIDTH of design_1_v_demosaic_0_0_v_demosaic : entity is 32;
+  attribute C_S_AXI_DATA_WIDTH of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic : entity is 32;
   attribute C_S_AXI_WSTRB_WIDTH : integer;
-  attribute C_S_AXI_WSTRB_WIDTH of design_1_v_demosaic_0_0_v_demosaic : entity is 4;
+  attribute C_S_AXI_WSTRB_WIDTH of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic : entity is 4;
   attribute hls_module : string;
-  attribute hls_module of design_1_v_demosaic_0_0_v_demosaic : entity is "yes";
-end design_1_v_demosaic_0_0_v_demosaic;
+  attribute hls_module of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic : entity is "yes";
+end design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic;
 
-architecture STRUCTURE of design_1_v_demosaic_0_0_v_demosaic is
+architecture STRUCTURE of design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic is
   signal \<const0>\ : STD_LOGIC;
   signal AXIvideo2MultiBayer_U0_imgBayer_din : STD_LOGIC_VECTOR ( 9 downto 0 );
   signal AXIvideo2MultiBayer_U0_n_6 : STD_LOGIC;
@@ -118999,7 +118999,7 @@ begin
   s_axi_CTRL_RDATA(15 downto 0) <= \^s_axi_ctrl_rdata\(15 downto 0);
   s_axi_CTRL_RRESP(1) <= \<const0>\;
   s_axi_CTRL_RRESP(0) <= \<const0>\;
-AXIvideo2MultiBayer_U0: entity work.design_1_v_demosaic_0_0_AXIvideo2MultiBayer
+AXIvideo2MultiBayer_U0: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_AXIvideo2MultiBayer
      port map (
       E(0) => AXIvideo2MultiBayer_U0_n_6,
       Q(0) => AXIvideo2MultiBayer_U0_n_8,
@@ -119025,7 +119025,7 @@ AXIvideo2MultiBayer_U0: entity work.design_1_v_demosaic_0_0_AXIvideo2MultiBayer
       \trunc_ln145_reg_330_reg[10]_0\(10 downto 0) => height(10 downto 0),
       \trunc_ln146_reg_335_reg[10]_0\(10 downto 0) => width(10 downto 0)
     );
-Block_entry_split_proc_U0: entity work.design_1_v_demosaic_0_0_Block_entry_split_proc
+Block_entry_split_proc_U0: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Block_entry_split_proc
      port map (
       Q(15 downto 0) => bayer_phase(15 downto 0),
       ap_clk => ap_clk,
@@ -119035,7 +119035,7 @@ Block_entry_split_proc_U0: entity work.design_1_v_demosaic_0_0_Block_entry_split
       \ap_return_preg_reg[15]_0\ => CTRL_s_axi_U_n_135,
       ap_rst_n_inv => ap_rst_n_inv
     );
-CTRL_s_axi_U: entity work.design_1_v_demosaic_0_0_CTRL_s_axi
+CTRL_s_axi_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_CTRL_s_axi
      port map (
       Block_entry_split_proc_U0_ap_continue => Block_entry_split_proc_U0_ap_continue,
       CO(0) => \DebayerRatBorBatR_U0/cmp59_i_fu_297_p2\,
@@ -119132,7 +119132,7 @@ CTRL_s_axi_U: entity work.design_1_v_demosaic_0_0_CTRL_s_axi
       s_axi_CTRL_WSTRB(1 downto 0) => s_axi_CTRL_WSTRB(1 downto 0),
       s_axi_CTRL_WVALID => s_axi_CTRL_WVALID
     );
-Debayer_U0: entity work.design_1_v_demosaic_0_0_Debayer
+Debayer_U0: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_Debayer
      port map (
       CO(0) => \DebayerRatBorBatR_U0/cmp59_i_fu_297_p2\,
       D(15 downto 0) => bayer_phase_assign_channel_dout(15 downto 0),
@@ -119224,7 +119224,7 @@ GND: unisim.vcomponents.GND
      port map (
       G => \<const0>\
     );
-MultiPixStream2AXIvideo_U0: entity work.design_1_v_demosaic_0_0_MultiPixStream2AXIvideo
+MultiPixStream2AXIvideo_U0: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_MultiPixStream2AXIvideo
      port map (
       D(0) => loopWidth_fu_178_p2(0),
       E(0) => MultiPixStream2AXIvideo_U0_n_12,
@@ -119263,7 +119263,7 @@ MultiPixStream2AXIvideo_U0: entity work.design_1_v_demosaic_0_0_MultiPixStream2A
       \sub_i_i_reg_194_reg[11]_0\(0) => CTRL_s_axi_U_n_32,
       \trunc_ln221_reg_184_reg[10]_0\(10 downto 0) => height(10 downto 0)
     );
-ZipperRemoval_U0: entity work.design_1_v_demosaic_0_0_ZipperRemoval
+ZipperRemoval_U0: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_ZipperRemoval
      port map (
       D(29 downto 0) => \SRL_SIG_reg[0]_5\(29 downto 0),
       Debayer_U0_ap_start => Debayer_U0_ap_start,
@@ -119319,7 +119319,7 @@ ap_sync_reg_Block_entry_split_proc_U0_ap_ready_reg: unisim.vcomponents.FDRE
       Q => ap_sync_reg_Block_entry_split_proc_U0_ap_ready_reg_n_5,
       R => AXIvideo2MultiBayer_U0_n_9
     );
-bayer_phase_assign_channel_U: entity work.design_1_v_demosaic_0_0_fifo_w16_d2_S_x
+bayer_phase_assign_channel_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w16_d2_S_x
      port map (
       Block_entry_split_proc_U0_ap_continue => Block_entry_split_proc_U0_ap_continue,
       D(15 downto 0) => Block_entry_split_proc_U0_ap_return(15 downto 0),
@@ -119334,7 +119334,7 @@ bayer_phase_assign_channel_U: entity work.design_1_v_demosaic_0_0_fifo_w16_d2_S_
       \mOutPtr_reg[0]_0\(0) => \DebayerG_U0/icmp_ln315_fu_286_p2\,
       \mOutPtr_reg[0]_1\(0) => \DebayerG_U0/ap_CS_fsm_state2\
     );
-imgBayer_U: entity work.design_1_v_demosaic_0_0_fifo_w10_d2_S
+imgBayer_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w10_d2_S
      port map (
       D(9 downto 0) => AXIvideo2MultiBayer_U0_imgBayer_din(9 downto 0),
       DOUTBDOUT(9 downto 0) => \DebayerG_U0/grp_DebayerG_Pipeline_VITIS_LOOP_318_4_fu_184/linebuf_yuv_q1\(9 downto 0),
@@ -119361,7 +119361,7 @@ imgBayer_U: entity work.design_1_v_demosaic_0_0_fifo_w10_d2_S
       imgBayer_full_n => imgBayer_full_n,
       push => push
     );
-imgRgb_U: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_x
+imgRgb_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x
      port map (
       D(29 downto 0) => \SRL_SIG_reg[0]_5\(29 downto 0),
       E(0) => ZipperRemoval_U0_n_15,
@@ -119387,7 +119387,7 @@ imgRgb_U: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_x
       p_9_in => p_9_in,
       push => push_0
     );
-imgUnzip_U: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0
+imgUnzip_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0
      port map (
       D(29 downto 0) => ZipperRemoval_U0_imgUnzip_din(29 downto 0),
       E(0) => MultiPixStream2AXIvideo_U0_n_12,
@@ -119402,7 +119402,7 @@ imgUnzip_U: entity work.design_1_v_demosaic_0_0_fifo_w30_d2_S_x_0
       load_p2 => \regslice_both_m_axis_video_V_data_V_U/load_p2\,
       push => push_1
     );
-start_for_MultiPixStream2AXIvideo_U0_U: entity work.design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0
+start_for_MultiPixStream2AXIvideo_U0_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_MultiPixStream2AXIvideo_U0
      port map (
       Debayer_U0_ap_idle => Debayer_U0_ap_idle,
       Debayer_U0_ap_start => Debayer_U0_ap_start,
@@ -119420,7 +119420,7 @@ start_for_MultiPixStream2AXIvideo_U0_U: entity work.design_1_v_demosaic_0_0_star
       start_for_MultiPixStream2AXIvideo_U0_full_n => start_for_MultiPixStream2AXIvideo_U0_full_n,
       start_once_reg => start_once_reg
     );
-start_for_ZipperRemoval_U0_U: entity work.design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0
+start_for_ZipperRemoval_U0_U: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_start_for_ZipperRemoval_U0
      port map (
       Debayer_U0_ap_start => Debayer_U0_ap_start,
       Q(0) => AXIvideo2MultiBayer_U0_n_8,
@@ -119610,7 +119610,7 @@ VCC: unisim.vcomponents.VCC
      port map (
       P => \<const1>\
     );
-inst: entity work.design_1_v_demosaic_0_0_v_demosaic
+inst: entity work.design_1_v_demosaic_0_0_design_1_v_demosaic_0_0_v_demosaic
      port map (
       ap_clk => ap_clk,
       ap_rst_n => ap_rst_n,

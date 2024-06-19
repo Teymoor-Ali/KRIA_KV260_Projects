@@ -2748,16 +2748,37 @@
       <spirit:name>DATA_LANE1_BYTE</spirit:name>
       <spirit:displayName>Data Lane 1 Byte</spirit:displayName>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_LANE1_BYTE" spirit:choiceRef="choice_list_2dc23030" spirit:order="70">All_Byte</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.DATA_LANE1_BYTE">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DATA_LANE2_BYTE</spirit:name>
       <spirit:displayName>Data Lane 2 Byte</spirit:displayName>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_LANE2_BYTE" spirit:choiceRef="choice_list_2dc23030" spirit:order="71">All_Byte</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.DATA_LANE2_BYTE">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DATA_LANE3_BYTE</spirit:name>
       <spirit:displayName>Data Lane 3 Byte</spirit:displayName>
       <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_LANE3_BYTE" spirit:choiceRef="choice_list_2dc23030" spirit:order="72">All_Byte</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.DATA_LANE3_BYTE">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CLK_LANE_IO_LOC_NAME</spirit:name>

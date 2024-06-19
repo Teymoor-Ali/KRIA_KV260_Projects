@@ -148,7 +148,7 @@ output wire vtg_ce;
 output wire locked;
 output wire overflow;
 output wire underflow;
-output wire [10 : 0] fifo_read_level;
+output wire [11 : 0] fifo_read_level;
 output wire [31 : 0] status;
 output wire sof_state_out;
 
@@ -161,7 +161,7 @@ output wire sof_state_out;
     .C_NATIVE_DATA_WIDTH(36),
     .C_S_AXIS_TDATA_WIDTH(32),
     .C_HAS_ASYNC_CLK(1),
-    .C_ADDR_WIDTH(10),
+    .C_ADDR_WIDTH(11),
     .C_VTG_MASTER_SLAVE(0),
     .C_HYSTERESIS_LEVEL(12),
     .C_SYNC_LOCK_THRESHOLD(4),

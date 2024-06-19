@@ -1,7 +1,7 @@
 {
   "0": {
     "basicblocks": 5,
-    "calls": "2 5 6",
+    "calls": "6 4 3",
     "file": "v_gamma_lut.cpp",
     "fileloc": 89,
     "instructions": 64,
@@ -13,40 +13,7 @@
   },
   "1": {
     "basicblocks": 1,
-    "calls": "",
-    "file": "x_hls_utils.h",
-    "fileloc": 222,
-    "instructions": 1,
-    "name": "reg<unsigned short>",
-    "total_instructions": 1
-  },
-  "2": {
-    "basicblocks": 40,
-    "calls": "3 1 1 4",
-    "file": "v_gamma_lut.cpp",
-    "fileloc": 159,
-    "instructions": 134,
-    "loads": {
-      "L": 4
-    },
-    "name": "AXIvideo2MultiPixStream",
-    "stores": {
-      "L": 2
-    },
-    "total_instructions": 421
-  },
-  "3": {
-    "basicblocks": 1,
-    "calls": "",
-    "file": "hls_video_core.h",
-    "fileloc": 195,
-    "instructions": 5,
-    "name": "Scalar",
-    "total_instructions": 5
-  },
-  "4": {
-    "basicblocks": 1,
-    "calls": "7",
+    "calls": "5",
     "file": "hls_axi_io.h",
     "fileloc": 83,
     "instructions": 6,
@@ -59,24 +26,18 @@
     },
     "total_instructions": 74
   },
-  "5": {
-    "basicblocks": 28,
-    "calls": "3 3",
-    "file": "v_gamma_lut.cpp",
-    "fileloc": 292,
-    "instructions": 212,
-    "loads": {
-      "L": 16
-    },
-    "name": "Gamma",
-    "stores": {
-      "L": 9
-    },
-    "total_instructions": 300
+  "2": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "x_hls_utils.h",
+    "fileloc": 222,
+    "instructions": 1,
+    "name": "reg<unsigned short>",
+    "total_instructions": 1
   },
-  "6": {
+  "3": {
     "basicblocks": 31,
-    "calls": "3",
+    "calls": "7",
     "file": "v_gamma_lut.cpp",
     "fileloc": 236,
     "instructions": 209,
@@ -89,7 +50,22 @@
     },
     "total_instructions": 928
   },
-  "7": {
+  "4": {
+    "basicblocks": 28,
+    "calls": "7 7",
+    "file": "v_gamma_lut.cpp",
+    "fileloc": 292,
+    "instructions": 212,
+    "loads": {
+      "L": 16
+    },
+    "name": "Gamma",
+    "stores": {
+      "L": 9
+    },
+    "total_instructions": 300
+  },
+  "5": {
     "basicblocks": 3,
     "calls": "",
     "file": "hls_axi_io.h",
@@ -103,5 +79,29 @@
       "L": 1
     },
     "total_instructions": 68
+  },
+  "6": {
+    "basicblocks": 40,
+    "calls": "7 2 2 1",
+    "file": "v_gamma_lut.cpp",
+    "fileloc": 159,
+    "instructions": 134,
+    "loads": {
+      "L": 4
+    },
+    "name": "AXIvideo2MultiPixStream",
+    "stores": {
+      "L": 2
+    },
+    "total_instructions": 421
+  },
+  "7": {
+    "basicblocks": 1,
+    "calls": "",
+    "file": "hls_video_core.h",
+    "fileloc": 195,
+    "instructions": 5,
+    "name": "Scalar",
+    "total_instructions": 5
   }
 }
