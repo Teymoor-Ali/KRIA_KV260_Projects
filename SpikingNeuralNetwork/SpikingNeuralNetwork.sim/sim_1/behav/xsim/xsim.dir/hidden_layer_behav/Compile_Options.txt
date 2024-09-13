@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "hidden_layer_behav" "xil_defaultlib.hidden_layer" -log "elaborate.log" 
