@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../SpikingNeuralNetwork.srcs/sources_1/new/convolution_layer.vhd" \
-"../../../../SpikingNeuralNetwork.srcs/sim_1/new/tb_conv_layer.vhd" \
-
-# Do not sort compile order
-nosort

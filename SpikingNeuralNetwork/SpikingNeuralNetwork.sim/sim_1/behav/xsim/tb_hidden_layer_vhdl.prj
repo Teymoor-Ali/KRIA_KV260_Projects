@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../SpikingNeuralNetwork.srcs/sources_1/new/convolution_layer.vhd" \
+"../../../../SpikingNeuralNetwork.srcs/sources_1/new/neuron.vhd" \
+"../../../../SpikingNeuralNetwork.srcs/sources_1/new/first_hidden_layer.vhd" \
+"../../../../SpikingNeuralNetwork.srcs/sources_1/new/second_hidden_layer.vhd" \
+"../../../../SpikingNeuralNetwork.srcs/sim_1/new/hidden_layer_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,2 +1,10 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "E:/KRIA/SpikingNeuralNetwork/SpikingNeuralNetwork.srcs/sim_1/new/tb_conv_layer.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_convolution_layer'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/KRIA/SpikingNeuralNetwork/SpikingNeuralNetwork.srcs/sources_1/new/convolution_layer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'convolution_layer'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/KRIA/SpikingNeuralNetwork/SpikingNeuralNetwork.srcs/sources_1/new/neuron.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'neuron'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/KRIA/SpikingNeuralNetwork/SpikingNeuralNetwork.srcs/sources_1/new/first_hidden_layer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'first_hidden_layer'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/KRIA/SpikingNeuralNetwork/SpikingNeuralNetwork.srcs/sources_1/new/second_hidden_layer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'second_hidden_layer'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/KRIA/SpikingNeuralNetwork/SpikingNeuralNetwork.srcs/sim_1/new/hidden_layer_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_hidden_layer'

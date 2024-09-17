@@ -1,8 +1,8 @@
 
 { 
-    crc :  4565785049251661194  , 
+    crc :  5822776751961192465  , 
     ccp_crc :  0  , 
-    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_hidden_layer_behav xil_defaultlib.tb_hidden_layer" , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot tb_hidden_layer_behav xil_defaultlib.tb_hidden_layer" , 
     buildDate : "Jun 14 2024" , 
     buildTime : "10:04:17" , 
     linkCmd : "F:\\Tools\\Xilinx-2024.1\\Vivado\\2024.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/tb_hidden_layer_behav/xsimk.exe\"   \"xsim.dir/tb_hidden_layer_behav/obj/xsim_0.win64.obj\" \"xsim.dir/tb_hidden_layer_behav/obj/xsim_1.win64.obj\" -L\"F:\\Tools\\Xilinx-2024.1\\Vivado\\2024.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 

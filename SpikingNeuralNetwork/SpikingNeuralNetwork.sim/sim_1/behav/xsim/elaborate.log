@@ -1,7 +1,7 @@
 Vivado Simulator v2024.1.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: F:/Tools/Xilinx-2024.1/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_convolution_layer_behav xil_defaultlib.tb_convolution_layer -log elaborate.log 
+Running: F:/Tools/Xilinx-2024.1/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot tb_hidden_layer_behav xil_defaultlib.tb_hidden_layer -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -14,5 +14,53 @@ Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
 Compiling package std.env
 Compiling architecture behavioral of entity xil_defaultlib.convolution_layer [convolution_layer_default]
-Compiling architecture testbench of entity xil_defaultlib.tb_convolution_layer
-Built simulation snapshot tb_convolution_layer_behav
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=0)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=1)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=3)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=7)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=9)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=10)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=11)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=12)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=13)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=14)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=15)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=16)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=17)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=18)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=19)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=20)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=21)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=22)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=23)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=24)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=25)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=26)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=27)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=28)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=29)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=30)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=31)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=33)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=34)\]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=35)\]
+Compiling architecture behavioral of entity xil_defaultlib.first_hidden_layer [first_hidden_layer_default]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=0,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=1,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=2,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=3,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=4,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=5,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=6,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=7,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=8,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.neuron [\neuron(neuron_idx=9,num_prev_la...]
+Compiling architecture behavioral of entity xil_defaultlib.second_hidden_layer [second_hidden_layer_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_hidden_layer
+Built simulation snapshot tb_hidden_layer_behav
